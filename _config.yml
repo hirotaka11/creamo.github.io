@@ -14,7 +14,7 @@ timezone: Asia/Tokyo
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://hirotaka11/hirotaka11.github.io.git
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :year/:month/:day/:title.html
 permalink_defaults:
 
 # Directory
@@ -67,9 +67,10 @@ theme: hueman
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: github
-  repo: git@github.com:hirotaka11/hirotaka11.github.io.git
+  type: git
+  repo: git@github.com:hirotaka11/hirotaka11.github.io
   branch: master
+  message: Hexo deploy
 
 ## Theme Hueman
 # Header
@@ -77,7 +78,7 @@ menu:
   Home: /
   # Delete this row if you don't want categories in your header nav bar
   Categories:
-  About: /about/index.html
+  About: /about.html
 
 # Content
 fancybox: true

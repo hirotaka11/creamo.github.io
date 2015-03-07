@@ -1,3 +1,4 @@
+@import url("http://fonts.googleapis.com/css?family=Baumans");
 #main .main-body-header em,
 #main .main-body-header a,
 .article-byline a,
@@ -254,14 +255,12 @@ body {
   clear: both;
 }
 .logo {
+  font-family: "Baumans";
+  font-size: 40px;
+  color: #fff;
   display: block;
   padding: 10px 0;
-  width: 165px;
-  height: 60px;
-  background: url("images/logo-header.png") 0px 10px no-repeat;
-  -webkit-background-size: 165px 60px;
-  -moz-background-size: 165px 60px;
-  background-size: 165px 60px;
+  text-decoration: none;
 }
 .main-body {
   margin-top: -60px;
