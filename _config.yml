@@ -114,7 +114,7 @@ links:
   #Hexo: http://hexo.io
 
 # Miscellaneous
-google_analytics:
+google_analytics: UA-9408898-3
 favicon: /favicon.png
 fb_admins:
 fb_app_id:
