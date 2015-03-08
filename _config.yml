@@ -72,6 +72,11 @@ deploy:
   branch: master
   message: Hexo deploy
 
+server:
+  port: 4000
+  log: false
+  ip: localhost
+
 ## Theme Hueman
 # Header
 menu:
@@ -93,9 +98,9 @@ scrollLoading: true
 social_links:
   twitter: https://twitter.com/hirotaka_696
   #facebook:
-  #google_plus:
+  google_plus: https://google.com/+HiroshiTakaki696
   github: https://github.com/hirotaka11
-  #rss:
+  rss: /atom.xml
 widgets:
 - recent_posts
 - category
@@ -106,7 +111,7 @@ widgets:
 
 # Links
 links:
-  Hexo: http://hexo.io
+  #Hexo: http://hexo.io
 
 # Miscellaneous
 google_analytics:
