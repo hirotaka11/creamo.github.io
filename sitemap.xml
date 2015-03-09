@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://hirotaka11/hirotaka11.github.io.git/diary/remember-free/</loc>
+    <lastmod>2015-03-09T17:40:23.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://hirotaka11/hirotaka11.github.io.git/about.html</loc>
     <lastmod>2015-03-09T17:14:51.000Z</lastmod>
   </url>
@@ -14,6 +19,11 @@
   <url>
     <loc>http://hirotaka11/hirotaka11.github.io.git/webtech/zerotype-start/</loc>
     <lastmod>2015-03-09T16:59:07.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11/hirotaka11.github.io.git/diary/retake/</loc>
+    <lastmod>2015-03-09T16:56:03.000Z</lastmod>
   </url>
   
 </urlset>
