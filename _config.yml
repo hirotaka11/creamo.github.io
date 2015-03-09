@@ -83,8 +83,9 @@ server:
 menu:
   Home: /
   # Delete this row if you don't want categories in your header nav bar
-  Categories:
-  About: /about.html
+  # Categories:
+  Diary: categories/diary/
+  About: about.html
 
 # Content
 fancybox: true
