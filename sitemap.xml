@@ -2,18 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://hirotaka11/hirotaka11.github.io.git/2015/03/08/remember-free.html</loc>
-    <lastmod>2015-03-08T15:21:09.000Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://hirotaka11/hirotaka11.github.io.git/about.html</loc>
-    <lastmod>2015-03-08T14:36:58.000Z</lastmod>
+    <lastmod>2015-03-09T17:14:51.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://hirotaka11/hirotaka11.github.io.git/2015/03/02/retake.html</loc>
-    <lastmod>2015-03-07T17:44:20.000Z</lastmod>
+    <loc>http://hirotaka11/hirotaka11.github.io.git/tool/google-plus-picasa/</loc>
+    <lastmod>2015-03-09T17:12:56.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11/hirotaka11.github.io.git/webtech/zerotype-start/</loc>
+    <lastmod>2015-03-09T16:59:07.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11/hirotaka11.github.io.git/diary/retake/</loc>
+    <lastmod>2015-03-09T16:56:03.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11/hirotaka11.github.io.git/diary/remember-free/</loc>
+    <lastmod>2015-03-09T16:55:59.000Z</lastmod>
   </url>
   
 </urlset>
