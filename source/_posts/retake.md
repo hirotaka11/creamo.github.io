@@ -1,6 +1,6 @@
 title: 気を改めて
 date: 2015-03-02 02:02:30
-category: Diary
+category: diary
 tags: 雑記
 ---
 ビジネス系の本の消化が増えてきました、どうもHiROです。
