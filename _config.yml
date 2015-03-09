@@ -12,7 +12,7 @@ timezone: Asia/Tokyo
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://hirotaka11/hirotaka11.github.io.git
+url: http://hirotaka11.github.io
 root: /
 # permalink: :year/:month/:day/:title.html
 permalink: :category/:title/
@@ -81,7 +81,7 @@ server:
 ## Theme Hueman
 # Header
 menu:
-  Home: /
+  Home: http://hirotaka11.github.io
   # Delete this row if you don't want categories in your header nav bar
   # Categories:
   Diary: categories/diary/
