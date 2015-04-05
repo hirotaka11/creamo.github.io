@@ -84,6 +84,7 @@ menu:
   Home: http://hirotaka11.github.io
   # Delete this row if you don't want categories in your header nav bar
   # Categories:
+  Game: categories/game/
   Diary: categories/diary/
   About: about.html
 
@@ -94,7 +95,7 @@ fancybox: true
 thumbnail: true
 
 # Scroll Loading
-scrollLoading: true
+scrollLoading: false 
 
 # Sidebar
 social_links:
@@ -114,6 +115,9 @@ widgets:
 # Links
 links:
   #Hexo: http://hexo.io
+
+# Don't Use Google APIs if you are in google-blocked areas
+use_google_apis: true
 
 # Miscellaneous
 google_analytics: UA-9408898-3
