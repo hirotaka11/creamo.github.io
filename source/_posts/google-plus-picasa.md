@@ -1,4 +1,4 @@
-title: "google-plus-picasa"
+title: "Google+ユーザー必見！Picasaの上手な活用法！"
 date: 2011-07-30 19:00:00
 category: tool
 tags: Google, Picasa
