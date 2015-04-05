@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Mac OS X Lion の疑問点解消のまとめ | creamo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Mac OSX 10.7 Lionがリリースされましたが、同時にMacBookAirも新しくなり、Macデビューの人が増えているようで嬉しい限りです。
+しかし、今回のアップデートはなかなか新しい機能が多く、今までMacを触っていた人でも少々戸惑ってしまうことも多いです。
+今回は、Lionにアップデートされた方、新しくMacデビューする方にぜひ知っておいてほしい、設定等の方法を紹介していきます。出来">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Mac OS X Lion の疑問点解消のまとめ">
+<meta property="og:url" content="http://hirotaka11.github.io/tool/mac-lion-tips/index.html">
+<meta property="og:site_name" content="creamo">
+<meta property="og:description" content="Mac OSX 10.7 Lionがリリースされましたが、同時にMacBookAirも新しくなり、Macデビューの人が増えているようで嬉しい限りです。
+しかし、今回のアップデートはなかなか新しい機能が多く、今までMacを触っていた人でも少々戸惑ってしまうことも多いです。
+今回は、Lionにアップデートされた方、新しくMacデビューする方にぜひ知っておいてほしい、設定等の方法を紹介していきます。出来">
+<meta property="og:image" content="http://a2.mzstatic.com/us/r1000/083/Purple/00/00/00/lion.60x60-50.png">
+<meta property="og:image" content="http://ax.phobos.apple.com.edgesuite.net/ja_jp/images/web/linkmaker/badge_macappstore-sm.gif">
+<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/07/lion-disc.png">
+<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/07/scroll-mouse.png">
+<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/07/scroll-pad.png">
+<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/07/mission-control.png">
+<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/07/lanchpad-1.png">
+<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/07/lanchpad-2.png">
+<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/07/app-grid.png">
+<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/07/app-grid2.png">
+<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/07/mission-control-sort.png">
+<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/07/app_desktop.png">
+<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/07/fullscreen-open.png">
+<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/07/fullscreen-close.png">
+<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/07/library-menu.png">
+<meta property="og:image" content="http://a5.mzstatic.com/us/r1000/080/Purple/4d/a4/4a/mzi.wjcyaplr.60x60-50.png">
+<meta property="og:image" content="http://ax.phobos.apple.com.edgesuite.net/ja_jp/images/web/linkmaker/badge_macappstore-sm.gif">
+<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/07/user-icon.png">
+<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/07/finder-myfile.png">
+<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/07/menu-emoji.png">
+<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/07/emoji.png">
+<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/07/reboot-check.png">
+<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/07/reboot-off.png">
+<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/07/side-middle.png">
+<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/07/finder-option.png">
+<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/07/side-small.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Mac OS X Lion の疑問点解消のまとめ">
+<meta name="twitter:description" content="Mac OSX 10.7 Lionがリリースされましたが、同時にMacBookAirも新しくなり、Macデビューの人が増えているようで嬉しい限りです。
+しかし、今回のアップデートはなかなか新しい機能が多く、今までMacを触っていた人でも少々戸惑ってしまうことも多いです。
+今回は、Lionにアップデートされた方、新しくMacデビューする方にぜひ知っておいてほしい、設定等の方法を紹介していきます。出来">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+
+  <link rel="stylesheet" href="../../css/style.css" type="text/css">
+  
+    <link rel="stylesheet" href="../../fancybox/jquery.fancybox.css" type="text/css">
+  
+  
+  
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-9408898-3', 'auto');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+
+
+  
+
+  
+    <link href='//fonts.googleapis.com/css?family=Titillium+Web:300,400,600' rel='stylesheet' type='text/css'>
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+
+</head>
+
+<body>
+  <div id="wrap">
+    <header id="header">
+  <div id="header-outer" class="outer">
+    <div class="container">
+      <div class="container-inner">
+        <div id="header-title">
+          <h1 class="logo-wrap">
+            <a href="/" class="logo">creamo</a>
+          </h1>
+          
+            <h2 class="subtitle-wrap">
+              <p class="subtitle">元WEB系フロントエンジニアがゲームプランナーになったら</p>
+            </h2>
+          
+        </div>
+        <div id="header-inner" class="nav-container">
+          <a id="main-nav-toggle" class="nav-icon"></a>
+          <div class="nav-container-inner">
+            <ul id="main-nav">
+              
+                <li class="main-nav-list-item" ><a class="main-nav-list-link" href="http://hirotaka11.github.io">Home</a></li>
+              
+                <li class="main-nav-list-item" ><a class="main-nav-list-link" href="../../categories/game/">Game</a></li>
+              
+                <li class="main-nav-list-item" ><a class="main-nav-list-link" href="../../categories/diary/">Diary</a></li>
+              
+                <li class="main-nav-list-item" ><a class="main-nav-list-link" href="../../about.html">About</a></li>
+              
+            </ul>
+            <nav id="sub-nav">
+              <div id="search-form-wrap">
+                <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><input type="hidden" name="q" value="site:http://hirotaka11.github.io"></form>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+    <div class="container">
+      <div class="main-body container-inner">
+        <div class="main-body-inner">
+          <section id="main">
+            <div class="main-body-header">
+
+              <h1 class="header"><a class="page-title-link" href="../../categories/tool/">tool</a></h1>
+            </div>
+            <div class="main-body-content">
+              
+  <article id="post-mac-lion-tips" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+      <!--  -->
+      
+        <header class="article-header">
+          
+  
+    <h1 class="article-title" itemprop="name">
+      Mac OS X Lion の疑問点解消のまとめ
+    </h1>
+  
+
+        </header>
+      
+      <p class="article-byline">
+        <a href="" class="article-date">
+  <time datetime="2011-07-29T03:46:10.000Z" itemprop="datePublished">2011-07-29</time>
+</a>
+      </p>
+      <div class="article-entry" itemprop="articleBody">
+        <p>Mac OSX 10.7 Lionがリリースされましたが、同時にMacBookAirも新しくなり、Macデビューの人が増えているようで嬉しい限りです。</p>
+<p>しかし、今回のアップデートはなかなか新しい機能が多く、今までMacを触っていた人でも少々戸惑ってしまうことも多いです。</p>
+<p>今回は、Lionにアップデートされた方、新しくMacデビューする方にぜひ知っておいてほしい、設定等の方法を紹介していきます。出来るだけ画像つきで分かりやすくしました。<a id="more"></a><br><span style="color: #ff0000;">7/29 17:30 スクロール方向設定内容を追記しました</span></p>
+<div class="amz-etr-under"><div class="amz-left" style="float:left;"><div class="amz-image"><a href="http://click.linksynergy.com/fs-bin/stat?id=x8/aPky4v0I&amp;offerid=94348&amp;type=3&amp;subid=0&amp;tmpid=2192&amp;RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fjp%252Fapp%252Fos-x-lion%252Fid444303913%253Fmt%253D12%2526uo%253D4%2526partnerId%253D30" target="_blank" rel="external"><img src="http://a2.mzstatic.com/us/r1000/083/Purple/00/00/00/lion.60x60-50.png" alt=""></a></div></div><div class="amz-right"><div class="amz-title"><a href="http://click.linksynergy.com/fs-bin/stat?id=x8/aPky4v0I&amp;offerid=94348&amp;type=3&amp;subid=0&amp;tmpid=2192&amp;RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fjp%252Fapp%252Fos-x-lion%252Fid444303913%253Fmt%253D12%2526uo%253D4%2526partnerId%253D30" target="_blank" rel="external">OS X Lion</a> <a href="http://click.linksynergy.com/fs-bin/stat?id=x8/aPky4v0I&amp;offerid=94348&amp;type=3&amp;subid=0&amp;tmpid=2192&amp;RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fjp%252Fapp%252Fos-x-lion%252Fid444303913%253Fmt%253D12%2526uo%253D4%2526partnerId%253D30" target="_blank" rel="external"><img src="http://ax.phobos.apple.com.edgesuite.net/ja_jp/images/web/linkmaker/badge_macappstore-sm.gif" alt="OS X Lion - Apple®"></a></div><div class="amz-detail">価格: ¥2,600 (記事公開時)<br>カテゴリ: 仕事効率化<br><a href="http://click.linksynergy.com/fs-bin/stat?id=x8/aPky4v0I&amp;offerid=94348&amp;type=3&amp;subid=0&amp;tmpid=2192&amp;RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fjp%252Fapp%252Fos-x-lion%252Fid444303913%253Fmt%253D12%2526uo%253D4%2526partnerId%253D30" target="_blank" rel="external">App Storeで詳細を見る。</a></div></div></div>
+
+<p>Lionにアップデートして数日経ちましたが、Lionはノートユーザー向けにかなり改良されており、トラックパッドでの操作を前提に作られている感があります。</p>
+<p>Expose&amp;Spacesを使いこなしてた人や、iMacや外部ディスプレイ出力してマルチディスプレイ環境の人にとっては改悪と思われるものもあります。</p>
+<p>既存のSnow LeopardユーザーはTime Machineで既存の環境に戻せる準備をしてからのアップデートをお勧めします。</p>
+<ul>
+<li><a href="#h3-1">【重要】アップデートする前にチェックすること</a></li>
+<li><a href="#h3-2">インストール前にリカバリーディスクを作る</a></li>
+<li><a href="#h3-3">逆になったスクロール方向を変更する</a></li>
+<li><a href="#h3-4">Mission Controlってなに？</a></li>
+<li><a href="#h3-5">Lanchpadってなに？</a></li>
+<li><a href="#h3-6">Mission Controlの順序が変わらないようにしたい</a></li>
+<li><a href="#h3-7">Exposeのように各画面にアプリを割り当てたい</a></li>
+<li><a href="#h3-8">インストール後の動作遅い or ファンが回りすぎ or CPU使用率が高すぎるとき</a></li>
+<li><a href="#h3-9">フルスクリーンモードについて</a></li>
+<li><a href="#h3-10">三本指での「戻る/進む」が使えない or 三本指操作をするとクラッシュする</a></li>
+<li><a href="#h3-11">ホームのライブラリフォルダにアクセスするには？</a></li>
+<li><a href="#h3-12">Xcodeが動かない</a></li>
+<li><a href="#h3-13">右上のユーザー名を消したい</a></li>
+<li><a href="#h3-14">マイファイルに発見されたくないファイルがある</a></li>
+<li><a href="#h3-15">以前とフォントが変わった気がする</a></li>
+<li><a href="#h3-16">クリーンインストールの方法</a></li>
+<li><a href="#h3-17">絵文字入力をしたい</a></li>
+<li><a href="#h3-18">Finderでファイルの移動が可能に</a></li>
+<li><a href="#h3-19">再起動時の「再開」機能をオフにする</a></li>
+<li><a href="#h3-20">Finderのサイドバーの文字が大きい</a></li>
+<li><a href="#h3-21">参考サイト</a></li>
+</ul>
+<h3 id="【重要】アップデートする前にチェックすること">【重要】アップデートする前にチェックすること</h3><p>一度アップデートしてしまうとダウングレードすることが出来ません。普段使っているアプリが使えなくなってしまう自体が引き起こった後では遅いです。</p>
+<p>今回は大幅な変更があるので、アップデート前にしっかりとチェックしておきましょう。</p>
+<p>・<strong>動かないアプリの確認</strong></p>
+<p>Lionが公開されてからある程度日数が経っているので、動作しないアプリの情報が出ています。確認しておきましょう。</p>
+<p><a href="http://digimaga.net/2011/07/os-x-lion-not-support-app-matome" title="Link to Macの新しいOS『OS X Lion』で動かないアプリまとめ | デジタルマガジン" target="_blank" rel="external">Macの新しいOS『OS X Lion』で動かないアプリまとめ | デジタルマガジン</a></p>
+<p><a href="http://www.macotakara.jp/blog/index.php?ID=13547" title="Link to 各メーカーの OS X Lion 対応情報のまとめ、およびリンク集 － MACお宝鑑定団 blog（羅針盤）" target="_blank" rel="external">各メーカーの OS X Lion 対応情報のまとめ、およびリンク集 － MACお宝鑑定団 blog（羅針盤）</a></p>
+<p>Adobe系ソフトでは最新版のCS5.5でも多少問題が発生しています。とは言っても大抵の機能は使えるので、それを承知でアップデートするか、最新版を待つしかありません。</p>
+<h3 id="インストール前にリカバリーディスクを作る">インストール前にリカバリーディスクを作る</h3><p>Lionではインストール時にHDDに「Recovery HD」というパーティションを作成し、再インストールやディスクユーティリティーが使用出来るようになっています。</p>
+<p>しかし、これではHDDがクラッシュした場合に対処出来ません。</p>
+<p>8月後半にUSBメモリ版が販売されるらしいですが、リカバリーディスクを作っておくことに損はないです。</p>
+<p><strong>※出来るだけインストール前に作成しましょう</strong></p>
+<p><strong>※Lionをインストールしてしまい、インストーラが消えてしまった場合</strong></p>
+<p>Mac App Storeを起動し、「OS X Lion」の画面に移動します。</p>
+<p>[option]キーを押しながらLionのアイコンをクリックすることで、「インストール済み」から「インストール」に表記が変わり、再び「Mac OS X Lion インストール.app」をダウンロードすることが出来るようになります。</p>
+<p><strong>リカバリーディスク作成手順</strong></p>
+<p>1. Lionのインストーラーを右クリックし「パッケージの内容を表示」を選択</p>
+<p>2. 「ShareSupport」というフォルダの中の「InstallESD.dmg」ファイルを別の場所にコピー</p>
+<p>3.  「InstallESD.dmg」を右クリックして「”InstallESD.dmg”のディスクを作成」をクリック</p>
+<p>　もしくは「ディスクユーティリティ」を起動して「ディスクを作成」から「InstallESD.dmg」を選択</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/07/lion-disc.png" alt="「InstallESD.dmgのディスクを作成」" title="「InstallESD.dmgのディスクを作成」"></p>
+<p><strong>・USBメモリで起動ディスクを作成</strong></p>
+<p>※USBメモリ起動ディスクからクリーンインストールを行うと「Recovery HD」が作成されません。</p>
+<p>Lionの簡単クリーンインストール機能を使いたい場合はUSBメモリからのクリーンインストールは避けた方が良さそうです。</p>
+<p>USB起動ディスクの作成手順は以下のサイトを参照してください。</p>
+<p><a href="http://orangeorange.jp/archives/17427" target="_blank" rel="external">DVDやUSBメモリでつくる、OS X Lion（Mac OS 10.7）の起動ディスクのつくりかた。 (「・ω・)「がおー - オレンヂ</a></p>
+<h3 id="逆になったスクロール方向を変更する">逆になったスクロール方向を変更する</h3><p>ある意味一番大きな変更は、スクロール方向が逆になったことです。</p>
+<p>これはMacをよりiOS寄りにするために、iOSと同様の挙動になりました。</p>
+<p>最初は戸惑いますが、タッチパネルのように「なぞる」ことを意識するとそう不思議ではありません。むしろこっちが自然な挙動なのかもしれません。</p>
+<p>とは言っても、慣れない方はいらっしゃるでしょうし、マウスも逆になっているのでマウス派の人は混乱してしまいます。スクロール方向は設定で簡単に変更できます。</p>
+<p>「システム環境設定」→「マウス」の「スクロールまたは移動するときに、コンテンツを指を動かした方向に移動させる」のチェックを外すと今まで通りのスクロール方向に。</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/07/scroll-mouse.png" alt="Scroll mouse" title="scroll-mouse.png"></p>
+<p>「システム環境設定」→「トラックパッド」の「スクロールの方向：ナチュラル」のチェックを外すと今まで通りのスクロール方向に。</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/07/scroll-pad.png" alt="Scroll pad" title="scroll-pad.png"></p>
+<p>Appleは新しいスクロール方向のことを<strong>「ナチュラル」</strong>と呼んでいます。</p>
+<p>「マウス」「トラックパッド」のそれぞれの設定に項目がありますが、両方がリンクしており、マウスとトラックパッドを異なる設定にすることが出来ません。</p>
+<p>私は異なる設定で使いたいと思っていたので、これを知った時ガッカリしました。わざわざ設定項目がそれぞれあるので、それぞれの設定が独立するようフィードバックを送りました。</p>
+<p>私と同志の方はぜひフィードバックをしてやってください。</p>
+<h3 id="Mission_Controlってなに？">Mission Controlってなに？</h3><p><img src="http://creamo.jp/wp/wp-content/uploads/2011/07/mission-control.png" alt="Mission Control" title="Mission Controlの画面"></p>
+<p>ExposeとSpacesが統合された機能です。</p>
+<p>Exposeがウィンドウを整列させる機能。Spacesが仮想デスクトップ機能です。</p>
+<p>Exposeと違ってアプリごとに分けられるので、一つのアプリで複数ウィンドウを開いていた人には不便かも。そのために「アプリケーションExpose」は残っています。</p>
+<p>また、Spacesを使いこなしていた人には使いづらくなっているかもしれません。</p>
+<p>私も最初は戸惑いましたが、使い方を変えてみるとある程度慣れることが出来ました。Mission ControlがSpacesより重くなっていることは否定できません。</p>
+<p><strong>Mission Controlを使うコツ</strong></p>
+<ul>
+<li><span>Optionボタンを押しながら他のデスクトップを選択するとMission Controlを維持しながら画面を切り替え出来る</span></li>
+<li><span>画面右上の「+印」でデスクトップ数を増やす</span></li>
+<li><span>上部デスクトップの左上部分にカーソルを持っていくか、Optionキーを上部デスクトップ上で押すことで「×印」が表示され、デスクトップ数を減らせる</span></li>
+<li><span>Spacesとは異なり、フルスクリーン機能と使い分けて臨機応変にデスクトップ数を変化させる</span></li>
+<li><span>ウィンドウをドラッグして、上部デスクトップにドロップして割り当てる</span></li>
+<li><span>ウィンドウをドラッグして、右上の「+印」にドロップでウィンドウを割り当てる</span></li>
+<li><span>複数のウィンドウが重なっているとき、カーソルオーバーしてるウィンドウをスペースで拡大</span></li>
+<li><span>[Control]+[数字キー]のショートカットを活用する</span></li>
+</ul>
+<p>これを覚えるだけでかなり使えるようになるはずです。</p>
+<h3 id="Lanchpadってなに？">Lanchpadってなに？</h3><p><img src="http://creamo.jp/wp/wp-content/uploads/2011/07/lanchpad-1.png" alt="Lanchpad" title="Lanchpadの画面"></p>
+<p>簡単に言えば、アプリケーションにiOSのようなインターフェースでアクセス出来る画面です。</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/07/lanchpad-2.png" alt="アプリをまとめることが可能" title="アプリをまとめることが可能"></p>
+<p>iOSと同じく、アプリケーションをまとめることが出来ます。</p>
+<p>ここでアプリをまとめても「アプリケーション」フォルダには反映されません。</p>
+<p><strong>Lanchpadを使わなくても･･･</strong></p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/07/app-grid.png" alt="アプリケーションフォルダをグリッド表示" title="アプリケーションフォルダをグリッド表示"></p>
+<p>既存Macユーザーの方は使っていたと思うのですが、Dockにアプリケーションフォルダを置いて、グリッド表示した方が楽な気がします。</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/07/app-grid2.png" alt="「グリッド」を選択" title="「グリッド」を選択"></p>
+<p><strong>手順</strong></p>
+<p>1.「アプリケーション」フォルダをDockに追加</p>
+<p>2. 右クリックで「グリッド」を選択する</p>
+<p>どちらが使いやすいかは一概に言えないので、各自試してみてください。</p>
+<h3 id="Mission_Controlの順序が変わらないようにしたい">Mission Controlの順序が変わらないようにしたい</h3><p>Mission Controlはデスクトップの使用状況を監視して、よく使うデスクトップを近くにまとめます。なので、使っているうちにデスクトップの順番が変わっていて使いづらい人もいるはずです。</p>
+<p>この機能を切るには「システム環境設定」→「Mission Control」→「最新の使用状況に基づいて操作スペースを自動的に並べ替える」のチェックを外します。</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/07/mission-control-sort.png" alt="Mission Control並び替えをオフ" title="「最新の使用状況に基づいて操作スペースを自動的に並べ替える」のチェックを外す"></p>
+<h3 id="Exposeのように各デスクトップにアプリを割り当てたい">Exposeのように各デスクトップにアプリを割り当てたい</h3><p>Spacesでは「システム環境設定」で各デスクトップにアプリを割り当てることが出来ましたが、Mission ControlではDockから割り当てることが出来ます。</p>
+<p>挙動はSpacesと同じです。[Control]+[数字キー]のショートカットを使いこなしましょう。<br><img src="http://creamo.jp/wp/wp-content/uploads/2011/07/app_desktop.png" alt="デスクトップにアプリを割り当てる" title="デスクトップにアプリを割り当てる"></p>
+<h3 id="インストール後の動作遅い_or_ファンが回りすぎ_or_CPU使用率が高すぎるとき">インストール後の動作遅い or ファンが回りすぎ or CPU使用率が高すぎるとき</h3><p>インストール直後は「Spotlight」がすべてのファイルに対してインデックスを作るので、そちらにリソースを取られて遅くなります。 </p>
+<p>インデックス作成中は右上の「Spotlight」をクリックすると分かるようになっています。</p>
+<p>いつまでもその状態が続く場合は、アクティビティモニタから「mds」や「mdworker」という名前のプロセスを探します。もしそのプロセスがリソースを食っているのであれば、インデックスの構築中なのでそっとしておく。そうでなければ別に原因があります。</p>
+<h3 id="フルスクリーンモードについて">フルスクリーンモードについて</h3><p>現時点ではApple製アプリケーション以外はほとんど対応していません。</p>
+<p>Mission Controlに既にあるデスクトップとは別に新しいデスクトップを作成します。</p>
+<p>対応アプリは右上にフルスクリーンボタンが表示されます。</p>
+<p>※Chromeでも表示されますが、現時点ではChromeの「全画面表示」モードになるだけです。</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/07/fullscreen-open.png" alt="フルスクリーンボタン" title="対応アプリの右上にフルスクリーンボタン"></p>
+<p>フルスクリーンモードを終了するには右上にカーソルを持って行き、ボタンを選択します。</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/07/fullscreen-close.png" alt="フルスクリーン解除ボタン" title="右上にフルスクリーン解除ボタン"></p>
+<p><strong>※マルチディスプレイだとサブディスプレイが活用不可能に</strong></p>
+<p>フルスクリーンモードにすると、サブディスプレイは真っ暗になり、使用不可になります。ただし、フルスクリーンアプリの環境設定等の画面を配置することは可能です。</p>
+<p>QuickTimeのフルスクリーン機能がこれになったため、サブディスプレイで他の画面を表示することが出来なくなりました。</p>
+<h3 id="三本指での「戻る/進む」が使えない_or_三本指操作をするとクラッシュする">三本指での「戻る/進む」が使えない or 三本指操作をするとクラッシュする</h3><p>「multiclutch」というアプリを入れている場合に発生する模様。</p>
+<p><a href="http://www.freemacsoft.net/" target="_blank" rel="external">AppCleaner</a>等でアンインストールしましょう。</p>
+<h3 id="ホームのライブラリフォルダにアクセスするには？">ホームのライブラリフォルダにアクセスするには？</h3><p>Lionから「ライブラリ」へのリンクがFinderに表示されなくなりました。</p>
+<p>Finderの「移動」→「フォルダへ移動」から「~/library」でアクセス出来るという方法もありますが、もっと簡単な方法として、Finderの「移動」メニュー状態で[option]キーを押せば「ライブラリ」へのリンクが表示されます。</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/07/library-menu.png" alt="ライブラリへのリンク" title="[option]キーでライブラリへのリンクを表示"></p>
+<h3 id="Xcodeが動かない">Xcodeが動かない</h3><p>Xcode4に更新してください。Lion公開に伴って無料化されました。</p>
+<div class="amz-etr-under"><div class="amz-left" style="float:left;"><div class="amz-image"><a href="http://click.linksynergy.com/fs-bin/stat?id=x8/aPky4v0I&amp;offerid=94348&amp;type=3&amp;subid=0&amp;tmpid=2192&amp;RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fjp%252Fapp%252Fxcode%252Fid448457090%253Fmt%253D12%2526uo%253D4%2526partnerId%253D30" target="_blank" rel="external"><img src="http://a5.mzstatic.com/us/r1000/080/Purple/4d/a4/4a/mzi.wjcyaplr.60x60-50.png" alt=""></a></div></div><div class="amz-right"><div class="amz-title"><a href="http://click.linksynergy.com/fs-bin/stat?id=x8/aPky4v0I&amp;offerid=94348&amp;type=3&amp;subid=0&amp;tmpid=2192&amp;RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fjp%252Fapp%252Fxcode%252Fid448457090%253Fmt%253D12%2526uo%253D4%2526partnerId%253D30" target="_blank" rel="external">Xcode</a> <a href="http://click.linksynergy.com/fs-bin/stat?id=x8/aPky4v0I&amp;offerid=94348&amp;type=3&amp;subid=0&amp;tmpid=2192&amp;RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fjp%252Fapp%252Fxcode%252Fid448457090%253Fmt%253D12%2526uo%253D4%2526partnerId%253D30" target="_blank" rel="external"><img src="http://ax.phobos.apple.com.edgesuite.net/ja_jp/images/web/linkmaker/badge_macappstore-sm.gif" alt="Xcode - Apple®"></a></div><div class="amz-detail">価格: 無料 (記事公開時)<br>カテゴリ: 開発ツール<br><a href="http://click.linksynergy.com/fs-bin/stat?id=x8/aPky4v0I&amp;offerid=94348&amp;type=3&amp;subid=0&amp;tmpid=2192&amp;RD_PARM1=http%253A%252F%252Fitunes.apple.com%252Fjp%252Fapp%252Fxcode%252Fid448457090%253Fmt%253D12%2526uo%253D4%2526partnerId%253D30" target="_blank" rel="external">App Storeで詳細を見る。</a></div></div></div>
+
+<h3 id="右上のユーザー名を消したい">右上のユーザー名を消したい</h3><p>「システム環境設定」→「ユーザとグループ」→「ログインオプション」→「ファストユーザスイッチメニューを表示」のチェックを外す</p>
+<p>もしくは「アイコン」表示にして表示を小さくする。<br><img src="http://creamo.jp/wp/wp-content/uploads/2011/07/user-icon.png" alt="ユーザー名を非表示" title="ユーザー名を非表示に"></p>
+<h3 id="マイファイルに発見されたくないファイルがある">マイファイルに発見されたくないファイルがある</h3><p>今回追加された「マイファイル」機能。最近使ったファイルを種類別に分けて表示するので、いちいちファイル場所まで探しに行く手間が省けます。</p>
+<p>ちなみに「マイファイル」で最もマウスの横スクロールが活躍しますｗ</p>
+<p>しかし、全てのファイルを検知するので、見られたくないファイルまで表示してしまいます。</p>
+<p><strong>・マイファイルの使用自体をやめる方法</strong></p>
+<p>「Finder」の環境設定→「一般」→「サイドバー」→「マイファイル」のチェックを外します。</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/07/finder-myfile.png" alt="マイファイルを非表示" title="マイファイルを非表示に"></p>
+<p><strong>・マイファイルを使いたい場合</strong></p>
+<p>「システム環境設定」→「Spotlight」→「プライバシー」から表示させたくないフォルダを指定します。</p>
+<p>これで検索にも引っからなくなります。</p>
+<h3 id="以前とフォントが変わった気がする">以前とフォントが変わった気がする</h3><p>タブなどの UI で、「AquaKana」という今までメニューバーにしか使ってなかったフォントを使用するようになりました。違和感はありますが、慣れますので我慢しましょう。</p>
+<h3 id="クリーンインストールの方法">クリーンインストールの方法</h3><p><strong>※インターネットに接続されていることが前提</strong></p>
+<p>1. 起動時に[option]キーを押して立ち上げる</p>
+<p>2. リカバリHDを選択して起動<br>3. メニューバーからディスクユーティリティを立ち上げ、メインのHDを消去してインストールする</p>
+<h3 id="絵文字入力をしたい">絵文字入力をしたい</h3><p>全てのアプリケーションで可能？</p>
+<p>メニューバーの「編集」→「特殊文字」を選択すると文字一覧が表示され、そのなかの絵文字カテゴリから入力したい文字をダブルクリック。<br><img src="http://creamo.jp/wp/wp-content/uploads/2011/07/menu-emoji.png" alt="特殊文字" title="特殊文字を選択"></p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/07/emoji.png" alt="絵文字" title="絵文字"></p>
+<h3 id="Finderでファイルの移動が可能に">Finderでファイルの移動が可能に</h3><p>Finderでは今までドラッグ以外によるファイルの移動が不可能でしたが、Lionで可能になりました。</p>
+<p>[command]＋x でコピーした後、[command]＋[option]＋v で移動になります。</p>
+<h3 id="再起動時の「再開」機能をオフにする">再起動時の「再開」機能をオフにする</h3><p>Lionでは、再起動すると終了時の状態に戻す「再開」機能があります。</p>
+<p>立ち上げていた全てのアプリケーションが起動し、ウィンドウ位置も同じ状態で復元されます。</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/07/reboot-check.png" alt="再起動時" title="再起動時に「再開」の確認"></p>
+<p>しかし、アプリを立ち上げて欲しくない場合もあります。</p>
+<p>再起動時にチェックを外せばいいのですが、常にチェックを外す場合は</p>
+<p>「システム環境設定」→「一般」にある「アプリケーションを終了して再度開くときにウインドウを復元」のチェックを外します。これで「再開」機能がオフになります。</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/07/reboot-off.png" alt="「再開」をオフ" title="「再開」をオフに"></p>
+<h3 id="Finderのサイドバーの文字が大きい">Finderのサイドバーの文字が大きい</h3><p>Lionになったことで「Finder」のサイドバーの文字サイズが大きくなって違和感を感じた人は多いんじゃないでしょうか。</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/07/side-middle.png" alt="サイドバー中" title="サイドバーの文字サイズが少し大きい"></p>
+<p>「システム環境設定」→「一般」の「サイドバーのアイコンサイズ」を「中」→「小」にすることで、元のサイズに戻すことが出来ます。<br><img src="http://creamo.jp/wp/wp-content/uploads/2011/07/finder-option.png" alt="サイドバー設定" title="アイコンサイズを「小」に"></p>
+<p>以下のサイズになります。見慣れてる方にとってはこっちの方がいいですね。</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/07/side-small.png" alt="サイドバー小" title="サイドバーの文字サイズが変化"></p>
+<h3 id="参考サイト">参考サイト</h3><p>書き切れないものもあるので、他の情報に関しては以下のサイトを参考にしてください。</p>
+<p>・<a href="http://www28.atwiki.jp/2chmac/pages/85.html" title="Link to Macまとめ - Mac OSX 10.7 Lion@2ch 既出質問まとめ" target="_blank" rel="external">Macまとめ - Mac OSX 10.7 Lion@2ch 既出質問まとめ</a></p>
+<p>・<a href="http://www.macotakara.jp/blog/index.php?ID=13526" title="Link to OS X Lion Tips のまとめ － MACお宝鑑定団 blog（羅針盤）" target="_blank" rel="external">OS X Lion Tips のまとめ － MACお宝鑑定団 blog（羅針盤）</a></p>
+<p>また、ちょっとしたデザインの変更点というまとめも。</p>
+<p>ここまで気づいた方はいるんだろうかｗ</p>
+<p><a href="http://stam-design-stam.blogspot.com/2011/07/mac-osx-lion.html" title="Link to DESIGN ARCHIVE - BLOG: 細かすぎて伝わりづらい、Mac OSX Lionのデザイン変更点まとめ。" target="_blank" rel="external">DESIGN ARCHIVE - BLOG: 細かすぎて伝わりづらい、Mac OSX Lionのデザイン変更点まとめ。</a></p>
+
+      </div>
+      <footer class="article-footer">
+        <a data-url="http://hirotaka11.github.io/tool/mac-lion-tips/" data-id="ci84dbvyc002qbncen24s61kc" class="article-share-link">Share</a>
+        
+        
+      </footer>
+    </div>
+  </article>
+  
+
+            </div>
+          </section>
+          <aside id="sidebar">
+  <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+  <div class="sidebar-top">
+    <p>follow:</p>
+    <ul class="social-links">
+      
+        <li><a class="social-tooltip" title="twitter" href="https://twitter.com/hirotaka_696"><i id="icon-twitter" class="icon"></i></a></li>
+      
+        <li><a class="social-tooltip" title="google_plus" href="https://google.com/+HiroshiTakaki696"><i id="icon-google_plus" class="icon"></i></a></li>
+      
+        <li><a class="social-tooltip" title="github" href="https://github.com/hirotaka11"><i id="icon-github" class="icon"></i></a></li>
+      
+        <li><a class="social-tooltip" title="rss" href="../..//atom.xml"><i id="icon-rss" class="icon"></i></a></li>
+      
+    </ul>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="../google-plus-picasa/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">newer</strong>
+      <p class="article-nav-title">
+        
+          Google+ユーザー必見！Picasaの上手な活用法！
+        
+      </p>
+      <i class="icon" id="icon-chevron-right"></i>
+    </a>
+  
+  
+    <a href="../../wordpress/better-delete-revision/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">older</strong>
+      <p class="article-nav-title">DBに溜まったリビジョンを一括削除「Better Delete Revision」</p>
+      <i class="icon" id="icon-chevron-left"></i>
+    </a>
+  
+</nav>
+
+  
+  <div class="widgets-container">
+    
+      
+  <div class="widget-wrap">
+    <h3 class="widget-title">recents</h3>
+    <div class="widget">
+      <ul id="recent-post" class="">
+        
+          <li>
+            
+            <div class="item-thumbnail">
+              
+<a href="../../diary/secondary-creation/" class="thumbnail">
+  
+    <span style="background-image:url(/diary/secondary-creation/bigsight.jpg
+)" alt="いい加減危機感を感じた方が良い？ 自分が同人の二次創作に感じる違和感" class="thumbnail-image"></span>
+  
+</a>
+
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category"><a class="article-category-link" href="../../categories/diary/">diary</a></p>
+              <p class="item-title"><a href="../../diary/secondary-creation/" class="title">いい加減危機感を感じた方が良い？ 自分が同人の二次創作に感じる違和感</a></p>
+              <p class="item-date"><time datetime="2015-03-31T14:12:20.000Z" itemprop="datePublished">2015-03-31</time></p>
+            </div>
+          </li>
+        
+          <li>
+            
+            <div class="item-thumbnail">
+              
+<a href="../../diary/retake/" class="thumbnail">
+  
+    <span class="thumbnail-image thumbnail-none"></span>
+  
+</a>
+
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category"><a class="article-category-link" href="../../categories/diary/">diary</a></p>
+              <p class="item-title"><a href="../../diary/retake/" class="title">気を改めて</a></p>
+              <p class="item-date"><time datetime="2015-03-01T17:02:30.000Z" itemprop="datePublished">2015-03-02</time></p>
+            </div>
+          </li>
+        
+          <li>
+            
+            <div class="item-thumbnail">
+              
+<a href="../../webtech/zerotype-start/" class="thumbnail">
+  
+    <span class="thumbnail-image thumbnail-none"></span>
+  
+</a>
+
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category"><a class="article-category-link" href="../../categories/webtech/">webtech</a></p>
+              <p class="item-title"><a href="../../webtech/zerotype-start/" class="title">オリジナルCSSフレームワーク？っぽいのをgithubに上げてみた</a></p>
+              <p class="item-date"><time datetime="2013-06-03T23:30:32.000Z" itemprop="datePublished">2013-06-04</time></p>
+            </div>
+          </li>
+        
+          <li>
+            
+            <div class="item-thumbnail">
+              
+<a href="../st2xdropbox/" class="thumbnail">
+  
+    <span class="thumbnail-image thumbnail-none"></span>
+  
+</a>
+
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category"><a class="article-category-link" href="../../categories/tool/">tool</a></p>
+              <p class="item-title"><a href="../st2xdropbox/" class="title">「Sublime Text 2」✕「Dropbox」でどこでも作業環境を作ろう！</a></p>
+              <p class="item-date"><time datetime="2013-06-02T23:30:00.000Z" itemprop="datePublished">2013-06-03</time></p>
+            </div>
+          </li>
+        
+          <li>
+            
+            <div class="item-thumbnail">
+              
+<a href="../win8-us-mac/" class="thumbnail">
+  
+    <span style="background-image:url(http://creamo.jp/wp/wp-content/uploads/2013/01/win8_us_01.jpg
+)" alt="MacにWindows8を入れた際にUSキー配列に設定する方法" class="thumbnail-image"></span>
+  
+</a>
+
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category"><a class="article-category-link" href="../../categories/tool/">tool</a></p>
+              <p class="item-title"><a href="../win8-us-mac/" class="title">MacにWindows8を入れた際にUSキー配列に設定する方法</a></p>
+              <p class="item-date"><time datetime="2013-01-14T23:30:00.000Z" itemprop="datePublished">2013-01-15</time></p>
+            </div>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+    
+      
+  <div class="widget-wrap widget-list">
+    <h3 class="widget-title">categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="../../categories/diary/">diary</a><span class="category-list-count">13</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/tool/">tool</a><span class="category-list-count">19</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/webtech/">webtech</a><span class="category-list-count">11</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/wordpress/">wordpress</a><span class="category-list-count">14</span></li></ul>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget-wrap widget-list">
+    <h3 class="widget-title">archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2015/03/">March 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2013/06/">June 2013</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2013/01/">January 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2012/12/">December 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2012/01/">January 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/12/">December 2011</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/11/">November 2011</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/10/">October 2011</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/09/">September 2011</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/08/">August 2011</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/07/">July 2011</a><span class="archive-list-count">10</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/06/">June 2011</a><span class="archive-list-count">18</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/05/">May 2011</a><span class="archive-list-count">10</span></li></ul>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget-wrap widget-list">
+    <h3 class="widget-title">tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Analytics/">Analytics</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Google-Picasa/">Google, Picasa</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Mac/">Mac</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/RSS/">RSS</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/jQuery/">jQuery</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/イベント/">イベント</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/ネタ/">ネタ</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/プラグイン/">プラグイン</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/二次創作/">二次創作</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/同人/">同人</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/著作権/">著作権</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/雑記/">雑記</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/高速化/">高速化</a><span class="tag-list-count">2</span></li></ul>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget-wrap widget-float">
+    <h3 class="widget-title">tag cloud</h3>
+    <div class="widget tagcloud">
+      <a href="../../tags/Analytics/" style="font-size: 10px;">Analytics</a><a href="../../tags/Google-Picasa/" style="font-size: 10px;">Google, Picasa</a><a href="../../tags/Mac/" style="font-size: 10px;">Mac</a><a href="../../tags/RSS/" style="font-size: 10px;">RSS</a><a href="../../tags/jQuery/" style="font-size: 10px;">jQuery</a><a href="../../tags/イベント/" style="font-size: 10px;">イベント</a><a href="../../tags/ネタ/" style="font-size: 10px;">ネタ</a><a href="../../tags/プラグイン/" style="font-size: 10px;">プラグイン</a><a href="../../tags/二次創作/" style="font-size: 10px;">二次創作</a><a href="../../tags/同人/" style="font-size: 10px;">同人</a><a href="../../tags/著作権/" style="font-size: 10px;">著作権</a><a href="../../tags/雑記/" style="font-size: 10px;">雑記</a><a href="../../tags/高速化/" style="font-size: 20px;">高速化</a>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget-wrap widget-list">
+    <h3 class="widget-title">links</h3>
+    <div class="widget">
+      <ul>
+        
+      </ul>
+    </div>
+  </div>
+
+
+    
+  </div>
+</aside>
+        </div>
+      </div>
+    </div>
+    <footer id="footer">
+  
+  <div class="container">
+    <div class="container-inner">
+      <a id="back-to-top" href="javascript:;"><i class="icon" id="icon-angle-up"></i></a>
+      <div class="credit">
+        <h1 class="logo-wrap">
+          <a href="../..//" class="logo"></a>
+        </h1>
+        <p>&copy; 2015 HiRO</p>
+        <p>Powered by <a href="//hexo.io/" target="_blank">Hexo</a>. Theme by <a href="//github.com/ppoffice" target="_blank">PPOffice</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+    
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+
+  <script src="../../fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+
+
+
+
+<script src="../../js/html-patch.js" type="text/javascript"></script>
+<script src="../../js/script.js" type="text/javascript"></script>
+
+  </div>
+</body>
+</html>

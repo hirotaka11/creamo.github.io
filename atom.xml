@@ -4,7 +4,7 @@
   <subtitle><![CDATA[元WEB系フロントエンジニアがゲームプランナーになったら]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://hirotaka11.github.io/"/>
-  <updated>2015-03-31T18:08:51.000Z</updated>
+  <updated>2015-04-05T11:19:33.000Z</updated>
   <id>http://hirotaka11.github.io/</id>
   
   <author>
@@ -19,8 +19,8 @@
     <link href="http://hirotaka11.github.io/diary/secondary-creation/"/>
     <id>http://hirotaka11.github.io/diary/secondary-creation/</id>
     <published>2015-03-31T14:12:20.000Z</published>
-    <updated>2015-03-31T18:08:51.000Z</updated>
-    <content type="html"><![CDATA[<p>どうも、28,29日に開催されたコミケットスペシャル6に初参加してきましたHiROです。規模感がよく分かんなかったのですが、行ってみたところ、（コミケと比べて）ほどほどの混雑感で過ごしやすかったです。</p>
+    <updated>2015-04-05T11:19:33.000Z</updated>
+    <content type="html"><![CDATA[<p>28,29日に開催されたコミケットスペシャル6に初参加してきましたHiROです。規模感がよく分かんなかったのですが、行ってみたところ、（コミケと比べて）ほどほどの混雑感で過ごしやすかったです。</p>
 <p><img src="/diary/secondary-creation/bigsight.jpg" alt="" title="今ではコミケの聖地となったビッグサイト"></p>
 <p>その流れで、今回は同人誌即売会についてお話しようかなと思います。</p>
 <p>元から同人、いわゆる「二次創作物」と呼ばれるものは法律的にグレーゾーンなのは周知の通りだと思います。今回はそこ自体が論点ではありません。</p>
@@ -44,46 +44,29 @@
 <p>正直この辺はゲーム屋というより、WEB屋の血が騒ぎますｗ まぁ企画職ですので、大目に見て下さい。</p>
 <p>※電子マネー決済は「<a href="https://squareup.com/jp" target="_blank" rel="external">Square</a>」や「<a href="http://smartpay.rakuten.co.jp/" target="_blank" rel="external">楽天スマートペイ</a>」とかは既に導入されている方も見かけます。（主にデザフェスですが）</p>
 <p>ということで、同じようなこと考えてる人いたら、協力しますのでぜひご連絡をば。</p>
+<hr>
+<p><strong>※4/5 追記</strong><br>政府が二次創作同人誌について公式見解したようです。<br><a href="http://news.nicovideo.jp/watch/nw1527426?ver=video_q" target="_blank" rel="external">2次創作同人誌も「クールジャパン」に──政府が公式答弁 | ニコニコニュース</a></p>
+<blockquote>
+<p>『2次的著作物』を含む著作物については、『関連商品販売等への波及効果』が見込まれるコンテンツに該当し得るものと考えられる。<br>パロディについて著作権法上の規定を創設すべきかどうかについて検討したものであり、「著作権に係る契約の在り方」「意思表示システムの構築」について検討を見送ったわけではない。</p>
+</blockquote>
+<p>著作権とクールジャパンは別軸の話なので、例えクールジャパンとして売りだすとしても規制が入った上でしょうね。政府主導なんだから当然です。<br>なので上で書いたように、版権制度など政府介入が入る前に自発的に正常化する動きが必要なんですけどね。</p>
+<p>まぁ、クールジャパン戦略自体ふわっとしてて、お役所仕事でやっても碌なことにならない気がしますので、アニメ業界の収益構造の改善に全力を尽くしていただきたい次第でございます。<br>（やるのならハリウッド戦略くらいに本気出して欲しい。…あれ？萌えアニメがプロバガンダになるのか？ｗ）</p>
+<hr>
 <p>最後に勢いで買ってしまったグッズを貼っておく。</p>
 <p><blockquote class="instagram-media" data-instgrm-captioned="" data-instgrm-version="4" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://instagram.com/p/00YcmwAnED/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_top">25周年オフィシャルスタッフ本買うてしまった。 こんなゆるい感じの本が出るようになったのも時代の変化だなー。さりげなく開発の裏話が載ってておもろかったです。</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">hirotakaさん(@hirotaka11)が投稿した写真 - <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-03-29T16:33:39+00:00">2015 3月 29 9:33午前 PDT</time></p></div></blockquote></p>
 <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>]]></content>
     <summary type="html">
-    <![CDATA[<p>どうも、28,29日に開催されたコミケットスペシャル6に初参加してきましたHiROです。規模感がよく分かんなかったのですが、行ってみたところ、（コミケと比べて）ほどほどの混雑感で過ごしやすかったです。</p>
-<p><img src="/diary/secondary-cr]]>
+    <![CDATA[<p>28,29日に開催されたコミケットスペシャル6に初参加してきましたHiROです。規模感がよく分かんなかったのですが、行ってみたところ、（コミケと比べて）ほどほどの混雑感で過ごしやすかったです。</p>
+<p><img src="/diary/secondary-creati]]>
     </summary>
     
-      <category term="同人, イベント, 二次創作物, 著作権" scheme="http://hirotaka11.github.io/tags/%E5%90%8C%E4%BA%BA-%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88-%E4%BA%8C%E6%AC%A1%E5%89%B5%E4%BD%9C%E7%89%A9-%E8%91%97%E4%BD%9C%E6%A8%A9/"/>
+      <category term="イベント" scheme="http://hirotaka11.github.io/tags/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/"/>
     
-      <category term="diary" scheme="http://hirotaka11.github.io/categories/diary/"/>
+      <category term="二次創作" scheme="http://hirotaka11.github.io/tags/%E4%BA%8C%E6%AC%A1%E5%89%B5%E4%BD%9C/"/>
     
-  </entry>
-  
-  <entry>
-    <title><![CDATA[過去、Google+の振り返り]]></title>
-    <link href="http://hirotaka11.github.io/diary/remember-free/"/>
-    <id>http://hirotaka11.github.io/diary/remember-free/</id>
-    <published>2015-03-08T14:42:17.000Z</published>
-    <updated>2015-03-09T17:40:23.000Z</updated>
-    <content type="html"><![CDATA[<p>「第一印象は声かけづらい人、でも実際に話すと全然普通で、むしろ聞くと丁寧に教えてくれるツンデレな人ですね」と大学生の頃から一昨日まで言われ続けてるHiROです。</p>
-<p>マジで5人以上同じこと言われました。念のため言っておきますが、ツンデレにやってる気はないです、ホントに。</p>
-<p>「忙しい雰囲気が凄くて声かけづらい」って意見がありました。それは分かります。自覚してます。忙しいというのを口実にするのは仕事が出来ない人だってよく言うのも知ってます。<br>出来ない人ですみません。…っとこれ以上言うと愚痴が出そうだから止めよう。</p>
-<p>さて、当ページの移転作業はまだまだ進んでおりません。とりあえずタイトルを変更しました。<br>極力テンプレート上で画像を使わないようにと思っておりますので、Google Web Fontを使用しております。やはりWeb Fontsは便利ですね。</p>
-<p>また、Aboutページを追記しました。暇な時にでもご確認下さい</p>
-<p>そして、Google+のリンクがついてます。ずっと放置してましたが久々にアクセスしました。</p>
-<p>ここから本題です。</p>
-<p>Google+ですが、昨今ストリームとフォトにサービス分割されるという話がありました。私もサービス開始時は乗っかって、色々と記事を書いてました。1000ブクマ以上いってたので、まぁ私はいい感じに乗った人だったのでしょう。</p>
-<p>今はFacebookメイン、Twitterたまにというレベルになりました。Google+で激しく流れていたストリームも今はゆっくりと流れています。過度期はとうに過ぎてますが、やはり使い道が見つけられませんでした。</p>
-<p>実名必須という流れが改善されましたが、結局表示されるのは実名+ニックネーム。実名を入れなくても大丈夫とのようにはなっていますが、ニックネームのみの表示に対応できなかったのでしょうか。そこだけが惜しく感じました。</p>
-<p>ｇｄｇｄですが、何を言いたいかというと、Google+まとめとかで何度もホットエントリ入っていたことがある私ですら、放置してたのでGoogle+とは一体何なのだろうかなぁと。<br>色々機能改善はされていましたが、今も使い道は分かりません。</p>
-<p>この機会にGoogle+の過去の黒歴史な投稿を整理しました。無職の時ははっちゃけすぎました。3,4年前ですが、あの時の自分は阿呆でした…。</p>
-<p>中身がなくて申し訳ありません。次回も1週間以内には書くように努力します。</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>「第一印象は声かけづらい人、でも実際に話すと全然普通で、むしろ聞くと丁寧に教えてくれるツンデレな人ですね」と大学生の頃から一昨日まで言われ続けてるHiROです。</p>
-<p>マジで5人以上同じこと言われました。念のため言っておきますが、ツンデレにやってる気はないです、ホン]]>
-    </summary>
+      <category term="同人" scheme="http://hirotaka11.github.io/tags/%E5%90%8C%E4%BA%BA/"/>
     
-      <category term="雑記" scheme="http://hirotaka11.github.io/tags/%E9%9B%91%E8%A8%98/"/>
+      <category term="著作権" scheme="http://hirotaka11.github.io/tags/%E8%91%97%E4%BD%9C%E6%A8%A9/"/>
     
       <category term="diary" scheme="http://hirotaka11.github.io/categories/diary/"/>
     
@@ -120,48 +103,1005 @@
   </entry>
   
   <entry>
-    <title><![CDATA[zerotype_start]]></title>
+    <title><![CDATA[オリジナルCSSフレームワーク？っぽいのをgithubに上げてみた]]></title>
     <link href="http://hirotaka11.github.io/webtech/zerotype-start/"/>
     <id>http://hirotaka11.github.io/webtech/zerotype-start/</id>
-    <published>2013-06-03T23:30:00.000Z</published>
-    <updated>2015-03-09T16:59:07.000Z</updated>
+    <published>2013-06-03T23:30:32.000Z</published>
+    <updated>2015-04-05T10:27:18.000Z</updated>
     <content type="html"><![CDATA[<p>書いてる時点で超眠いので中身は後日･･･ｗ</p>
 <p>マークアップしてる大抵の方は、自分が最初に使うであろうスタイルや、毎回使用しているクラスとかがあるかと思います。<br>それは各々、スニペット化してたりとか、テンプレート化してたりするのではないでしょうか。</p>
 <p>で、私もそろそろそういう感じなことしたいなーと考えて、githubにあげちゃおうということにしました。<br>スニペットだと結構忘れたり、作りすぎていっちゃうとかあるので、、、。</p>
 <p>gitで管理しとけば別プロジェクトにgitのsubmoduleとして突っ込んどけば色々楽が出来ます。（特にmixinとか）<br>git関連のお話はまた今度。</p>
-<h3>今回公開した「Type-Zero」というCSS</h3><br><a href="https://github.com/hirotaka11/Type-Zero" target="_blank">Type-Zero | github</a><br><br>ハッキリ言って、現時点では未完成ですｗ フレームワークとは呼べません。完全に自分専用。<br><br>mixin周りがゴチャゴチャしてたので、ちゃんと整理できたらコミットしときます。<br><br>あくまでまだ自分用にしか考えてないので、ホントにフレームワークと呼べるレベルになったら色々考えようかなぁと。<br><br><h3>Type-Zero について</h3>
-
-<p>Sass+Compassで作ってあります。最近ホントに「<a href="http://compass-style.org/" target="_blank">compass</a>」のお世話になっております。PCサイトも基本「Compass」。ベンダープレフィックス書き忘れしやすいですからね。<br><br>ちなみに使い方は「config.rb」がある場所で「compass watch」しとけばいいです。</p>
-<p>こんなんですが、結構実用に耐えます。<br><br>名前の由来はこれを作ったキッカケなプロジェクト名とか、ポートフォリオサイト名がそういやzeroだったな的なｗ<br><br>日本語だと『零式！』<br><br>バハムートの方か！？それともなんとか朱雀の方か！？どちらにせよF◯やｗ</p>
+<a id="more"></a>
+<h3 id="今回公開した「Type-Zero」というCSS">今回公開した「Type-Zero」というCSS</h3><p><a href="https://github.com/hirotaka11/Type-Zero" target="_blank" rel="external">Type-Zero | github</a></p>
+<p>ハッキリ言って、現時点では未完成ですｗ フレームワークとは呼べません。完全に自分専用。</p>
+<p>mixin周りがゴチャゴチャしてたので、ちゃんと整理できたらコミットしときます。</p>
+<p>あくまでまだ自分用にしか考えてないので、ホントにフレームワークと呼べるレベルになったら色々考えようかなぁと。</p>
+<h3 id="Type-Zero_について">Type-Zero について</h3><p>Sass+Compassで作ってあります。最近ホントに「<a href="http://compass-style.org/" target="_blank" rel="external">compass</a>」のお世話になっております。PCサイトも基本「Compass」。ベンダープレフィックス書き忘れしやすいですからね。</p>
+<p>ちなみに使い方は「config.rb」がある場所で「compass watch」しとけばいいです。</p>
+<p>こんなんですが、結構実用に耐えます。</p>
+<p>名前の由来はこれを作ったキッカケなプロジェクト名とか、ポートフォリオサイト名がそういやzeroだったな的なｗ</p>
+<p>日本語だと『零式！』</p>
+<p>バハムートの方か！？それともなんとか朱雀の方か！？どちらにせよF◯やｗ</p>
 <p>あくまでどのサイトでも使える普遍的なものだけを残した形なので、本来サイトの特徴に当たるようなデザイン関係のスタイルは載ってないです。本来のスタイルは「_layout.scss」に記入してる感じですね。</p>
-<p>「_common.scss」がこれの要なわけですが、見れば分かるこの適当感ｗ<br><br>適当とは言い切れないというか、「OOCSS」を意識してパーツ化してクラスを作っています。なので、一発ネタ的な部分にはオブジェクト的に当てはめていきます。</p>
-<h3>OOCSSってなんぞや</h3>
-
-<p>OOCSSについては高津戸さんのこちらの記事を見てもらえれば超分かりやすいです。<br><br><a href="http://takazudo.github.com/blog/entry/2012-12-10-oocsssass.html" target="_blank">OOCSSとSass</a></p>
+<p>「_common.scss」がこれの要なわけですが、見れば分かるこの適当感ｗ</p>
+<p>適当とは言い切れないというか、「OOCSS」を意識してパーツ化してクラスを作っています。なので、一発ネタ的な部分にはオブジェクト的に当てはめていきます。</p>
+<h3 id="OOCSSってなんぞや">OOCSSってなんぞや</h3><p>OOCSSについては高津戸さんのこちらの記事を見てもらえれば超分かりやすいです。</p>
+<p><a href="http://takazudo.github.com/blog/entry/2012-12-10-oocsssass.html" target="_blank" rel="external">OOCSSとSass</a></p>
 <p>OOCSSについて話しだすと長い記事が書けてしまうので、これも置いといて･･･。</p>
-<p></p><h3>githubを有効活用していく</h3><br>普段プロジェクトでgitばっか触ってるので抵抗ないのですが、gitとかバージョン管理の経験が浅い人ってまだ結構いると思います。<p></p>
-<p>使い出すと本当に便利なので、こんな感じでオレオレテンプレートをgit管理してみるところから始めてみてはどうでしょうか？最近の採用ではgithubを見せることも普通になってきました。<br><br>採用側としては評価する為にコードが見られれば良い話なのですが、gitが扱えるかどうかもついでに分かりますし、githubを知ってる知らないは結構重要なことなんでないかと。（エンジニアで知らないのはちょっと困りますがｗ）</p>
+<h3 id="githubを有効活用していく">githubを有効活用していく</h3><p>普段プロジェクトでgitばっか触ってるので抵抗ないのですが、gitとかバージョン管理の経験が浅い人ってまだ結構いると思います。</p>
+<p>使い出すと本当に便利なので、こんな感じでオレオレテンプレートをgit管理してみるところから始めてみてはどうでしょうか？最近の採用ではgithubを見せることも普通になってきました。</p>
+<p>採用側としては評価する為にコードが見られれば良い話なのですが、gitが扱えるかどうかもついでに分かりますし、githubを知ってる知らないは結構重要なことなんでないかと。（エンジニアで知らないのはちょっと困りますがｗ）</p>
 <p>githubはWebエンジニアばかりが使っているイメージは確かにあります。しかし、自分みたいなマークアップがメインな人でもこんな感じに有効活用手段は見つけられるので、色々やってみてはいかがでしょうか。</p>
 <p>Type-Zeroの解説とか書きたいことはたくさんありますが、今回はこのへんで。</p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>書いてる時点で超眠いので中身は後日･･･ｗ</p>
 <p>マークアップしてる大抵の方は、自分が最初に使うであろうスタイルや、毎回使用しているクラスとかがあるかと思います。<br>それは各々、スニペット化してたりとか、テンプレート化してたりするのではないでしょうか。</p>
-]]>
-    </summary>
+<p>で、私もそろそろそういう感じなことしたいなーと考えて、githubにあげちゃおうということにしました。<br>スニペットだと結構忘れたり、作りすぎていっちゃうとかあるので、、、。</p>
+<p>gitで管理しとけば別プロジェクトにgitのsubmoduleとして突っ込んどけば色々楽が出来ます。（特にmixinとか）<br>git関連のお話はまた今度。</p>]]>
     
-      <category term="Compass, CSS, Github, Sass" scheme="http://hirotaka11.github.io/tags/Compass-CSS-Github-Sass/"/>
+    </summary>
     
       <category term="webtech" scheme="http://hirotaka11.github.io/categories/webtech/"/>
     
   </entry>
   
   <entry>
-    <title><![CDATA[google-plus-picasa]]></title>
+    <title><![CDATA[「Sublime Text 2」✕「Dropbox」でどこでも作業環境を作ろう！]]></title>
+    <link href="http://hirotaka11.github.io/tool/st2xdropbox/"/>
+    <id>http://hirotaka11.github.io/tool/st2xdropbox/</id>
+    <published>2013-06-02T23:30:00.000Z</published>
+    <updated>2015-04-05T10:23:46.000Z</updated>
+    <content type="html"><![CDATA[<p>超久々ですが、心に余裕が出来てきたのでまた書き始めます。</p>
+<p>私も「<a href="http://www.sublimetext.com/" target="_blank" rel="external">Sublime Text 2</a>」(以下：ST2)を使い始めてやっと半年近く経ちました。（なので書きたいネタが結構あります）</p>
+<p>ご存知の通り(知らなかったら是非この機会に知っておいていただけると)Macだけでなく、Windows、Linuxとマルチな環境で動作する高機能エディタです。</p>
+<p>そして、プラグインが豊富でカスタマイズ性が高いです。（プラグイン入れないとふっつ〜のエディタです）</p>
+<p>だからこその弊害は、カスタマイズをすればするほどオリジナリティに、複雑化していきます。</p>
+<p>そのため環境を整えるのが非常に面倒です。個人用と会社用の端末が違う時、設定が共有できないのは非常に萎えます。</p>
+<p>なので、Dropboxを使用して設定ファイルを共有化しようって方法です。</p>
+<p>自分はMac間でしかやってませんが、違うOS間での共有もきっと出来るはず･･･？<br><a id="more"></a><br>今回はこちらの記事を参考にさせて頂きました。</p>
+<p><a href="http://ntcncp.net/2012/12/21/sublime-useful-tips" target="_blank" rel="external">Sublime Text 2によるストレスフリーな開発環境 | ntcncp.net</a></p>
+<h3 id="Dropboxの準備">Dropboxの準備</h3><p>Dropbox使ったことない方はこちら　→　<a href="http://db.tt/C1rDVgi" target="_blank" rel="external">アカウント作成</a></p>
+<p>上記リンクから作ると私と貴方に多少容量アップのメリットがありますｗ</p>
+<h3 id="設定をDropbox側に共有する手順">設定をDropbox側に共有する手順</h3><p>1. Dropbox側にST2の設定を入れるディレクトリを作成する(自分が分かりやすい場所に)<br>[bash]mkdir ~/Dropbox/App/Sublime\ Text\ 2/[/bash]</p>
+<p>2. 上記で作ったディレクトリにST2の設定ディレクトリを移動<br>[bash]mv ~/Library/Application\ Support/Sublime\ Text\ 2/ ~/Dropbox/App/Sublime\ Text\ 2/[/bash]<br>※ 厳密には[Installed Packages][Packages][Pristine Packages]の3ディレクトリのみで良いのですが、まるごとの方が色々楽</p>
+<p>3. Dropbox側ディレクトリにシンボリックリンクを張る<br>[bash]ln -s ~/Dropbox/App/Sublime\ Text\ 2/ ~/Library/Application\ Support/Sublime\ Text\ 2[/bash]</p>
+<h3 id="シンボリックリンクを削除して元に戻したい場合">シンボリックリンクを削除して元に戻したい場合</h3><p>1. 以下のコマンドでシンボリックリンクを削除して、<br>[bash]rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2[/bash]</p>
+<p>2. Dropbox側のディレクトリからライブラリ側にファイルを戻せばおわり。<br>[bash]mv ~/Dropbox/App/Sublime\ Text\ 2/ ~/Library/Application\ Support/Sublime\ Text\ 2/[/bash]</p>
+<h3 id="他の端末のST2からDropbox内の設定を反映する">他の端末のST2からDropbox内の設定を反映する</h3><p>1. ST2インストール時に作られた設定ファイルを削除<br>[bash]rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2[/bash]</p>
+<p>2. Dropbox内の設定ファイルにシンボリックリンクを張る<br>[bash]ln -s ~/Dropbox/App/Sublime\ Text\ 2/ ~/Library/Application\ Support/Sublime\ Text\ 2[/bash]</p>
+<p>Sublime Textは使えば使うほどカスタマイズしていくので、再び同じ状態にするのはホントしんどいです。なのでやっといて損はないです。</p>
+<p>別にDropboxでなくてもクラウドストレージとシンボリックリンクの組み合わせを利用しただけなので、他のアプリにも色々通用する部分はあるかと思います。</p>
+<p>有効に活用してみましょう。</p>
+<h3 id="ちなみに">ちなみに</h3><p>Sublime Text 2は個人なら複数台PCにインストールして利用してOKと書いてありますので、ライセンス的にも問題ないです。</p>
+<p><a href="http://www.sublimetext.com/sales_faq" target="_blank" rel="external">Sublime Text 2 - Sales FAQ</a></p>
+<blockquote>
+<p>・Using a Personal License at Work</p>
+<p>As licenses are per-user, you’re welcome to use your license key on all computers where you are the primary user, including at work.</p>
+</blockquote>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>超久々ですが、心に余裕が出来てきたのでまた書き始めます。</p>
+<p>私も「<a href="http://www.sublimetext.com/">Sublime Text 2</a>」(以下：ST2)を使い始めてやっと半年近く経ちました。（なので書きたいネタが結構あります）</p>
+<p>ご存知の通り(知らなかったら是非この機会に知っておいていただけると)Macだけでなく、Windows、Linuxとマルチな環境で動作する高機能エディタです。</p>
+<p>そして、プラグインが豊富でカスタマイズ性が高いです。（プラグイン入れないとふっつ〜のエディタです）</p>
+<p>だからこその弊害は、カスタマイズをすればするほどオリジナリティに、複雑化していきます。</p>
+<p>そのため環境を整えるのが非常に面倒です。個人用と会社用の端末が違う時、設定が共有できないのは非常に萎えます。</p>
+<p>なので、Dropboxを使用して設定ファイルを共有化しようって方法です。</p>
+<p>自分はMac間でしかやってませんが、違うOS間での共有もきっと出来るはず･･･？<br>]]>
+    
+    </summary>
+    
+      <category term="tool" scheme="http://hirotaka11.github.io/categories/tool/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[MacにWindows8を入れた際にUSキー配列に設定する方法]]></title>
+    <link href="http://hirotaka11.github.io/tool/win8-us-mac/"/>
+    <id>http://hirotaka11.github.io/tool/win8-us-mac/</id>
+    <published>2013-01-14T23:30:00.000Z</published>
+    <updated>2015-04-05T10:24:49.000Z</updated>
+    <content type="html"><![CDATA[<p>Windows8のアップグレードが1月31日まで3300円ということだったので、せっかくなのでMacに(Parallels使って)Windows8を入れてみました。</p>
+<p>Windows8は色々言われてますが、UIとか設定項目面で批判されてるのが主で、セキュリティ面ではXPより安心で、最初から動作自体は安定してます。（まだWin7の方が速い処理とかあるらしいですがｗ）</p>
+<p>私が持ってるMacBookProはUSキー配列です。結構Mac所有者、エンジニアの方はUSキー信者の人が多いです。</p>
+<p>しかし、Windows8では(Windows7から？)キーボード配列が簡単に変更できません。何故か日本語配列固定です。<br>XPのときは簡単に変えられた気がするキーボード配列設定変更方法が分かりにくかったので、載せときます。<a id="more"></a></p>
+<h2 id="やり方は、デバイスマネージャーを使うだけ">やり方は、デバイスマネージャーを使うだけ</h2><p>ぶっちゃけ、Windowsを触ったことがある人は大抵(?)見たことがあるデバイスマネージャーでドライバ変更するだけです。</p>
+<p>自分は「Parallels Desktop」を使っていますが、「VM Fusion」でも同じ？</p>
+<p>パパっとスクショで一連の流れを。</p>
+<p>デバイスマネージャーでキーボードのプロパティを開く<br><a href="http://creamo.jp/wp/wp-content/uploads/2013/01/win8_us_01.jpg" target="_blank" rel="external"><img src="http://creamo.jp/wp/wp-content/uploads/2013/01/win8_us_01.jpg" alt="デバイスマネージャーでキーボードのプロパティを開く" title="デバイスマネージャーでキーボードのプロパティを開く"></a></p>
+<p>ドライバー更新を選択<br><img src="http://creamo.jp/wp/wp-content/uploads/2013/01/win8_us_02.jpg" alt="ドライバー更新を選択" title="ドライバー更新を選択"></p>
+<p>ドライバーを手動で検索<br><img src="http://creamo.jp/wp/wp-content/uploads/2013/01/win8_us_03.jpg" alt="ドライバーを手動で検索" title="ドライバーを手動で検索"></p>
+<p>ドライバーの一覧から選択<br><img src="http://creamo.jp/wp/wp-content/uploads/2013/01/win8_us_04.jpg" alt="ドライバーの一覧から選択" title="ドライバーの一覧から選択"></p>
+<p>「標準 PS/2 101/102 キーボード」(US配列キーボード)ドライバを選択<br><img src="http://creamo.jp/wp/wp-content/uploads/2013/01/win8_us_05.jpg" alt="Win8 us 05" title="win8_us_05.jpg"></p>
+<p>これでキーボード設定がUSキーボード用になります。</p>
+<p>単純なんですが、なぜこれをコントロールパネル上で簡単にさせてくれないのか謎です。<br>確かに普通の人は日本語Windowsで日本語キーしか使わないかもしれませんが。。。</p>
+<h2 id="Windows8にするかしないかを決めるのは今が良い機会">Windows8にするかしないかを決めるのは今が良い機会</h2><p>兎にも角にも、Windows8のDL版が3300円(isoファイル付き)で買えて、MediaCenterも1月31までに入れれば無料なので、入れるなら今が良いかと思います。理由は単純にコスパです。</p>
+<p>でも、さすがに仕事用のメインに入れるのはちょっと厳しいかもしれません。<br>そういう意味で言えば、現時点のベストな選択肢はWindows7でしょう。</p>
+<p>Windows8は慣れるまで時間がかかります。<br>ショートカットキー覚えると捗るんですけどね。<br><a href="http://sixdot.hatenablog.com/entry/2012/11/10/104417" target="_blank" rel="external">Windows8 + Apple USキーボードのショートカットメモ - o_6.blog</a></p>
+<p>入れないならWin7、もしくはWin9まで待つかですね。XPはさすがに限界になってきましたね。</p>
+<p>ちなみにXPのサポート終了は2014年4月8日までです。<br>ネット接続しなければあまり問題ないかもしれませんが、そうは言えないこのご時世です。</p>
+<p>逆に言えばIE6, IE7, IE8の対応が減ってくるので、これ機にWebでの表現の幅が増えてくるって予測が立てられます。<br>そうなると自然にIE9, IE10の比重が上がってきますよね。</p>
+<p>そういう意味でも、色々備えておくと後々動きやすいかもしれないですね。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Windows8のアップグレードが1月31日まで3300円ということだったので、せっかくなのでMacに(Parallels使って)Windows8を入れてみました。</p>
+<p>Windows8は色々言われてますが、UIとか設定項目面で批判されてるのが主で、セキュリティ面ではXPより安心で、最初から動作自体は安定してます。（まだWin7の方が速い処理とかあるらしいですがｗ）</p>
+<p>私が持ってるMacBookProはUSキー配列です。結構Mac所有者、エンジニアの方はUSキー信者の人が多いです。</p>
+<p>しかし、Windows8では(Windows7から？)キーボード配列が簡単に変更できません。何故か日本語配列固定です。<br>XPのときは簡単に変えられた気がするキーボード配列設定変更方法が分かりにくかったので、載せときます。]]>
+    
+    </summary>
+    
+      <category term="Mac" scheme="http://hirotaka11.github.io/tags/Mac/"/>
+    
+      <category term="tool" scheme="http://hirotaka11.github.io/categories/tool/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[WordPressを多言語化させたい！]]></title>
+    <link href="http://hirotaka11.github.io/wordpress/wp-multilingualization/"/>
+    <id>http://hirotaka11.github.io/wordpress/wp-multilingualization/</id>
+    <published>2012-12-24T12:41:07.000Z</published>
+    <updated>2015-04-05T10:42:34.000Z</updated>
+    <content type="html"><![CDATA[<p>どうも、色々言われてるソシャゲ系の会社で社畜のように働いてるっぽいhirotakaです。</p>
+<p>「<a href="http://2012.wpac.info/" target="_blank" rel="external">WordPress Advent Calendar 2012</a>」の<strong>10日目に書くはずだった</strong>記事です。</p>
+<p>なんと今日は最終日前日。</p>
+<p>参加していただいた皆さんと主催者の方にはご迷惑かけて申し訳ないです。。。(；´Д｀)</p>
+<p>ということで、本題です。</p>
+<p>最近、多言語化に対応したいという案件が増えてきた気がします。大体は英語 or 中国語対応でしょうか。</p>
+<p>さすがグローバル社会です。英語も全然喋れない僕がビクビクしちゃいます。</p>
+<p>もしそんな案件で「WordPressを使う」という話なら、簡単に対応することが可能なので紹介していきます。<a id="more"></a></p>
+<h2 id="多言語化プラグイン">多言語化プラグイン</h2><p>WordPressには多言語化出来る有名なプラグインが2種類あります。</p>
+<ul>
+<li><span><a href="http://www.qianqin.de/qtranslate/" target="_blank" rel="external">qTranslate</a></span></li>
+<li><span><a href="http://wpml.org/ja/" target="_blank" rel="external">WPML</a>(有料)</span></li>
+</ul>
+<p>私はその中の「qTranslate」を使っていきます。</p>
+<p>両プラグインとも使ってみたんですが、無料なqTranslateで事足りてしまっているので、今のところ自分はこれがメインです。</p>
+<h3 id="注意点">注意点</h3><p>他のプラグインと同様<a href="http://wordpress.org/extend/plugins/qtranslate/" target="_blank" rel="external">WordPress.org</a>にあるのですが、管理画面等にも対応する部分が出てくるため、出来るだけ<a href="http://www.qianqin.de/qtranslate/" target="_blank" rel="external">本家サイト</a>から今使っているバージョンにあったものを確認しましょう。</p>
+<p>また、WordPressがバージョンアップしてから1テンポ遅れて対応されるので、多言語化対応してからプラグイン対応状況を調べずにWordPressをバージョンアップしたりすると、うまくプラグインが動かなくなったりして事故ります。</p>
+<p>他のプラグインも同じように確認するとは思いますが、表示に大きく関わってくるので特に注意しておく必要があります。対応バージョンについても<a href="http://www.qianqin.de/qtranslate/" target="_blank" rel="external">本家サイト</a>をよく確認しておきましょう。</p>
+<h2 id="qTranslateの設定方法">qTranslateの設定方法</h2><p>インストール方法については特に他と変わらないので省略します。</p>
+<p>※インストール直後は管理画面が英語化するかもしれませんが、下記の設定画面ですぐに変更できます。</p>
+<p>設定画面はこのような感じです。（設定 &gt; Language）<br><img src="http://creamo.jp/wp/wp-content/uploads/2012/12/qtras_setting.png" alt="設定画面" title="qtras_setting.png"></p>
+<p>英語ですがそんなに難しいことは書いてません。</p>
+<p>●<strong>「Default Language / Order」</strong></p>
+<p>メインで使用する言語と表示順を指定します。ラジオボタンで選択した言語がデフォルト言語として設定されます。</p>
+<p>管理画面もこの言語に対応します。そして、上下のボタンで他ページでの表示順を指定します。</p>
+<p>●<strong>「Hide Untranslated Content」</strong></p>
+<p>翻訳していないページを表示しないようにする、という設定です。<br>日本でしか公開しないニュース等もあると思います。チェックしておくことで、投稿記事がリスト表示の際表示されなくなります。</p>
+<p>もし、直接リンクへ飛んだとしても（記事表示中に他の言語に切り替えるとか）、本文はこのように表示されている言語へのリンクを表示してくれます。<br><img src="http://creamo.jp/wp/wp-content/uploads/2012/12/qtrans_notrans.png" alt="Qtrans notrans" title="qtrans_notrans.png"></p>
+<p>●<strong>「Detect the language of the browser and redirect accordingly」</strong></p>
+<p>ブラウザの言語設定を読み込んで、表示言語ページヘリダイレクトします。</p>
+<p>◯<strong>「Advanced Setting」</strong>も少しだけ設定します。</p>
+<p>●<strong>「URL Modification Mode」</strong></p>
+<p>言語切替のURLの表記方法です。状況に合わせて使い分ければよいかと。</p>
+<ul>
+<li><span>?lang=en （クエリー形式）</span></li>
+<li><span><a href="http://addless/en/" target="_blank" rel="external">http://addless/en/</a> （サブディレクトリ階層形式）</span></li>
+<li><span><a href="http://en.addless.com" target="_blank" rel="external">http://en.addless.com</a>　（サブドメイン形式）</span></li>
+</ul>
+<p>ラジオボタンの下に下記のチェックボックスがあると思います。</p>
+<p>●<strong>「Hide URL language information for default language」</strong></p>
+<p>ディレクトリ、サブドメイン形式のとき、デフォルト言語は言語情報を付加しないurlで表示するかという設定です。</p>
+<p>最後に下の方にある国旗が並んだテーブルで使用するかしないかの設定をします。</p>
+<p>Enableで有効、Disableが無効です。</p>
+<p>もし、追加したい言語がない場合は<strong>「Add Language」</strong>から追加しましょう。</p>
+<h3 id="言語切替の表示方法">言語切替の表示方法</h3><p>言語切替するリンクの表示方法を設定します。</p>
+<p>「text」「image」「both」「dropdown」から選択可能です。</p>
+<p>dropdown形式で表示したい場合は下記のようにテンプレートに書きます。</p>
+<p>[php]&lt;?php if(function_exists(‘qtrans_generateLanguageSelectCode’)) {<br>  //    国旗は(’image’)、テキストは(’text’)、両方表示は(’both’)を使用<br>  qtrans_generateLanguageSelectCode(‘dropdown’);<br>} ?&gt;[/php]</p>
+<h3 id="他言語での記事投稿">他言語での記事投稿</h3><p>設定さえ終わってしまえばあとは簡単です。投稿画面を表示します。</p>
+<p>設定した言語がタイトルと本文で言語別に入力できるようになりました。<br><img src="http://creamo.jp/wp/wp-content/uploads/2012/12/qtrans_post.png" alt="Qtrans post" title="qtrans_post.png"></p>
+<h3 id="META_description_の設定">META description の設定</h3><p>せっかくページを多言語化しても、descriptionも言語別に設定できないと意味無いですよね。</p>
+<p>私は「抜粋」をdescriptionを入れるようにしており、ここも言語別に入力可能になっています。<br><img src="http://creamo.jp/wp/wp-content/uploads/2012/12/description.jpg" alt="Description" title="description.jpg"></p>
+<h3 id="メニューの設定">メニューの設定</h3><p>現時点で、メニューページのナビゲーションラベルは分割されていません。</p>
+<p>そういう時はどうするのか？</p>
+<p>実は言語切替はこのようにタグに入れられて言語別に管理されています。入力フォームが別れてない場合はこれで言語別に入力することが可能です。</p>
+<p>（表示の関係、記号を全角にしてます）</p>
+<blockquote>
+<p>＜!—:ja—＞採用エントリー＜!—:—＞＜!—:en—＞Jobs Entry＜!—:—＞＜!—:zh—＞收養申請＜!—:—＞＜!—:id—＞Awal Pekerjaan＜!—:—＞＜!—:th—＞ช่องทางสมัครงาน＜!—:—＞</p>
+</blockquote>
+<p>どの言語がどういう値で管理されているかは、先程の設定画面の言語のEditページで確認できます。</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2012/12/qtrans_edit_language.jpg" alt="Qtrans edit language" title="qtrans_edit_language.jpg"></p>
+<h3 id="テンプレート内での言語別表示方法">テンプレート内での言語別表示方法</h3><p>テンプレート内で言語別に表示したいものがある場合はこのようにqTranslate側で用意された関数を使うことで切り分けが出来ます。<br>その代わりqTranslateに依存したテンプレートになってしまうので注意が必要です。phpの「<a href="http://php.net/manual/ja/function.function-exists.php" target="_blank" rel="external">function_exists</a>」関数を使って依存回避するのも手です。</p>
+<p>[php]<br>&lt;?php<br>    if (qtrans_getLanguage() == ‘ja’) {<br>        echo &quot;お知らせ&quot;;<br>    } elseif (qtrans_getLanguage() == ‘en’)  {<br>        echo &quot;NEWS&quot;;<br>    } elseif (qtrans_getLanguage() == ‘zh’)  {<br>        echo &quot;最新動態&quot;;<br>    }<br>?&gt;<br>[/php]</p>
+<p>こんな書き方もできます。<br>[php]&lt;?php _e(&quot;＜!—:ja—＞お知らせ＜!—:—＞＜!—:en—＞NEWS＜!—:—＞&quot;; ?&gt;[/php]<br>[php]&lt;?php _e(&quot;[:ja]お知らせ[:en]NEWS&quot;); ?&gt;[/php]</p>
+<p>他にも表示中の言語にurlを変換する <strong>qtrans_convertURL()</strong>関数などがあります。</p>
+<p>qTranslate用の関数は下記ページに纏められてます。<br><a href="http://www.qianqin.de/qtranslate/forum/viewtopic.php?f=3&amp;t=9" target="_blank" rel="external">qTranslate Forum • View topic - Functions for Developers and Template Authors</a></p>
+<h3 id="日付の表示がおかしい場合の対処">日付の表示がおかしい場合の対処</h3><p>環境によって起こったり起こらなかったりするのでなんとも言えないところなのですが、qTranslateが原因の場合は<strong>「設定 &gt; Language &gt; (言語)Edit」</strong>で、表示方法を指定できます。</p>
+<p>もしくは、<strong>the_date(), the_time(), get_post_time()</strong>等の関数をそれぞれ試してみるというのも手です。<br><img src="http://creamo.jp/wp/wp-content/uploads/2012/12/qtrans_date.png" alt="Qtrans date" title="qtrans_date.png"></p>
+<p>まだまだ状況によっては足りないことがあるかもしれませんが、このような手順でWordPressサイトを多言語化対応させることが出来ます。</p>
+<p>自分のサイトも英語対応させてみたいと持った方はぜひ！</p>
+<p>そのためには英語がある程度書ける必要がありますが･･･ｗ</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>どうも、色々言われてるソシャゲ系の会社で社畜のように働いてるっぽいhirotakaです。</p>
+<p>「<a href="http://2012.wpac.info/">WordPress Advent Calendar 2012</a>」の<strong>10日目に書くはずだった</strong>記事です。</p>
+<p>なんと今日は最終日前日。</p>
+<p>参加していただいた皆さんと主催者の方にはご迷惑かけて申し訳ないです。。。(；´Д｀)</p>
+<p>ということで、本題です。</p>
+<p>最近、多言語化に対応したいという案件が増えてきた気がします。大体は英語 or 中国語対応でしょうか。</p>
+<p>さすがグローバル社会です。英語も全然喋れない僕がビクビクしちゃいます。</p>
+<p>もしそんな案件で「WordPressを使う」という話なら、簡単に対応することが可能なので紹介していきます。]]>
+    
+    </summary>
+    
+      <category term="wordpress" scheme="http://hirotaka11.github.io/categories/wordpress/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[CSS Nite redux, Vol.6 とVol.61に参加しました]]></title>
+    <link href="http://hirotaka11.github.io/diary/cssnite-redux6-vol61/"/>
+    <id>http://hirotaka11.github.io/diary/cssnite-redux6-vol61/</id>
+    <published>2012-01-22T00:00:23.000Z</published>
+    <updated>2015-04-05T10:18:03.000Z</updated>
+    <content type="html"><![CDATA[<p>･･･あけましておめでとうございます。</p>
+<p>まさかの2012年初投稿がいまさらになってしまうとは･･･( ꒪⌓꒪)</p>
+<p>サイトリニューアル後とか正月っぽい豪華なネタじゃないとなぁ･･･とか出し惜しみしてたらほぼ1ヶ月放置しちゃいましたよっと。</p>
+<p>1月14日に「<a href="http://cssnite.jp/redux/vol06/" target="_blank" rel="external">CSS Nite redux, Vol.6 （Shift 5「デザイントレンド」再演）</a>」、1月19日に「<a href="http://cssnite.jp/ginza/vol61/" target="_blank" rel="external">CSS Nite in Ginza, Vol.61 デザインセンスを身につける</a>」に行ってきました。<br><a id="more"></a><br>――エライ人は言いました。</p>
+<p><strong>ブログを書くまでが勉強会だと。</strong></p>
+<p>「勉強会行かないとお前はブログを書かないのか」とか言われそうですが、そもそも勉強会は勉強よりモチベーションアップがメインだったりするので、それはそれでありということで。あと、交流ですね。</p>
+<h3 id="CSS_Nite_redux,_Vol-6_（Shift_5「デザイントレンド」再演）">CSS Nite redux, Vol.6 （Shift 5「デザイントレンド」再演）</h3><p><a href="http://cssnite.jp/redux/vol06/" target="_blank" rel="external"><img src="http://cssnite.jp/images/CSSNiteRedux-6-banner.gif" alt="CSS Nite redux, Vol.6（2012年1月14日開催）"></a><br>これは12月に行われた「<a href="http://lp20.cssnite.jp/" title="Link to CSS Nite LP, Disk 20：Webデザイン行く年来る年（Shift5）" target="_blank" rel="external">CSS Nite LP, Disk 20：Webデザイン行く年来る年（Shift5）</a>」で行われたセッションの一つの再演です。</p>
+<p>2011年の中のベストセッションに選ばれ、個人的にもかなり面白いセッションだったのでまた行ってしまいました。</p>
+<p>内容は+αな感じで、ほとんど内容は前回と変わらない感じでした。補足が結構あったので満足です。</p>
+<p>懇親会は時間が遅いこともあって人数は少なめで、結構充実したお話が出来た気がします。やっぱ人が多過ぎると名刺交換だけで話が深いところまでいかないので、ほどほどな感じのほうが好きです。</p>
+<p>・ツイートまとめ：<a href="http://togetter.com/li/241722" title="Link to CSS Nite redux, Vol.6 （Shift 5「デザイントレンド」再演） - Togetter" target="_blank" rel="external">CSS Nite redux, Vol.6 （Shift 5「デザイントレンド」再演） - Togetter</a></p>
+<p>過去記事：<a href="http://creamo.jp/diary/cssnite-lp20/" target="_blank" rel="external">CSS Nite LP20「Webデザイン行く年来る年」に行ってきました！</a></p>
+<h3 id="CSS_Nite_in_Ginza,_Vol-61_デザインセンスを身につける">CSS Nite in Ginza, Vol.61 デザインセンスを身につける</h3><p><a href="http://cssnite.jp/ginza/vol61/" target="_blank" rel="external"><img src="http://cssnite.jp/images/CSSNiteGinza61_banner.gif" alt="CSS Nite in Ginza, Vol.61"></a></p>
+<p>実は初めて行くCSS Niteの無料版。アップルストアでの講演というのも初めてだったのでちょっと緊張して向かいました。（ホントは結構ギリギリに会社出て慌ててたｗ）</p>
+<p>中はやっぱりオシャレな空間でした。さすがアップル。</p>
+<p>ウジトモコ氏の『デザインセンスを身につける』という本の内容を読んだ前提での講演。本の内容を一言で表現したり、実例を使ったデザインの作業経過はとても参考になりました。</p>
+<p>なにより、デザインに関しては素人みたいなものなので、今回の講演はこれからデザインを学んでいく意思を固めるのに役立ちそうです。</p>
+<p>・スライド、音声：<a href="http://cssnite.jp/archives/post_2284.html" title="Link to CSS Nite in Ginza, Vol.61フォローアップ | CSS Nite公式サイト" target="_blank" rel="external">CSS Nite in Ginza, Vol.61フォローアップ | CSS Nite公式サイト</a></p>
+<p>・ツイートまとめ：<a href="http://togetter.com/li/244208" title="Link to CSS Nite in Ginza, Vol.61 - Togetter" target="_blank" rel="external">CSS Nite in Ginza, Vol.61 - Togetter</a></p>
+<p>今回のテーマだった本は新書サイズなので結構薄く、パパっと読める感じです。</p>
+<p>良かったら手にとってみてください。</p>
+<div class="booklink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="booklink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4797367075%2Fref%3Dnosim" target="_blank" rel="external"><img src="http://ecx.images-amazon.com/images/I/41ia264tQiL._SL160_.jpg" alt=""></a></div><div class="booklink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="booklink-name" style="margin-bottom:10px;line-height:120%"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4797367075%2Fref%3Dnosim" target="_blank" rel="external">デザインセンスを身につける (ソフトバンク新書)</a><div class="booklink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://yomereba.com" target="_blank" rel="external">ヨメレバ</a></div></div><div class="booklink-detail" style="margin-bottom:5px;">ウジ トモコ ソフトバンククリエイティブ 2011-09-20    </div><div class="booklink-link2" style="margin-top:10px;"><div class="shoplinkamazon" style="display:inline;margin-right:5px;background: url('http://img.yomereba.com/yl.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4797367075%2Fref%3Dnosim" title="アマゾン" target="_blank" rel="external">Amazon</a></div><div class="shoplinkrakuten" style="display:inline;margin-right:5px;background: url('http://img.yomereba.com/yl.gif') 0 -50px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194087&amp;p_id=56&amp;pc_id=56&amp;pl_id=637&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F11352083%2F" title="楽天ブックス" target="_blank" rel="external">楽天ブックス</a></div><div class="shoplinkseven" style="display:inline;margin-right:5px;background: url('http://img.yomereba.com/yl.gif') 0 -100px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://click.linksynergy.com/fs-bin/click?id=3map2k12v5E&amp;subid=&amp;offerid=197738.1&amp;type=10&amp;tmpid=1787&amp;RD_PARM1=http%253A%252F%252Fwww.7netshopping.jp%252Fbooks%252Fsearch_result%252F%253Fctgy%253Dbooks%2526code%253D4797367075" title="セブンネットショッピング" target="_blank" rel="external">7net</a></div><div class="shoplinkbk1" style="display:inline;margin-right:5px;background: url('http://img.yomereba.com/yl.gif') 0 -150px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2756067&amp;pid=879867541&amp;vc_url=http%3A%2F%2Fwww.bk1.jp%2FkeywordSearchResult%2F%3Fkeyword%3D4797367075" title="bk1" target="_blank" rel="external">bk1<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2756067&amp;pid=879867541" alt=""></a></div><div class="shoplinkbookoff" style="display:inline;margin-right:5px;background: url('http://img.yomereba.com/yl.gif') 0 -200px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://click.linksynergy.com/fs-bin/click?id=3map2k12v5E&amp;subid=&amp;offerid=169505.1&amp;type=10&amp;tmpid=3677&amp;RD_PARM1=http%253A%252F%252Fwww.bookoffonline.co.jp%252Fdisplay%252FL001%252Cbg%253D12%252Cq%253D9784797367072" title="ブックオフオンライン" target="_blank" rel="external">ブックオフ</a></div><div class="shoplinkehon" style="display:inline;margin-right:5px;background: url('http://img.yomereba.com/yl.gif') 0 -250px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2781196&amp;pid=880575064&amp;vc_url=http%3A%2F%2Fwww.e-hon.ne.jp%2Fbec%2FSA%2FDetail%3FrefISBN%3D4797367075" title="e-hon" target="_blank" rel="external">e-hon<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2781196&amp;pid=880575064" alt=""></a></div><div class="shoplinktoshokan" style="display:inline;margin-right:5px;background: url('http://img.yomereba.com/yl.gif') 0 -300px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://calil.jp/book/4797367075" title="図書館" target="_blank" rel="external">図書館</a></div></div></div></div>
+
+<p>新書カバー欲しかったのでついでにAmazonのカバー買いました。</p>
+<p>Amazonレビューで入らないとかなんか言われてますが、とりあえずこのソフトバンク新書シリーズは余裕で入りました。値段の割には良いと思います。</p>
+<div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB000J4P84A%2Fref%3Dnosim" target="_blank" rel="external"><img src="http://ecx.images-amazon.com/images/I/41eOitoL6OL._SL160_.jpg" alt=""></a></div><div class="kaerebalink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB000J4P84A%2Fref%3Dnosim" target="_blank" rel="external">Amazonオリジナル ブックカバー ネイビー 新書サイズ</a><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://kaereba.com" target="_blank" rel="external">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;">  2006-11-01    </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="display:inline;margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fgp%2Fsearch%3Fkeywords%3DAmazon%2583I%2583%258A%2583W%2583i%2583%258B%2520%2583u%2583b%2583N%2583J%2583o%2581%255B%26__mk_ja_JP%3D%2583J%2583%255E%2583J%2583i" target="_blank" rel="external">Amazon</a></div><div class="shoplinkrakuten" style="display:inline;margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -50px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194087&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FAmazon%25E3%2582%25AA%25E3%2583%25AA%25E3%2582%25B8%25E3%2583%258A%25E3%2583%25AB%2520%25E3%2583%2596%25E3%2583%2583%25E3%2582%25AF%25E3%2582%25AB%25E3%2583%2590%25E3%2583%25BC%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0" title="楽天市場" target="_blank" rel="external">楽天市場</a></div><div class="shoplinkyahoo" style="display:inline;margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -150px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2781196&amp;pid=880190276&amp;vc_url=http%3A%2F%2Fshopping.search.yahoo.co.jp%2Fsearch%3FuIv%3Don%26ei%3DUTF-8%26tab_ex%3Dcommerce%26slider%3D0%26va%3DAmazon%25E3%2582%25AA%25E3%2583%25AA%25E3%2582%25B8%25E3%2583%258A%25E3%2583%25AB%2520%25E3%2583%2596%25E3%2583%2583%25E3%2582%25AF%25E3%2582%25AB%25E3%2583%2590%25E3%2583%25BC" title="Yahooショッピング" target="_blank" rel="external">Yahooショッピング<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2781196&amp;pid=880190276" alt=""></a></div><div class="shoplinkyahooAuc" style="display:inline;margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -150px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2781196&amp;pid=880190274&amp;vc_url=http%3A%2F%2Fauctions.search.yahoo.co.jp%2Fsearch%3Fvo%3D%26ve%3D%26auccat%3D0%26aucminprice%3D%26aucmaxprice%3D%26aucmin_bidorbuy_price%3D%26aucmax_bidorbuy_price%3D%26loc_cd%3D0%26abatch%3D0%26istatus%3D0%26filtered%3D1%26ei%3DUTF-8%26tab_ex%3Dcommerce%26va%3DAmazon%25E3%2582%25AA%25E3%2583%25AA%25E3%2582%25B8%25E3%2583%258A%25E3%2583%25AB%2520%25E3%2583%2596%25E3%2583%2583%25E3%2582%25AF%25E3%2582%25AB%25E3%2583%2590%25E3%2583%25BC" title="Yahooオークション" target="_blank" rel="external">Yahooオークション<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2781196&amp;pid=880190274" alt=""></a></div><div class="shoplinkseven" style="display:inline;margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -100px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://click.linksynergy.com/fs-bin/click?id=3map2k12v5E&amp;subid=&amp;offerid=197738.1&amp;type=10&amp;tmpid=1787&amp;RD_PARM1=http%253A%252F%252Fwww.7netshopping.jp%252Fall%252Fsearch_result%252F-%252Fbprice%252Foff%252Fsort%252F0%252Fkword_in%252FAmazon%2525E3%252582%2525AA%2525E3%252583%2525AA%2525E3%252582%2525B8%2525E3%252583%25258A%2525E3%252583%2525AB%252520%2525E3%252583%252596%2525E3%252583%252583%2525E3%252582%2525AF%2525E3%252582%2525AB%2525E3%252583%252590%2525E3%252583%2525BC%252FallGoods%252Fon%252Fsubmit.x%252F30%252Fdisp_result%252F1%252Fsubmit.y%252F9%252Fprvlg%252Foff%252Fnobuy%252Fon%252FsetProduct%252Foff%252Foop%252Fon%252Fctgy%252Fall%252FfromKeywordSearch%252Ftrue" title="セブンネットショッピング" target="_blank" rel="external">7net</a></div></div></div></div>]]></content>
+    <summary type="html">
+    <![CDATA[<p>･･･あけましておめでとうございます。</p>
+<p>まさかの2012年初投稿がいまさらになってしまうとは･･･( ꒪⌓꒪)</p>
+<p>サイトリニューアル後とか正月っぽい豪華なネタじゃないとなぁ･･･とか出し惜しみしてたらほぼ1ヶ月放置しちゃいましたよっと。</p>
+<p>1月14日に「<a href="http://cssnite.jp/redux/vol06/">CSS Nite redux, Vol.6 （Shift 5「デザイントレンド」再演）</a>」、1月19日に「<a href="http://cssnite.jp/ginza/vol61/">CSS Nite in Ginza, Vol.61 デザインセンスを身につける</a>」に行ってきました。<br>]]>
+    
+    </summary>
+    
+      <category term="diary" scheme="http://hirotaka11.github.io/categories/diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[たとえ萌えアニメだろうと感動させる力を持っていたりするのだ]]></title>
+    <link href="http://hirotaka11.github.io/diary/moe-moved/"/>
+    <id>http://hirotaka11.github.io/diary/moe-moved/</id>
+    <published>2011-12-13T23:30:59.000Z</published>
+    <updated>2015-04-05T10:22:52.000Z</updated>
+    <content type="html"><![CDATA[<p>お前は一体どうしたんだと思う人もいるだろう。</p>
+<p><strong>私もそう思う。</strong></p>
+<p>こんな記事を書いたキッカケはあるアニメを見て感動してリピートしているから(←現在進行形)。</p>
+<p>今回は私の趣味を暴露するわけでもないですが、少しだけアニメーションについて語っちゃいます。</p>
+<p>→長文になりましたｗ(・ω&lt;)ﾃﾍﾍﾟﾛ</p>
+<p><a id="more"></a>萌え文化を否定する人も多くいると思います。別にその方を否定するわけでも全然無いです。</p>
+<p>でも、素晴らしい作品には素直に感動して、素直に評価したいと思っているので、実名出しだとしても私は公にこういうことを書いたりします。</p>
+<p>まぁ実際は、クリエイターの方は固く考える人は少ないですし、意外と好きな人が多いというのがイメージとして強いんですけどね。</p>
+<h3 id="この記事を書いてしまった原因">この記事を書いてしまった原因</h3><p>で、今日見てしまったのが「THE IDOLM@STER(アイドルマスター)」の第20話「約束」</p>
+<p>(12月19日まで視聴可能)</p>
+<p><script type="text/javascript" src="http://ext.nicovideo.jp/thumb_watch/1322715861?w=490&h=307"></script><noscript><a href="http://www.nicovideo.jp/watch/1322715861" target="_blank" rel="external">【ニコニコ動画】アイドルマスター 第20話「約束」</a></noscript></p>
+<p>ゲームが原作なこのアニメなんですが、今まで見てない人でも1話だけで大体完結してるので見られると思います。</p>
+<p>展開的にはベタベタな王道なんですが、最後の盛り上がりと演出が果てしなく素晴らしい。</p>
+<p>しかも、よく見ると凄く細かいところに意味のある描写があって、クリエイター凄い！と感動してしまったわけです。</p>
+<p>出来れば上の本編見て欲しいんですが、こちらに問題のシーンを<br><a href="http://www.youtube.com/watch?v=CECmcNtkuJU" target="_blank" rel="external">http://www.youtube.com/watch?v=CECmcNtkuJU</a></p>
+<p>良い曲だなーとか思ってたら作曲に『エースコンバットZERO』の超名曲で有名な「小林啓樹」さんが関わってた。これは嬉しい。</p>
+<div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB005LS6AQO%2Fref%3Dnosim" target="_blank" rel="external"><img src="http://ecx.images-amazon.com/images/I/51s1Ph8MKkL._SL160_.jpg" alt=""></a></div><div class="kaerebalink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB005LS6AQO%2Fref%3Dnosim" target="_blank" rel="external">アイドルマスター 3(完全生産限定版) [Blu-ray]</a><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://kaereba.com" target="_blank" rel="external">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;">中村繪里子 アニプレックス 2011-12-29    </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2Fexternal-search%2F%3Fmode%3Dblended%26keyword%3D%25E3%2582%25A2%25E3%2582%25A4%25E3%2583%2589%25E3%2583%25AB%25E3%2583%259E%25E3%2582%25B9%25E3%2582%25BF%25E3%2583%25BC%2520blu-ray" target="_blank" rel="external">Amazon</a></div><div class="shoplinkrakuten" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -50px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194087&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E3%2582%25A2%25E3%2582%25A4%25E3%2583%2589%25E3%2583%25AB%25E3%2583%259E%25E3%2582%25B9%25E3%2582%25BF%25E3%2583%25BC%2520blu-ray%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0" title="楽天市場" target="_blank" rel="external">楽天市場</a></div><div class="shoplinkyahoo" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -150px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2781196&amp;pid=880190276&amp;vc_url=http%3A%2F%2Fshopping.search.yahoo.co.jp%2Fsearch%3FuIv%3Don%26ei%3DUTF-8%26tab_ex%3Dcommerce%26slider%3D0%26va%3D%25E3%2582%25A2%25E3%2582%25A4%25E3%2583%2589%25E3%2583%25AB%25E3%2583%259E%25E3%2582%25B9%25E3%2582%25BF%25E3%2583%25BC%2520blu-ray" title="Yahooショッピング" target="_blank" rel="external">Yahooショッピング<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2781196&amp;pid=880190276" alt=""></a></div><div class="shoplinkyahooAuc" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -150px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2781196&amp;pid=880190274&amp;vc_url=http%3A%2F%2Fauctions.search.yahoo.co.jp%2Fsearch%3Fvo%3D%26ve%3D%26auccat%3D0%26aucminprice%3D%26aucmaxprice%3D%26aucmin_bidorbuy_price%3D%26aucmax_bidorbuy_price%3D%26loc_cd%3D0%26abatch%3D0%26istatus%3D0%26filtered%3D1%26ei%3DUTF-8%26tab_ex%3Dcommerce%26va%3D%25E3%2582%25A2%25E3%2582%25A4%25E3%2583%2589%25E3%2583%25AB%25E3%2583%259E%25E3%2582%25B9%25E3%2582%25BF%25E3%2583%25BC%2520blu-ray" title="Yahooオークション" target="_blank" rel="external">Yahooオークション<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2781196&amp;pid=880190274" alt=""></a></div><div class="shoplinkseven" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -100px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://click.linksynergy.com/fs-bin/click?id=3map2k12v5E&amp;subid=&amp;offerid=197738.1&amp;type=10&amp;tmpid=1787&amp;RD_PARM1=http%253A%252F%252Fwww.7netshopping.jp%252Fall%252Fsearch_result%252F-%252Fbprice%252Foff%252Fsort%252F0%252Fkword_in%252F%2525E3%252582%2525A2%2525E3%252582%2525A4%2525E3%252583%252589%2525E3%252583%2525AB%2525E3%252583%25259E%2525E3%252582%2525B9%2525E3%252582%2525BF%2525E3%252583%2525BC%252520blu-ray%252FallGoods%252Fon%252Fsubmit.x%252F30%252Fdisp_result%252F1%252Fsubmit.y%252F9%252Fprvlg%252Foff%252Fnobuy%252Fon%252FsetProduct%252Foff%252Foop%252Fon%252Fctgy%252Fall%252FfromKeywordSearch%252Ftrue" title="セブンネットショッピング" target="_blank" rel="external">7net</a></div></div></div></div>
+
+<h3 id="自分が個人的に惹かれてしまう演出">自分が個人的に惹かれてしまう演出</h3><p>これは私が映像作品を見る際に全て当てはまるのですが、私が注視しているシーンは</p>
+<ul>
+<li><span>感情がむき出しになっている表情のアップ</span></li>
+<li><span>幕開き、幕締めの際の間</span></li>
+</ul>
+<p>上記の動画を見れば分かるんですが、どんなにデフォルメ化したアニメでも感情をむき出しにする一瞬だけリアル描写になり、表情が動きまくります。そこに私は見入ってしまいます。(変態じゃないです)</p>
+<p>よほど力が入ったアニメでしか見られないため数は少ないですが。</p>
+<p>「AKIRA」「スプリガン」「攻殻機動隊」「エヴァンゲリオン」等の有名タイトルに結構見られます。</p>
+<p>最近だと「空の境界」でありました。</p>
+<p>また、「間」です。どんな映像作品でもスタッフロール・EDという締めがあるのですが、締めに入る「間」って凄く重要だと思うわけです。たまにブツ切りにしてる作品がありますが、あれじゃスタッフロール入ったときに余韻に浸ることが出来ません。意図的にブツ切りになっている場合ももちろんあります。</p>
+<p>でも、スタッフロールの入り方がよくないからなんだかなーと思う映画作品は結構多いです。</p>
+<div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB001HUN1OO%2Fref%3Dnosim" target="_blank" rel="external"><img src="http://ecx.images-amazon.com/images/I/51Rwvgm-xVL._SL160_.jpg" alt=""></a></div><div class="kaerebalink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB001HUN1OO%2Fref%3Dnosim" target="_blank" rel="external">劇場版 「空の境界」 矛盾螺旋【通常版】 [DVD]</a><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://kaereba.com" target="_blank" rel="external">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;">鈴村健一 アニプレックス 2009-01-28    </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2Fexternal-search%2F%3Fmode%3Dblended%26keyword%3D%25E7%259F%259B%25E7%259B%25BE%25E8%259E%25BA%25E6%2597%258B%2520%25E9%2580%259A%25E5%25B8%25B8%25E7%2589%2588" target="_blank" rel="external">Amazon</a></div><div class="shoplinkrakuten" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -50px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194087&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E7%259F%259B%25E7%259B%25BE%25E8%259E%25BA%25E6%2597%258B%2520%25E9%2580%259A%25E5%25B8%25B8%25E7%2589%2588%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0" title="楽天市場" target="_blank" rel="external">楽天市場</a></div><div class="shoplinkyahoo" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -150px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2781196&amp;pid=880190276&amp;vc_url=http%3A%2F%2Fshopping.search.yahoo.co.jp%2Fsearch%3FuIv%3Don%26ei%3DUTF-8%26tab_ex%3Dcommerce%26slider%3D0%26va%3D%25E7%259F%259B%25E7%259B%25BE%25E8%259E%25BA%25E6%2597%258B%2520%25E9%2580%259A%25E5%25B8%25B8%25E7%2589%2588" title="Yahooショッピング" target="_blank" rel="external">Yahooショッピング<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2781196&amp;pid=880190276" alt=""></a></div><div class="shoplinkyahooAuc" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -150px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2781196&amp;pid=880190274&amp;vc_url=http%3A%2F%2Fauctions.search.yahoo.co.jp%2Fsearch%3Fvo%3D%26ve%3D%26auccat%3D0%26aucminprice%3D%26aucmaxprice%3D%26aucmin_bidorbuy_price%3D%26aucmax_bidorbuy_price%3D%26loc_cd%3D0%26abatch%3D0%26istatus%3D0%26filtered%3D1%26ei%3DUTF-8%26tab_ex%3Dcommerce%26va%3D%25E7%259F%259B%25E7%259B%25BE%25E8%259E%25BA%25E6%2597%258B%2520%25E9%2580%259A%25E5%25B8%25B8%25E7%2589%2588" title="Yahooオークション" target="_blank" rel="external">Yahooオークション<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2781196&amp;pid=880190274" alt=""></a></div><div class="shoplinkseven" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -100px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://click.linksynergy.com/fs-bin/click?id=3map2k12v5E&amp;subid=&amp;offerid=197738.1&amp;type=10&amp;tmpid=1787&amp;RD_PARM1=http%253A%252F%252Fwww.7netshopping.jp%252Fall%252Fsearch_result%252F-%252Fbprice%252Foff%252Fsort%252F0%252Fkword_in%252F%2525E7%25259F%25259B%2525E7%25259B%2525BE%2525E8%25259E%2525BA%2525E6%252597%25258B%252520%2525E9%252580%25259A%2525E5%2525B8%2525B8%2525E7%252589%252588%252FallGoods%252Fon%252Fsubmit.x%252F30%252Fdisp_result%252F1%252Fsubmit.y%252F9%252Fprvlg%252Foff%252Fnobuy%252Fon%252FsetProduct%252Foff%252Foop%252Fon%252Fctgy%252Fall%252FfromKeywordSearch%252Ftrue" title="セブンネットショッピング" target="_blank" rel="external">7net</a></div></div></div></div>
+
+<h3 id="昨今の萌えアニメはハーレム系と日常系ばかり">昨今の萌えアニメはハーレム系と日常系ばかり</h3><p>これはある意味商業的に仕方ないことですが、もうちょっと色んな種類のものがあると嬉しいですよね。萌えでハーレム系のアニメが一番売れるんですよね。中身がなくてもｗ 今の人気ラノベって大体そうです。</p>
+<p>「けいおん！」のように女性しか登場しない日常系アニメも売れたりします。</p>
+<p>ちなみに日常系の漫画やアニメが流行るのは日本の特徴的な市場だったりします。日々のストレスの反映なんでしょうかね〜。</p>
+<p>また、「万人向け=ジブリ風」というのもおかしい気がします。とりあえずジブリ風にしておけば売れて、万人向けになるという考えで作られ消えていった作品がどれだけあるのか･･･。</p>
+<p>私の好きな細田監督の作品はジブリっぽさからは完全とは言いませんが良い感じに離れていると思います。宮崎監督が自分の下に置くのは勿体無くてジブリに入れなかったという話がありますが、やはりそういうことなんでしょうかねぇ。</p>
+<p>多くの人に認知されることになった「サマーウォーズ」自体、何年も前に制作した「デジモンアドベンチャー ぼくらのウォーゲーム」を万人向けに焼き直したものですからね。たぶん、私のように「ウォーゲーム」をリアルタイムで見た人にとっては「あれ、サマーウォーズのオチの展開まで一緒じゃんｗ」という感想を抱いたかと思います。</p>
+<p>否定するわけでもないんですが、もっといろんなことやって欲しいです。</p>
+<div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB003N4QAZY%2Fref%3Dnosim" target="_blank" rel="external"><img src="http://ecx.images-amazon.com/images/I/61T0u4O7KDL._SL160_.jpg" alt=""></a></div><div class="kaerebalink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB003N4QAZY%2Fref%3Dnosim" target="_blank" rel="external">サマーウォーズ スタンダード・エディション [Blu-ray]</a><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://kaereba.com" target="_blank" rel="external">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;">神木隆之介 バップ 2010-08-01    </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2Fexternal-search%2F%3Fmode%3Dblended%26keyword%3D%25E3%2582%25B5%25E3%2583%259E%25E3%2583%25BC%25E3%2582%25A6%25E3%2582%25A9%25E3%2583%25BC%25E3%2582%25BA" target="_blank" rel="external">Amazon</a></div><div class="shoplinkrakuten" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -50px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194087&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E3%2582%25B5%25E3%2583%259E%25E3%2583%25BC%25E3%2582%25A6%25E3%2582%25A9%25E3%2583%25BC%25E3%2582%25BA%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0" title="楽天市場" target="_blank" rel="external">楽天市場</a></div><div class="shoplinkyahoo" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -150px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2781196&amp;pid=880190276&amp;vc_url=http%3A%2F%2Fshopping.search.yahoo.co.jp%2Fsearch%3FuIv%3Don%26ei%3DUTF-8%26tab_ex%3Dcommerce%26slider%3D0%26va%3D%25E3%2582%25B5%25E3%2583%259E%25E3%2583%25BC%25E3%2582%25A6%25E3%2582%25A9%25E3%2583%25BC%25E3%2582%25BA" title="Yahooショッピング" target="_blank" rel="external">Yahooショッピング<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2781196&amp;pid=880190276" alt=""></a></div><div class="shoplinkyahooAuc" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -150px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2781196&amp;pid=880190274&amp;vc_url=http%3A%2F%2Fauctions.search.yahoo.co.jp%2Fsearch%3Fvo%3D%26ve%3D%26auccat%3D0%26aucminprice%3D%26aucmaxprice%3D%26aucmin_bidorbuy_price%3D%26aucmax_bidorbuy_price%3D%26loc_cd%3D0%26abatch%3D0%26istatus%3D0%26filtered%3D1%26ei%3DUTF-8%26tab_ex%3Dcommerce%26va%3D%25E3%2582%25B5%25E3%2583%259E%25E3%2583%25BC%25E3%2582%25A6%25E3%2582%25A9%25E3%2583%25BC%25E3%2582%25BA" title="Yahooオークション" target="_blank" rel="external">Yahooオークション<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2781196&amp;pid=880190274" alt=""></a></div><div class="shoplinkseven" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -100px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://click.linksynergy.com/fs-bin/click?id=3map2k12v5E&amp;subid=&amp;offerid=197738.1&amp;type=10&amp;tmpid=1787&amp;RD_PARM1=http%253A%252F%252Fwww.7netshopping.jp%252Fall%252Fsearch_result%252F-%252Fbprice%252Foff%252Fsort%252F0%252Fkword_in%252F%2525E3%252582%2525B5%2525E3%252583%25259E%2525E3%252583%2525BC%2525E3%252582%2525A6%2525E3%252582%2525A9%2525E3%252583%2525BC%2525E3%252582%2525BA%252FallGoods%252Fon%252Fsubmit.x%252F30%252Fdisp_result%252F1%252Fsubmit.y%252F9%252Fprvlg%252Foff%252Fnobuy%252Fon%252FsetProduct%252Foff%252Foop%252Fon%252Fctgy%252Fall%252FfromKeywordSearch%252Ftrue" title="セブンネットショッピング" target="_blank" rel="external">7net</a></div></div></div></div>
+
+<h3 id="萌えだけじゃ、ないんだよ！">萌えだけじゃ、ないんだよ！</h3><p>話を戻しますが、感動するアニメも数はそこまで多くはないですが存在します。</p>
+<p>別に萌えアニメじゃなくてもいいです。</p>
+<p>なんだかんだでディズニー好きな私はミッキーの白黒のアニメーションを何十回も見ましたし、「白雪姫」も、「美女と野獣」も「アラジン」も「ライオンキング」も摺り切れるほど見ました(当時はビデオテープ→BD買い直し)。</p>
+<p>特に「白雪姫」は世界初のカラー長編アニメで1950年制作なのにあれなんですから、ホント感動しますよね。感動のベクトルが違いますがｗ</p>
+<p>「CLANNAD」とかぜひ見ていただきたいとか思うのですが、絵が思いっきり萌えキャラですし、50話あるので勧められるものじゃないです。最後の10話くらい見ればなんとかなるかも･･･ｗ</p>
+<p>私が個人的に好きなのもあるんですが、日本だけでなく、海外のフォーラムでも現在1位の座を貫いているので、十分見るに値するアニメだと思います。</p>
+<p>･･････なぜこんなに長文になってしまったのか(； ･`д･´)</p>
+<p>ま、たまには好きなことを語ってもいいよね</p>
+<div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB004HB2VJG%2Fref%3Dnosim" target="_blank" rel="external"><img src="http://ecx.images-amazon.com/images/I/51kHFaD%2BLGL._SL160_.jpg" alt=""></a></div><div class="kaerebalink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB004HB2VJG%2Fref%3Dnosim" target="_blank" rel="external">CLANNAD AFTER STORY Blu-ray Box【初回限定生産】</a><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://kaereba.com" target="_blank" rel="external">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;">中村悠一 ポニーキャニオン 2011-04-20    </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2Fexternal-search%2F%3Fmode%3Dblended%26keyword%3DCLANNAD%2520Blu-ray%2520Box" target="_blank" rel="external">Amazon</a></div><div class="shoplinkrakuten" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -50px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194087&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FCLANNAD%2520Blu-ray%2520Box%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0" title="楽天市場" target="_blank" rel="external">楽天市場</a></div><div class="shoplinkyahoo" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -150px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2781196&amp;pid=880190276&amp;vc_url=http%3A%2F%2Fshopping.search.yahoo.co.jp%2Fsearch%3FuIv%3Don%26ei%3DUTF-8%26tab_ex%3Dcommerce%26slider%3D0%26va%3DCLANNAD%2520Blu-ray%2520Box" title="Yahooショッピング" target="_blank" rel="external">Yahooショッピング<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2781196&amp;pid=880190276" alt=""></a></div><div class="shoplinkyahooAuc" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -150px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2781196&amp;pid=880190274&amp;vc_url=http%3A%2F%2Fauctions.search.yahoo.co.jp%2Fsearch%3Fvo%3D%26ve%3D%26auccat%3D0%26aucminprice%3D%26aucmaxprice%3D%26aucmin_bidorbuy_price%3D%26aucmax_bidorbuy_price%3D%26loc_cd%3D0%26abatch%3D0%26istatus%3D0%26filtered%3D1%26ei%3DUTF-8%26tab_ex%3Dcommerce%26va%3DCLANNAD%2520Blu-ray%2520Box" title="Yahooオークション" target="_blank" rel="external">Yahooオークション<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2781196&amp;pid=880190274" alt=""></a></div><div class="shoplinkseven" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -100px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://click.linksynergy.com/fs-bin/click?id=3map2k12v5E&amp;subid=&amp;offerid=197738.1&amp;type=10&amp;tmpid=1787&amp;RD_PARM1=http%253A%252F%252Fwww.7netshopping.jp%252Fall%252Fsearch_result%252F-%252Fbprice%252Foff%252Fsort%252F0%252Fkword_in%252FCLANNAD%252520Blu-ray%252520Box%252FallGoods%252Fon%252Fsubmit.x%252F30%252Fdisp_result%252F1%252Fsubmit.y%252F9%252Fprvlg%252Foff%252Fnobuy%252Fon%252FsetProduct%252Foff%252Foop%252Fon%252Fctgy%252Fall%252FfromKeywordSearch%252Ftrue" title="セブンネットショッピング" target="_blank" rel="external">7net</a></div></div></div></div><br><div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB002GRX110%2Fref%3Dnosim" target="_blank" rel="external"><img src="http://ecx.images-amazon.com/images/I/51b1nZJeblL._SL160_.jpg" alt=""></a></div><div class="kaerebalink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB002GRX110%2Fref%3Dnosim" target="_blank" rel="external">白雪姫 ダイヤモンド・コレクション/ブルーレイ (本編DVD付) [Blu-ray]</a><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://kaereba.com" target="_blank" rel="external">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;">ディズニー ウォルト・ディズニー・ジャパン株式会社 2009-11-04    </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2Fexternal-search%2F%3Fmode%3Dblended%26keyword%3D%25E7%2599%25BD%25E9%259B%25AA%25E5%25A7%25AB%2520blu-ray" target="_blank" rel="external">Amazon</a></div><div class="shoplinkrakuten" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -50px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194087&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E7%2599%25BD%25E9%259B%25AA%25E5%25A7%25AB%2520blu-ray%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0" title="楽天市場" target="_blank" rel="external">楽天市場</a></div><div class="shoplinkyahoo" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -150px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2781196&amp;pid=880190276&amp;vc_url=http%3A%2F%2Fshopping.search.yahoo.co.jp%2Fsearch%3FuIv%3Don%26ei%3DUTF-8%26tab_ex%3Dcommerce%26slider%3D0%26va%3D%25E7%2599%25BD%25E9%259B%25AA%25E5%25A7%25AB%2520blu-ray" title="Yahooショッピング" target="_blank" rel="external">Yahooショッピング<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2781196&amp;pid=880190276" alt=""></a></div><div class="shoplinkyahooAuc" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -150px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2781196&amp;pid=880190274&amp;vc_url=http%3A%2F%2Fauctions.search.yahoo.co.jp%2Fsearch%3Fvo%3D%26ve%3D%26auccat%3D0%26aucminprice%3D%26aucmaxprice%3D%26aucmin_bidorbuy_price%3D%26aucmax_bidorbuy_price%3D%26loc_cd%3D0%26abatch%3D0%26istatus%3D0%26filtered%3D1%26ei%3DUTF-8%26tab_ex%3Dcommerce%26va%3D%25E7%2599%25BD%25E9%259B%25AA%25E5%25A7%25AB%2520blu-ray" title="Yahooオークション" target="_blank" rel="external">Yahooオークション<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2781196&amp;pid=880190274" alt=""></a></div><div class="shoplinkseven" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -100px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://click.linksynergy.com/fs-bin/click?id=3map2k12v5E&amp;subid=&amp;offerid=197738.1&amp;type=10&amp;tmpid=1787&amp;RD_PARM1=http%253A%252F%252Fwww.7netshopping.jp%252Fall%252Fsearch_result%252F-%252Fbprice%252Foff%252Fsort%252F0%252Fkword_in%252F%2525E7%252599%2525BD%2525E9%25259B%2525AA%2525E5%2525A7%2525AB%252520blu-ray%252FallGoods%252Fon%252Fsubmit.x%252F30%252Fdisp_result%252F1%252Fsubmit.y%252F9%252Fprvlg%252Foff%252Fnobuy%252Fon%252FsetProduct%252Foff%252Foop%252Fon%252Fctgy%252Fall%252FfromKeywordSearch%252Ftrue" title="セブンネットショッピング" target="_blank" rel="external">7net</a></div></div></div></div>]]></content>
+    <summary type="html">
+    <![CDATA[<p>お前は一体どうしたんだと思う人もいるだろう。</p>
+<p><strong>私もそう思う。</strong></p>
+<p>こんな記事を書いたキッカケはあるアニメを見て感動してリピートしているから(←現在進行形)。</p>
+<p>今回は私の趣味を暴露するわけでもないですが、少しだけアニメーションについて語っちゃいます。</p>
+<p>→長文になりましたｗ(・ω&lt;)ﾃﾍﾍﾟﾛ</p>
+<p>]]>
+    
+    </summary>
+    
+      <category term="diary" scheme="http://hirotaka11.github.io/categories/diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[クリスマスは2011年も終了いたしました]]></title>
+    <link href="http://hirotaka11.github.io/diary/xmas-end-2011/"/>
+    <id>http://hirotaka11.github.io/diary/xmas-end-2011/</id>
+    <published>2011-12-12T23:30:50.000Z</published>
+    <updated>2015-04-05T10:26:43.000Z</updated>
+    <content type="html"><![CDATA[<p>今年も例年通り、クリスマス終了のお知らせです。</p>
+<p>12月入ってすぐ書くはずの記事だったんですがタイミングを逃してしまいましたよ。(;´д｀)ﾄﾎﾎ…</p>
+<p>今回はなんと「クリスマス終了のお知らせカレンダー」がお目見えです。</p>
+<p><a href="http://zeller-lab.com/goodbye-xmas/" title="Link to クリスマス終了のお知らせカレンダー" target="_blank" rel="external">クリスマス終了のお知らせカレンダー</a></p>
+<p>※作成者はたけさん(<a href="https://twitter.com/#!/take_it02" target="_blank" rel="external">@take_it02</a>)とシグさん(<a href="http://twitter.com/#!/ShigZag" target="_blank" rel="external">@ShigZag</a>)です。</p>
+<p>リンク先に壁紙が公開されていますので、みなさんもありがたく12月23日を3日間迎えましょうｗ<br><a id="more"></a>[browsershot url=”<a href="http://zeller-lab.com/goodbye-xmas/" target="_blank" rel="external">http://zeller-lab.com/goodbye-xmas/</a>“ width=”400”] <a href="http://zeller-lab.com/goodbye-xmas/" title="クリスマス終了のお知らせカレンダー" target="_blank" rel="external">クリスマス終了のお知らせカレンダー</a></p>
+<p>このカレンダーの元ネタは一時話題になった <a href="http://www.asahi.com/national/update/1115/SEB201111150073.html" title="Link to asahi.com（朝日新聞社）：２日の翌日は「５日」　誤りだらけのカレンダー交換へ - 社会" target="_blank" rel="external">asahi.com（朝日新聞社）：２日の翌日は「５日」　誤りだらけのカレンダー交換へ - 社会</a> ですね。</p>
+<p>出版社とかも著者に確認を取って修正部分が見つかったとしても、そのまま販売することがよくあるので別に驚きはしません。そのくらい校正とか検品がおざなりになりやすいってことです。</p>
+<p>この「クリスマス終了カレンダー」はネタじゃなくても、かわいいイラストの壁紙なので普通に使えると思います。</p>
+<p>だからと言って、このカレンダーを見て仕事でミスをしちゃダメですけどねｗ</p>
+<p>クリスマス終了に合わせてネタサービスリリースしようと思ってたんですが、間に合いそうにないのでバレンタインまでに一発仕込みたいですね･･･。</p>
+<p>カレンダー設定しながら↓の動画でもどうぞ(・∀・)つ</p>
+<p><a href="http://www.youtube.com/watch?v=b2d7UhK5SAE" target="_blank" rel="external">http://www.youtube.com/watch?v=b2d7UhK5SAE</a></p>
+<p>アイキャッチ写真：&copy; <a href="http://www.flickr.com/photos/lilivanili/1429959956/" title="loneliness / lilivanili" target="_blank" rel="external">loneliness / lilivanili</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>今年も例年通り、クリスマス終了のお知らせです。</p>
+<p>12月入ってすぐ書くはずの記事だったんですがタイミングを逃してしまいましたよ。(;´д｀)ﾄﾎﾎ…</p>
+<p>今回はなんと「クリスマス終了のお知らせカレンダー」がお目見えです。</p>
+<p><a href="http://zeller-lab.com/goodbye-xmas/" title="Link to クリスマス終了のお知らせカレンダー">クリスマス終了のお知らせカレンダー</a></p>
+<p>※作成者はたけさん(<a href="https://twitter.com/#!/take_it02">@take_it02</a>)とシグさん(<a href="http://twitter.com/#!/ShigZag">@ShigZag</a>)です。</p>
+<p>リンク先に壁紙が公開されていますので、みなさんもありがたく12月23日を3日間迎えましょうｗ<br>]]>
+    
+    </summary>
+    
+      <category term="ネタ" scheme="http://hirotaka11.github.io/tags/%E3%83%8D%E3%82%BF/"/>
+    
+      <category term="diary" scheme="http://hirotaka11.github.io/categories/diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[CSS Nite LP20「Webデザイン行く年来る年」に行ってきました！]]></title>
+    <link href="http://hirotaka11.github.io/diary/cssnite-lp20/"/>
+    <id>http://hirotaka11.github.io/diary/cssnite-lp20/</id>
+    <published>2011-12-11T23:30:25.000Z</published>
+    <updated>2015-04-05T10:17:57.000Z</updated>
+    <content type="html"><![CDATA[<p>ベルサール神保町で12月10日(土)に開催された「<a href="http://lp20.cssnite.jp/#banners" title="Link to CSS Nite LP, Disk 20：Webデザイン行く年来る年（Shift5）" target="_blank" rel="external">CSS Nite LP, Disk 20：Webデザイン行く年来る年（Shift5）</a>」に行ってきました。</p>
+<p>CSS NiteはLP19と続き、これで2回目の参加となるのですが、一年の締めくくりとして内容満載のセッションばかりで充実感が凄かったです。その代わりに、内容量が多すぎてついていくのに必死な部分もありましたがｗ</p>
+<p>かなり面白かった「デザイントレンド」が再演されるかもしれませんのでこちらをチェックしとくと良いかも？</p>
+<p><a href="http://www.zusaar.com/idea/detail/187001" title="Link to 【やってみたい！】CSS Nite LP20（Shift 5）セッション再演版 | イベントのアイデア on Zusaar" target="_blank" rel="external">【やってみたい！】CSS Nite LP20（Shift 5）セッション再演版 | イベントのアイデア on Zusaar</a><a id="more"></a>セッション内容</p>
+<ul>
+<li><span>我々が知る世界の終り（けど大丈夫）　長谷川 恭久</span></li>
+<li><span>2011年のフロントエンド技術　益子 貴寛、小山田 晃浩</span></li>
+<li><span>HTML5のアクセシビリティ　植木 真</span></li>
+<li><span>“みんビズ”で変わる!?今後のWeb制作ビジネス　高畑 哲平、東後 澄人</span></li>
+<li><span>地方のWeb制作ビジネス　後藤 誠、岡崎理枝子、山崎 正宏、蝦名 晶子</span></li>
+<li><span>ツールと制作環境　鷹野 雅弘</span></li>
+<li><span>スマートフォンの2011年　たにぐち まこと、矢野 りん</span></li>
+<li><span>激動の今年を振り返る、師走のWebデザイントレンド60分拡大版!</span></li>
+</ul>
+<p>原　一浩、矢野 りん、坂本 邦夫、小山 智久</p>
+<p>いやー、ホントに充実してました。</p>
+<p>それぞれがどのような内容だったかは大体これ見れば分かります↓</p>
+<p><a href="http://togetter.com/li/225639" title="Link to CSS Nite LP20（Shift 5） #cssnite_shift5 - Togetter" target="_blank" rel="external">CSS Nite LP20（Shift 5） #cssnite_shift5 - Togetter</a></p>
+<p>自分のツイートが意外とあった･･･( ꒪⌓꒪)</p>
+<h3 id="マークアップは新しいことが盛り沢山">マークアップは新しいことが盛り沢山</h3><p>やはり自分はマークアップエンジニアの肩書きが(一応?)あるので、益子さんと小山田さんのHTML5の話はとても参考になり、興味津々で聞いていました。HTML5の情報は自分でも出来るだけ収集していたのですが、使ったことのないライブラリの説明があったりして助かりました。機会があったら使ってみようと思います。</p>
+<p>あと、やっぱりJavaScriptはどうやっても必須になるとのこと。頑張らないと･･･。</p>
+<h3 id="全てが新鮮だったHTML5のアクセシビリティ">全てが新鮮だったHTML5のアクセシビリティ</h3><p>全く調べようとしなかったHTML5のアクセシビリティは新鮮な話が盛り沢山でした。(マークアップエンジニアとしてどうなんだと)</p>
+<p>キーワードは「WAI-ARIA」と「role属性」です。これらを調べていけば自然とアクセシビリティな情報がわんさか出てきます。</p>
+<p>また、アクセシビリティ=高齢者、障がい者 という紐付けでは間違っているという理由付けも聞けてよかったです。iOS5で読み上げソフトであるSiriが登場したおかげで、アクセシビリティの重要性がより高まってきました。ページを閲覧するユーザーがアクセシビリティを意識しないとしても、読み上げソフトがデータを読み取りにいくのですから、将来的になければ困る必須情報になるのは予想できます。</p>
+<h3 id="ツールの話題はもちろんFireworks">ツールの話題はもちろんFireworks</h3><p>かなり使えそうなツール(拡張プラグイン)でした。まだ使ってないので、使用後に記事にしようかと思ってます。</p>
+<p>上記のツイッターまとめにURLとかは載ってるはず。</p>
+<h3 id="スマートフォン激動の年">スマートフォン激動の年</h3><p>スマートフォンの話題は今年は尽きることのない話題ですが、PC用のページから削ってスマートフォン用サイトにするのではなく、スマートフォン用のサイトから付け足してPC用サイトにするという切り替え時期がもう迫っているという話は気になりました。こうなると企画時の考え方がかなり変わってきますね。</p>
+<p>スマートフォンも種類が増えてきて、Android,iPhoneだけではなくBlackBerry,WindowsPhoneも意識しないといけなくなるかもしれません。あと、Webkitオンリーでチェックが楽だったスマートフォンもそろそろ終わりかもしれないですねぇ。正直な話スマホ版のOperaとFirefoxにはそこまで活躍してほしくなかったりｗ</p>
+<p>ついでのように行われたオススメスマートフォンアプリの紹介がとても面白かったので、またやってほしく感じました。みんな色んなアプリを使っているので大変面白いです。</p>
+<h3 id="一番目玉だったWebデザイントレンド">一番目玉だったWebデザイントレンド</h3><p>国内・海外のWebサイトデザインからこれからの流行を予想します。何故こういうデザインになったのか？という理由付けが専門的な方々から聞けたのはかなりの収穫でした。他の方のデザイン理由の裏付けというのは、いつも為になります。</p>
+<p>ここで流行るだろうというポイントを活用して、当サイトのリニューアルを行おうかと思ってたりしますｗ 今月中に出来るといいな･･･いいな･･･</p>
+<h3 id="CSS_Niteの懇親会に初参加">CSS Niteの懇親会に初参加</h3><p>今回初めて懇親会に参加させて頂きました。出演者全員の方とお話するのは無理でしたが、それでも多くの方とお話できて良かったです。僕なんて業界入って半年も経たないぺーぺーなので、お話する内容一つ一つが参考になります。</p>
+<p>まだ聞いてばかりの立場なので、スキルアップして懇親会でもっと技術的なお話が出来るようになるよう目指します。懇親会の度に少しでも成果が出せればいいかなーと思ったりしております。</p>
+<p>かなり個人的な話なのですが･･･、</p>
+<p>今回懇親会を事前予約していたことを忘れていて、なぜか当日枠で申し込むというヘマをやって申し訳ないことをやってしまいました。自分の中でキャンセル待ちに脳内変換されてました。飲み会多いシーズンで情報が混ざっていたのが原因だとは思いますが、お手数おかけしてすみませんでした。</p>
+<p>12月は特に飲み会が多いシーズンで予定調整が難しいとは思いますが、私のようなミスを行わないように注意しましょう。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>ベルサール神保町で12月10日(土)に開催された「<a href="http://lp20.cssnite.jp/#banners" title="Link to CSS Nite LP, Disk 20：Webデザイン行く年来る年（Shift5）">CSS Nite LP, Disk 20：Webデザイン行く年来る年（Shift5）</a>」に行ってきました。</p>
+<p>CSS NiteはLP19と続き、これで2回目の参加となるのですが、一年の締めくくりとして内容満載のセッションばかりで充実感が凄かったです。その代わりに、内容量が多すぎてついていくのに必死な部分もありましたがｗ</p>
+<p>かなり面白かった「デザイントレンド」が再演されるかもしれませんのでこちらをチェックしとくと良いかも？</p>
+<p><a href="http://www.zusaar.com/idea/detail/187001" title="Link to 【やってみたい！】CSS Nite LP20（Shift 5）セッション再演版 | イベントのアイデア on Zusaar">【やってみたい！】CSS Nite LP20（Shift 5）セッション再演版 | イベントのアイデア on Zusaar</a>]]>
+    
+    </summary>
+    
+      <category term="diary" scheme="http://hirotaka11.github.io/categories/diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[WordCamp Tokyo 2011に参加しました！]]></title>
+    <link href="http://hirotaka11.github.io/diary/wctokyo2011/"/>
+    <id>http://hirotaka11.github.io/diary/wctokyo2011/</id>
+    <published>2011-11-28T23:30:13.000Z</published>
+    <updated>2015-04-05T10:24:38.000Z</updated>
+    <content type="html"><![CDATA[<p>去る11月27日(日)品川シーサイド楽天タワー2号館で行われた「WordCamp Tokyo 2011」に参加して参りました！</p>
+<p>WordCampの存在は知っていたのですが、今回初めての参加でした。</p>
+<p>ユーザー、デザイナー、エンジニアという色んな業種の人が集まる勉強会というのは色々新鮮でした。</p>
+<p>■WordCamp Tokyo 2011 | 2011年11月27日(日) 品川シーサイド 楽天タワー2号館</p>
+<p><a href="http://2011.tokyo.wordcamp.org/" target="_blank" rel="external">http://2011.tokyo.wordcamp.org/</a><a id="more"></a></p>
+<h3 id="充実のセッション">充実のセッション</h3><p>セッションの数も多く参考になることがたくさんありました。一部はUstで流れていたようです。</p>
+<p>セッションはブロガー/ユーザートラック、デザイナートラック、テクニカルトラックの3種類に別れて行われてました。</p>
+<p>セッションで紹介されたスライドが続々と公開されているとのことなので、参加されてない方も上記のWordCampの公式サイトから探してみてはどうでしょうか。</p>
+<p>私が参加したセッションは以下のとおりです。</p>
+<ul>
+<li><span>「WordPress初心者からの脱出」　下野宏 氏</span></li>
+<li><span>「早く・良いものを作るための、WordPressサイト構築ワークフロー」　堀内敬子 氏</span></li>
+<li><span>「WordPressでできる、あんなコトそんなコト」　たけ 氏</span></li>
+<li><span>「Keynote: WordPressの現在とこれから」　マクラケン直子 氏</span></li>
+<li><span>「未来を見据えたレスポンシブ・パブリッシング」　こもりまさあき 氏</span></li>
+<li><span>「コンテンツ戦略を意識した今後のCMSの姿」　長谷川恭久 氏</span></li>
+<li><span>「クリーンなWordPressサイトのためのPHPコーディングのお作法―計画的にWordPressを拡張していくためのフレームワーク思考」　原一浩 氏</span></li>
+<li><span>「パネルディスカッション: ブロガーによるブロガーのためのブログ運営のコツ」</span></li>
+</ul>
+<p>堀正岳 氏、五藤隆介 氏、麦酒男・タカハシ 氏</p>
+<p>以上のセッションの内容はここでは深く追求しないです。</p>
+<p>参考にさせていただいたものを自分で実践してみて、それぞれ別で紹介していこうと思います。</p>
+<p>気になったのはデザイナーズトラックにずっと人が密集していたことです。やはりWebデザイナーの方が多い表れだと思います。しかし、意外と私と同じようにWordCamp初参加の方も多く、WordPress経験が浅い方もたくさんいらっしゃいました。</p>
+<p>私も中級者の中では全然応用できてない人間ですから経験浅いっちゃ浅いですね。</p>
+<p>早く機能を使いこなしたいものです。</p>
+<h3 id="やっぱりわぷーがかわいい！">やっぱりわぷーがかわいい！</h3><p>会場でIIJさんが配っていた「わぷーマグカップ」。名刺と交換で引き換えてもらいました。かわいい！</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/11/wctokyo-mag.png" alt="わぷーマグカップ" title="わぷーマグカップ"></p>
+<p>懇親会で登場した今回限定の「雷門わぷーのケーキ」。これもかわいい！<br><img src="http://creamo.jp/wp/wp-content/uploads/2011/11/wctokyo-cake.png" alt="わぷーケーキ" title="懇親会で登場したわぷーケーキ"></p>
+<p>最初から最後までいましたが、実に充実出来ました。</p>
+<p>個人的にはずっとお会いしたかった「たけ」さんと「五藤隆介」さんと名刺交換させていただいたのが大きいです（上記セッションに出られてた方々）。やはり自分を高めるには勉強も大事ですが、交流も大事だと思うので、顔が広い方とお知り合いになりたいという気持ちもあったりします。</p>
+<p>とはいえ、この御二方は以前からずっとTwitterやブログで拝見してたので、お話できただけでも嬉しかったです。</p>
+<p>最後の懇親会の人数もかなり多くて交流も満足です。それでも会えない方がたくさんいたので、次のチャンスに期待したいところです。これだけ人が集まる勉強会もなかなかないと思います。</p>
+<p>次回のWordCampもぜひ参加させていただきます。まぁ、大阪くらいまでなら行きますｗ</p>
+<h3 id="懇親会でひたすら名刺交換（そして飲み会仲間へ？）">懇親会でひたすら名刺交換（そして飲み会仲間へ？）</h3><p>そして、名刺です。</p>
+<p>自分はこのために個人名刺を作成してから行きました。会社の名刺とセットで2枚渡していたのですが、会社の名刺はFacebookしか載ってないので、やはりTwitter、Webサイトも載せておきたいのが常です（Webサイトも宣伝できるし）。あと、個人的に本名よりhirotakaとか呼んで欲しいわけです。（別に本名でも全然構わないんですけどｗ）</p>
+<p>会社の名刺と違って自由に出来るので、やっぱり個人名刺を作ることはお勧めしたいです。デザイナーの方が多いので個性ある名刺ばかりですからね。ネタに走るのも大事なんだと思います。</p>
+<h3 id="僕と名刺交換して友達になってよ！">僕と名刺交換して友達になってよ！</h3><p><strong>そして、私と名刺交換してくださった方はぜひFacebookでも友達になってください！</strong></p>
+<p>名刺交換後はTwitterでフォローしてFacebookでフレンド申請をすぐに行うようにはしているのですが、やはりFacebookを書く方はまだそんなに多くはないので向こうからしていただかないと分からないのです。</p>
+<p>もちろんFacebookやってない方はいいのですが、フレンドになっていいという方は結構いらっしゃるようですので。正直TwitterよりFacebookの方がチェックしやすいんですよｗ</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>去る11月27日(日)品川シーサイド楽天タワー2号館で行われた「WordCamp Tokyo 2011」に参加して参りました！</p>
+<p>WordCampの存在は知っていたのですが、今回初めての参加でした。</p>
+<p>ユーザー、デザイナー、エンジニアという色んな業種の人が集まる勉強会というのは色々新鮮でした。</p>
+<p>■WordCamp Tokyo 2011 | 2011年11月27日(日) 品川シーサイド 楽天タワー2号館</p>
+<p><a href="http://2011.tokyo.wordcamp.org/">http://2011.tokyo.wordcamp.org/</a>]]>
+    
+    </summary>
+    
+      <category term="diary" scheme="http://hirotaka11.github.io/categories/diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Facebookのいいね！を解除する方法(2011/11版)]]></title>
+    <link href="http://hirotaka11.github.io/webtech/facebook-like-release/"/>
+    <id>http://hirotaka11.github.io/webtech/facebook-like-release/</id>
+    <published>2011-11-14T00:00:00.000Z</published>
+    <updated>2015-04-05T10:18:40.000Z</updated>
+    <content type="html"><![CDATA[<p>Google+ページが登場しましたが、やはり本家はFacebookページです。</p>
+<p>Facebookページの魅力は「いいね！」の押しやすさと、その後にいいね！を押したユーザーに対してウォールに配信するというフィード配信と同じようなことが出来ることです。</p>
+<p>ですが、いいね！を押すのが簡単な割に、いいね！を解除する方法が分かりにくいです。別に難しくはないのですが、面倒でいいね！解除せずにミュートしちゃうだけの方もいらっしゃるかもしれません。</p>
+<p>あと、ついつい私のように解除方法忘れちゃう方もいらっしゃるかもしれませんので、メモがわりに載せておきます。<a id="more"></a></p>
+<h3 id="Facebookページをいいね！する方法は主に2通り">Facebookページをいいね！する方法は主に2通り</h3><p>いいね！する方法は本当に単純ですね。</p>
+<p>ほとんどのページではトップにウェルカムページを用意して、上部のいいね！ボタンに矢印を付けて誘導しています。</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/11/fb_pagelike_click.jpg" alt="いいね！を押すだけ！" title="fb_pagelike_click.jpg"></p>
+<p>さらに、Facebookウィジェットである「Like box」を設置すれば、Facebookページに訪れることなくいいね！を増やすことが可能です。これは従来のRSSよりもずっと自然に閲覧者にフィード購読をさせることが出来ます。</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/11/fb_widget.jpg" alt="Facebookウィジェットからいいね！" title="fb_widget.jpg"></p>
+<p>今になっても知識のある人以外にRSS購読というのは敷居が高く、RSSリンクを設置してもいいね！ほどの効果を上げることは出来ないでしょう。</p>
+<p>また、RSSフィードは読み貯めてしまう人もいるのに対し、Facebookをチェックしている人は自然に目にすることになるので、アプローチとしてはRSS購読よりずっと上です。Facebookページがここまで流行した原因の一つと言っても過言ではないでしょう。</p>
+<h3 id="いいね！の解除方法">いいね！の解除方法</h3><p>本題です。とは言っても、とても簡単です。</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/11/Facebook.jpg" alt="Facebook" title="Facebook.jpg"></p>
+<ol>
+<li><span>1. 解除したいFacebookページに行く</span></li>
+<li><span>2. Facebookページ左側のサイドバーの一番下に「いいね！を取り消す」のリンクをクリック</span></li>
+</ol>
+<p>これでFacebookページのいいね！が解除されたことになります。</p>
+<p>とっても簡単なんですが、スクロールしないとまず見えないので、見つけづらいです。</p>
+<p>いいね！しすぎてウォールが流れるのが早くて困ってる人は、閲覧Facebookページを整理してみましょう。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Google+ページが登場しましたが、やはり本家はFacebookページです。</p>
+<p>Facebookページの魅力は「いいね！」の押しやすさと、その後にいいね！を押したユーザーに対してウォールに配信するというフィード配信と同じようなことが出来ることです。</p>
+<p>ですが、いいね！を押すのが簡単な割に、いいね！を解除する方法が分かりにくいです。別に難しくはないのですが、面倒でいいね！解除せずにミュートしちゃうだけの方もいらっしゃるかもしれません。</p>
+<p>あと、ついつい私のように解除方法忘れちゃう方もいらっしゃるかもしれませんので、メモがわりに載せておきます。]]>
+    
+    </summary>
+    
+      <category term="webtech" scheme="http://hirotaka11.github.io/categories/webtech/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Google+ページの作り方とメリット・デメリット]]></title>
+    <link href="http://hirotaka11.github.io/tool/gpluas-page-create/"/>
+    <id>http://hirotaka11.github.io/tool/gpluas-page-create/</id>
+    <published>2011-11-08T23:30:00.000Z</published>
+    <updated>2015-04-05T10:20:34.000Z</updated>
+    <content type="html"><![CDATA[<p>Google+に前々から実装されると言われていた「Google+ページ」が11月8日付けで実装されました。</p>
+<p>既に様々なページで取り上げられています。さすがGoogle+民は情報が早いです。</p>
+<p>あと、何もしてませんが当サイトのGoogle+ページも作成しました。</p>
+<p><a href="https://plus.google.com/b/115128004810013319494/115128004810013319494/posts" title="Link to CreaMo! - Google+" target="_blank" rel="external">CreaMo! - Google+</a></p>
+<p>週末からは何らかのアクションが取れると思いますので、よろしければサークルに入れてやってください。</p>
+<ul>
+<li><a href="http://googlejapan.blogspot.com/2011/11/google.html" title="Link to Google Japan Blog: 「Google+ ページ」で、新しいつながりを" target="_blank" rel="external">Google Japan Blog: 「Google+ ページ」で、新しいつながりを</a></li>
+<li><a href="http://www.itmedia.co.jp/news/articles/1111/08/news020.html" title="Link to Google、Google+の企業ページ「Google+ Page」をスタート - ITmedia ニュース" target="_blank" rel="external">Google、Google+の企業ページ「Google+ Page」をスタート - ITmedia ニュース</a></li>
+<li><a href="http://netafull.net/lifehack/038980.html" title="Link to [N] 「Google+ページ」の作り方" target="_blank" rel="external">[N] 「Google+ページ」の作り方</a></li>
+</ul>
+<p>それではGoogle+ページを簡単に説明していきましょう。<a id="more"></a></p>
+<ul>
+<li><a href="#anc-1">個人アカウントと比較したGoogle+ページのメリット、デメリット</a></li>
+<li><a href="#anc-2">Google+ページの作り方</a></li>
+<li><a href="#anc-3">Google+ページの画面の見方</a></li>
+<li><a href="#anc-4">Google+ページの問題点</a></li>
+<li><a href="#anc-5">Google+ページの使い方を考えてみる</a></li>
+</ul>
+<h3 id="個人アカウントと比較したGoogle+ページのメリット、デメリット">個人アカウントと比較したGoogle+ページのメリット、デメリット</h3><p>Google+ページが追うのはもちろんFacebookページです。</p>
+<p>しかし、Facebookページと同様の自由さがあると思いきや、Google+ページが行えることは個人アカウントと大差ないものでした。</p>
+<p>Google+ページの存在価値を探るべく、メリット・デメリットを見出してみましょう。</p>
+<p><strong>メリット</strong></p>
+<ul>
+<li><span>個人名義ではなく「会社名」「ブランド名」「アプリ」等で作ることが可能</span></li>
+<li><span>公開するユーザーの年齢制限が可能（18歳以上、21歳以上、アルコール関連という分け方）</span></li>
+<li><span>Google+ページそのものの共有がより簡易に</span></li>
+<li><span>Google+内での検索で予測表示されやすい</span></li>
+<li><span>Google検索からの「ダイレクトコネクト」が可能（現時点ではgoogle.comで一部実装）</span></li>
+</ul>
+<p><strong>デメリット</strong></p>
+<ul>
+<li><span>拡大サークル（サークルの共有）が出来ない</span></li>
+<li><span>相手にサークルに入れてもらわないと、こちらからサークルに入れることは不可能</span></li>
+</ul>
+<p>他にもGoogle+ページの売り文句にしている機能はありますが、個人アカウントでも同様なことが出来るので、それは省きました。</p>
+<p>一番の恩恵は個人名義でなくても作成出来るということです。</p>
+<p>しかし、個人アカウントと大差無いので、逆に言えばサブアカウントとしていくつでも「個人アカウントのようなもの」を作成することが出来ますし、現に作成していられる方もいます。</p>
+<p>Facebookページでも芸能人の人たちはそちらで作成しているので間違いではないのでしょう。</p>
+<h3 id="Google+ページの作り方">Google+ページの作り方</h3><p>Google+ページの右下にある「Google+ページを作成」リンクをクリックして作成ページへ行きます。</p>
+<p>また、ページ作成後は左上の個人アカウント名の部分から切り替え可能になります。</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/11/gpluspage_01.jpg" alt="Google+ページ作成ページへ" title="Google+ページ作成ページへ"></p>
+<p>Google+ページを作成する画面になります。</p>
+<p>作成するページのカテゴリを選択しましょう。</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/11/gpluspage_02.jpg" alt="Google+ページを作成ページ" title="Google+ページを作成ページ"></p>
+<p>年齢制限もこの際に選択可能です。</p>
+<p>（18歳以上、21歳以上、アルコール関連という3つの区分）</p>
+<p>確認していませんが、アルコール年齢制限が国ごとに異なるのでこのようになっていると思われます。</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/11/gpluspage_03.jpg" alt="Google+ページ年齢制限" title="Google+ページ年齢制限"></p>
+<p>ページ名さえ入力すれば、Google+ページが公開出来ます。</p>
+<h3 id="Google+ページの画面の見方">Google+ページの画面の見方</h3><p>Google+ページの見方です。</p>
+<p>ほぼ個人アカウントと同じですので、戸惑うことはないと思われます。</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/11/gpluspage_04.jpg" alt="Google+ページ見方" title="Google+ページ見方"></p>
+<h4 id="複数ページを作った場合の管理画面">複数ページを作った場合の管理画面</h4><p>一つのアカウントにつき、複数のページが作れます。</p>
+<p>上限はありませんが、一気に作りすぎると審査に引っかかってしまうかもしれません。</p>
+<p>左上のページ切り替えから「ページを管理」を選択します。</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/11/gpluspage_05.jpg" alt="Google+ページ管理" title="Google+ページ管理"></p>
+<p>「マイページ」画面にたどり着きます。</p>
+<p>このページは自身が作成したGoogle+ページの一覧を見ることができます。</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/11/gpluspage_06.jpg" alt=" マイページ管理画面" title="マイページ管理画面"></p>
+<h3 id="Google+ページの問題点">Google+ページの問題点</h3><p>既に先行しているFacebookページと比べたものになってしまいますが、やはり個人アカウント版のものと変わりなさすぎるのが問題かと思います。</p>
+<p><strong>1.Google+ページ管理者等の管理が出来ない。</strong></p>
+<p>これは早急に対応してほしいです。</p>
+<p>現時点ではGoogle+ページ1つに対する管理者は1人です。企業ページは1人のみの管理では動いていないことが多いので、管理者権限の共有、譲渡が出来るようにするべきです。</p>
+<p>会社のアカウントで良いと思っても、個人アカウントを作らないとGoogle+ページは作成出来ません。</p>
+<p>ただでさえ、個人名でないと判断されるとアカウント停止にされるGoogle+でそんなことは出来ません。</p>
+<p><strong>2.言語毎にページを作成するしかない</strong></p>
+<p>Facebookページも同じと思われる方もいるかもしれませんが、Coca-Colaが行なっているように、ようこそページを言語ごとに切り替えることは可能です。<a href="http://www.facebook.com/cocacola?sk=app_161193133389" title="Link to Coca-Cola" target="_blank" rel="external">Coca-Cola [Facebookページ]</a></p>
+<p>それがGoogle+では出来ません。言語切り替え等のオリジナルなページが作れない点を考えると、Twitterの公式アカウント的な立場と考えると良いかもしれません。</p>
+<p><strong>3.Google+における公式ウィジェットがない</strong><br>Facebookページに需要が高まったのは、Like boxというウィジェットが関係していると考えています。</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/11/likebox_widget.png" alt="Like box" title="Like box"></p>
+<p>当サイトのサイドバーに設置してありますが、このウィジェットのいいね！はFacebookページのいいね！と同期されており、ウィジェットでいいね！をするだけで、いいね！をした人に対してFacebookページで投稿するウォールを配信することができます。</p>
+<p>ウォール配信というのはRSS配信とほぼ同じような効果を持っています。さらにFacebookを使用している人はウォールチェックする頻度が高いので、RSS配信より効果が高いフィード配信をすることが可能になります。</p>
+<p>Google+もサイトに設置したくなるようなウィジェット作成をするべきだと思います。</p>
+<h3 id="Google+ページの使い方を考えてみる">Google+ページの使い方を考えてみる</h3><p>正直な話、今のところはFacebookのウォール以上の使い方が考えられない。いや、同等の使い方は可能ですが、全く同じ文面を流すことが果たして正しいのでしょうか。</p>
+<p>しばらくは、Facebookページと同等の使い方が出まわると思われます。</p>
+<p>現に、開始同時に公開された大手Google+ページに特に目新しい宣伝は見当たりません。</p>
+<p>Amazon</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/11/38a5592ecbd966a85d54eacb710dc513.png" alt="Amazon com  Google+" title="Amazon.com - Google+.png"></p>
+<p>TOYOTA</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/11/028b204b5a74fb6f8d98692f2d4b5993.png" alt="TOYOTA  Google+" title="TOYOTA - Google+.png"></p>
+<p>楽天市場</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/11/a2ff61803ccc9bce5d816ce71ada268c.png" alt="楽天市場 Rakuten Inc  Google+" title="楽天市場（Rakuten, Inc.） - Google+.png"></p>
+<p>しかし、Facebookページ導入が遅かった大手企業がGoogle+ページ公開同時に積極的に参加するということは、Facebookページによるブランド宣伝力が高かったことを肯定します。</p>
+<p>Google+が行く先は結局Facebookと対となる匿名性の交流になると考えられるので、それを見越した上でFacebookページとは異なる独自な広告展開も混ぜて行きたいところです。</p>
+<p>Facebookと唯一異なる点として、Google+ページをサークルしたユーザーをグループ分けすることが出来ます。これによりユーザーのニーズに合わせたアピールを与えることが可能になります。</p>
+<p>･･････が、大量に集まるユーザーをグループ分けするのは手作業しか出来ず大変な作業であり、企業ページに手作業でグループ分け出来る程度の人数しか集まらないのなら、広告として問題です。</p>
+<p>せめて、こちらが指定するようにプロフィールから辿ってグループ分けしてほしいところです。</p>
+<p>「条件：18歳以上〜◯◯歳以下」に対してターゲティングして情報発信できるのなら、マーケティングとしてGoogle+ページの優位性を出せるところなのですが･･･。</p>
+<p>未だに発展途上なGoogle+。Facebookもコロコロと仕様が変化しているが着実に変化しています。</p>
+<p>ニックネーム制を導入するということでやっと、ユーザー側の方を向いたGoogle。果たしてGoogle+ページの存在意義を確立出来るのでしょうか。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Google+に前々から実装されると言われていた「Google+ページ」が11月8日付けで実装されました。</p>
+<p>既に様々なページで取り上げられています。さすがGoogle+民は情報が早いです。</p>
+<p>あと、何もしてませんが当サイトのGoogle+ページも作成しました。</p>
+<p><a href="https://plus.google.com/b/115128004810013319494/115128004810013319494/posts" title="Link to CreaMo! - Google+">CreaMo! - Google+</a></p>
+<p>週末からは何らかのアクションが取れると思いますので、よろしければサークルに入れてやってください。</p>
+<ul>
+<li><a href="http://googlejapan.blogspot.com/2011/11/google.html" title="Link to Google Japan Blog: 「Google+ ページ」で、新しいつながりを">Google Japan Blog: 「Google+ ページ」で、新しいつながりを</a></li>
+<li><a href="http://www.itmedia.co.jp/news/articles/1111/08/news020.html" title="Link to Google、Google+の企業ページ「Google+ Page」をスタート - ITmedia ニュース">Google、Google+の企業ページ「Google+ Page」をスタート - ITmedia ニュース</a></li>
+<li><a href="http://netafull.net/lifehack/038980.html" title="Link to [N] 「Google+ページ」の作り方">[N] 「Google+ページ」の作り方</a></li>
+</ul>
+<p>それではGoogle+ページを簡単に説明していきましょう。]]>
+    
+    </summary>
+    
+      <category term="tool" scheme="http://hirotaka11.github.io/categories/tool/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[ちょっとお金を出して断線が怖くない(・∀・)ｲｲ!!イヤホンを買っちゃえ！]]></title>
+    <link href="http://hirotaka11.github.io/diary/ear-phone-cable/"/>
+    <id>http://hirotaka11.github.io/diary/ear-phone-cable/</id>
+    <published>2011-10-06T17:18:07.000Z</published>
+    <updated>2015-04-05T10:18:30.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>通勤中に音楽を聴いてる人に見て欲しい！</strong></p>
+<p>イヤホンを買い換える時の理由って、皆ほぼ同じで<strong>「ケーブルの根元の断線」</strong>だったりしませんか？</p>
+<p>断線したら買い換えるしかないんですが、私はもうちょっとお金を出して、<strong>「いい音の出るケーブル着脱式イヤホン」</strong>を買うのをオススメしたりしてます。</p>
+<p>多少高くなりますが、断線してもお金を出すのはケーブル代だけで済みます。</p>
+<p>今回は脱着式イヤホンと、良い音を出してくれるポータブル音楽プレイヤーの紹介をしていきます。<a id="more"></a></p>
+<h3 id="ケーブル着脱出来るイヤホンって？">ケーブル着脱出来るイヤホンって？</h3><p>おそらくケーブルが着脱出来るってことを知っている方の方が少ないと思います。</p>
+<p>着脱式で1万円以下のイヤホンは･･･あまりなかったと思います。（タイミング良ければあるかも？今は円高ですからねｗ</p>
+<p>基本、一般的に高級イヤホンと呼ばれる部類に付いている機能です。もちろんケーブル着脱式でない高級イヤホンもありますが、慎重に扱わないといけませんからね。</p>
+<p>高級イヤホンを外に持ち出すならケーブル着脱式にした方が無難です。</p>
+<p>家電製品店で視聴用に置いてあるイヤホンって意外と着脱式のものがないんです。</p>
+<p>アキバヨドバシなどの大手家電量販店は高級イヤホンも視聴できるので是非行ってみて欲しいですね。もちろん、ケースの中に入ってるイヤホンも視聴できることが可能な場合もあるので、店員さんに伺ってみてください。</p>
+<p>でも、展示品イヤホンのケーブル勝手に外しちゃダメですよｗ 店員さんに頼みましょう。着脱式と言っても結構脆くて、雑にやると本体が壊れることもありますからね。</p>
+<p>例として私が普段から愛用している「Ultimet Ears」の「10Pro」が着脱式です。この価格帯のイヤホンでは有名ですし、オススメです。</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/10/2011-10-07-01.45.20.jpg" alt="Ultimet Ears 10Pro" title="Ultimet Ears 10Pro"></p>
+<p>耳に引っ掛けるように、先っちょは針金が入っています。これでうまく耳に合わせましょう。</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/10/2011-10-07-01.46.55.jpg" alt="ケーブルを脱着したとき" title="ケーブルを脱着したとき"></p>
+<p>ケーブルを脱着するとこうなります。これで断線も怖くない。ただし、交換は慎重に行いましょう。</p>
+<p>ケーブルも純正だと安いです(3000円)。(カスタムケーブルってのもあるんですが、それは1万円以上･･･ｗ)</p>
+<p>日本ではロジクールが代理店をしているので、交換用ケーブルはロジクール直販で販売しています。</p>
+<p><a href="http://store.logicool.co.jp/lcs/catalog/" title="Link to ロジクールストア - ロジクールの公式オンラインストア" target="_blank" rel="external">ロジクールストア - ロジクールの公式オンラインストア</a></p>
+<p>特徴として音場が広いです。サラウンドみたいに音に空間があるって感じですかね。定価が4万円なんですがタイミング良ければ（まさに今！）3万円以下で買えます。</p>
+<p>高級イヤホンはほとんどが海外製なので、円高な今はヘッドホンやイヤホンの買い時なんです。世の中は不況ですが、耳を癒しましょうｗ</p>
+<div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB000X23IUO%2Fref%3Dnosim" target="_blank" rel="external"><img src="http://ecx.images-amazon.com/images/I/31jZH%2BdlwbL._SL160_.jpg" alt=""></a></div><div class="kaerebalink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB000X23IUO%2Fref%3Dnosim" target="_blank" rel="external">Ultimate Ears Triple.fi 10 PRO</a><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://kaereba.com" target="_blank" rel="external">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;"> Ultimate Ears 2007-09-28    </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2Fexternal-search%2F%3Fmode%3Dblended%26keyword%3DTriple.fi%252010%2520PRO" target="_blank" rel="external">Amazon</a></div><div class="shoplinkrakuten" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -50px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194087&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FTriple.fi%252010%2520PRO%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0" title="楽天市場" target="_blank" rel="external">楽天市場</a></div><div class="shoplinkyahoo" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -150px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2781196&amp;pid=880190276&amp;vc_url=http%3A%2F%2Fshopping.search.yahoo.co.jp%2Fsearch%3FuIv%3Don%26ei%3DUTF-8%26tab_ex%3Dcommerce%26slider%3D0%26va%3DTriple.fi%252010%2520PRO" title="Yahooショッピング" target="_blank" rel="external">Yahooショッピング<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2781196&amp;pid=880190276" alt=""></a></div><div class="shoplinkyahooAuc" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -150px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2781196&amp;pid=880190274&amp;vc_url=http%3A%2F%2Fauctions.search.yahoo.co.jp%2Fsearch%3Fvo%3D%26ve%3D%26auccat%3D0%26aucminprice%3D%26aucmaxprice%3D%26aucmin_bidorbuy_price%3D%26aucmax_bidorbuy_price%3D%26loc_cd%3D0%26abatch%3D0%26istatus%3D0%26filtered%3D1%26ei%3DUTF-8%26tab_ex%3Dcommerce%26va%3DTriple.fi%252010%2520PRO" title="Yahooオークション" target="_blank" rel="external">Yahooオークション<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2781196&amp;pid=880190274" alt=""></a></div></div></div></div>
+
+<p>もうちょっとお金が出せるなら「SHURE」の「SE535」がオススメ。</p>
+<p>赤色のスペシャル・エディションに興味がわきますね。</p>
+<div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB003YOH8RW%2Fref%3Dnosim" target="_blank" rel="external"><img src="http://ecx.images-amazon.com/images/I/51McZ6CykPL._SL160_.jpg" alt=""></a></div><div class="kaerebalink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB003YOH8RW%2Fref%3Dnosim" target="_blank" rel="external">SHURE 高遮音性イヤホン メタリックブロンズ SE535-V-J</a><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://kaereba.com" target="_blank" rel="external">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;"> SHURE 2010-08-10    </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2Fexternal-search%2F%3Fmode%3Dblended%26keyword%3DSE535" target="_blank" rel="external">Amazon</a></div><div class="shoplinkrakuten" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -50px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194087&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FSE535%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0" title="楽天市場" target="_blank" rel="external">楽天市場</a></div><div class="shoplinkyahoo" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -150px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2781196&amp;pid=880190276&amp;vc_url=http%3A%2F%2Fshopping.search.yahoo.co.jp%2Fsearch%3FuIv%3Don%26ei%3DUTF-8%26tab_ex%3Dcommerce%26slider%3D0%26va%3DSE535" title="Yahooショッピング" target="_blank" rel="external">Yahooショッピング<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2781196&amp;pid=880190276" alt=""></a></div><div class="shoplinkyahooAuc" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -150px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2781196&amp;pid=880190274&amp;vc_url=http%3A%2F%2Fauctions.search.yahoo.co.jp%2Fsearch%3Fvo%3D%26ve%3D%26auccat%3D0%26aucminprice%3D%26aucmaxprice%3D%26aucmin_bidorbuy_price%3D%26aucmax_bidorbuy_price%3D%26loc_cd%3D0%26abatch%3D0%26istatus%3D0%26filtered%3D1%26ei%3DUTF-8%26tab_ex%3Dcommerce%26va%3DSE535" title="Yahooオークション" target="_blank" rel="external">Yahooオークション<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2781196&amp;pid=880190274" alt=""></a></div></div></div></div>
+
+<p>3万円くらいが相場なんですが、こんなに出せないって方にもオススメしたいイヤホンがたくさんあります。近いうちに記事にしますので、別の機会に。</p>
+<h3 id="いい音を出すプレーヤー">いい音を出すプレーヤー</h3><p>良いイヤホンを買うのなら、良い音を出してくれるデバイスが欲しいものです。簡単な選び方を紹介。</p>
+<p>AppleはiPhoneへの以降がかなり進んだので、もうiPodという音楽専用プレーヤーを育てる気はないみたいです。</p>
+<p>iPodも一時期は音が悪いと言われていましたが、今はそれほど悪く無いです。イコライザはおまけみたいな扱いですけどねｗ</p>
+<p>iPodなら、今はiPodTouchか、Classicでしょうか。Classicは終わってしまうらしいので残念です。nanoは小さくなりすぎましたねｗ</p>
+<p>日本で今勢いがあるのはWlakman。Sシリーズ、Aシリーズ、Zシリーズと主に3種類の選択肢（他にもあります）がどれがいいか。</p>
+<p><strong>Sシリーズ</strong></p>
+<p>一番売れてるモデルです。スタンダードモデルと言って良いでしょう。良いイヤホンにこだわりがない方はこちらで。</p>
+<p>このモデルにもデジタルノイズキャンセリングが付いたので、十分です。</p>
+<p><strong>Aシリーズ</strong></p>
+<p>音質最重視モデル。ポータブルアンプS-Masterを搭載しています。高いイヤホン使うならこちらに。アンプ搭載のせいでバッテリー短めです。</p>
+<p>付属のイヤホンで十分って方はSシリーズで十分だと思います。</p>
+<p>私は今A849っていう2つ前のモデルを使っていますが、ちょっとホワイトノイズが気になります。</p>
+<p>今回のモデルで更にアンプが進化しホワイトノイズが減少しているらしいので期待です。ただ、分厚くなるので型落ちのA850シリーズを狙うのも有りだと思います。また、タッチパネル化したので、店頭で旧型と比べて触ってから検討した方が良いかも。</p>
+<p><strong>Zシリーズ</strong></p>
+<p>こちらもポータブルアンプS-Master搭載。更にAndroid搭載モデルです。バッテリーは短めですが、Aシリーズと比べると大きな差はありません。</p>
+<p>問題は搭載してるプレーヤーソフトでしょうか。初Android搭載モデルなので、こちらも触ってから購入を検討したいところです。</p>
+<p>iPhoneメインの人が遊びで持つにはちょうど良いかもしれませんね。開発デバイスにも出来ますし。</p>
+<h3 id="一番音が良いプレイヤーは･･･？">一番音が良いプレイヤーは･･･？</h3><p>他のポータブルオーディオプレーヤーを出すとキリがないので、iPodとWalkmanに限定すると、</p>
+<p><strong>iPod + ポータブルアンプ ＞ Walkman+アンプ ＞ Walkman A, Z ＞ 他･･･</strong></p>
+<p>って感じです。なぜこうなるかと言うと、Walkmanはデジタルのままポータブルアンプに出力出来ないんです。必ずコンバータを経由してしまうので、同じアンプを通したとしても、デジタルで出力出来るiPodの方が上回るんです。これはWalkman端子の仕様なんですかね･･･。この辺の仕様については詳しくは知りませんが。</p>
+<p>でも、僕はかさばるのは嫌なのでWalkman使ってます。でも、Macがメインの機種なのでSIM抜きiPhoneをiPod変わりに使うことも多いですｗ</p>
+<div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB005MLPFH0%2Fref%3Dnosim" target="_blank" rel="external"><img src="http://ecx.images-amazon.com/images/I/41NqWdh3oHL._SL160_.jpg" alt=""></a></div><div class="kaerebalink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB005MLPFH0%2Fref%3Dnosim" target="_blank" rel="external">SONY ウォークマン Sシリーズ &lt;メモリータイプ&gt; ワイヤレスヘッドホン付 8GB ブルー NW-S764BT/L</a><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://kaereba.com" target="_blank" rel="external">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;"> ソニー 2011-10-08    </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2Fexternal-search%2F%3Fmode%3Dblended%26keyword%3DNW-S76" target="_blank" rel="external">Amazon</a></div><div class="shoplinkrakuten" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -50px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194087&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FNW-S76%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0" title="楽天市場" target="_blank" rel="external">楽天市場</a></div><div class="shoplinkyahoo" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -150px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2781196&amp;pid=880190276&amp;vc_url=http%3A%2F%2Fshopping.search.yahoo.co.jp%2Fsearch%3FuIv%3Don%26ei%3DUTF-8%26tab_ex%3Dcommerce%26slider%3D0%26va%3DNW-S76" title="Yahooショッピング" target="_blank" rel="external">Yahooショッピング<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2781196&amp;pid=880190276" alt=""></a></div><div class="shoplinkyahooAuc" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -150px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2781196&amp;pid=880190274&amp;vc_url=http%3A%2F%2Fauctions.search.yahoo.co.jp%2Fsearch%3Fvo%3D%26ve%3D%26auccat%3D0%26aucminprice%3D%26aucmaxprice%3D%26aucmin_bidorbuy_price%3D%26aucmax_bidorbuy_price%3D%26loc_cd%3D0%26abatch%3D0%26istatus%3D0%26filtered%3D1%26ei%3DUTF-8%26tab_ex%3Dcommerce%26va%3DNW-S76" title="Yahooオークション" target="_blank" rel="external">Yahooオークション<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2781196&amp;pid=880190274" alt=""></a></div></div></div></div>
+
+<div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB005MLOWUG%2Fref%3Dnosim" target="_blank" rel="external"><img src="http://ecx.images-amazon.com/images/I/41xz%2BaSBf8L._SL160_.jpg" alt=""></a></div><div class="kaerebalink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB005MLOWUG%2Fref%3Dnosim" target="_blank" rel="external">SONY ウォークマン Aシリーズ &lt;メモリータイプ&gt; 64GB ブラック NW-A867/B</a><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://kaereba.com" target="_blank" rel="external">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;"> ソニー 2011-10-08    </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2Fexternal-search%2F%3Fmode%3Dblended%26keyword%3DNW-A86" target="_blank" rel="external">Amazon</a></div><div class="shoplinkrakuten" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -50px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194087&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FNW-A86%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0" title="楽天市場" target="_blank" rel="external">楽天市場</a></div><div class="shoplinkyahoo" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -150px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2781196&amp;pid=880190276&amp;vc_url=http%3A%2F%2Fshopping.search.yahoo.co.jp%2Fsearch%3FuIv%3Don%26ei%3DUTF-8%26tab_ex%3Dcommerce%26slider%3D0%26va%3DNW-A86" title="Yahooショッピング" target="_blank" rel="external">Yahooショッピング<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2781196&amp;pid=880190276" alt=""></a></div><div class="shoplinkyahooAuc" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -150px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2781196&amp;pid=880190274&amp;vc_url=http%3A%2F%2Fauctions.search.yahoo.co.jp%2Fsearch%3Fvo%3D%26ve%3D%26auccat%3D0%26aucminprice%3D%26aucmaxprice%3D%26aucmin_bidorbuy_price%3D%26aucmax_bidorbuy_price%3D%26loc_cd%3D0%26abatch%3D0%26istatus%3D0%26filtered%3D1%26ei%3DUTF-8%26tab_ex%3Dcommerce%26va%3DNW-A86" title="Yahooオークション" target="_blank" rel="external">Yahooオークション<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2781196&amp;pid=880190274" alt=""></a></div></div></div></div>
+
+<div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB005MLPH2S%2Fref%3Dnosim" target="_blank" rel="external"><img src="http://ecx.images-amazon.com/images/I/31qE4StL4oL._SL160_.jpg" alt=""></a></div><div class="kaerebalink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB005MLPH2S%2Fref%3Dnosim" target="_blank" rel="external">SONY ウォークマン Zシリーズ &lt;メモリータイプ&gt; 64GB ブラック NW-Z1070/B</a><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://kaereba.com" target="_blank" rel="external">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;"> ソニー 2011-12-10    </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&amp;p_id=170&amp;pc_id=185&amp;pl_id=4062&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2Fexternal-search%2F%3Fmode%3Dblended%26keyword%3DNW-Z10" target="_blank" rel="external">Amazon</a></div><div class="shoplinkrakuten" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -50px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194087&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FNW-Z10%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0" title="楽天市場" target="_blank" rel="external">楽天市場</a></div><div class="shoplinkyahoo" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -150px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2781196&amp;pid=880190276&amp;vc_url=http%3A%2F%2Fshopping.search.yahoo.co.jp%2Fsearch%3FuIv%3Don%26ei%3DUTF-8%26tab_ex%3Dcommerce%26slider%3D0%26va%3DNW-Z10" title="Yahooショッピング" target="_blank" rel="external">Yahooショッピング<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2781196&amp;pid=880190276" alt=""></a></div><div class="shoplinkyahooAuc" style="margin-right:5px;background: url('http://img.yomereba.com/kl.gif') 0 -150px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2781196&amp;pid=880190274&amp;vc_url=http%3A%2F%2Fauctions.search.yahoo.co.jp%2Fsearch%3Fvo%3D%26ve%3D%26auccat%3D0%26aucminprice%3D%26aucmaxprice%3D%26aucmin_bidorbuy_price%3D%26aucmax_bidorbuy_price%3D%26loc_cd%3D0%26abatch%3D0%26istatus%3D0%26filtered%3D1%26ei%3DUTF-8%26tab_ex%3Dcommerce%26va%3DNW-Z10" title="Yahooオークション" target="_blank" rel="external">Yahooオークション<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2781196&amp;pid=880190274" alt=""></a></div></div></div></div>]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>通勤中に音楽を聴いてる人に見て欲しい！</strong></p>
+<p>イヤホンを買い換える時の理由って、皆ほぼ同じで<strong>「ケーブルの根元の断線」</strong>だったりしませんか？</p>
+<p>断線したら買い換えるしかないんですが、私はもうちょっとお金を出して、<strong>「いい音の出るケーブル着脱式イヤホン」</strong>を買うのをオススメしたりしてます。</p>
+<p>多少高くなりますが、断線してもお金を出すのはケーブル代だけで済みます。</p>
+<p>今回は脱着式イヤホンと、良い音を出してくれるポータブル音楽プレイヤーの紹介をしていきます。]]>
+    
+    </summary>
+    
+      <category term="diary" scheme="http://hirotaka11.github.io/categories/diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[CEDEC 2011に行ってきました！]]></title>
+    <link href="http://hirotaka11.github.io/diary/cedec-2011/"/>
+    <id>http://hirotaka11.github.io/diary/cedec-2011/</id>
+    <published>2011-09-12T23:30:27.000Z</published>
+    <updated>2015-04-05T10:17:34.000Z</updated>
+    <content type="html"><![CDATA[<p>先週のお話になりますが、CEDEC 2011 に行ってきました。</p>
+<p>CEDECってのは<strong>“日本最大のゲーム開発者向けカンファレンス”</strong>ってことらしいです。</p>
+<p>私も初めてなんでよく分かってないです(；´Д｀)</p>
+<p>なにはともあれ結構参考になりました。</p>
+<p>2セッションしか受けてないのがアレですね。勘違いしてすぐに会社に戻ってしまいましたよ。惜しいことをした･･･。<a id="more"></a></p>
+<h3 id="貰ったもの">貰ったもの</h3><p>入場料がムダに高いだけに(自腹じゃちょっときつい金額)結構貰えます。</p>
+<p>バッグは結構嬉しいかも。</p>
+<p>そして、なぜか貰えたマクドナルドのコーヒー券5枚。使用期限が1週間ちょっとしかないってのはどうよ。（その日の帰りに早速使いましたけどね^^）</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/09/IMG_0482.jpg" alt="CEDEC 2011 配布物" title="ICEDEC 2011 配布物"></p>
+<h3 id="受けたセッション">受けたセッション</h3><p>自分が行ったのは9/8(木)です。開催自体は9/6〜9/8の3日間で行われました。</p>
+<p><strong>「世界の心をつかむスマートフォン時代のゲームとは」</strong></p>
+<ul>
+<li><span>田中良和(GREE)</span></li>
+<li><span>庄司顕仁(タイトー)</span></li>
+<li><span>アラ・マック・グロウエン(EA Interactive)</span></li>
+<li><span>手塚武(カプコン)</span></li>
+<li><span>新清士(ゲームジャーナリスト)</span></li>
+</ul>
+<p>主にGREEの成功からのお話やこれからのゲームの可能性のお話でした。</p>
+<p>億単位でのユーザー数を見るゲームビジネスがこれから起こりそうです。</p>
+<p>記事になってるのでこちらへ：</p>
+<p><a href="http://www.itmedia.co.jp/promobile/articles/1109/08/news081.html" target="_blank" rel="external">AKBのようにゲームは“みんなのもの”になる――グリー田中社長のゲーム論 - ITmedia プロフェッショナル モバイル</a></p>
+<p><strong>「Ruby開発が教えてくれたこと」</strong></p>
+<ul>
+<li><span>まつもと ゆきひろ</span></li>
+</ul>
+<p>Rubyの生みの親であるまつもと氏のお話。Rubyを作った経緯や、Rubyの良さ、今後開発される軽量版Ruby「RiteVM」について語っていました。</p>
+<p>これから大企業がRubyを採用しだして、Rubyはより使われる場面が増えると思われます。</p>
+<p>こちらも記事になっていたのでこちらへ：</p>
+<p><a href="http://itpro.nikkeibp.co.jp/article/NEWS/20110909/368352/" target="_blank" rel="external">「キャズムを超えたRubyはなくならない」—-軽量版を開発中のまつもとゆきひろ氏 - ニュース：ITpro</a></p>
+<h3 id="勢いでRuby本を買って、まつもと氏にサインを貰う！">勢いでRuby本を買って、まつもと氏にサインを貰う！</h3><p>まつもと氏の講演は普通に面白くて、聞いているとついついRubyに興味を持ってしまう内容でした。</p>
+<p>以前から周りの人からRubyはやっておいた方が良いという話を聞いていたので、モチベーションが上がっている今だ！と思い購入。ちょうどいいタイミングでまつもと氏のサイン会があったので、サインもらっちゃいましたｗ</p>
+<p>これもモチベのためだ･･･ｗ</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/09/IMG_0479.jpg" alt="勢いで買ったオライリー本" title="勢いで買ったオライリー本"></p>
+<p>会場だとイベント特典で10〜20%引きな上に消費税なしなんですよね。</p>
+<p>どうせ後で買うだろうと、もう一冊購入。サーバー知識も欲しいんですよ。</p>
+<p>特典でオライリーボールペンとAndroidシャツ(長袖)貰いました。もうちょっと冷えたら着ますねｗ</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/09/IMG_0481.jpg" alt="まつもと氏のサイン" title="まつもと氏のサイン"></p>
+<p>これがまつもと氏のサイン(　ﾟ∀ﾟ)o彡°</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/09/IMG_0480.jpg" alt="オライリーバッジ" title="オライリーバッジ"></p>
+<p>ついでにオライリーガチャポンがあったので、記念に回してきました。一回300円で3個入ってます。</p>
+<p>とりあえずカバンにバッジつけときました。</p>
+<p>で、サイン貰ったら急いで帰ったんですけど、別に一日中いても良かったと言われるオチ。</p>
+<p>まだ行きたかった講演あったので、損しちゃいましたね。</p>
+<p>会社文化が違いすぎてまだ慣れてないんですよ(；´∀｀)</p>
+<p>ぎっちぎちのシステム系IT企業と比べて、こういうクリエイティブな業界は自由が効きすぎてかなり戸惑います。タスク管理出来てるならいいよ的な。スーツしっかり来てる企業なら、「行きたい講演終わったらすぐ帰ってこい！」とか言われちゃいますよね。</p>
+<p>でも、これからはこういう業界で生きていくんですよねー。</p>
+<p>以前までの経験も無駄になるわけではないんですけど。とりあえず日々勉強。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>先週のお話になりますが、CEDEC 2011 に行ってきました。</p>
+<p>CEDECってのは<strong>“日本最大のゲーム開発者向けカンファレンス”</strong>ってことらしいです。</p>
+<p>私も初めてなんでよく分かってないです(；´Д｀)</p>
+<p>なにはともあれ結構参考になりました。</p>
+<p>2セッションしか受けてないのがアレですね。勘違いしてすぐに会社に戻ってしまいましたよ。惜しいことをした･･･。]]>
+    
+    </summary>
+    
+      <category term="diary" scheme="http://hirotaka11.github.io/categories/diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[WiMAXが届いた！どうせなら可愛いのがいいでしょ！？モバイル通信選び]]></title>
+    <link href="http://hirotaka11.github.io/diary/get-in-wimax/"/>
+    <id>http://hirotaka11.github.io/diary/get-in-wimax/</id>
+    <published>2011-08-08T23:00:19.000Z</published>
+    <updated>2015-04-05T10:13:54.000Z</updated>
+    <content type="html"><![CDATA[<p>最近ヒッキーな自分ですが、出掛けるときは結構遠出したりします。</p>
+<p>近場の名古屋が一番多いですが、東京にも結構行きます。</p>
+<p>遠出すると何が一番困るかというと、時間調整です。予定の時間に合わせるために喫茶店等で時間を潰すわけです。</p>
+<p>今まではスマートフォンでSNSをひたすら巡回していましたが、やはりブログが更新したいです。スマートフォンでブログ更新はさすがに辛いです。</p>
+<p>ということで、外出先でネットが出来るように<strong>WiMAX契約しちゃいましたっ！</strong></p>
+<p>検討中の人の為にモバイルデータ通信サービスについての説明も簡単に載せときますね。<a id="more"></a></p>
+<h3 id="モバイルデータ通信サービスの簡単な説明">モバイルデータ通信サービスの簡単な説明</h3><p>モバイルデータ通信ってのは要するに<strong>「持ち運び出来るインターネット」</strong>ですよね。</p>
+<p>有名なのは</p>
+<ul>
+<li><span>WiMAX</span></li>
+<li><span>イー・モバイル</span></li>
+<li><span>ドコモ Xi</span></li>
+<li><span>ソフトバンク ULTRA SPEED</span></li>
+<li><span>日本通信 b-mobile</span><br>これらサービスですね。ちなみにWiMAXはauの子会社なので、auと捉えてOKです。だからこそ、auはWiMAXスマートフォンであるEVOを販売しています。</li>
+</ul>
+<p>これからのauの強みはWiMAXとの連携でしょうね。</p>
+<p>日本通信はドコモのネットワーク網を使ってます。なので、ドコモが繋がる場所はOKってことです。</p>
+<p><strong>・使いまくるなら</strong>･･･日本通信、WiMAX</p>
+<p><strong>・たまに使うなら</strong>･･･WiMAX、ドコモ</p>
+<p><strong>・都会周辺がメイン</strong>･･･WiMAX、ドコモ</p>
+<p><strong>・いろんな場所に行く</strong>･･･ドコモ、日本通信、イー・モバイル</p>
+<p>上で挙げたのはあくまで一例です。</p>
+<p>やっぱり色々欠点があります。</p>
+<p><strong>日本通信</strong></p>
+<p>とにかく通信が遅い。ドコモ網を使う代わりにスピードが犠牲になってる。</p>
+<p><strong>ドコモ Xi</strong></p>
+<p>Xiの対応エリアが狭い。端末の発売も遅い。通信料が高い。Xi対応エリア外は3G通信だが、やはり遅い。</p>
+<p><strong>WiMAX</strong></p>
+<p>対応エリアが狭い。通信が速い代わりに窓際でないと受信出来ない。</p>
+<p><strong>イー・モバイル</strong></p>
+<p>速度も対応エリアも無難だが、規約改定が頻繁に行われ、すぐに規制されるので結局通信が遅い。</p>
+<p><strong>ソフトバンク ULTRA SPEED</strong></p>
+<p>電話と一緒でエリアが狭い。Xiと競うつもりならもっと本気を出して欲しい。</p>
+<p>この中で帯域制限がないのはWiMAXだけです。</p>
+<p>正直都会に住んでて、電波が入るところが移動範囲ならWiMAX一択です。</p>
+<p>Xiは現在抱き合わせ割引が行われているので、買っている方が多いです。MacBookAirと組み合わせると普通に買うより安く買えますｗ</p>
+<h3 id="私が買ったのは･･･モモピンク！">私が買ったのは･･･モモピンク！</h3><p>WiMAXと契約する際は店頭で抱き合わせの割引で契約、もしくは<a href="http://kakaku.com/mobile_data/" target="_blank" rel="external">価格.com</a>での割引を活用しましょう。</p>
+<p>私は価格.comでWiMAXを選択。</p>
+<p>プロバイダはSo-netでWM3500Rの限定カラーのモモピンクにしました。クレードル付きです。</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/08/wm3500r2.jpg" alt="Wm3500r2" title="wm3500r2.jpg"></p>
+<p>どうです？かわいいでしょｗ</p>
+<p>このWiMAX端末であるNECの<a href="http://121ware.com/product/atermstation/product/wimax/wm3500r/" target="_blank" rel="external">WM3500R</a>はかなり良い端末なので、結構普及してます。なので、限定カラーを狙ってみました。あんまりカバンから出さないですし、目立つほうが忘れ難いですからね。</p>
+<p>付属のUSBケーブルもピンクだったのは良かったです。</p>
+<p>私がした契約は「<strong>So-net モバイル WiMAX Flat 年間パスポート 【モバイルWi-Fiルーター】Aterm WM3500R(AT)クレードルセット</strong>」ってやつです。</p>
+<p>初期費用はクレードル代の2780円</p>
+<p>月々3800円</p>
+<p>キャッシュバック6500円</p>
+<p>端末代はタダ</p>
+<p>これで<strong>1年間実質3173円</strong>らしいです。まぁ、それなりにお得ですね。</p>
+<p>価格.comを見る際は特にですが、値段だけではなく全体のサービスに注目しましょう。</p>
+<p>WiMAXの端末追加が出来るのはUQ WiMAXだけだったりと、プロバイダによってサービスが結構違いますので。</p>
+<p>また、モバイルデータ通信サービスには大体おまけで公衆無線LANサービスがついてきます。</p>
+<p>このおかげで新幹線や空港等に設置されてる無線LANを使用する事が出来ます。</p>
+<p>これで新幹線に乗っててもブログ更新できますね♪</p>
+<p>—</p>
+<p>次は持ち運び用のMacBookAirを買わないと･･･11インチが欲しいです･･･ｗ</p>
+<p>さすがに毎日MacBookProの15インチを持ち運ぶのは辛いですからね･･･。大学の頃やってましたけどｗ</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>最近ヒッキーな自分ですが、出掛けるときは結構遠出したりします。</p>
+<p>近場の名古屋が一番多いですが、東京にも結構行きます。</p>
+<p>遠出すると何が一番困るかというと、時間調整です。予定の時間に合わせるために喫茶店等で時間を潰すわけです。</p>
+<p>今まではスマートフォンでSNSをひたすら巡回していましたが、やはりブログが更新したいです。スマートフォンでブログ更新はさすがに辛いです。</p>
+<p>ということで、外出先でネットが出来るように<strong>WiMAX契約しちゃいましたっ！</strong></p>
+<p>検討中の人の為にモバイルデータ通信サービスについての説明も簡単に載せときますね。]]>
+    
+    </summary>
+    
+      <category term="diary" scheme="http://hirotaka11.github.io/categories/diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[IE6 No More プロジェクト - コードのコピペでブラウザ変更を促す]]></title>
+    <link href="http://hirotaka11.github.io/webtech/ie6-no-more/"/>
+    <id>http://hirotaka11.github.io/webtech/ie6-no-more/</id>
+    <published>2011-08-07T23:00:56.000Z</published>
+    <updated>2015-04-05T10:21:09.000Z</updated>
+    <content type="html"><![CDATA[<p>Web制作関係者にとって「Internet Explorer 6」の存在は厄介な存在になっている昨今であります。</p>
+<p>なぜ、厄介かはサイトを作成してみると分かるのですが、IE6には特有のバグがかなり多い上、使えない表現が多々あります。</p>
+<p>IE6に対応するか、対応しないかで作業工数が結構変化したりするのです。</p>
+<p>そんなIE6を出来る限り減らしたい。そんな理由で「<a href="http://www.ie6nomore.com/" target="_blank" rel="external">IE6 No More</a>」プロジェクトがあります。これはIE6を使用した場合に表示する警告文をみんなで使おうというものです。HTMLに貼り付けるだけなので、誰でも簡単に取り付けることができます。<a id="more"></a></p>
+<h3 id="サイトに警告文を表示する">サイトに警告文を表示する</h3><p>以下のページからソース文をコピーします。複数言語ありますが、もちろん日本語もあります。</p>
+<p>[browsershot url=”<a href="http://www.ie6nomore.com/code-samples.html" target="_blank" rel="external">http://www.ie6nomore.com/code-samples.html</a>“ width=”400”] Code Samples - IE6 No More</p>
+<p>コピーしたソース分をhead要素にペーストするだけでOKです。</p>
+<p>IE6で表示すると以下の画面が最上部に表示されます。</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/08/warning-ss.png" alt="警告文" title="警告文"></p>
+<p>ちなみに当サイトに設置した様子(IETesterで表示してます)</p>
+<p>どうせ対応しないと割りきってpng透過対応もしてません。JavaScriptで透過処理の対応は可能です。</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/08/creamo-ie6.png" alt="CreaMo!をIE6で表示" title="CreaMo!をIE6で表示した様子"></p>
+<p>本来表示したいスタイルとは異なってくるので、他のモダンブラウザ、IE8への変更を促します。</p>
+<p>現在は「Firefox5」ですし、「IE9」への移行を勧めたいところですね。</p>
+<p>個人ページでIE6に対応する必要性はありませんし、ぜひこの警告文を表示してみてください。</p>
+<h3 id="Chrome_Frame_の導入を促す">Chrome Frame の導入を促す</h3><p>どうしてもIE6が捨てられないという場合はGoogleが提供している「<a href="http://www.google.com/chromeframe/" title="Link to Google Chrome Frame" target="_blank" rel="external">Google Chrome Frame</a>」の導入を勧めてみましょう。</p>
+<p>これは古いIEを使いながら、一部の最新機能の恩恵を受けることが出来るプラグインです。</p>
+<p>Webの進化を推し進めるGoogleとしては、古いブラウザの存在は邪魔です。HTML5+CSS3のサイトを広めるためにも当プラグインを無料で提供し、Webの進歩を進めようとしています。</p>
+<p>大手企業サイトは次々とIE6を切り捨てています。もちろんGoogleも同じなのですが、Googleは更にIE7も切り捨てています。</p>
+<p>Googleの旧ブラウザサポートの打ち切りは8月1日から行われているようなので、Googleサービスを活用する方たちはIE8以降にアップデートするか、モダンブラウザに移行するか、もしくはこのプラグインを導入することになるでしょう。</p>
+<p>とにもかくにも、Web制作者としてはテスト環境が減るのは良い事なので、無くなって欲しいのが本音ですよねｗ</p>
+<h3 id="そもそもなんでIE6を使うのか？">そもそもなんでIE6を使うのか？</h3><p>企業内システムでIE6のみしか動かないWebアプリケーションがあるのが一番の原因となってます。大企業なら新しく作れるのでいいですが、中小企業は頻繁にシステムを変更する余裕はありません。なので、そのためにIE6から移行できない人がいるわけですね。</p>
+<p>他のモダンブラウザと使いわければいいと思うかもしれませんが、ブラウザの使い分けなんて普通の方は出来ません。そのことをしっかりと頭に入れておきましょう。</p>
+<p>来年の2012年には「Windows 8」登場に伴って「IE10」が登場します。Chromeを真似し始めたFirefoxのように自動アップデートでバージョンが気にならなくなるようになればいいのでしょうが、確かIE10はWindows7以上対応のはず。MSはOS販売するために、ブラウザとOSを紐付けるのがよろしくないところです。</p>
+<p>「IE6」登場によって、一気に成長したWeb業界ではありますが、今は逆に足を引っ張る存在となってしまい、バグを仕様と言い続けるMSのブラウザ使用率は少しずつ減ってきています。</p>
+<p>ブラウザ間が競争するのは良い事だと思いますが、MSのやり方が今後も通用するかと言えば甚だ疑問ではあります。</p>
+<p>さっさとHTML5の仕様もきっちりしてほしいところですね。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Web制作関係者にとって「Internet Explorer 6」の存在は厄介な存在になっている昨今であります。</p>
+<p>なぜ、厄介かはサイトを作成してみると分かるのですが、IE6には特有のバグがかなり多い上、使えない表現が多々あります。</p>
+<p>IE6に対応するか、対応しないかで作業工数が結構変化したりするのです。</p>
+<p>そんなIE6を出来る限り減らしたい。そんな理由で「<a href="http://www.ie6nomore.com/">IE6 No More</a>」プロジェクトがあります。これはIE6を使用した場合に表示する警告文をみんなで使おうというものです。HTMLに貼り付けるだけなので、誰でも簡単に取り付けることができます。]]>
+    
+    </summary>
+    
+      <category term="webtech" scheme="http://hirotaka11.github.io/categories/webtech/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[はてブやTwitterのコメントを1クリックで確認「Komepon!」]]></title>
+    <link href="http://hirotaka11.github.io/tool/komepon-service/"/>
+    <id>http://hirotaka11.github.io/tool/komepon-service/</id>
+    <published>2011-07-31T23:36:58.000Z</published>
+    <updated>2015-04-05T10:22:26.000Z</updated>
+    <content type="html"><![CDATA[<p>Webページを公開した後、ソーシャルボタンにはてなブックマークやTwitterのツイートのカウントが増えていくと嬉しくなってきますよね。</p>
+<p>人によって異なりますが、感謝のコメントがあったりすると嬉しくなってモチベーションアップにも繋がったりします。それぞれのソーシャルボタンからコメントを辿ることは可能ですが、今回「<a href="http://komepon.net/" target="_blank" rel="external">Komepon!</a>」というWebサービスが公開されましたので紹介します。<a id="more"></a></p>
+<h3 id="Komepon!とは">Komepon!とは</h3><p>「Komepon!」はロプロス氏が公開したWebサービスです。</p>
+<p>WEBページに付けられた「はてなブックマーク」や「Twitter」のコメントを、ワンクリックでチェックすることが出来るブックマークレットになっています。</p>
+<p><a href="http://komepon.net/" title="Link to Komepon! - はてブやTwitterのコメントをワンクリックでチェック！" target="_blank" rel="external">Komepon! - はてブやTwitterのコメントをワンクリックでチェック！</a></p>
+<h3 id="使い方">使い方</h3><p>1. Komepon!にアクセスし、指定されたリンクをブックマークに登録します。</p>
+<p>[browsershot url=”<a href="http://komepon.net/" target="_blank" rel="external">http://komepon.net/</a>“ width=”400”] Komepon! - はてブやTwitterのコメントをワンクリックでチェック！</p>
+<p>2. コメントを見たいページを開いた状態でブックマークレットを選択。</p>
+<p>3. Komepon!経由で、はてブコメントやTwitterコメントが表示されます。</p>
+<p>ソーシャルボタンでそれぞれのコメントを見るより、より効率的に閲覧することが可能なので、どんどん活用していきましょう。</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/08/Komepon-ss.jpg" alt="Komepon ss" title="Komepon-ss.jpg"></p>
+<p>他にもロプロス氏はサイト上で様々なWebサービスを公開しています。ぜひチェックしてみてください。</p>
+<p>ロプロス氏のサイト：<a href="http://www.ropross.net/" title="Link to ropross.net" target="_blank" rel="external">ropross.net</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Webページを公開した後、ソーシャルボタンにはてなブックマークやTwitterのツイートのカウントが増えていくと嬉しくなってきますよね。</p>
+<p>人によって異なりますが、感謝のコメントがあったりすると嬉しくなってモチベーションアップにも繋がったりします。それぞれのソーシャルボタンからコメントを辿ることは可能ですが、今回「<a href="http://komepon.net/">Komepon!</a>」というWebサービスが公開されましたので紹介します。]]>
+    
+    </summary>
+    
+      <category term="tool" scheme="http://hirotaka11.github.io/categories/tool/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[MarsEditで急に投稿出来なくなった時の対処方法]]></title>
+    <link href="http://hirotaka11.github.io/wordpress/secure-marsedit/"/>
+    <id>http://hirotaka11.github.io/wordpress/secure-marsedit/</id>
+    <published>2011-07-31T16:00:53.000Z</published>
+    <updated>2015-04-05T10:44:26.000Z</updated>
+    <content type="html"><![CDATA[<p>WordPressの記事作成は「MarsEdit」という投稿ツールを使っています。</p>
+<p>しかし、急に「MarsEdit」で記事が取得不可能になりました。<br>色々と調べていくと「Secure WordPress」プラグインが原因になっている模様。</p>
+<p>もしくは、MarsEditの記事保持数が多いのが原因になっているようです。</p>
+<p>今回はMarsEditで発生した症状とその対処方法の紹介をしていきます。<a id="more"></a><br><span style="color: #ff0000;">8/1 記事保持数が関係していることが分かったので追記しました。</span></p>
+<h3 id="問題が発生した環境">問題が発生した環境</h3><ul>
+<li><span><a href="http://ja.wordpress.org/" target="_blank" rel="external">WordPress</a> 3.2.1</span></li>
+<li><span><a href="http://www.red-sweater.com/marsedit/" target="_blank" rel="external">MarsEdit</a> 3.3.1</span></li>
+<li><span><a href="http://wordpress.org/extend/plugins/secure-wordpress/" target="_blank" rel="external">Secure WordPress</a> 2.0.3</span></li>
+</ul>
+<h3 id="発生した症状">発生した症状</h3><p>MarsEditで取得更新をしても以下のようなエラーが発生。投稿は可能。</p>
+<p>最新記事、カテゴリの取得が不可能になる。</p>
+<blockquote>
+<p><strong>Get Recent Posts Error</strong></p>
+<p>Can’t get recent posts for CreaMo! because the server reported an error: unexpected response code 500.<br><img src="http://creamo.jp/wp/wp-content/uploads/2011/07/marsedit-err.png" alt="MarsEditエラー" title="MarsEditエラー"></p>
+</blockquote>
+<p>今までは使えていたので、Secure WordPressに何らかの修正が加えられたと考えられます。</p>
+<p>つまり「XML-RPC」での接続をSecure WordPressが遮断してることになります。</p>
+<p>Secure WordPressの設定で「Really Simple Discovery」を無効にしなければいいと考えましたが、Secure WordPressが有効になっている限り取得不可です。</p>
+<p>取得するにはSecure WordPressを無効にするしかありません。</p>
+<p>また、別の原因としてMarsEditが取得する記事数の容量が多いと発生します。テキストだけならデフォルトの30記事で問題ないですが、画像の多い記事が増えてくるとエラーが起こるようです。</p>
+<h3 id="回避方法">回避方法</h3><p>Secure WordPressを無効にするしかないのですが、無効にするにはなかなか惜しいプラグインです。</p>
+<p>注目すべきは、MarsEditでの投稿自体はこのままでも出来るということです。</p>
+<p>MarsEditを用いた再編集やカテゴリを変更した時以外はデータ取得出来なくても困らないので、取得するときだけSecure WordPressを無効にする方法が一番無難かと思います。</p>
+<p>Secure WordPressについての記事はこちら</p>
+<p><a href="http://creamo.jp/wordpress/secure-wp/" title="Link to SecureWordPressでWordPressのセキュリティをアップ" target="_blank" rel="external">SecureWordPressでWordPressのセキュリティをアップ</a></p>
+<p>また、もう一つの原因はMarsEditの設定です。取得記事の容量が原因なので、取得する記事数を減らしましょう。ブログ設定を開き、取得記事数、ページ数を減らします。</p>
+<p>初期設定は30記事なので、エラーが起こったら20記事くらいに減らしてみましょう。</p>
+<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/08/marsedit-setting.jpg" alt="Marsedit設定画面" title="取得記事数を減らしてみる"></p>
+<p>これでエラーが出なくなるはずです。しかし、よく色んなエラーが起こるので、ココに載っている対処法だけでは解決しないことがあるかもしれません。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>WordPressの記事作成は「MarsEdit」という投稿ツールを使っています。</p>
+<p>しかし、急に「MarsEdit」で記事が取得不可能になりました。<br>色々と調べていくと「Secure WordPress」プラグインが原因になっている模様。</p>
+<p>もしくは、MarsEditの記事保持数が多いのが原因になっているようです。</p>
+<p>今回はMarsEditで発生した症状とその対処方法の紹介をしていきます。]]>
+    
+    </summary>
+    
+      <category term="wordpress" scheme="http://hirotaka11.github.io/categories/wordpress/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Google+ユーザー必見！Picasaの上手な活用法！]]></title>
     <link href="http://hirotaka11.github.io/tool/google-plus-picasa/"/>
     <id>http://hirotaka11.github.io/tool/google-plus-picasa/</id>
     <published>2011-07-30T10:00:00.000Z</published>
-    <updated>2015-03-09T17:12:56.000Z</updated>
+    <updated>2015-04-01T18:23:28.000Z</updated>
     <content type="html"><![CDATA[<p>Google+が始まったことでPicasaウェブアルバムの無料容量が無制限になったことはご存知でしょうか？</p>
 <p>Google+で画像を投稿すると自動的にPicasaのウェブアルバムにアップロードされ、Picasaから画像を持ってくる形式になります。<br><br>Google+とPicasaの連携機能をうまく活用することで、指定のサークルのみに公開するアルバム設定を調整出来たり、相手のアルバムを簡単に一括ダウンロードすることが可能です。</p>
 <p>Google+のおかげで、より陽の目を浴びたPicasa。せっかくなのでうまく活用しましょう。<a id="more"></a><ul></ul></p>

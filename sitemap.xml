@@ -2,33 +2,308 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://hirotaka11.github.io/about.html</loc>
-    <lastmod>2015-03-31T18:20:35.000Z</lastmod>
+    <loc>http://hirotaka11.github.io/diary/secondary-creation/</loc>
+    <lastmod>2015-04-05T11:19:33.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://hirotaka11.github.io/diary/secondary-creation/</loc>
-    <lastmod>2015-03-31T18:08:51.000Z</lastmod>
+    <loc>http://hirotaka11.github.io/wordpress/wp-hyper-response/</loc>
+    <lastmod>2015-04-05T11:19:02.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/wordpress/better-delete-revision/</loc>
+    <lastmod>2015-04-05T10:45:32.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/wordpress/jquery-load-wordpress/</loc>
+    <lastmod>2015-04-05T10:45:01.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/wordpress/secure-marsedit/</loc>
+    <lastmod>2015-04-05T10:44:26.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/wordpress/syntaxhighlighter/</loc>
+    <lastmod>2015-04-05T10:44:10.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/wordpress/wordpress-divert-code/</loc>
+    <lastmod>2015-04-05T10:43:48.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/wordpress/wordpress-feed-custom/</loc>
+    <lastmod>2015-04-05T10:43:35.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/wordpress/wordpress-install-ga/</loc>
+    <lastmod>2015-04-05T10:43:30.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/wordpress/wp-dbmanager/</loc>
+    <lastmod>2015-04-05T10:43:00.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/wordpress/wordpress-related-posts/</loc>
+    <lastmod>2015-04-05T10:42:46.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/wordpress/wp-ogp-fixed/</loc>
+    <lastmod>2015-04-05T10:42:42.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/wordpress/wp-multilingualization/</loc>
+    <lastmod>2015-04-05T10:42:34.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/wordpress/wp3-new-theme/</loc>
+    <lastmod>2015-04-05T10:42:28.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/wordpress/wp-jquery-functiono-bug/</loc>
+    <lastmod>2015-04-05T10:42:24.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/webtech/zerotype-start/</loc>
+    <lastmod>2015-04-05T10:27:18.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/webtech/zbugs/</loc>
+    <lastmod>2015-04-05T10:26:59.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/diary/xmas-end-2011/</loc>
+    <lastmod>2015-04-05T10:26:43.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/tool/win8-us-mac/</loc>
+    <lastmod>2015-04-05T10:24:49.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/diary/wctokyo2011/</loc>
+    <lastmod>2015-04-05T10:24:38.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/tool/twitter-hash-jp/</loc>
+    <lastmod>2015-04-05T10:24:32.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/webtech/twitter-follow-button/</loc>
+    <lastmod>2015-04-05T10:24:24.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/tool/subversion-trouble/</loc>
+    <lastmod>2015-04-05T10:23:58.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/tool/stylus-tool-memo/</loc>
+    <lastmod>2015-04-05T10:23:51.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/tool/st2xdropbox/</loc>
+    <lastmod>2015-04-05T10:23:46.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/diary/smart-phone-book/</loc>
+    <lastmod>2015-04-05T10:23:40.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/diary/open-tumblr/</loc>
+    <lastmod>2015-04-05T10:23:11.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/tool/netbeans-cakephp/</loc>
+    <lastmod>2015-04-05T10:23:05.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/tool/my-mac-envi/</loc>
+    <lastmod>2015-04-05T10:22:59.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/diary/moe-moved/</loc>
+    <lastmod>2015-04-05T10:22:52.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/tool/mamp-password-omi/</loc>
+    <lastmod>2015-04-05T10:22:46.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/tool/mac-svn-coda/</loc>
+    <lastmod>2015-04-05T10:22:39.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/tool/mac-lion-tips/</loc>
+    <lastmod>2015-04-05T10:22:33.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/tool/komepon-service/</loc>
+    <lastmod>2015-04-05T10:22:26.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/webtech/ie6-no-more/</loc>
+    <lastmod>2015-04-05T10:21:09.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/webtech/ie-css3-gradient/</loc>
+    <lastmod>2015-04-05T10:21:03.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/webtech/html5-easymode/</loc>
+    <lastmod>2015-04-05T10:20:57.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/tool/gplus-iphone-android/</loc>
+    <lastmod>2015-04-05T10:20:49.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/tool/gplus-character-decoration/</loc>
+    <lastmod>2015-04-05T10:20:43.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/tool/gpluas-page-create/</loc>
+    <lastmod>2015-04-05T10:20:34.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/tool/googleplus-fast/</loc>
+    <lastmod>2015-04-05T10:20:22.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/webtech/google-picture-book/</loc>
+    <lastmod>2015-04-05T10:19:36.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/tool/google-plus-nick/</loc>
+    <lastmod>2015-04-05T10:19:16.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/webtech/facebook-like-release/</loc>
+    <lastmod>2015-04-05T10:18:40.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/diary/ear-phone-cable/</loc>
+    <lastmod>2015-04-05T10:18:30.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/webtech/distributed-bookmarks-with-feedburner/</loc>
+    <lastmod>2015-04-05T10:18:19.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/diary/cssnite-redux6-vol61/</loc>
+    <lastmod>2015-04-05T10:18:03.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/diary/cssnite-lp20/</loc>
+    <lastmod>2015-04-05T10:17:57.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/webtech/css-js-link-trouble/</loc>
+    <lastmod>2015-04-05T10:17:52.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/diary/cedec-2011/</loc>
+    <lastmod>2015-04-05T10:17:34.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/tool/buy-coda-try-marsedit/</loc>
+    <lastmod>2015-04-05T10:17:29.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/webtech/android-useragent/</loc>
+    <lastmod>2015-04-05T10:17:13.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/diary/domain-get-creamojp/</loc>
+    <lastmod>2015-04-05T10:14:00.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/diary/get-in-wimax/</loc>
+    <lastmod>2015-04-05T10:13:54.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/tool/quake-app/</loc>
+    <lastmod>2015-04-04T18:40:25.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/tool/google-plus-picasa/</loc>
+    <lastmod>2015-04-01T18:23:28.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/sitemap/index.html</loc>
+    <lastmod>2015-04-01T17:40:35.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/profile/index.html</loc>
+    <lastmod>2015-04-01T17:40:35.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/contact/index.html</loc>
+    <lastmod>2015-04-01T17:40:35.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/about.html</loc>
+    <lastmod>2015-03-31T18:22:10.000Z</lastmod>
   </url>
   
   <url>
     <loc>http://hirotaka11.github.io/404.html</loc>
     <lastmod>2015-03-09T17:44:58.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://hirotaka11.github.io/diary/remember-free/</loc>
-    <lastmod>2015-03-09T17:40:23.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://hirotaka11.github.io/tool/google-plus-picasa/</loc>
-    <lastmod>2015-03-09T17:12:56.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://hirotaka11.github.io/webtech/zerotype-start/</loc>
-    <lastmod>2015-03-09T16:59:07.000Z</lastmod>
   </url>
   
   <url>

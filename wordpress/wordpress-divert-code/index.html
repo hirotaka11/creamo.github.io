@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>WordPressで何度も使うコードを簡単に使い回す方法 | creamo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="はてブ・Twitter・Facebookのボタンを付けるのがもはや当たり前のような流れになっています。
+WordPressのプラグインで追加するのが一番簡単なのですが、微妙な調整が出来なかったりするので、テーマに直接貼り付けています。しかし、トップページと個別ページとアーカイブページと･･･という感じに同じコードを何度も貼り付けるのはあまりよろしくありません。
+テーマファイルのfunction.p">
+<meta property="og:type" content="article">
+<meta property="og:title" content="WordPressで何度も使うコードを簡単に使い回す方法">
+<meta property="og:url" content="http://hirotaka11.github.io/wordpress/wordpress-divert-code/index.html">
+<meta property="og:site_name" content="creamo">
+<meta property="og:description" content="はてブ・Twitter・Facebookのボタンを付けるのがもはや当たり前のような流れになっています。
+WordPressのプラグインで追加するのが一番簡単なのですが、微妙な調整が出来なかったりするので、テーマに直接貼り付けています。しかし、トップページと個別ページとアーカイブページと･･･という感じに同じコードを何度も貼り付けるのはあまりよろしくありません。
+テーマファイルのfunction.p">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="WordPressで何度も使うコードを簡単に使い回す方法">
+<meta name="twitter:description" content="はてブ・Twitter・Facebookのボタンを付けるのがもはや当たり前のような流れになっています。
+WordPressのプラグインで追加するのが一番簡単なのですが、微妙な調整が出来なかったりするので、テーマに直接貼り付けています。しかし、トップページと個別ページとアーカイブページと･･･という感じに同じコードを何度も貼り付けるのはあまりよろしくありません。
+テーマファイルのfunction.p">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+
+  <link rel="stylesheet" href="../../css/style.css" type="text/css">
+  
+    <link rel="stylesheet" href="../../fancybox/jquery.fancybox.css" type="text/css">
+  
+  
+  
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-9408898-3', 'auto');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+
+
+  
+
+  
+    <link href='//fonts.googleapis.com/css?family=Titillium+Web:300,400,600' rel='stylesheet' type='text/css'>
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+
+</head>
+
+<body>
+  <div id="wrap">
+    <header id="header">
+  <div id="header-outer" class="outer">
+    <div class="container">
+      <div class="container-inner">
+        <div id="header-title">
+          <h1 class="logo-wrap">
+            <a href="/" class="logo">creamo</a>
+          </h1>
+          
+            <h2 class="subtitle-wrap">
+              <p class="subtitle">元WEB系フロントエンジニアがゲームプランナーになったら</p>
+            </h2>
+          
+        </div>
+        <div id="header-inner" class="nav-container">
+          <a id="main-nav-toggle" class="nav-icon"></a>
+          <div class="nav-container-inner">
+            <ul id="main-nav">
+              
+                <li class="main-nav-list-item" ><a class="main-nav-list-link" href="http://hirotaka11.github.io">Home</a></li>
+              
+                <li class="main-nav-list-item" ><a class="main-nav-list-link" href="../../categories/game/">Game</a></li>
+              
+                <li class="main-nav-list-item" ><a class="main-nav-list-link" href="../../categories/diary/">Diary</a></li>
+              
+                <li class="main-nav-list-item" ><a class="main-nav-list-link" href="../../about.html">About</a></li>
+              
+            </ul>
+            <nav id="sub-nav">
+              <div id="search-form-wrap">
+                <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><input type="hidden" name="q" value="site:http://hirotaka11.github.io"></form>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+    <div class="container">
+      <div class="main-body container-inner">
+        <div class="main-body-inner">
+          <section id="main">
+            <div class="main-body-header">
+
+              <h1 class="header"><a class="page-title-link" href="../../categories/wordpress/">wordpress</a></h1>
+            </div>
+            <div class="main-body-content">
+              
+  <article id="post-wordpress-divert-code" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+      <!--  -->
+      
+        <header class="article-header">
+          
+  
+    <h1 class="article-title" itemprop="name">
+      WordPressで何度も使うコードを簡単に使い回す方法
+    </h1>
+  
+
+        </header>
+      
+      <p class="article-byline">
+        <a href="" class="article-date">
+  <time datetime="2011-06-20T17:30:09.000Z" itemprop="datePublished">2011-06-21</time>
+</a>
+      </p>
+      <div class="article-entry" itemprop="articleBody">
+        <p>はてブ・Twitter・Facebookのボタンを付けるのがもはや当たり前のような流れになっています。</p>
+<p>WordPressのプラグインで追加するのが一番簡単なのですが、微妙な調整が出来なかったりするので、テーマに直接貼り付けています。<br>しかし、トップページと個別ページとアーカイブページと･･･という感じに同じコードを何度も貼り付けるのはあまりよろしくありません。</p>
+<p>テーマファイルのfunction.phpにコードを書くことで、コードを簡単に呼び出すことができて、使い回しも簡単になります。<a id="more"></a></p>
+<h3 id="テーマファイルのfunction-phpに使い回したいコードを追記する">テーマファイルのfunction.phpに使い回したいコードを追記する</h3><p>ここでは当サイトのソーシャルボタンを例にします。このままコピペしても使えます。</p>
+<p>(mixiボタンはチェックキーを取得する必要があるので載せてません)</p>
+<p>[html]<br>function snsBtn()<br>{ ?&gt;<br>    &lt;ul class=&quot;sns-button&quot;&gt;<br>        &lt;!— はてなブックマーク —&gt;<br>        &lt;li class=&quot;hatenaBtn&quot;&gt;&lt;a href=&quot;<a href="http://b.hatena.ne.jp/entry/&lt;?php" target="_blank" rel="external">http://b.hatena.ne.jp/entry/&lt;?php</a> the_permalink() ?&gt;&quot; class=&quot;hatena-bookmark-button&quot; data-hatena-bookmark-title=&quot;&lt;?php the_title() ?&gt;&quot; data-hatena-bookmark-layout=&quot;standard&quot; title=&quot;このエントリーをはてなブックマークに追加&quot;&gt;&lt;img src=&quot;<a href="http://b.st-hatena.com/images/entry-button/button-only.gif&amp;quot" target="_blank" rel="external">http://b.st-hatena.com/images/entry-button/button-only.gif&amp;quot</a>; alt=&quot;このエントリーをはてなブックマークに追加&quot; width=&quot;20&quot; height=&quot;20&quot; style=&quot;border: none;&quot; /&gt;&lt;/a&gt;&lt;/li&gt;<br>        &lt;!— Twitter —&gt;<br>        &lt;li class=&quot;twitterBtn&quot;&gt;&lt;a href=&quot;<a href="http://twitter.com/share&amp;quot" target="_blank" rel="external">http://twitter.com/share&amp;quot</a>; class=&quot;twitter-share-button&quot; data-count=&quot;horizontal&quot; data-lang=&quot;ja&quot;&gt;Tweet&lt;/a&gt;&lt;/li&gt;<br>        &lt;!— Facebook —&gt;<br>        &lt;li class=&quot;fbBtn&quot;&gt;&lt;iframe src=&quot;<a href="http://www.facebook.com/plugins/like.php?href=&lt;?php" target="_blank" rel="external">http://www.facebook.com/plugins/like.php?href=&lt;?php</a> the_permalink() ?&gt;&amp;amp;layout=button_count&amp;amp;show_faces=false&amp;amp;width=100&amp;amp;action=like&amp;amp;colorscheme=light&amp;amp;height=20&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:100px; height:20px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;&lt;/li&gt;<br>        &lt;!— +1 —&gt;<br>        &lt;li class=&quot;p1Btn&quot;&gt;&lt;g:plusone size=&quot;medium&quot; href=&quot;&lt;?php the_permalink() ?&gt;&quot;&gt;&lt;/g:plusone&gt;&lt;/li&gt;<br>        &lt;!— Evernote —&gt;<br>        &lt;li class=&quot;evBtn&quot;&gt;&lt;a href=&quot;#&quot; onclick=&quot;Evernote.doClip({}); return false;&quot;&gt;&lt;img src=&quot;<a href="http://static.evernote.com/article-clipper-jp.png&amp;quot" target="_blank" rel="external">http://static.evernote.com/article-clipper-jp.png&amp;quot</a>; alt=&quot;Clip to Evernote&quot; /&gt;&lt;/a&gt;&lt;/li&gt;<br>    &lt;/ul&gt;&lt;!— sns-button —&gt;<br>&lt;?php }[/html]</p>
+<p><strong>読み込みを早くするためにソーシャルボタン用のJavaScriptはフッターで読み込ませます。</strong><br>以下をフッターのwp_footer();の下にコピペ<br>[html]<br>&lt;!— snsBtn用script —&gt;<br>&lt;script type=&quot;text/javascript&quot; src=&quot;<a href="http://b.st-hatena.com/js/bookmark_button.js&amp;quot" target="_blank" rel="external">http://b.st-hatena.com/js/bookmark_button.js&amp;quot</a>; charset=&quot;utf-8&quot; async=&quot;async&quot;&gt;&lt;/script&gt; &lt;!— はてなブックマーク —&gt;<br>&lt;script type=&quot;text/javascript&quot; src=&quot;<a href="http://platform.twitter.com/widgets.js&quot;&gt;&lt;/script&amp;gt" target="_blank" rel="external">http://platform.twitter.com/widgets.js&quot;&gt;&lt;/script&amp;gt</a>; &lt;!— Twitter —&gt;<br>&lt;script type=&quot;text/javascript&quot; src=&quot;<a href="http://static.evernote.com/noteit.js&quot;&gt;&lt;/script&amp;gt" target="_blank" rel="external">http://static.evernote.com/noteit.js&quot;&gt;&lt;/script&amp;gt</a>; &lt;!— Evernote —&gt;<br>&lt;script type=&quot;text/javascript&quot; src=&quot;<a href="http://apis.google.com/js/plusone.js&quot;&gt;{lang" target="_blank" rel="external">http://apis.google.com/js/plusone.js&quot;&gt;{lang</a>: ‘ja’}&lt;/script&gt; &lt;!— +1 —&gt;<br>&lt;!— /snsBtn用script —&gt;<br>[/html]</p>
+<h3 id="テーマファイルの表示したい場所に以下のコードを貼り付ける">テーマファイルの表示したい場所に以下のコードを貼り付ける</h3><p>[php]&lt;?php snsBtn(); ?&gt;[/php]</p>
+<p>これだけです。とても簡単にコードの使い回しが出来ます。</p>
+<p>snsBtn();の名前を変えるだけで何個も作れますね。</p>
+<p>PHPのinclude関数を使えば使い回しは出来ますが、PHPファイルは最小限にしたいですし、せっかくのテーマファイルなのでfunction.phpに書くのがベストだと思います。</p>
+<p>ソーシャルボタンのコードは以下のサイトで簡単に作れます<br><a href="http://5509.me/log/social-service-buttons-generator" title="Link to ブログ・サイトに貼る主要ソーシャルサービスのボタンソースジェネレータ :: 5509" target="_blank" rel="external">ブログ・サイトに貼る主要ソーシャルサービスのボタンソースジェネレータ :: 5509</a></p>
+<p>テーマファイルがとても見やすくなるので使わない手はありませんね。</p>
+<p>参考サイト</p>
+<p><a href="http://weble.org/2010/11/26/wordpress-social-button" title="Link to WordPress にはてブと Twitter と Facebook のボタンを10秒で貼り付けられるコードを書いてみたよ | ウェブル" target="_blank" rel="external">WordPress にはてブと Twitter と Facebook のボタンを10秒で貼り付けられるコードを書いてみたよ | ウェブル</a></p>
+
+      </div>
+      <footer class="article-footer">
+        <a data-url="http://hirotaka11.github.io/wordpress/wordpress-divert-code/" data-id="ci84dbvw10019bnceewzy7a6f" class="article-share-link">Share</a>
+        
+        
+      </footer>
+    </div>
+  </article>
+  
+
+            </div>
+          </section>
+          <aside id="sidebar">
+  <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+  <div class="sidebar-top">
+    <p>follow:</p>
+    <ul class="social-links">
+      
+        <li><a class="social-tooltip" title="twitter" href="https://twitter.com/hirotaka_696"><i id="icon-twitter" class="icon"></i></a></li>
+      
+        <li><a class="social-tooltip" title="google_plus" href="https://google.com/+HiroshiTakaki696"><i id="icon-google_plus" class="icon"></i></a></li>
+      
+        <li><a class="social-tooltip" title="github" href="https://github.com/hirotaka11"><i id="icon-github" class="icon"></i></a></li>
+      
+        <li><a class="social-tooltip" title="rss" href="../..//atom.xml"><i id="icon-rss" class="icon"></i></a></li>
+      
+    </ul>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="../wordpress-install-ga/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">newer</strong>
+      <p class="article-nav-title">
+        
+          WordPressに導入するベストなGoogle Analyticsプラグイン
+        
+      </p>
+      <i class="icon" id="icon-chevron-right"></i>
+    </a>
+  
+  
+    <a href="../../webtech/distributed-bookmarks-with-feedburner/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">older</strong>
+      <p class="article-nav-title">【FeedBurner使い必見！】はてブ分散を防ぎ、Yahoo!ブログに対応せよ</p>
+      <i class="icon" id="icon-chevron-left"></i>
+    </a>
+  
+</nav>
+
+  
+  <div class="widgets-container">
+    
+      
+  <div class="widget-wrap">
+    <h3 class="widget-title">recents</h3>
+    <div class="widget">
+      <ul id="recent-post" class="">
+        
+          <li>
+            
+            <div class="item-thumbnail">
+              
+<a href="../../diary/secondary-creation/" class="thumbnail">
+  
+    <span style="background-image:url(/diary/secondary-creation/bigsight.jpg
+)" alt="いい加減危機感を感じた方が良い？ 自分が同人の二次創作に感じる違和感" class="thumbnail-image"></span>
+  
+</a>
+
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category"><a class="article-category-link" href="../../categories/diary/">diary</a></p>
+              <p class="item-title"><a href="../../diary/secondary-creation/" class="title">いい加減危機感を感じた方が良い？ 自分が同人の二次創作に感じる違和感</a></p>
+              <p class="item-date"><time datetime="2015-03-31T14:12:20.000Z" itemprop="datePublished">2015-03-31</time></p>
+            </div>
+          </li>
+        
+          <li>
+            
+            <div class="item-thumbnail">
+              
+<a href="../../diary/retake/" class="thumbnail">
+  
+    <span class="thumbnail-image thumbnail-none"></span>
+  
+</a>
+
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category"><a class="article-category-link" href="../../categories/diary/">diary</a></p>
+              <p class="item-title"><a href="../../diary/retake/" class="title">気を改めて</a></p>
+              <p class="item-date"><time datetime="2015-03-01T17:02:30.000Z" itemprop="datePublished">2015-03-02</time></p>
+            </div>
+          </li>
+        
+          <li>
+            
+            <div class="item-thumbnail">
+              
+<a href="../../webtech/zerotype-start/" class="thumbnail">
+  
+    <span class="thumbnail-image thumbnail-none"></span>
+  
+</a>
+
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category"><a class="article-category-link" href="../../categories/webtech/">webtech</a></p>
+              <p class="item-title"><a href="../../webtech/zerotype-start/" class="title">オリジナルCSSフレームワーク？っぽいのをgithubに上げてみた</a></p>
+              <p class="item-date"><time datetime="2013-06-03T23:30:32.000Z" itemprop="datePublished">2013-06-04</time></p>
+            </div>
+          </li>
+        
+          <li>
+            
+            <div class="item-thumbnail">
+              
+<a href="../../tool/st2xdropbox/" class="thumbnail">
+  
+    <span class="thumbnail-image thumbnail-none"></span>
+  
+</a>
+
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category"><a class="article-category-link" href="../../categories/tool/">tool</a></p>
+              <p class="item-title"><a href="../../tool/st2xdropbox/" class="title">「Sublime Text 2」✕「Dropbox」でどこでも作業環境を作ろう！</a></p>
+              <p class="item-date"><time datetime="2013-06-02T23:30:00.000Z" itemprop="datePublished">2013-06-03</time></p>
+            </div>
+          </li>
+        
+          <li>
+            
+            <div class="item-thumbnail">
+              
+<a href="../../tool/win8-us-mac/" class="thumbnail">
+  
+    <span style="background-image:url(http://creamo.jp/wp/wp-content/uploads/2013/01/win8_us_01.jpg
+)" alt="MacにWindows8を入れた際にUSキー配列に設定する方法" class="thumbnail-image"></span>
+  
+</a>
+
+            </div>
+            
+            <div class="item-inner">
+              <p class="item-category"><a class="article-category-link" href="../../categories/tool/">tool</a></p>
+              <p class="item-title"><a href="../../tool/win8-us-mac/" class="title">MacにWindows8を入れた際にUSキー配列に設定する方法</a></p>
+              <p class="item-date"><time datetime="2013-01-14T23:30:00.000Z" itemprop="datePublished">2013-01-15</time></p>
+            </div>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+    
+      
+  <div class="widget-wrap widget-list">
+    <h3 class="widget-title">categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="../../categories/diary/">diary</a><span class="category-list-count">13</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/tool/">tool</a><span class="category-list-count">19</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/webtech/">webtech</a><span class="category-list-count">11</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/wordpress/">wordpress</a><span class="category-list-count">14</span></li></ul>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget-wrap widget-list">
+    <h3 class="widget-title">archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2015/03/">March 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2013/06/">June 2013</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2013/01/">January 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2012/12/">December 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2012/01/">January 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/12/">December 2011</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/11/">November 2011</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/10/">October 2011</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/09/">September 2011</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/08/">August 2011</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/07/">July 2011</a><span class="archive-list-count">10</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/06/">June 2011</a><span class="archive-list-count">18</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/05/">May 2011</a><span class="archive-list-count">10</span></li></ul>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget-wrap widget-list">
+    <h3 class="widget-title">tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Analytics/">Analytics</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Google-Picasa/">Google, Picasa</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Mac/">Mac</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/RSS/">RSS</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/jQuery/">jQuery</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/イベント/">イベント</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/ネタ/">ネタ</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/プラグイン/">プラグイン</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/二次創作/">二次創作</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/同人/">同人</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/著作権/">著作権</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/雑記/">雑記</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/高速化/">高速化</a><span class="tag-list-count">2</span></li></ul>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget-wrap widget-float">
+    <h3 class="widget-title">tag cloud</h3>
+    <div class="widget tagcloud">
+      <a href="../../tags/Analytics/" style="font-size: 10px;">Analytics</a><a href="../../tags/Google-Picasa/" style="font-size: 10px;">Google, Picasa</a><a href="../../tags/Mac/" style="font-size: 10px;">Mac</a><a href="../../tags/RSS/" style="font-size: 10px;">RSS</a><a href="../../tags/jQuery/" style="font-size: 10px;">jQuery</a><a href="../../tags/イベント/" style="font-size: 10px;">イベント</a><a href="../../tags/ネタ/" style="font-size: 10px;">ネタ</a><a href="../../tags/プラグイン/" style="font-size: 10px;">プラグイン</a><a href="../../tags/二次創作/" style="font-size: 10px;">二次創作</a><a href="../../tags/同人/" style="font-size: 10px;">同人</a><a href="../../tags/著作権/" style="font-size: 10px;">著作権</a><a href="../../tags/雑記/" style="font-size: 10px;">雑記</a><a href="../../tags/高速化/" style="font-size: 20px;">高速化</a>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget-wrap widget-list">
+    <h3 class="widget-title">links</h3>
+    <div class="widget">
+      <ul>
+        
+      </ul>
+    </div>
+  </div>
+
+
+    
+  </div>
+</aside>
+        </div>
+      </div>
+    </div>
+    <footer id="footer">
+  
+  <div class="container">
+    <div class="container-inner">
+      <a id="back-to-top" href="javascript:;"><i class="icon" id="icon-angle-up"></i></a>
+      <div class="credit">
+        <h1 class="logo-wrap">
+          <a href="../..//" class="logo"></a>
+        </h1>
+        <p>&copy; 2015 HiRO</p>
+        <p>Powered by <a href="//hexo.io/" target="_blank">Hexo</a>. Theme by <a href="//github.com/ppoffice" target="_blank">PPOffice</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+    
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+
+  <script src="../../fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+
+
+
+
+<script src="../../js/html-patch.js" type="text/javascript"></script>
+<script src="../../js/script.js" type="text/javascript"></script>
+
+  </div>
+</body>
+</html>
