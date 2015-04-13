@@ -11,7 +11,7 @@
 <meta property="og:url" content="http://hirotaka11.github.io/tool/subversion-trouble/index.html">
 <meta property="og:site_name" content="creamo">
 <meta property="og:description" content="前回、Macでローカルバージョン管理 – Subversion導入〜Codaで便利活用という記事でSubversion導入を解説しましたが、自分で記事を書いておいて色々トラブったので、その辺の回避方法等を書いておきます。">
-<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/05/dropbox_option-300x162.jpg">
+<meta property="og:image" content="/tool/subversion-trouble/dropbox_option.jpg">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="初心者がSubversionでトラブった時に確認すること">
 <meta name="twitter:description" content="前回、Macでローカルバージョン管理 – Subversion導入〜Codaで便利活用という記事でSubversion導入を解説しましたが、自分で記事を書いておいて色々トラブったので、その辺の回避方法等を書いておきます。">
@@ -47,6 +47,7 @@ ga('send', 'pageview');
     <link href='//fonts.googleapis.com/css?family=Titillium+Web:300,400,600' rel='stylesheet' type='text/css'>
     <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   
+  <link rel="stylesheet" href="../../css/monokai_sublime.css" type="text/css">
 
 </head>
 
@@ -135,41 +136,44 @@ ga('send', 'pageview');
 <p>Windows環境ではこの記事が参考になると思います。<br><a href="http://bizcaz.com/archives/2009/01/25-120513.php" title="Link to Movable Type 備忘録 - Dropbox と TortoiseSVN でテンプレートのバージョン管理" target="_blank" rel="external">Movable Type 備忘録 - Dropbox と TortoiseSVN でテンプレートのバージョン管理</a></p>
 <p>さて、Mac環境でのDropboxですが、デフォルトでのフォルダ場所が</p>
 <blockquote>
-<p>/Users/ユーザー名/Dropbox<br>になっていますが、同期したいマシン間でユーザー名が異なるとパスが統一出来ません。</p>
+<p>/Users/ユーザー名/Dropbox</p>
 </blockquote>
-<p>ということで、Dropboxの設定を変えます。<br><a href="http://creamo.jp/wp/wp-content/uploads/2011/05/dropbox_option.jpg" target="_blank" rel="external"><img src="http://creamo.jp/wp/wp-content/uploads/2011/05/dropbox_option-300x162.jpg" alt="Dropbox設定画面" title="Dropbox設定画面"></a><br>この設定画面で「ファイルの保存場所」を</p>
+<p>になっていますが、同期したいマシン間でユーザー名が異なるとパスが統一出来ません。</p>
+<p>ということで、Dropboxの設定を変えます。</p>
+<p><img src="/tool/subversion-trouble/dropbox_option.jpg" alt="Dropbox設定画面"></p>
+<p>この設定画面で「ファイルの保存場所」を</p>
 <blockquote>
-<p>/Users/Shared/Dropbox<br>にします。</p>
+<p>/Users/Shared/Dropbox</p>
 </blockquote>
+<p>にします。</p>
 <p>あとはリポジトリの作成を</p>
 <blockquote>
-<p>/Users/Shared/Dropbox<br>以下に作成すれば完了です。作成方法は<a href="http://creamo.jp/tool/mac-svn-coda/" title="Macでローカルバージョン管理 – Subversion導入〜Codaで便利活用" target="_blank" rel="external">前回の記事</a>で。</p>
+<p>/Users/Shared/Dropbox</p>
 </blockquote>
+<p>以下に作成すれば完了です。作成方法は<a href="http://creamo.jp/tool/mac-svn-coda/" title="Macでローカルバージョン管理 – Subversion導入〜Codaで便利活用" target="_blank" rel="external">前回の記事</a>で。</p>
 <p>リポジトリにユーザーやパスワードを設定する場合<br>・ユーザー作成</p>
 <blockquote>
 <p>リポジトリ/conf/passwd<br>[users]</p>
-<p>ユーザー名 = パスワード<br>というように記述します。</p>
+<p>ユーザー名 = パスワード</p>
 </blockquote>
+<p>というように記述します。</p>
 <p>・ユーザー、パスワードを機能を有効にする</p>
 <blockquote>
-<p>リポジトリ/conf/svnserve.conf<br>[general]</p>
-<p>anon-access = none　　　　　　←ユーザー認証しないアクセスはアクセス不可</p>
-<p>auth-access = write　　　　　　←ユーザー認証したアクセスでは読み書き可能</p>
-<p>password-db = passwd        ←passwdファイルを使用してユーザー認証する</p>
-<p>realm = Hishidama Repository    ←認証の名称<br>上記の有効にしたい機能の#を取ります。</p>
+<p>リポジトリ/conf/svnserve.conf</p>
 </blockquote>
+<figure class="highlight nix"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">[general]</span><br><span class="line"><span class="variable">anon-access =</span> none　　　　　　←ユーザー認証しないアクセスはアクセス不可</span><br><span class="line"><span class="variable">auth-access =</span> write　　　　　　←ユーザー認証したアクセスでは読み書き可能</span><br><span class="line"></span><br><span class="line"><span class="variable">password-db =</span> passwd	←passwdファイルを使用してユーザー認証する</span><br><span class="line"></span><br><span class="line"><span class="variable">realm =</span> Hishidama Repository	←認証の名称</span><br><span class="line">上記の有効にしたい機能の<span class="comment">#を取ります。</span></span><br></pre></td></tr></table></figure>
 <h3 id="-svnファイルを削除したい">.svnファイルを削除したい</h3><p>何気に困ったのがこれ。<br>SVN設定すると、SVN設定したフォルダ全てに隠しフォルダとして[.svn]フォルダが設置されます。</p>
 <p>[.svn]フォルダがあるかをCodaは判断しているので、[.svn]フォルダがある場合はリポジトリ場所が変更出来ないです。</p>
 <p>「調子が悪いからリポジトリ作成からやり直したい」等なったとき困ったので、そういうときはコマンドで[.svn]フォルダを一気に消せます。</p>
-<blockquote>
-<p><code>$ find . -name &quot;.svn&quot; -type d -exec echo delete {} &quot;;&quot; -exec rm -rf {} &quot;;&quot;</code><br>上記のコマンドをリポジトリフォルダに移動した後に実行すれば[.svn]フォルダが削除されます。<br><a href="http://www.profaim.jp/tools/soft/svn/svnother/mac/del_svninfo.php" title="Link to - profaim.jp" target="_blank" rel="external">管理ディレクトリ（.svn）の削除 - profaim.jp</a></p>
-</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ find . -name <span class="string">".svn"</span> -type d -exec <span class="built_in">echo</span> delete &#123;&#125; <span class="string">";"</span> -exec rm -rf &#123;&#125; <span class="string">";"</span></span><br></pre></td></tr></table></figure>
+<p>上記のコマンドをリポジトリフォルダに移動した後に実行すれば[.svn]フォルダが削除されます。</p>
+<p><a href="http://www.profaim.jp/tools/soft/svn/svnother/mac/del_svninfo.php" title="Link to - profaim.jp" target="_blank" rel="external">管理ディレクトリ（.svn）の削除 - profaim.jp</a></p>
 <p>また、過去の履歴を削除してしまった場合dumpコマンドで復元できます。<br><a href="http://www.profaim.jp/tools/soft/svn/subversion/bk_rest.php" title="Link to - profaim.jp" target="_blank" rel="external">svnadmin:dump/load によるリポジトリのバックアップとリストア - profaim.jp</a></p>
 <p>参考サイト<br><a href="http://blog.dateofrock.com/2010/01/dropboxsubversionno.html" title="Link to code.rock: Dropboxで手軽にSubversionのリポジトリ" target="_blank" rel="external">code.rock: Dropboxで手軽にSubversionのリポジトリ</a></p>
 
       </div>
       <footer class="article-footer">
-        <a data-url="http://hirotaka11.github.io/tool/subversion-trouble/" data-id="ci84fz9vn001o6qce4z9valej" class="article-share-link">Share</a>
+        <a data-url="http://hirotaka11.github.io/tool/subversion-trouble/" data-id="ci8g87hpb001fnsceelv97ois" class="article-share-link">Share</a>
         
         
       </footer>
@@ -333,7 +337,7 @@ ga('send', 'pageview');
   <div class="widget-wrap widget-list">
     <h3 class="widget-title">categories</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="../../categories/diary/">diary</a><span class="category-list-count">13</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/tool/">tool</a><span class="category-list-count">19</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/webtech/">webtech</a><span class="category-list-count">11</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/wordpress/">wordpress</a><span class="category-list-count">14</span></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="../../categories/diary/">diary</a><span class="category-list-count">13</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/tool/">tool</a><span class="category-list-count">17</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/webtech/">webtech</a><span class="category-list-count">8</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/wordpress/">wordpress</a><span class="category-list-count">12</span></li></ul>
     </div>
   </div>
 
@@ -343,7 +347,7 @@ ga('send', 'pageview');
   <div class="widget-wrap widget-list">
     <h3 class="widget-title">archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2015/03/">March 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2013/06/">June 2013</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2013/01/">January 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2012/12/">December 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2012/01/">January 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/12/">December 2011</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/11/">November 2011</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/10/">October 2011</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/09/">September 2011</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/08/">August 2011</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/07/">July 2011</a><span class="archive-list-count">10</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/06/">June 2011</a><span class="archive-list-count">18</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/05/">May 2011</a><span class="archive-list-count">10</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2015/03/">March 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2013/06/">June 2013</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2013/01/">January 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2012/12/">December 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2012/01/">January 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/12/">December 2011</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/11/">November 2011</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/10/">October 2011</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/09/">September 2011</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/08/">August 2011</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/07/">July 2011</a><span class="archive-list-count">10</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/06/">June 2011</a><span class="archive-list-count">14</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/05/">May 2011</a><span class="archive-list-count">7</span></li></ul>
     </div>
   </div>
 
@@ -353,7 +357,7 @@ ga('send', 'pageview');
   <div class="widget-wrap widget-list">
     <h3 class="widget-title">tags</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Analytics/">Analytics</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Google-Picasa/">Google, Picasa</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Mac/">Mac</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/RSS/">RSS</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/jQuery/">jQuery</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/イベント/">イベント</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/ネタ/">ネタ</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/プラグイン/">プラグイン</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/二次創作/">二次創作</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/同人/">同人</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/著作権/">著作権</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/雑記/">雑記</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/高速化/">高速化</a><span class="tag-list-count">2</span></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Analytics/">Analytics</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Google-Picasa/">Google, Picasa</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Mac/">Mac</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/RSS/">RSS</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Server/">Server</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/jQuery/">jQuery</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/イベント/">イベント</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/ネタ/">ネタ</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/二次創作/">二次創作</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/同人/">同人</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/著作権/">著作権</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/雑記/">雑記</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/高速化/">高速化</a><span class="tag-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -363,7 +367,7 @@ ga('send', 'pageview');
   <div class="widget-wrap widget-float">
     <h3 class="widget-title">tag cloud</h3>
     <div class="widget tagcloud">
-      <a href="../../tags/Analytics/" style="font-size: 10px;">Analytics</a><a href="../../tags/Google-Picasa/" style="font-size: 10px;">Google, Picasa</a><a href="../../tags/Mac/" style="font-size: 10px;">Mac</a><a href="../../tags/RSS/" style="font-size: 10px;">RSS</a><a href="../../tags/jQuery/" style="font-size: 10px;">jQuery</a><a href="../../tags/イベント/" style="font-size: 10px;">イベント</a><a href="../../tags/ネタ/" style="font-size: 10px;">ネタ</a><a href="../../tags/プラグイン/" style="font-size: 10px;">プラグイン</a><a href="../../tags/二次創作/" style="font-size: 10px;">二次創作</a><a href="../../tags/同人/" style="font-size: 10px;">同人</a><a href="../../tags/著作権/" style="font-size: 10px;">著作権</a><a href="../../tags/雑記/" style="font-size: 10px;">雑記</a><a href="../../tags/高速化/" style="font-size: 20px;">高速化</a>
+      <a href="../../tags/Analytics/" style="font-size: 10px;">Analytics</a><a href="../../tags/Google-Picasa/" style="font-size: 10px;">Google, Picasa</a><a href="../../tags/Mac/" style="font-size: 20px;">Mac</a><a href="../../tags/RSS/" style="font-size: 10px;">RSS</a><a href="../../tags/Server/" style="font-size: 10px;">Server</a><a href="../../tags/jQuery/" style="font-size: 10px;">jQuery</a><a href="../../tags/イベント/" style="font-size: 10px;">イベント</a><a href="../../tags/ネタ/" style="font-size: 10px;">ネタ</a><a href="../../tags/二次創作/" style="font-size: 10px;">二次創作</a><a href="../../tags/同人/" style="font-size: 10px;">同人</a><a href="../../tags/著作権/" style="font-size: 10px;">著作権</a><a href="../../tags/雑記/" style="font-size: 10px;">雑記</a><a href="../../tags/高速化/" style="font-size: 10px;">高速化</a>
     </div>
   </div>
 
@@ -415,6 +419,7 @@ ga('send', 'pageview');
 
 <script src="../../js/html-patch.js" type="text/javascript"></script>
 <script src="../../js/script.js" type="text/javascript"></script>
+<script src="../../js/highlight.pack.js" type="text/javascript"></script>
 
   </div>
 </body>

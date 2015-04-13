@@ -6,19 +6,22 @@
   <title>WP-OGPプラグイン最適化して、Facebookからアクセスアップ！ | creamo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="以前、Facebook向けにやっておきたいOGP設定という記事を書きましたが、「WP-OGPプラグイン」にうまく動かない部分があったので、修正点を上げていきます。
-fb:appidをfb:app_idにまずは単純なミスです。ただのタイポだと思うのですが、何故更新されないのか不思議なところ。とりあえず、このままではmeta要素が正常に機能しないので、修正しておきましょう。">
+fb:appidをfb:app_idにまずは単純なミスです。ただのタイポだと思うのですが、何故更新されないのか不思議なところ。とりあえず、このままではmeta要素が正常に機能しないので、修正しておきましょう。
+WP-OGPプラグイン内の">
 <meta property="og:type" content="article">
 <meta property="og:title" content="WP-OGPプラグイン最適化して、Facebookからアクセスアップ！">
 <meta property="og:url" content="http://hirotaka11.github.io/wordpress/wp-ogp-fixed/index.html">
 <meta property="og:site_name" content="creamo">
 <meta property="og:description" content="以前、Facebook向けにやっておきたいOGP設定という記事を書きましたが、「WP-OGPプラグイン」にうまく動かない部分があったので、修正点を上げていきます。
-fb:appidをfb:app_idにまずは単純なミスです。ただのタイポだと思うのですが、何故更新されないのか不思議なところ。とりあえず、このままではmeta要素が正常に機能しないので、修正しておきましょう。">
-<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/06/description_sample.jpg">
-<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/06/description_sample2.jpg">
+fb:appidをfb:app_idにまずは単純なミスです。ただのタイポだと思うのですが、何故更新されないのか不思議なところ。とりあえず、このままではmeta要素が正常に機能しないので、修正しておきましょう。
+WP-OGPプラグイン内の">
+<meta property="og:image" content="/wordpress/wp-ogp-fixed/description_sample.jpg">
+<meta property="og:image" content="/wordpress/wp-ogp-fixed/description_sample2.jpg">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="WP-OGPプラグイン最適化して、Facebookからアクセスアップ！">
 <meta name="twitter:description" content="以前、Facebook向けにやっておきたいOGP設定という記事を書きましたが、「WP-OGPプラグイン」にうまく動かない部分があったので、修正点を上げていきます。
-fb:appidをfb:app_idにまずは単純なミスです。ただのタイポだと思うのですが、何故更新されないのか不思議なところ。とりあえず、このままではmeta要素が正常に機能しないので、修正しておきましょう。">
+fb:appidをfb:app_idにまずは単純なミスです。ただのタイポだと思うのですが、何故更新されないのか不思議なところ。とりあえず、このままではmeta要素が正常に機能しないので、修正しておきましょう。
+WP-OGPプラグイン内の">
   
   
     <link rel="icon" href="/favicon.png">
@@ -51,6 +54,7 @@ ga('send', 'pageview');
     <link href='//fonts.googleapis.com/css?family=Titillium+Web:300,400,600' rel='stylesheet' type='text/css'>
     <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   
+  <link rel="stylesheet" href="../../css/monokai_sublime.css" type="text/css">
 
 </head>
 
@@ -126,7 +130,12 @@ ga('send', 'pageview');
       </p>
       <div class="article-entry" itemprop="articleBody">
         <p>以前、<a href="http://creamo.jp/webtech/wp_for_facebook_ogp/" title="Facebook向けにやっておきたいOGP設定" target="_blank" rel="external">Facebook向けにやっておきたいOGP設定</a>という記事を書きましたが、「WP-OGPプラグイン」にうまく動かない部分があったので、修正点を上げていきます。</p>
-<h3 id="fb:appidをfb:app_idに">fb:appidをfb:app_idに</h3><p>まずは単純なミスです。<br>ただのタイポだと思うのですが、何故更新されないのか不思議なところ。<br>とりあえず、このままではmeta要素が正常に機能しないので、修正しておきましょう。<br><a id="more"></a><br>WP-OGPプラグイン内の「wp-opg.php」を編集します。<br>[sourcecode lang=”php” highlight=””2″”] $ogpt_settings = array(<br>    ‘fb:admins’ =&amp;gt; ‘’,<br>    ‘fb:appid’ =&amp;gt; ‘’,<br>[/sourcecode]<br>[sourcecode lang=”php” highlight=””3″”]<br>function load_wpogp_settings() {<br>    global $ogpt_settings;<br>    $ogpt_settings[‘fb:appid’]  = get_option(OGPT_SETTINGS_KEY_FB_APPID);<br>    $ogpt_settings[‘fb:admins’] = get_option(OGPT_SETTINGS_KEY_FB_ADMINS);<br>}<br>[/sourcecode]<br>上記部分の『fb:appid』を<br>[sourcecode lang=”php” highlight=””2″”] $ogpt_settings = array(<br>    ‘fb:admins’ =&amp;gt; ‘’,<br>    ‘fb:app_id’ =&amp;gt; ‘’,<br>[/sourcecode]<br>[sourcecode lang=”php” highlight=””3″”]<br>function load_wpogp_settings() {<br>    global $ogpt_settings;<br>    $ogpt_settings[‘fb:app_id’]  = get_option(OGPT_SETTINGS_KEY_FB_APPID);<br>    $ogpt_settings[‘fb:admins’] = get_option(OGPT_SETTINGS_KEY_FB_ADMINS);<br>}<br>[/sourcecode]<br>『fb:app_id』に。<br>これで大丈夫です。とりあえずやっておきましょう。</p>
+<h3 id="fb:appidをfb:app_idに">fb:appidをfb:app_idに</h3><p>まずは単純なミスです。<br>ただのタイポだと思うのですが、何故更新されないのか不思議なところ。<br>とりあえず、このままではmeta要素が正常に機能しないので、修正しておきましょう。</p>
+<p>WP-OGPプラグイン内の「wp-opg.php」を編集します。</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ogpt_settings</span> = <span class="keyword">array</span>(</span><br><span class="line">	<span class="string">'fb:admins'</span> =&amp;amp;gt; <span class="string">''</span>,</span><br><span class="line">	<span class="string">'fb:appid'</span> =&amp;amp;gt; <span class="string">''</span>,</span><br><span class="line">[/sourcecode]</span><br><span class="line">[sourcecode lang=<span class="string">"php"</span> highlight=<span class="string">"”3″"</span>]</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">load_wpogp_settings</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">global</span> <span class="variable">$ogpt_settings</span>;</span><br><span class="line">    <span class="variable">$ogpt_settings</span>[<span class="string">'fb:appid'</span>]  = get_option(OGPT_SETTINGS_KEY_FB_APPID);</span><br><span class="line">    <span class="variable">$ogpt_settings</span>[<span class="string">'fb:admins'</span>] = get_option(OGPT_SETTINGS_KEY_FB_ADMINS);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>上記部分の『fb:appid』を</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ogpt_settings</span> = <span class="keyword">array</span>(</span><br><span class="line">	<span class="string">'fb:admins'</span> =&amp;amp;gt; <span class="string">''</span>,</span><br><span class="line">	<span class="string">'fb:app_id'</span> =&amp;amp;gt; <span class="string">''</span>,</span><br><span class="line">[/sourcecode]</span><br><span class="line">[sourcecode lang=<span class="string">"php"</span> highlight=<span class="string">"”3″"</span>]</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">load_wpogp_settings</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">global</span> <span class="variable">$ogpt_settings</span>;</span><br><span class="line">    <span class="variable">$ogpt_settings</span>[<span class="string">'fb:app_id'</span>]  = get_option(OGPT_SETTINGS_KEY_FB_APPID);</span><br><span class="line">    <span class="variable">$ogpt_settings</span>[<span class="string">'fb:admins'</span>] = get_option(OGPT_SETTINGS_KEY_FB_ADMINS);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>『fb:app_id』に。<br>これで大丈夫です。とりあえずやっておきましょう。</p>
 <h3 id="「いいね！」「シェア」ボタンを押してサムネイルが表示されない？">「いいね！」「シェア」ボタンを押してサムネイルが表示されない？</h3><p>OGPが設定されていれば、ウォールにそのページのアイキャッチや使用されている画像がサムネイルとして表示されるはずです。</p>
 <p>WP-OGPを見ても<br>[sourcecode lang=”php”]<br>&amp;lt;meta property=&amp;quot;og:image&amp;quot; content=&amp;quot;アイキャッチ画像のURL&amp;quot; /&amp;gt;<br>[/sourcecode]<br>となっているので問題ないはず･･･と思いきや、<a href="http://developers.facebook.com/docs/opengraph/" title="Link to Open Graph protocol - Facebook開発者" target="_blank" rel="external">Open Graph protocol - Facebook開発者</a>内で</p>
 <blockquote>
@@ -135,17 +144,19 @@ ga('send', 'pageview');
 <p>と書かれており、<strong>アスペクト比が3:1以内の画像でないとダメ</strong>なんです。</p>
 <p><strong>このままアイキャッチをサムネイルとして使用する場合</strong><br>アイキャッチ画像を設定すていない時、プラグイン内の「dafault.jpg」をサムネイルに使用します。<br>「default.jpg」の画像を3:1以内の画像に入れ替えておきましょう。</p>
 <p>しかし、アイキャッチが3:1以上の横長な画像を使っている人は結構います。<br><strong>一番最初にある画像をサムネイルにする</strong>ように設定します。</p>
-<p>wp-ogp.php<br>[sourcecode lang=”php”]<br>$image = get_the_post_thumbnail_src(get_the_post_thumbnail($post-&amp;gt;ID));<br>[/sourcecode]<br>を<br>[sourcecode lang=”php”]<br>$image = get_the_post_thumbnail_src($post-&amp;gt;post_content);<br>[/sourcecode]<br>に変えればOKです。これでアイキャッチではなく、最初にある画像がサムネイルとして表示されます。</p>
+<p>wp-ogp.php<br><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$image</span> = get_the_post_thumbnail_src(get_the_post_thumbnail(<span class="variable">$post</span>-&amp;amp;gt;ID));</span><br></pre></td></tr></table></figure></p>
+<p>を<br><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$image</span> = get_the_post_thumbnail_src(<span class="variable">$post</span>-&amp;amp;gt;post_content);</span><br></pre></td></tr></table></figure></p>
+<p>に変えればOKです。これでアイキャッチではなく、最初にある画像がサムネイルとして表示されます。</p>
 <p><strong>いや、記事に複数の画像があるんだから選択させてくれ！</strong><br>と思う方もいるでしょう。<br>以下のサイトでマルチサムネイル対応版のWP-OGPを配布しています。<br><a href="http://sinack.com/wordpress/wp-ogp-multithumb.html" title="Link to WP-OGPを改造してマルチサムネイル対応＆正しいプロパティ表記にしました | Sinack" target="_blank" rel="external">WP-OGPを改造してマルチサムネイル対応＆正しいプロパティ表記にしました | Sinack</a></p>
-<h3 id="抜粋（要約）を記入する">抜粋（要約）を記入する</h3><p>ウォール部分に表示される際、本文も表示されます。<br>WP-OGPの場合、「抜粋」を記入しない場合は<br><img src="http://creamo.jp/wp/wp-content/uploads/2011/06/description_sample.jpg" alt="抜粋を記入していない場合は本文から適当な部分でカットされる" title="抜粋を記入していない場合は本文から適当な部分でカットされる"><br>本文を適当な部分でカットし、表示されます。</p>
-<p>気にはならないかもしれませんが、抜粋を書くことで見やすくなります。<img src="http://creamo.jp/wp/wp-content/uploads/2011/06/description_sample2.jpg" alt="抜粋を記入した場合" title="抜粋を記入した場合"></p>
+<h3 id="抜粋（要約）を記入する">抜粋（要約）を記入する</h3><p>ウォール部分に表示される際、本文も表示されます。<br>WP-OGPの場合、「抜粋」を記入しない場合は<br><img src="/wordpress/wp-ogp-fixed/description_sample.jpg" alt="抜粋を記入していない場合は本文から適当な部分でカットされる" title="抜粋を記入していない場合は本文から適当な部分でカットされる"><br>本文を適当な部分でカットし、表示されます。</p>
+<p>気にはならないかもしれませんが、抜粋を書くことで見やすくなります。<img src="/wordpress/wp-ogp-fixed/description_sample2.jpg" alt="抜粋を記入した場合" title="抜粋を記入した場合"></p>
 <p>OGP用の「fb:description」と通常の「description」は別の扱いになるので、SEOを考えるなら是非記入しておきたいところです。<br>通常のdescriptionの記入は「Head Space2」 等のSEOプラグインを導入すれば可能になります。</p>
 <p>設定が出来たら以下のページで確認しておきましょう。<br><a href="https://developers.facebook.com/tools/lint" title="Link to URLリンター - Facebook開発者" target="_blank" rel="external">URLリンター - Facebook開発者</a></p>
 <p>参考サイト<br><a href="http://www.koikikukan.com/archives/cat_143.php" title="Link to 小粋空間: プラグイン アーカイブ" target="_blank" rel="external">小粋空間: プラグイン アーカイブ</a><br><a href="http://deg84.com/2011/04/14/wp-ogp-eyecatch/" title="Link to WP-OGPプラグインで出力される画像をアイキャッチ画像から記事内の最初の画像にする方法 - degのはてなダイアリー" target="_blank" rel="external">WP-OGPプラグインで出力される画像をアイキャッチ画像から記事内の最初の画像にする方法 - degのはてなダイアリー</a><br><a href="http://sinack.com/wordpress/wp-ogp-multithumb.html" title="Link to WP-OGPを改造してマルチサムネイル対応＆正しいプロパティ表記にしました | Sinack" target="_blank" rel="external">WP-OGPを改造してマルチサムネイル対応＆正しいプロパティ表記にしました | Sinack</a></p>
 
       </div>
       <footer class="article-footer">
-        <a data-url="http://hirotaka11.github.io/wordpress/wp-ogp-fixed/" data-id="ci84fz9u3000k6qcepcealg3x" class="article-share-link">Share</a>
+        <a data-url="http://hirotaka11.github.io/wordpress/wp-ogp-fixed/" data-id="ci8g87ho0000hnsceuvh33whb" class="article-share-link">Share</a>
         
         
       </footer>
@@ -186,9 +197,9 @@ ga('send', 'pageview');
     </a>
   
   
-    <a href="../../webtech/twitter-follow-button/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="../../tool/stylus-tool-memo/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">older</strong>
-      <p class="article-nav-title">Twitterがフォローしやすいボタンを公開してくれたよ！</p>
+      <p class="article-nav-title">紙を消費せずにメモとか絵を描いてみたい！</p>
       <i class="icon" id="icon-chevron-left"></i>
     </a>
   
@@ -309,7 +320,7 @@ ga('send', 'pageview');
   <div class="widget-wrap widget-list">
     <h3 class="widget-title">categories</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="../../categories/diary/">diary</a><span class="category-list-count">13</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/tool/">tool</a><span class="category-list-count">19</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/webtech/">webtech</a><span class="category-list-count">11</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/wordpress/">wordpress</a><span class="category-list-count">14</span></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="../../categories/diary/">diary</a><span class="category-list-count">13</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/tool/">tool</a><span class="category-list-count">17</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/webtech/">webtech</a><span class="category-list-count">8</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/wordpress/">wordpress</a><span class="category-list-count">12</span></li></ul>
     </div>
   </div>
 
@@ -319,7 +330,7 @@ ga('send', 'pageview');
   <div class="widget-wrap widget-list">
     <h3 class="widget-title">archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2015/03/">March 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2013/06/">June 2013</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2013/01/">January 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2012/12/">December 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2012/01/">January 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/12/">December 2011</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/11/">November 2011</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/10/">October 2011</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/09/">September 2011</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/08/">August 2011</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/07/">July 2011</a><span class="archive-list-count">10</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/06/">June 2011</a><span class="archive-list-count">18</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/05/">May 2011</a><span class="archive-list-count">10</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2015/03/">March 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2013/06/">June 2013</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2013/01/">January 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2012/12/">December 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2012/01/">January 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/12/">December 2011</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/11/">November 2011</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/10/">October 2011</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/09/">September 2011</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/08/">August 2011</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/07/">July 2011</a><span class="archive-list-count">10</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/06/">June 2011</a><span class="archive-list-count">14</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/05/">May 2011</a><span class="archive-list-count">7</span></li></ul>
     </div>
   </div>
 
@@ -329,7 +340,7 @@ ga('send', 'pageview');
   <div class="widget-wrap widget-list">
     <h3 class="widget-title">tags</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Analytics/">Analytics</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Google-Picasa/">Google, Picasa</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Mac/">Mac</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/RSS/">RSS</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/jQuery/">jQuery</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/イベント/">イベント</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/ネタ/">ネタ</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/プラグイン/">プラグイン</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/二次創作/">二次創作</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/同人/">同人</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/著作権/">著作権</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/雑記/">雑記</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/高速化/">高速化</a><span class="tag-list-count">2</span></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Analytics/">Analytics</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Google-Picasa/">Google, Picasa</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Mac/">Mac</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/RSS/">RSS</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Server/">Server</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/jQuery/">jQuery</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/イベント/">イベント</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/ネタ/">ネタ</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/二次創作/">二次創作</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/同人/">同人</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/著作権/">著作権</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/雑記/">雑記</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/高速化/">高速化</a><span class="tag-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -339,7 +350,7 @@ ga('send', 'pageview');
   <div class="widget-wrap widget-float">
     <h3 class="widget-title">tag cloud</h3>
     <div class="widget tagcloud">
-      <a href="../../tags/Analytics/" style="font-size: 10px;">Analytics</a><a href="../../tags/Google-Picasa/" style="font-size: 10px;">Google, Picasa</a><a href="../../tags/Mac/" style="font-size: 10px;">Mac</a><a href="../../tags/RSS/" style="font-size: 10px;">RSS</a><a href="../../tags/jQuery/" style="font-size: 10px;">jQuery</a><a href="../../tags/イベント/" style="font-size: 10px;">イベント</a><a href="../../tags/ネタ/" style="font-size: 10px;">ネタ</a><a href="../../tags/プラグイン/" style="font-size: 10px;">プラグイン</a><a href="../../tags/二次創作/" style="font-size: 10px;">二次創作</a><a href="../../tags/同人/" style="font-size: 10px;">同人</a><a href="../../tags/著作権/" style="font-size: 10px;">著作権</a><a href="../../tags/雑記/" style="font-size: 10px;">雑記</a><a href="../../tags/高速化/" style="font-size: 20px;">高速化</a>
+      <a href="../../tags/Analytics/" style="font-size: 10px;">Analytics</a><a href="../../tags/Google-Picasa/" style="font-size: 10px;">Google, Picasa</a><a href="../../tags/Mac/" style="font-size: 20px;">Mac</a><a href="../../tags/RSS/" style="font-size: 10px;">RSS</a><a href="../../tags/Server/" style="font-size: 10px;">Server</a><a href="../../tags/jQuery/" style="font-size: 10px;">jQuery</a><a href="../../tags/イベント/" style="font-size: 10px;">イベント</a><a href="../../tags/ネタ/" style="font-size: 10px;">ネタ</a><a href="../../tags/二次創作/" style="font-size: 10px;">二次創作</a><a href="../../tags/同人/" style="font-size: 10px;">同人</a><a href="../../tags/著作権/" style="font-size: 10px;">著作権</a><a href="../../tags/雑記/" style="font-size: 10px;">雑記</a><a href="../../tags/高速化/" style="font-size: 10px;">高速化</a>
     </div>
   </div>
 
@@ -391,6 +402,7 @@ ga('send', 'pageview');
 
 <script src="../../js/html-patch.js" type="text/javascript"></script>
 <script src="../../js/script.js" type="text/javascript"></script>
+<script src="../../js/highlight.pack.js" type="text/javascript"></script>
 
   </div>
 </body>

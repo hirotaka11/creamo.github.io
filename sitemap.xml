@@ -2,6 +2,71 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://hirotaka11.github.io/wordpress/wordpress-divert-code/</loc>
+    <lastmod>2015-04-13T18:39:08.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/webtech/distributed-bookmarks-with-feedburner/</loc>
+    <lastmod>2015-04-13T18:34:13.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/wordpress/wordpress-feed-custom/</loc>
+    <lastmod>2015-04-13T18:25:30.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/wordpress/syntaxhighlighter/</loc>
+    <lastmod>2015-04-13T18:22:31.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/wordpress/jquery-load-wordpress/</loc>
+    <lastmod>2015-04-13T18:17:35.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/tool/quake-app/</loc>
+    <lastmod>2015-04-13T18:10:41.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/webtech/ie-css3-gradient/</loc>
+    <lastmod>2015-04-13T18:04:56.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/tool/mamp-password-omi/</loc>
+    <lastmod>2015-04-13T18:02:59.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/webtech/css-js-link-trouble/</loc>
+    <lastmod>2015-04-13T18:00:16.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/wordpress/wp-ogp-fixed/</loc>
+    <lastmod>2015-04-13T17:59:29.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/tool/subversion-trouble/</loc>
+    <lastmod>2015-04-13T17:52:13.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/tool/mac-svn-coda/</loc>
+    <lastmod>2015-04-13T17:46:12.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hirotaka11.github.io/diary/cssnite-redux6-vol61/</loc>
+    <lastmod>2015-04-05T12:47:08.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://hirotaka11.github.io/diary/moe-moved/</loc>
     <lastmod>2015-04-05T12:44:52.000Z</lastmod>
   </url>
@@ -12,38 +77,13 @@
   </url>
   
   <url>
-    <loc>http://hirotaka11.github.io/wordpress/wp-hyper-response/</loc>
-    <lastmod>2015-04-05T11:19:02.000Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://hirotaka11.github.io/wordpress/better-delete-revision/</loc>
     <lastmod>2015-04-05T10:45:32.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://hirotaka11.github.io/wordpress/jquery-load-wordpress/</loc>
-    <lastmod>2015-04-05T10:45:01.000Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://hirotaka11.github.io/wordpress/secure-marsedit/</loc>
     <lastmod>2015-04-05T10:44:26.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://hirotaka11.github.io/wordpress/syntaxhighlighter/</loc>
-    <lastmod>2015-04-05T10:44:10.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://hirotaka11.github.io/wordpress/wordpress-divert-code/</loc>
-    <lastmod>2015-04-05T10:43:48.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://hirotaka11.github.io/wordpress/wordpress-feed-custom/</loc>
-    <lastmod>2015-04-05T10:43:35.000Z</lastmod>
   </url>
   
   <url>
@@ -62,18 +102,8 @@
   </url>
   
   <url>
-    <loc>http://hirotaka11.github.io/wordpress/wp-ogp-fixed/</loc>
-    <lastmod>2015-04-05T10:42:42.000Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://hirotaka11.github.io/wordpress/wp-multilingualization/</loc>
     <lastmod>2015-04-05T10:42:34.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://hirotaka11.github.io/wordpress/wp3-new-theme/</loc>
-    <lastmod>2015-04-05T10:42:28.000Z</lastmod>
   </url>
   
   <url>
@@ -112,16 +142,6 @@
   </url>
   
   <url>
-    <loc>http://hirotaka11.github.io/webtech/twitter-follow-button/</loc>
-    <lastmod>2015-04-05T10:24:24.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://hirotaka11.github.io/tool/subversion-trouble/</loc>
-    <lastmod>2015-04-05T10:23:58.000Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://hirotaka11.github.io/tool/stylus-tool-memo/</loc>
     <lastmod>2015-04-05T10:23:51.000Z</lastmod>
   </url>
@@ -147,21 +167,6 @@
   </url>
   
   <url>
-    <loc>http://hirotaka11.github.io/tool/my-mac-envi/</loc>
-    <lastmod>2015-04-05T10:22:59.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://hirotaka11.github.io/tool/mamp-password-omi/</loc>
-    <lastmod>2015-04-05T10:22:46.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://hirotaka11.github.io/tool/mac-svn-coda/</loc>
-    <lastmod>2015-04-05T10:22:39.000Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://hirotaka11.github.io/tool/mac-lion-tips/</loc>
     <lastmod>2015-04-05T10:22:33.000Z</lastmod>
   </url>
@@ -174,16 +179,6 @@
   <url>
     <loc>http://hirotaka11.github.io/webtech/ie6-no-more/</loc>
     <lastmod>2015-04-05T10:21:09.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://hirotaka11.github.io/webtech/ie-css3-gradient/</loc>
-    <lastmod>2015-04-05T10:21:03.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://hirotaka11.github.io/webtech/html5-easymode/</loc>
-    <lastmod>2015-04-05T10:20:57.000Z</lastmod>
   </url>
   
   <url>
@@ -227,38 +222,13 @@
   </url>
   
   <url>
-    <loc>http://hirotaka11.github.io/webtech/distributed-bookmarks-with-feedburner/</loc>
-    <lastmod>2015-04-05T10:18:19.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://hirotaka11.github.io/diary/cssnite-redux6-vol61/</loc>
-    <lastmod>2015-04-05T10:18:03.000Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://hirotaka11.github.io/diary/cssnite-lp20/</loc>
     <lastmod>2015-04-05T10:17:57.000Z</lastmod>
   </url>
   
   <url>
-    <loc>http://hirotaka11.github.io/webtech/css-js-link-trouble/</loc>
-    <lastmod>2015-04-05T10:17:52.000Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://hirotaka11.github.io/diary/cedec-2011/</loc>
     <lastmod>2015-04-05T10:17:34.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://hirotaka11.github.io/tool/buy-coda-try-marsedit/</loc>
-    <lastmod>2015-04-05T10:17:29.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://hirotaka11.github.io/webtech/android-useragent/</loc>
-    <lastmod>2015-04-05T10:17:13.000Z</lastmod>
   </url>
   
   <url>
@@ -269,11 +239,6 @@
   <url>
     <loc>http://hirotaka11.github.io/diary/get-in-wimax/</loc>
     <lastmod>2015-04-05T10:13:54.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://hirotaka11.github.io/tool/quake-app/</loc>
-    <lastmod>2015-04-04T18:40:25.000Z</lastmod>
   </url>
   
   <url>

@@ -17,13 +17,13 @@
 プログラマーの人は当たり前のように使っていますが、WEBデザイナーの人たちはあまり触れることがないかもしれません。
 しかし、CodaもDreamweaverも「Subversion(SVN)」というバージョン管理システムに対応するようになりました。
 バージョン管理システムは一回使ってみると便利さが身に染みて分かります。「実装した機能やっぱ">
-<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/05/coda-checkout.jpg">
-<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/05/coda-checkout2.jpg">
-<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/05/coda-checkin.jpg">
-<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/05/coda-under-bar.jpg">
-<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/05/coda-source-status.jpg">
-<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/05/filemerge1.jpg">
-<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/05/filemerge2.jpg">
+<meta property="og:image" content="/tool/mac-svn-coda/coda-checkout.jpg">
+<meta property="og:image" content="/tool/mac-svn-coda/coda-checkout2.jpg">
+<meta property="og:image" content="/tool/mac-svn-coda/coda-checkin.jpg">
+<meta property="og:image" content="/tool/mac-svn-coda/coda-under-bar.jpg">
+<meta property="og:image" content="/tool/mac-svn-coda/coda-source-status.jpg">
+<meta property="og:image" content="/tool/mac-svn-coda/filemerge1.jpg">
+<meta property="og:image" content="/tool/mac-svn-coda/filemerge2.jpg">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="MacでSubversionを使ってバージョン管理してみよう！Codaと連携も">
 <meta name="twitter:description" content="バージョン管理とはなんぞや？と思う人もいるかもしれません。
@@ -62,6 +62,7 @@ ga('send', 'pageview');
     <link href='//fonts.googleapis.com/css?family=Titillium+Web:300,400,600' rel='stylesheet' type='text/css'>
     <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   
+  <link rel="stylesheet" href="../../css/monokai_sublime.css" type="text/css">
 
 </head>
 
@@ -141,45 +142,38 @@ ga('send', 'pageview');
 <p>しかし、CodaもDreamweaverも「Subversion(SVN)」というバージョン管理システムに対応するようになりました。</p>
 <p>バージョン管理システムは一回使ってみると便利さが身に染みて分かります。<br>「実装した機能やっぱいらないから、戻しておいて」と言われて涙することってありますよね。<br>バックアップするのは当然ですが、万が一バックアップし忘れたときや、さらに前のバックアップが必要になったとき、バージョン管理システムは真価を発揮します。</p>
 <p>では、Macでバージョン管理システムを使ったこと無い人はこの機会に一度使ってみましょう。</p>
-<p><a id="more"></a><strong>バージョン管理システム</strong><br>バージョン管理にも種類あり、よく使われているのが前述した「<a href="http://subversion.apache.org/" target="_blank" rel="external">Subversion(SVN)</a>」で、最近の流行は「<a href="http://git-scm.com/" target="_blank" rel="external">Git</a>」というシステムです。<br>「Subversion」は一つの端末を単体サーバーのように中心として、バージョン管理を行います。<br>「Git」はそれぞれの端末でソースを持ち合い、同期はそれぞれの端末同士が持っているファイルをやり取りしあいます。複数人で作業を行っている場合、大抵人によって担当のプログラムが割り振られているので「Git」の方が同期時間が少なくて済みますね。また、単体サーバーだと故障したときが心配です。</p>
-<p>で、これだと「Git」を使いたくなるのですが、残念ながらCodaはGitに対応していません。CodaとSVNの相性が良いというのもCodaの評判の一つだったので、素直にSVNを導入することにしました。</p>
-<p><strong>MacにSubversionを導入</strong></p>
-<p>まずMacにXcodeをインストールします。<br>Mac付属のインストールCDからインストールするか、<a href="http://developer.apple.com/jp/technologies/tools/" target="_blank" rel="external">Appleからダウンロード</a>出来ます。（最新版のXcode 4は有料なのでXcode 3でOK）</p>
-<p>ターミナルを開き</p>
-<blockquote>
-<p>$ which svn<br>と入力し、「/usr/bin/svn」と返ってきたらOKです。これでsvnコマンドが使えることが確認出来ます。</p>
-</blockquote>
+<a id="more"></a><strong>バージョン管理システム</strong><br>バージョン管理にも種類あり、よく使われているのが前述した「<a href="http://subversion.apache.org/" target="_blank" rel="external">Subversion(SVN)</a>」で、最近の流行は「<a href="http://git-scm.com/" target="_blank" rel="external">Git</a>」というシステムです。<br>「Subversion」は一つの端末を単体サーバーのように中心として、バージョン管理を行います。<br>「Git」はそれぞれの端末でソースを持ち合い、同期はそれぞれの端末同士が持っているファイルをやり取りしあいます。複数人で作業を行っている場合、大抵人によって担当のプログラムが割り振られているので「Git」の方が同期時間が少なくて済みますね。また、単体サーバーだと故障したときが心配です。<br><br>で、これだと「Git」を使いたくなるのですが、残念ながらCodaはGitに対応していません。CodaとSVNの相性が良いというのもCodaの評判の一つだったので、素直にSVNを導入することにしました。<br><br><strong>MacにSubversionを導入</strong><br><br>まずMacにXcodeをインストールします。<br>Mac付属のインストールCDからインストールするか、<a href="http://developer.apple.com/jp/technologies/tools/" target="_blank" rel="external">Appleからダウンロード</a>出来ます。（最新版のXcode 4は有料なのでXcode 3でOK）<br><br>ターミナルを開き<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">which</span> svn</span><br></pre></td></tr></table></figure>
+<p>と入力し、「/usr/bin/svn」と返ってきたらOKです。これでsvnコマンドが使えることが確認出来ます。</p>
 <p>次にターミナルに下記を入力。（Project-nameには好きな言葉を入れてください）</p>
-<blockquote>
-<p>$ mkdir -p ~/svn/<span style="color: #ff00ff;">Project-name</span></p>
-<p>$ svnadmin create ~/svn/<span style="color: #ff00ff;">Project-name</span><br>これで「リポジトリ」が「/ユーザー名/svn/Project-name」に作成されます。<br>「リポジトリ」というのはバージョン管理してるファイルの置き場です。このフォルダ内にバージョン管理の情報が保存されていきます。</p>
-</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir -p ~/svn/[Project-name]</span><br><span class="line">$ svnadmin create ~/svn/[Project-name]</span><br></pre></td></tr></table></figure>
+<p>これで「リポジトリ」が「/ユーザー名/svn/Project-name」に作成されます。<br>「リポジトリ」というのはバージョン管理してるファイルの置き場です。このフォルダ内にバージョン管理の情報が保存されていきます。</p>
 <p><strong>Dropboxを使う</strong></p>
 <p>便利な使い方として、<a href="http://db.tt/C1rDVgi" target="_blank" rel="external">Dropbox</a>を使う方法があります。<br>先ほどと同じ方法でDropbox内フォルダにリポジトリを作成します。<br>Dropboxを使うことにより、擬似的にクラウドっぽいバージョン管理が出来るわけです。バックアップも取れますしね。<br>ただし、問題として複数のPCを同時に起動したり、オフラインで作業したりするとコンフリクトが起こり、バージョン管理がおかしくなります。個人使用の場合は便利かもしれません。</p>
 <p><span style="color: #ff0000;">5/25 追記書きました</span> <a href="http://creamo.jp/tool/subversion-trouble/" title="初心者がSubversionでトラブった時のためのメモ書き" target="_blank" rel="external">初心者がSubversionでトラブった時のためのメモ書き</a></p>
 <p><a href="https://www.sugarsync.com/" target="_blank" rel="external">SugarSync</a>だと同期するフォルダを既存フォルダから選ぶ方式なので、設定としてはSugarSyncの方が楽です。</p>
 <p><strong>CodaでSVNを使う設定</strong></p>
-<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/05/coda-checkout.jpg" alt="" title="coda-checkout"></p>
+<p><img src="/tool/mac-svn-coda/coda-checkout.jpg" alt="" title="coda-checkout"></p>
 <p>Codaの「サイト」メニューの設定を開き、一番下の「ソースをチェックアウト」をクリックします。</p>
-<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/05/coda-checkout2.jpg" alt="" title="coda-checkout2"></p>
+<p><img src="/tool/mac-svn-coda/coda-checkout2.jpg" alt="" title="coda-checkout2"></p>
 <p>「リポジトリURL」に</p>
 <blockquote>
-<p>file:///Users/<span style="color: #ff00ff;">ユーザ名</span>/svn/Project-name<br>を入力します。「ユーザ名」と「パスワード」はユーザーフォルダ内にリポジトリを作成した場合は必要です。</p>
+<p>file:///Users/<span style="color: #ff00ff;">ユーザ名</span>/svn/Project-name</p>
 </blockquote>
-<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/05/coda-checkin.jpg" alt="" title="coda-checkin"></p>
+<p>を入力します。「ユーザ名」と「パスワード」はユーザーフォルダ内にリポジトリを作成した場合は必要です。</p>
+<p><img src="/tool/mac-svn-coda/coda-checkin.jpg" alt="" title="coda-checkin"></p>
 <p>するとファイル名の横にオレンジ色の「？」マークが付きます。<br>「？」マークをクリックすると緑色の「A」マークに変わります。<br>「A」マークにすることで、バージョン管理するファイルとして追加されます。<br>変更することがないようなファイルは選択する必要ありませんが、全部バージョン管理下に指定しておけばバックアップとしてまるごと取り出すときに役立ちます。</p>
 <p><strong>コミット（チェックイン）</strong></p>
 <p>バージョン管理ソフト共通の手順なのですが、知らない人の為に簡単な説明を。<br>基本の手順として<br>「チェックアウト」→「編集」→「チェックイン」<br>という手順を踏みます。<br>チェックアウトしないと編集出来ず、チェックインをしないと修正しても保存されません。<br>複数人で使用しているとチェックアウト中のファイルは他の人が触っているので編集出来ないことになります。これでバージョン管理が成り立っているわけです。</p>
 <p>では、Codaでのチェックイン手順です。Codaではコミットという呼びます。<br>チェックアウト済みのファイルを編集すると、紫色の「M」マークが表示されます。<br>「M」マークをクリックすることでコミットが実行されます。</p>
 <p>コミットする際にコメントを求められますが、コメントするかどうかは自由です。<br>変更点を簡単に残しておくと、複数人で作業するとき便利です。</p>
 <p>大抵の場合は動作確認が取れたらコミットすると思いますので、コミットするファイルは複数あるはずです。</p>
-<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/05/coda-under-bar.jpg" alt="" title="coda-under-bar"></p>
+<p><img src="/tool/mac-svn-coda/coda-under-bar.jpg" alt="" title="coda-under-bar"></p>
 <p>左サイドバー下の一番右のアイコンをクリックします。</p>
-<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/05/coda-source-status.jpg" alt="" title="coda-source-status"></p>
+<p><img src="/tool/mac-svn-coda/coda-source-status.jpg" alt="" title="coda-source-status"></p>
 <p>すると「ソース管理ステータス」が開きます。<br>ここで「すべてコミット」を選択すれば、変更したファイル全てがコミットされます。</p>
 <p><strong>ソースファイル比較</strong></p>
 <p>「ファイル」メニュー、もしくはファイルブラウザ上右クリックから「ソース管理」で比較したり、前のバージョンへ戻すことが出来ます。</p>
-<p>「比較」には「FileMerge」というソフトで行われます。<br><a href="http://creamo.jp/wp/wp-content/uploads/2011/05/filemerge1.jpg" target="_blank" rel="external"><img src="http://creamo.jp/wp/wp-content/uploads/2011/05/filemerge1.jpg" alt="" title="filemerge1"></a></p>
+<p>「比較」には「FileMerge」というソフトで行われます。<br><a href="/tool/mac-svn-coda/filemerge1.jpg"><img src="/tool/mac-svn-coda/filemerge1.jpg" alt="" title="filemerge1"></a></p>
 <p>ただし、デフォルトでは「FileMerge」は日本語を含むUTF-8のファイルはうまく比較できません。<br>おそらく、バージョン管理されてるファイルは何も表示されないです。</p>
 <p>そこで、「FileMerge」に簡単な設定をする必要があります。</p>
 <p>参考：<a href="http://builder.japan.zdnet.com/os-admin/sp_snow-leopard-09/20404333/" target="_blank" rel="external">開発環境「Xcode Tools」付属の差分表示ツール「FileMerge」をUTF-8対応に - builder</a></p>
@@ -187,14 +181,14 @@ ga('send', 'pageview');
 <blockquote>
 <p>txt | /usr/bin/iconv -c -f UTF-8 -t SJIS  $(FILE) | No<br>という行を追加します。これで拡張子が「.txt」のUTF-8ファイルを扱うことが出来ます。</p>
 </blockquote>
-<p><a href="http://creamo.jp/wp/wp-content/uploads/2011/05/filemerge2.jpg" target="_blank" rel="external"><img src="http://creamo.jp/wp/wp-content/uploads/2011/05/filemerge2.jpg" alt="" title="filemerge2"></a></p>
+<p><a href="/tool/mac-svn-coda/filemerge2.jpg"><img src="/tool/mac-svn-coda/filemerge2.jpg" alt="" title="filemerge2"></a></p>
 <p>あとは同様に拡張子毎に追加していきます。Wordpressを扱ってる人はphp、css等を追加しないといけないですね。</p>
 <p>FileMergeは日本語に関するバグが多いらしいので、どうにかしてほしいですね。</p>
 <p>参考元：<br><a href="http://blog.appling.jp/archives/873" target="_blank" rel="external">Coda で Subversion を試す | appling weblog</a><br><a href="http://www.tinybeans.net/blog/2010/01/15-173050.html" target="_blank" rel="external">Coda を使って Mac のローカルでバージョン管理をする - かたつむりくんのWWW</a></p>
 
       </div>
       <footer class="article-footer">
-        <a data-url="http://hirotaka11.github.io/tool/mac-svn-coda/" data-id="ci84fz9x7002o6qcez0h76i7l" class="article-share-link">Share</a>
+        <a data-url="http://hirotaka11.github.io/tool/mac-svn-coda/" data-id="ci8g87hrd002gnsceekcdotq6" class="article-share-link">Share</a>
         
         
       </footer>
@@ -235,9 +229,9 @@ ga('send', 'pageview');
     </a>
   
   
-    <a href="../../webtech/android-useragent/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="../../wordpress/wordpress-related-posts/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">older</strong>
-      <p class="article-nav-title">AndroidのブラウザはSafari？スマホのUser-Agentを見てみよう！</p>
+      <p class="article-nav-title">[WP]関連記事表示プラグイン紹介</p>
       <i class="icon" id="icon-chevron-left"></i>
     </a>
   
@@ -358,7 +352,7 @@ ga('send', 'pageview');
   <div class="widget-wrap widget-list">
     <h3 class="widget-title">categories</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="../../categories/diary/">diary</a><span class="category-list-count">13</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/tool/">tool</a><span class="category-list-count">19</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/webtech/">webtech</a><span class="category-list-count">11</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/wordpress/">wordpress</a><span class="category-list-count">14</span></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="../../categories/diary/">diary</a><span class="category-list-count">13</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/tool/">tool</a><span class="category-list-count">17</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/webtech/">webtech</a><span class="category-list-count">8</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/wordpress/">wordpress</a><span class="category-list-count">12</span></li></ul>
     </div>
   </div>
 
@@ -368,7 +362,7 @@ ga('send', 'pageview');
   <div class="widget-wrap widget-list">
     <h3 class="widget-title">archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2015/03/">March 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2013/06/">June 2013</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2013/01/">January 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2012/12/">December 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2012/01/">January 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/12/">December 2011</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/11/">November 2011</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/10/">October 2011</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/09/">September 2011</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/08/">August 2011</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/07/">July 2011</a><span class="archive-list-count">10</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/06/">June 2011</a><span class="archive-list-count">18</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/05/">May 2011</a><span class="archive-list-count">10</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2015/03/">March 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2013/06/">June 2013</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2013/01/">January 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2012/12/">December 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2012/01/">January 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/12/">December 2011</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/11/">November 2011</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/10/">October 2011</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/09/">September 2011</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/08/">August 2011</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/07/">July 2011</a><span class="archive-list-count">10</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/06/">June 2011</a><span class="archive-list-count">14</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/05/">May 2011</a><span class="archive-list-count">7</span></li></ul>
     </div>
   </div>
 
@@ -378,7 +372,7 @@ ga('send', 'pageview');
   <div class="widget-wrap widget-list">
     <h3 class="widget-title">tags</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Analytics/">Analytics</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Google-Picasa/">Google, Picasa</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Mac/">Mac</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/RSS/">RSS</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/jQuery/">jQuery</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/イベント/">イベント</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/ネタ/">ネタ</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/プラグイン/">プラグイン</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/二次創作/">二次創作</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/同人/">同人</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/著作権/">著作権</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/雑記/">雑記</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/高速化/">高速化</a><span class="tag-list-count">2</span></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Analytics/">Analytics</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Google-Picasa/">Google, Picasa</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Mac/">Mac</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/RSS/">RSS</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Server/">Server</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/jQuery/">jQuery</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/イベント/">イベント</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/ネタ/">ネタ</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/二次創作/">二次創作</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/同人/">同人</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/著作権/">著作権</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/雑記/">雑記</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/高速化/">高速化</a><span class="tag-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -388,7 +382,7 @@ ga('send', 'pageview');
   <div class="widget-wrap widget-float">
     <h3 class="widget-title">tag cloud</h3>
     <div class="widget tagcloud">
-      <a href="../../tags/Analytics/" style="font-size: 10px;">Analytics</a><a href="../../tags/Google-Picasa/" style="font-size: 10px;">Google, Picasa</a><a href="../../tags/Mac/" style="font-size: 10px;">Mac</a><a href="../../tags/RSS/" style="font-size: 10px;">RSS</a><a href="../../tags/jQuery/" style="font-size: 10px;">jQuery</a><a href="../../tags/イベント/" style="font-size: 10px;">イベント</a><a href="../../tags/ネタ/" style="font-size: 10px;">ネタ</a><a href="../../tags/プラグイン/" style="font-size: 10px;">プラグイン</a><a href="../../tags/二次創作/" style="font-size: 10px;">二次創作</a><a href="../../tags/同人/" style="font-size: 10px;">同人</a><a href="../../tags/著作権/" style="font-size: 10px;">著作権</a><a href="../../tags/雑記/" style="font-size: 10px;">雑記</a><a href="../../tags/高速化/" style="font-size: 20px;">高速化</a>
+      <a href="../../tags/Analytics/" style="font-size: 10px;">Analytics</a><a href="../../tags/Google-Picasa/" style="font-size: 10px;">Google, Picasa</a><a href="../../tags/Mac/" style="font-size: 20px;">Mac</a><a href="../../tags/RSS/" style="font-size: 10px;">RSS</a><a href="../../tags/Server/" style="font-size: 10px;">Server</a><a href="../../tags/jQuery/" style="font-size: 10px;">jQuery</a><a href="../../tags/イベント/" style="font-size: 10px;">イベント</a><a href="../../tags/ネタ/" style="font-size: 10px;">ネタ</a><a href="../../tags/二次創作/" style="font-size: 10px;">二次創作</a><a href="../../tags/同人/" style="font-size: 10px;">同人</a><a href="../../tags/著作権/" style="font-size: 10px;">著作権</a><a href="../../tags/雑記/" style="font-size: 10px;">雑記</a><a href="../../tags/高速化/" style="font-size: 10px;">高速化</a>
     </div>
   </div>
 
@@ -440,6 +434,7 @@ ga('send', 'pageview');
 
 <script src="../../js/html-patch.js" type="text/javascript"></script>
 <script src="../../js/script.js" type="text/javascript"></script>
+<script src="../../js/highlight.pack.js" type="text/javascript"></script>
 
   </div>
 </body>
