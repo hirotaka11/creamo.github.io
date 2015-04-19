@@ -5,15 +5,18 @@
   
   <title>[CSS3]今から出来るIE対策 「影とグラデーション編」 | creamo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="サイトをHTML5とCSS3に対応させたことによって、IEの表示がおかしくなっていました。前々から、IEは全く同じデザインにはなってなかったのですが、出来るだけ同じように表示されるよう調整してみます。">
+  <meta name="description" content="サイトをHTML5とCSS3に対応させたことによって、IEの表示がおかしくなっていました。前々から、IEは全く同じデザインにはなってなかったのですが、出来るだけ同じように表示されるよう調整してみます。
+prototype.jsのエラーの回避WordPressでLightboxやらのprototype.jsを使うプラグインとjQueryを使用すると、IE8で「prototype.js」のエラーが発生">
 <meta property="og:type" content="article">
 <meta property="og:title" content="[CSS3]今から出来るIE対策 「影とグラデーション編」">
 <meta property="og:url" content="http://hirotaka11.github.io/webtech/ie-css3-gradient/index.html">
 <meta property="og:site_name" content="creamo">
-<meta property="og:description" content="サイトをHTML5とCSS3に対応させたことによって、IEの表示がおかしくなっていました。前々から、IEは全く同じデザインにはなってなかったのですが、出来るだけ同じように表示されるよう調整してみます。">
+<meta property="og:description" content="サイトをHTML5とCSS3に対応させたことによって、IEの表示がおかしくなっていました。前々から、IEは全く同じデザインにはなってなかったのですが、出来るだけ同じように表示されるよう調整してみます。
+prototype.jsのエラーの回避WordPressでLightboxやらのprototype.jsを使うプラグインとjQueryを使用すると、IE8で「prototype.js」のエラーが発生">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="[CSS3]今から出来るIE対策 「影とグラデーション編」">
-<meta name="twitter:description" content="サイトをHTML5とCSS3に対応させたことによって、IEの表示がおかしくなっていました。前々から、IEは全く同じデザインにはなってなかったのですが、出来るだけ同じように表示されるよう調整してみます。">
+<meta name="twitter:description" content="サイトをHTML5とCSS3に対応させたことによって、IEの表示がおかしくなっていました。前々から、IEは全く同じデザインにはなってなかったのですが、出来るだけ同じように表示されるよう調整してみます。
+prototype.jsのエラーの回避WordPressでLightboxやらのprototype.jsを使うプラグインとjQueryを使用すると、IE8で「prototype.js」のエラーが発生">
   
   
     <link rel="icon" href="/favicon.png">
@@ -121,12 +124,12 @@ ga('send', 'pageview');
 </a>
       </p>
       <div class="article-entry" itemprop="articleBody">
-        <p>サイトをHTML5とCSS3に対応させたことによって、IEの表示がおかしくなっていました。<br>前々から、IEは全く同じデザインにはなってなかったのですが、出来るだけ同じように表示されるよう調整してみます。<br><a id="more"></a></p>
+        <p>サイトをHTML5とCSS3に対応させたことによって、IEの表示がおかしくなっていました。<br>前々から、IEは全く同じデザインにはなってなかったのですが、出来るだけ同じように表示されるよう調整してみます。</p>
 <h3 id="prototype-jsのエラーの回避">prototype.jsのエラーの回避</h3><p>WordPressでLightboxやらのprototype.jsを使うプラグインとjQueryを使用すると、IE8で「prototype.js」のエラーが発生することがあります。<br>主に投稿画面で発生します。</p>
 <p><strong>WordPress3＋prototype＋jQuery＋IE8＝ヽ(`Д´)ﾉﾄﾞｯｶｧｧｧﾝ!!</strong></p>
 <p>これを回避するにはWindowsアップデート、もしくはIE7互換モードにする必要があります。<br>症状が出るかは各自テストで確認してください。</p>
 <p>互換モードにするには&lt;head&gt;に以下のコードを入れてください。</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&amp;lt;meta http-equiv=&amp;quot;X-UA-Compatible&amp;quot; content=&amp;quot;IE=emulateIE7&amp;quot; /&amp;gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">meta</span> <span class="attribute">http-equiv</span>=<span class="value">"X-UA-Compatible"</span><span class="value">;</span> <span class="attribute">content</span>=<span class="value">"IE=emulateIE7"</span><span class="value">;</span> /&gt;</span></span><br></pre></td></tr></table></figure>
 <p>参考サイト：<a href="http://www.netimpact.co.jp/blog/11188/" title="Link to WordPress3.0　続・prototype.jsを使うとIE8で表示が・・・ | ネットインパクト" target="_blank" rel="external">WordPress3.0　続・prototype.jsを使うとIE8で表示が・・・ | ネットインパクト</a></p>
 <h3 id="IE9はまともにグラデーションに対応していない">IE9はまともにグラデーションに対応していない</h3><p><strong>これのせいでIE9が好きになれない！</strong><br>CSS3でグラデーションをかけるとします。以下のようなCSSになります。</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">background:#fff; /* for non-css3 browsers */</span><br><span class="line">background:linear-gradient(#ffffff, #000000); /* CSS3草案 */</span><br><span class="line">filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#000000'); /* IE6,7用 */</span><br><span class="line">-ms-filter: &amp;quot;progid:DXImageTransform.Microsoft.Gradient(StartColorStr=#ffffff, EndColorStr=#000000)&amp;quot;; /* IE8,9用 */</span><br><span class="line">background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#000000)); /* Safari,Google Chrome用 */</span><br><span class="line">background: -moz-linear-gradient(top, #fff, #000000); /* Firefox用 */</span><br></pre></td></tr></table></figure>
@@ -146,15 +149,10 @@ ga('send', 'pageview');
 <p>やってみました。<a href="http://css3pie.com/" title="Link to CSS3 PIE: CSS3 decorations for IE" target="_blank" rel="external">デモページ</a>で作成したものをコピペすればいいです。<br>実際には2行足すだけですね。<br>※PIE.htcは絶対パスを入力してください。</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">-webkit-border-radius: 10px;</span><br><span class="line">-moz-border-radius: 10px;</span><br><span class="line">border-radius: 10px;</span><br><span class="line">-webkit-box-shadow: #666 2px 2px 3px;</span><br><span class="line">-moz-box-shadow: #666 2px 2px 3px;</span><br><span class="line">box-shadow: #666 2px 2px 3px;</span><br><span class="line">background: #ffffff;</span><br><span class="line">background: -webkit-gradient(linear, 0 0, 0 bottom, from(#ffffff), to(#EBEBEB));</span><br><span class="line">background: -moz-linear-gradient(#ffffff, #EBEBEB);</span><br><span class="line">background: linear-gradient(#ffffff, #EBEBEB);</span><br><span class="line"></span><br><span class="line">-pie-background: linear-gradient(#ffffff, #EBEBEB);</span><br><span class="line">behavior: url(/PIE.htc);</span><br></pre></td></tr></table></figure>
 <p>これでIE6〜IE8も角丸とグラデーションを効かせることが出来ました。</p>
-<p><strong>何故かIE9が出来ない！</strong></p>
-<p>私だけかもしれませんが、IE9だけグラデーションが効きません。<br>box-shadowとborder-radiusは有効になっています。</p>
-<p>IE6,7,8を捨ててIE9を取るか、IE9のグラデーションを捨ててIE6,7,8を取るかの選択になったので、前者を選択しました。</p>
-<p>なので、今現在の当サイトのデザインはIE9よりIE7,8の方がグラデーションが掛かって正しく表示されています。<br>要はIE10になってまともになるのを待つか、Chrome,Firefoxを使って欲しいってことです。</p>
-<p>今後も検証していきますが、ご意見いただけると嬉しいです。</p>
 
       </div>
       <footer class="article-footer">
-        <a data-url="http://hirotaka11.github.io/webtech/ie-css3-gradient/" data-id="ci8oic5sw002q7bcewthdo0pv" class="article-share-link">Share</a>
+        <a data-url="http://hirotaka11.github.io/webtech/ie-css3-gradient/" data-id="ci8om3j31002m43ceyov61ovk" class="article-share-link">Share</a>
         
         
       </footer>
@@ -295,7 +293,7 @@ ga('send', 'pageview');
               
 <a href="../../tool/win8-us-mac/" class="thumbnail">
   
-    <span style="background-image:url(http://creamo.jp/wp/wp-content/uploads/2013/01/win8_us_01.jpg
+    <span style="background-image:url(/tool/win8-us-mac/mackey.jpg
 )" alt="MacにWindows8を入れた際にUSキー配列に設定する方法" class="thumbnail-image"></span>
   
 </a>
@@ -318,7 +316,7 @@ ga('send', 'pageview');
   <div class="widget-wrap widget-list">
     <h3 class="widget-title">categories</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="../../categories/diary/">diary</a><span class="category-list-count">13</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/tool/">tool</a><span class="category-list-count">17</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/webtech/">webtech</a><span class="category-list-count">8</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/wordpress/">wordpress</a><span class="category-list-count">12</span></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="../../categories/WordPress/">WordPress</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="../../categories/WordPress/MarsEdit/">MarsEdit</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="../../categories/diary/">diary</a><span class="category-list-count">11</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/tool/">tool</a><span class="category-list-count">14</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/webtech/">webtech</a><span class="category-list-count">8</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/wordpress/">wordpress</a><span class="category-list-count">7</span></li></ul>
     </div>
   </div>
 
@@ -328,7 +326,7 @@ ga('send', 'pageview');
   <div class="widget-wrap widget-list">
     <h3 class="widget-title">archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2015/03/">March 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2013/06/">June 2013</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2013/01/">January 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2012/12/">December 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2012/01/">January 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/12/">December 2011</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/11/">November 2011</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/10/">October 2011</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/09/">September 2011</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/08/">August 2011</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/07/">July 2011</a><span class="archive-list-count">10</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/06/">June 2011</a><span class="archive-list-count">14</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/05/">May 2011</a><span class="archive-list-count">7</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2015/03/">March 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2013/06/">June 2013</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2013/01/">January 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2012/12/">December 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2012/01/">January 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/12/">December 2011</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/11/">November 2011</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/10/">October 2011</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/09/">September 2011</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/08/">August 2011</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/07/">July 2011</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/06/">June 2011</a><span class="archive-list-count">12</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/05/">May 2011</a><span class="archive-list-count">7</span></li></ul>
     </div>
   </div>
 
@@ -338,7 +336,7 @@ ga('send', 'pageview');
   <div class="widget-wrap widget-list">
     <h3 class="widget-title">tags</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Analytics/">Analytics</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Google-Picasa/">Google, Picasa</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Mac/">Mac</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/RSS/">RSS</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Server/">Server</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/jQuery/">jQuery</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/イベント/">イベント</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/ネタ/">ネタ</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/二次創作/">二次創作</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/同人/">同人</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/著作権/">著作権</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/雑記/">雑記</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/高速化/">高速化</a><span class="tag-list-count">1</span></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Dropbox/">Dropbox</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Facebook/">Facebook</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Google/">Google</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Mac/">Mac</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Picasa/">Picasa</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/RSS/">RSS</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Server/">Server</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Sublime-Text/">Sublime Text</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/WordPress/">WordPress</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/アニメ/">アニメ</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/イベント/">イベント</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/ガジェット/">ガジェット</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/二次創作/">二次創作</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/作業効率化/">作業効率化</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/同人/">同人</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/著作権/">著作権</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/雑記/">雑記</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/高速化/">高速化</a><span class="tag-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -348,7 +346,7 @@ ga('send', 'pageview');
   <div class="widget-wrap widget-float">
     <h3 class="widget-title">tag cloud</h3>
     <div class="widget tagcloud">
-      <a href="../../tags/Analytics/" style="font-size: 10px;">Analytics</a><a href="../../tags/Google-Picasa/" style="font-size: 10px;">Google, Picasa</a><a href="../../tags/Mac/" style="font-size: 20px;">Mac</a><a href="../../tags/RSS/" style="font-size: 10px;">RSS</a><a href="../../tags/Server/" style="font-size: 10px;">Server</a><a href="../../tags/jQuery/" style="font-size: 10px;">jQuery</a><a href="../../tags/イベント/" style="font-size: 10px;">イベント</a><a href="../../tags/ネタ/" style="font-size: 10px;">ネタ</a><a href="../../tags/二次創作/" style="font-size: 10px;">二次創作</a><a href="../../tags/同人/" style="font-size: 10px;">同人</a><a href="../../tags/著作権/" style="font-size: 10px;">著作権</a><a href="../../tags/雑記/" style="font-size: 10px;">雑記</a><a href="../../tags/高速化/" style="font-size: 10px;">高速化</a>
+      <a href="../../tags/Dropbox/" style="font-size: 10px;">Dropbox</a><a href="../../tags/Facebook/" style="font-size: 10px;">Facebook</a><a href="../../tags/Google/" style="font-size: 10px;">Google</a><a href="../../tags/Mac/" style="font-size: 15px;">Mac</a><a href="../../tags/Picasa/" style="font-size: 10px;">Picasa</a><a href="../../tags/RSS/" style="font-size: 10px;">RSS</a><a href="../../tags/Server/" style="font-size: 10px;">Server</a><a href="../../tags/Sublime-Text/" style="font-size: 10px;">Sublime Text</a><a href="../../tags/WordPress/" style="font-size: 10px;">WordPress</a><a href="../../tags/アニメ/" style="font-size: 10px;">アニメ</a><a href="../../tags/イベント/" style="font-size: 20px;">イベント</a><a href="../../tags/ガジェット/" style="font-size: 10px;">ガジェット</a><a href="../../tags/二次創作/" style="font-size: 10px;">二次創作</a><a href="../../tags/作業効率化/" style="font-size: 10px;">作業効率化</a><a href="../../tags/同人/" style="font-size: 10px;">同人</a><a href="../../tags/著作権/" style="font-size: 10px;">著作権</a><a href="../../tags/雑記/" style="font-size: 10px;">雑記</a><a href="../../tags/高速化/" style="font-size: 10px;">高速化</a>
     </div>
   </div>
 

@@ -19,9 +19,7 @@ Google+のネタは日々発見されていくので、ネタに困りません�
 テキストやメディアを流していくストリームがありますよね。
 実はストリームに書き込むテキスト、コメントは装飾出来ます。
 今回はその方法を紹介していきたいと思います。">
-<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/07/google_plus_android_logo.png">
-<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/07/text_deco1.png">
-<meta property="og:image" content="http://creamo.jp/wp/wp-content/uploads/2011/07/text_deco2.png">
+<meta property="og:image" content="/tool/gplus-character-decoration/google_plus_android_logo.png">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Google+で文字を装飾してみよう">
 <meta name="twitter:description" content="前回のまとめ記事がホットエントリになり、それをきっかけにGoogle+を始めた方も多いようです。
@@ -136,7 +134,7 @@ ga('send', 'pageview');
 </a>
       </p>
       <div class="article-entry" itemprop="articleBody">
-        <p><img src="http://creamo.jp/wp/wp-content/uploads/2011/07/google_plus_android_logo.png" alt="" title="Google+ logo">前回の<a href="http://creamo.jp/tool/googleplus-fast/" title="Link to 今すぐ使えるGoogle+まとめ" target="_blank" rel="external">まとめ記事</a>がホットエントリになり、それをきっかけにGoogle+を始めた方も多いようです。</p>
+        <p><img src="/tool/gplus-character-decoration/google_plus_android_logo.png" alt="" title="Google+ logo">前回の<a href="http://creamo.jp/tool/googleplus-fast/" title="Link to 今すぐ使えるGoogle+まとめ" target="_blank" rel="external">まとめ記事</a>がホットエントリになり、それをきっかけにGoogle+を始めた方も多いようです。</p>
 <p>Google+のネタは日々発見されていくので、ネタに困りません。どんどん触っていきましょう。</p>
 <p>テキストやメディアを流していくストリームがありますよね。</p>
 <p>実は<strong>ストリームに書き込むテキスト、コメントは装飾出来ます。</strong></p>
@@ -144,24 +142,18 @@ ga('send', 'pageview');
 <p>以下の記事を参考に取り上げていきます。</p>
 <p><a href="http://d.hatena.ne.jp/oxalis-gps/20110702/1309620416" title="Link to Google+のテキスト装飾記法について - ものづくり検定32級人" target="_blank" rel="external">Google+のテキスト装飾記法について - ものづくり検定32級人</a></p>
 <h3 id="文字を装飾するには記号で囲むのがポイント">文字を装飾するには記号で囲むのがポイント</h3><p>Google+のストリームではある特殊記法をすることで文字装飾が可能です。</p>
-<p>HTMLが使えないのはなかなか難儀なところです。</p>
+<p>Markdown記法ですので、覚えるのは簡単です。</p>
 <p>まず、装飾出来る種類は以下の3種類です。</p>
 <ul>
 <li><span><strong>太字</strong></span></li>
 <li><span><em>斜め</em></span></li>
 <li><span><strike>打ち消し</strike></span></li>
 </ul>
-<p><strong>実はこの機能、現時点ではバグがあるので使いにくいですｗ</strong></p>
-<p>じきに修正されると思うので、とりあえず以下の説明見ながら使ってみてください。</p>
-<h3 id="太字にする記法">太字にする記法</h3><ul>
-<li>で囲みます。半角のアスタリスクです。</li>
-</ul>
+<h3 id="太字にする記法">太字にする記法</h3><p>*で囲みます。半角のアスタリスクです。</p>
 <p><em>太字になーれ</em> = <strong>太字になーれ</strong></p>
-<h3 id="斜め字にする記法">斜め字にする記法</h3><p>_ で囲みます。半角のアンダーバーです。</p>
+<h3 id="斜め字にする記法">斜め字にする記法</h3><p>_で囲みます。半角のアンダーバーです。</p>
 <p><em>これはナナメだよー</em> = <em>これはナナメだよー</em></p>
-<h3 id="打ち消しする記法">打ち消しする記法</h3><ul>
-<li>で囲みます。半角のハイフンです。</li>
-</ul>
+<h3 id="打ち消しする記法">打ち消しする記法</h3><p>-で囲みます。半角のハイフンです。</p>
 <p>-バルス- = <strike>バルス</strike></p>
 <p><strong>なんですが･･･打ち消しには現時点でバグがあります。</strong></p>
 <h3 id="打ち消しの謎の挙動">打ち消しの謎の挙動</h3><p>この辺りは<a href="http://d.hatena.ne.jp/oxalis-gps/20110702/1309620416" title="Link to Google+のテキスト装飾記法について - ものづくり検定32級人" target="_blank" rel="external">上記の記事</a>を参考にさせていただきます。</p>
@@ -182,11 +174,6 @@ ga('send', 'pageview');
 <p>文字を入れ子にして囲みましょう。</p>
 <p><em><em>-太字にして斜めにして打ち消して-</em></em> = <strong><em><strike>太字にして斜めにして打ち消して</strike></em></strong></p>
 <p>コツとしては打ち消しのハイフンを一番内側にすることです。</p>
-<p>一番内側にすることで、打ち消しのめんどくさいバグを気にしないで使えます。</p>
-<h3 id="打ち消しの実験過程">打ち消しの実験過程</h3><p>参考記事だと半角記号のみとなっていたのですが、全角で出来ることを発見した過程。</p>
-<p><img src="http://creamo.jp/wp/wp-content/uploads/2011/07/text_deco1.png" alt="" title="AAを入れたら発見"><br>AAと組み合わせるというアホな事から見つけましたｗ</p>
-<p>色々試した結果、<br><img src="http://creamo.jp/wp/wp-content/uploads/2011/07/text_deco2.png" alt="" title="検証"></p>
-<p>ややこしいのでバグ解消を待つしかありません。</p>
 <p>装飾に関してはさらに色づけとか出来ると面白いんですね。</p>
 <p>[red]赤色[/red]とかで出来ると便利そうな･･･。</p>
 <p>Google+でのテキスト入力は他のサービスと違ってAAが入れやすいので、海外の方達に波紋すると面白そうなんですけどねぇ。横幅狭いので入れられる種類が限られますけど、流行って欲しいという期待を密かに持っている自分がいたりします。</p>
@@ -204,12 +191,10 @@ ga('send', 'pageview');
 <p>ニコニコ動画: 23ヵ月  </p>
 <p>Youtube: 14ヶ月  </p>
 <p>Google+: 13日 </p>
-<p>これを見るとGoogle+がどれだけ異常か分かりますね。土台が違うというのはありますが、注目度もハッキリと分かります。</p>
-<p>何気にニコニコ動画が凄いですねｗ</p>
 
       </div>
       <footer class="article-footer">
-        <a data-url="http://hirotaka11.github.io/tool/gplus-character-decoration/" data-id="ci8oic5t1002u7bcep36icdfu" class="article-share-link">Share</a>
+        <a data-url="http://hirotaka11.github.io/tool/gplus-character-decoration/" data-id="ci8om3j33002o43ce72b0lotx" class="article-share-link">Share</a>
         
         
       </footer>
@@ -239,11 +224,11 @@ ga('send', 'pageview');
     
 <nav id="article-nav">
   
-    <a href="../twitter-hash-jp/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="../mac-lion-tips/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">newer</strong>
       <p class="article-nav-title">
         
-          Twitterのハッシュタグが日本語対応に
+          Mac OS X Lion の疑問点解消のまとめ
         
       </p>
       <i class="icon" id="icon-chevron-right"></i>
@@ -350,7 +335,7 @@ ga('send', 'pageview');
               
 <a href="../win8-us-mac/" class="thumbnail">
   
-    <span style="background-image:url(http://creamo.jp/wp/wp-content/uploads/2013/01/win8_us_01.jpg
+    <span style="background-image:url(/tool/win8-us-mac/mackey.jpg
 )" alt="MacにWindows8を入れた際にUSキー配列に設定する方法" class="thumbnail-image"></span>
   
 </a>
@@ -373,7 +358,7 @@ ga('send', 'pageview');
   <div class="widget-wrap widget-list">
     <h3 class="widget-title">categories</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="../../categories/diary/">diary</a><span class="category-list-count">13</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/tool/">tool</a><span class="category-list-count">17</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/webtech/">webtech</a><span class="category-list-count">8</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/wordpress/">wordpress</a><span class="category-list-count">12</span></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="../../categories/WordPress/">WordPress</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="../../categories/WordPress/MarsEdit/">MarsEdit</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="../../categories/diary/">diary</a><span class="category-list-count">11</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/tool/">tool</a><span class="category-list-count">14</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/webtech/">webtech</a><span class="category-list-count">8</span></li><li class="category-list-item"><a class="category-list-link" href="../../categories/wordpress/">wordpress</a><span class="category-list-count">7</span></li></ul>
     </div>
   </div>
 
@@ -383,7 +368,7 @@ ga('send', 'pageview');
   <div class="widget-wrap widget-list">
     <h3 class="widget-title">archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2015/03/">March 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2013/06/">June 2013</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2013/01/">January 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2012/12/">December 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2012/01/">January 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/12/">December 2011</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/11/">November 2011</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/10/">October 2011</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/09/">September 2011</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/08/">August 2011</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/07/">July 2011</a><span class="archive-list-count">10</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/06/">June 2011</a><span class="archive-list-count">14</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/05/">May 2011</a><span class="archive-list-count">7</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2015/03/">March 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2013/06/">June 2013</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2013/01/">January 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2012/12/">December 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2012/01/">January 2012</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/12/">December 2011</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/11/">November 2011</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/10/">October 2011</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/09/">September 2011</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/08/">August 2011</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/07/">July 2011</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/06/">June 2011</a><span class="archive-list-count">12</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2011/05/">May 2011</a><span class="archive-list-count">7</span></li></ul>
     </div>
   </div>
 
@@ -393,7 +378,7 @@ ga('send', 'pageview');
   <div class="widget-wrap widget-list">
     <h3 class="widget-title">tags</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Analytics/">Analytics</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Google-Picasa/">Google, Picasa</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Mac/">Mac</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/RSS/">RSS</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Server/">Server</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/jQuery/">jQuery</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/イベント/">イベント</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/ネタ/">ネタ</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/二次創作/">二次創作</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/同人/">同人</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/著作権/">著作権</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/雑記/">雑記</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/高速化/">高速化</a><span class="tag-list-count">1</span></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Dropbox/">Dropbox</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Facebook/">Facebook</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Google/">Google</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Mac/">Mac</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Picasa/">Picasa</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/RSS/">RSS</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Server/">Server</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/Sublime-Text/">Sublime Text</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/WordPress/">WordPress</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/アニメ/">アニメ</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/イベント/">イベント</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/ガジェット/">ガジェット</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/二次創作/">二次創作</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/作業効率化/">作業効率化</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/同人/">同人</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/著作権/">著作権</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/雑記/">雑記</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="../../tags/高速化/">高速化</a><span class="tag-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -403,7 +388,7 @@ ga('send', 'pageview');
   <div class="widget-wrap widget-float">
     <h3 class="widget-title">tag cloud</h3>
     <div class="widget tagcloud">
-      <a href="../../tags/Analytics/" style="font-size: 10px;">Analytics</a><a href="../../tags/Google-Picasa/" style="font-size: 10px;">Google, Picasa</a><a href="../../tags/Mac/" style="font-size: 20px;">Mac</a><a href="../../tags/RSS/" style="font-size: 10px;">RSS</a><a href="../../tags/Server/" style="font-size: 10px;">Server</a><a href="../../tags/jQuery/" style="font-size: 10px;">jQuery</a><a href="../../tags/イベント/" style="font-size: 10px;">イベント</a><a href="../../tags/ネタ/" style="font-size: 10px;">ネタ</a><a href="../../tags/二次創作/" style="font-size: 10px;">二次創作</a><a href="../../tags/同人/" style="font-size: 10px;">同人</a><a href="../../tags/著作権/" style="font-size: 10px;">著作権</a><a href="../../tags/雑記/" style="font-size: 10px;">雑記</a><a href="../../tags/高速化/" style="font-size: 10px;">高速化</a>
+      <a href="../../tags/Dropbox/" style="font-size: 10px;">Dropbox</a><a href="../../tags/Facebook/" style="font-size: 10px;">Facebook</a><a href="../../tags/Google/" style="font-size: 10px;">Google</a><a href="../../tags/Mac/" style="font-size: 15px;">Mac</a><a href="../../tags/Picasa/" style="font-size: 10px;">Picasa</a><a href="../../tags/RSS/" style="font-size: 10px;">RSS</a><a href="../../tags/Server/" style="font-size: 10px;">Server</a><a href="../../tags/Sublime-Text/" style="font-size: 10px;">Sublime Text</a><a href="../../tags/WordPress/" style="font-size: 10px;">WordPress</a><a href="../../tags/アニメ/" style="font-size: 10px;">アニメ</a><a href="../../tags/イベント/" style="font-size: 20px;">イベント</a><a href="../../tags/ガジェット/" style="font-size: 10px;">ガジェット</a><a href="../../tags/二次創作/" style="font-size: 10px;">二次創作</a><a href="../../tags/作業効率化/" style="font-size: 10px;">作業効率化</a><a href="../../tags/同人/" style="font-size: 10px;">同人</a><a href="../../tags/著作権/" style="font-size: 10px;">著作権</a><a href="../../tags/雑記/" style="font-size: 10px;">雑記</a><a href="../../tags/高速化/" style="font-size: 10px;">高速化</a>
     </div>
   </div>
 
