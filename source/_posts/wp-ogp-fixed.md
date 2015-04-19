@@ -13,9 +13,11 @@ categories:
 まずは単純なミスです。
 ただのタイポだと思うのですが、何故更新されないのか不思議なところ。
 とりあえず、このままではmeta要素が正常に機能しないので、修正しておきましょう。
-<!--more-->
+
 WP-OGPプラグイン内の「wp-opg.php」を編集します。
-[sourcecode lang="php" highlight="”2″"] $ogpt_settings = array(
+
+```php
+$ogpt_settings = array(
 	'fb:admins' =&amp;gt; '',
 	'fb:appid' =&amp;gt; '',
 [/sourcecode]
@@ -25,9 +27,12 @@ function load_wpogp_settings() {
     $ogpt_settings['fb:appid']  = get_option(OGPT_SETTINGS_KEY_FB_APPID);
     $ogpt_settings['fb:admins'] = get_option(OGPT_SETTINGS_KEY_FB_ADMINS);
 }
-[/sourcecode]
+```
+
 上記部分の『fb:appid』を
-[sourcecode lang="php" highlight="”2″"] $ogpt_settings = array(
+
+```php
+$ogpt_settings = array(
 	'fb:admins' =&amp;gt; '',
 	'fb:app_id' =&amp;gt; '',
 [/sourcecode]
@@ -37,7 +42,8 @@ function load_wpogp_settings() {
     $ogpt_settings['fb:app_id']  = get_option(OGPT_SETTINGS_KEY_FB_APPID);
     $ogpt_settings['fb:admins'] = get_option(OGPT_SETTINGS_KEY_FB_ADMINS);
 }
-[/sourcecode]
+```
+
 『fb:app_id』に。
 これで大丈夫です。とりあえずやっておきましょう。
 
@@ -63,13 +69,13 @@ WP-OGPを見ても
 **一番最初にある画像をサムネイルにする**ように設定します。
 
 wp-ogp.php
-[sourcecode lang="php"]
+```php
 $image = get_the_post_thumbnail_src(get_the_post_thumbnail($post-&amp;gt;ID));
-[/sourcecode]
+```
 を
-[sourcecode lang="php"]
+```php
 $image = get_the_post_thumbnail_src($post-&amp;gt;post_content);
-[/sourcecode]
+```
 に変えればOKです。これでアイキャッチではなく、最初にある画像がサムネイルとして表示されます。
 
 **いや、記事に複数の画像があるんだから選択させてくれ！**
@@ -81,10 +87,10 @@ $image = get_the_post_thumbnail_src($post-&amp;gt;post_content);
 
 ウォール部分に表示される際、本文も表示されます。
 WP-OGPの場合、「抜粋」を記入しない場合は
-![抜粋を記入していない場合は本文から適当な部分でカットされる](http://creamo.jp/wp/wp-content/uploads/2011/06/description_sample.jpg "抜粋を記入していない場合は本文から適当な部分でカットされる")
+![抜粋を記入していない場合は本文から適当な部分でカットされる](/wordpress/wp-ogp-fixed/description_sample.jpg "抜粋を記入していない場合は本文から適当な部分でカットされる")
 本文を適当な部分でカットし、表示されます。
 
-気にはならないかもしれませんが、抜粋を書くことで見やすくなります。![抜粋を記入した場合](http://creamo.jp/wp/wp-content/uploads/2011/06/description_sample2.jpg "抜粋を記入した場合")
+気にはならないかもしれませんが、抜粋を書くことで見やすくなります。![抜粋を記入した場合](/wordpress/wp-ogp-fixed/description_sample2.jpg "抜粋を記入した場合")
 
 OGP用の「fb:description」と通常の「description」は別の扱いになるので、SEOを考えるなら是非記入しておきたいところです。
 通常のdescriptionの記入は「Head Space2」 等のSEOプラグインを導入すれば可能になります。

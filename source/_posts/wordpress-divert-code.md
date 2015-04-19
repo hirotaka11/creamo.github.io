@@ -19,37 +19,43 @@ WordPressのプラグインで追加するのが一番簡単なのですが、�
 
 (mixiボタンはチェックキーを取得する必要があるので載せてません)
 
-[html]
+```
+<?php 
 function snsBtn()
-{ ?&gt;
-	&lt;ul class=&quot;sns-button&quot;&gt;
-		&lt;!-- はてなブックマーク --&gt;
-		&lt;li class=&quot;hatenaBtn&quot;&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/&lt;?php the_permalink() ?&gt;&quot; class=&quot;hatena-bookmark-button&quot; data-hatena-bookmark-title=&quot;&lt;?php the_title() ?&gt;&quot; data-hatena-bookmark-layout=&quot;standard&quot; title=&quot;このエントリーをはてなブックマークに追加&quot;&gt;&lt;img src=&quot;http://b.st-hatena.com/images/entry-button/button-only.gif&quot; alt=&quot;このエントリーをはてなブックマークに追加&quot; width=&quot;20&quot; height=&quot;20&quot; style=&quot;border: none;&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-		&lt;!-- Twitter --&gt;
-		&lt;li class=&quot;twitterBtn&quot;&gt;&lt;a href=&quot;http://twitter.com/share&quot; class=&quot;twitter-share-button&quot; data-count=&quot;horizontal&quot; data-lang=&quot;ja&quot;&gt;Tweet&lt;/a&gt;&lt;/li&gt;
-		&lt;!-- Facebook --&gt;
-		&lt;li class=&quot;fbBtn&quot;&gt;&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=&lt;?php the_permalink() ?&gt;&amp;amp;layout=button_count&amp;amp;show_faces=false&amp;amp;width=100&amp;amp;action=like&amp;amp;colorscheme=light&amp;amp;height=20&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:100px; height:20px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;&lt;/li&gt;
-		&lt;!-- +1 --&gt;
-		&lt;li class=&quot;p1Btn&quot;&gt;&lt;g:plusone size=&quot;medium&quot; href=&quot;&lt;?php the_permalink() ?&gt;&quot;&gt;&lt;/g:plusone&gt;&lt;/li&gt;
-		&lt;!-- Evernote --&gt;
-		&lt;li class=&quot;evBtn&quot;&gt;&lt;a href=&quot;#&quot; onclick=&quot;Evernote.doClip({}); return false;&quot;&gt;&lt;img src=&quot;http://static.evernote.com/article-clipper-jp.png&quot; alt=&quot;Clip to Evernote&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-	&lt;/ul&gt;&lt;!-- sns-button --&gt;
-&lt;?php }[/html]
+{ ?>
+<ul class="sns-button">
+<!— はてなブックマーク —>
+<li class="hatenaBtn"><a href="http://b.hatena.ne.jp/entry/<?php the_permalink() ?>" class="hatena-bookmark-button" data-hatena-bookmark-title="<?php the_title() ?>" data-hatena-bookmark-layout="standard" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only.gif&quot; alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a></li>
+<!— Twitter —>
+<li class="twitterBtn"><a href="http://twitter.com/share&quot; class="twitter-share-button" data-count="horizontal" data-lang="ja">Tweet</a></li>
+<!— Facebook —>
+<li class="fbBtn"><iframe src="http://www.facebook.com/plugins/like.php?href=<?php the_permalink() ?>&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=light&amp;height=20" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:20px;" allowTransparency="true"></iframe></li>
+<!— +1 —>
+<li class="p1Btn"><g:plusone size="medium" href="<?php the_permalink() ?>"></g:plusone></li>
+<!— Evernote —>
+<li class="evBtn"><a href="#" onclick="Evernote.doClip({}); return false;"><img src="http://static.evernote.com/article-clipper-jp.png&quot; alt="Clip to Evernote" /></a></li>
+</ul><!— sns-button —>
+<?php }
+?>
+```
 
 **読み込みを早くするためにソーシャルボタン用のJavaScriptはフッターで読み込ませます。**
 以下をフッターのwp_footer();の下にコピペ
-[html]
-&lt;!-- snsBtn用script --&gt;
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://b.st-hatena.com/js/bookmark_button.js&quot; charset=&quot;utf-8&quot; async=&quot;async&quot;&gt;&lt;/script&gt; &lt;!-- はてなブックマーク --&gt;
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://platform.twitter.com/widgets.js&quot;&gt;&lt;/script&gt; &lt;!-- Twitter --&gt;
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://static.evernote.com/noteit.js&quot;&gt;&lt;/script&gt; &lt;!-- Evernote --&gt;
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://apis.google.com/js/plusone.js&quot;&gt;{lang: 'ja'}&lt;/script&gt; &lt;!-- +1 --&gt;
-&lt;!-- /snsBtn用script --&gt;
-[/html]
+
+```html
+<!— snsBtn用script —>
+<script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js&quot; charset="utf-8" async="async"></script> <!— はてなブックマーク —>
+<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script&gt; <!— Twitter —>
+<script type="text/javascript" src="http://static.evernote.com/noteit.js"></script&gt; <!— Evernote —>
+<script type="text/javascript" src="http://apis.google.com/js/plusone.js">{lang: ‘ja’}</script> <!— +1 —>
+<!— /snsBtn用script —>
+```
 
 ### テーマファイルの表示したい場所に以下のコードを貼り付ける
 
-[php]&lt;?php snsBtn(); ?&gt;[/php]
+```php
+<?php snsBtn(); ?>
+```
 
 これだけです。とても簡単にコードの使い回しが出来ます。
 

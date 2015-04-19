@@ -37,7 +37,7 @@ categories:
 普段は一番上に書いているのですが、こんかい初めてWordPressでテーマを作ったので、テーマ用の説明文を一番上に書いていたんですね。
 
 style.css
-[sourcecode lang="css"]
+```css
 /*
 Theme Name: CreaMo!
 Theme URI: http://creamo.firebird.jp/
@@ -49,14 +49,14 @@ Author URI: http://creamo.firebird.jp/
 @charset &quot;UTF-8&quot;;
 @import url(&quot;./css/header.css&quot;);
 @import url(&quot;./css/base.css&quot;);
-[/sourcecode]
+```
 
 こうなってたわけです。
 テーマの説明文を一番上に書くということが頭にあったので、このように書いていました。
 ちゃんと考えれば、文字コード指定を一番最初にしないとコメントもちゃんと読んでくれないですよね。
 
 なので
-[sourcecode lang="css"]
+```css
 @charset &quot;UTF-8&quot;;
 /*
 Theme Name: CreaMo!
@@ -68,7 +68,7 @@ Author URI: http://creamo.firebird.jp/
 */
 @import url(&quot;./css/header.css&quot;);
 @import url(&quot;./css/base.css&quot;);
-[/sourcecode]
+```
 
 文字コード指定を一番上に持ってくることで、この問題は解決しました。
 

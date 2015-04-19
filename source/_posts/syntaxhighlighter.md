@@ -17,7 +17,6 @@ WordPressプラグイン版
 WordPressで使うにはプラグインをインストールするだけで良いと思いきや、カスタマイズを加えるべき部分があります。
 
 今回は、使い方から修正点までをまとめてみました。
-<!--more-->
 
 ### ソースコードを書くときの注意点 - アスキーコード
 
@@ -37,29 +36,27 @@ WordPressで使うにはプラグインをインストールするだけで良�
 
 SyntaxHighlighter の書式
 
-[sourcecode lang="html"]
-&lt;pre class=&quot;brush:php&quot;;
- first-line: 10;          /*開始行番号指定*/
- highlight: [2,5];        /*強調ライン指定（複数可）*/
- wrap-lines:false;        /*自動折返し無し(3.0では折り返し不可)*/
- auto-links:false;        /*URLオートリンク無し*/
- &lt;!--オートリンクOFF,自動折返しOFF--&gt;
- &lt;!--改行無し長文テスト。WordPressでjQuery等の外部ファイルを読み込む方法 | CreaMo!〜クリエイティブをMotto!集めるブログ〜 http://creamo.jp/wordpress/jquery-load-wordpress/--&gt;
-&gt;ソースコード&lt;/pre&gt;
-&lt;pre class=&quot;brush:js&quot;;&gt; Javascriptソースコード &lt;/pre&gt;[/sourcecode]
+```html
+<pre class="brush:php";
+first-line: 10; /開始行番号指定/
+highlight: [2,5]; /強調ライン指定（複数可）/
+wrap-lines:false; /自動折返し無し(3.0では折り返し不可)/
+auto-links:false; /URLオートリンク無し/
+<!—オートリンクOFF,自動折返しOFF—>
+<!—改行無し長文テスト。WordPressでjQuery等の外部ファイルを読み込む方法 | CreaMo!〜クリエイティブをMotto!集めるブログ〜 http://creamo.jp/wordpress/jquery-load-wordpress/ -->
+ソースコード</pre>
+```
 
 SyntaxHighlighter Evolvedの場合は&#91; &#93;で囲んでもOKです。
 
-<pre class="brush:xml">
-&#91;sourcecode lang="php"
+```
+[sourcecode lang="php"
  firstline="10"          /*開始行番号指定*/
  highlight="15,16"       /*強調ライン指定（複数可）*/
  wraplines="false"       /*自動折返し無し(3.0では折り返し不可)*/
  autolinks="false"       /*URLオートリンク無し*/
- <!--オートリンクOFF,自動折返しOFF-->
- <!--改行無し長文テスト。WordPressでjQuery等の外部ファイルを読み込む方法 | CreaMo!〜クリエイティブをMotto!集めるブログ〜 http://creamo.jp/wordpress/jquery-load-wordpress/-->
-&#93;ソースコード&#91;/sourcecode&#93;
-</pre>
+]ソースコード[/sourcecode]
+```
 
 こんな感じにソースコードを括ればOKです。
 
@@ -96,7 +93,7 @@ SyntaxHighlighter Evolvedの場合は&#91; &#93;で囲んでもOKです。
 
 そこで、以下のように shThemeDefault.css を修正する。ただ、これだとFirefoxで反映されない･･･。
 
-[css]
+```css
 /* First line */
 .syntaxhighlighter .line.alt1
 {
@@ -110,7 +107,7 @@ SyntaxHighlighter Evolvedの場合は&#91; &#93;で囲んでもOKです。
  background-color: #F8F8F8 !important;
  word-break: break-all !important;
 }
-[/css]
+```
 
 ### 3.0系で発生 - IE,Chromeの不必要な縦スクロールバーを消す
 
@@ -118,12 +115,12 @@ SyntaxHighlighter Evolvedの場合は&#91; &#93;で囲んでもOKです。
 
 shCoreDefault.css内の.syntaxhighlighterに追記する
 
-[css]
+```css
 .syntaxhighlighter {
   overflow: auto !important;      /*autoであることを確認*/
   overflow-y: hidden !important;  /*追加*/
 }
-[/css]
+```
 
 ### IEで最後の一行が表示されない症状を回避する
 
@@ -131,17 +128,17 @@ IEでは最後の行が表示されません。一行だけの場合は何も表
 
 shCoreDefault.css内の.syntaxhighlighterに追記する
 
-[css]
+```css
 .syntaxhighlighter table {
   margin-bottom: 1em !important;  /*追加*/
 }
-[/css]
+```
 
 ### タイトルデザインの変更
 
 shCoreDefault.css内の.syntaxhighlighterを書き換えることで行えます。
 
-[css]
+```css
 /*余白部分の修正*/
 .syntaxhighlighter table caption {
   text-align: left !important;
@@ -152,7 +149,7 @@ shCoreDefault.css内の.syntaxhighlighterを書き換えることで行えます
   color: black !important;
   background-color: #6ce26c !important;  /*追加*/
 }
-[/css]
+```
 
 ### SyntaxHighlighter3.0をさらに掘り下げる
 

@@ -51,7 +51,9 @@ Yahoo!、Bingも対応しているのですが、現時点でまともに処理�
 [ブックマークレットでの URL の正規化に対応しました - はてなブックマーク日記 - 機能変更、お知らせなど](http://hatena.g.hatena.ne.jp/hatenabookmark/20090618/1245312744 "Link to ブックマークレットでの URL の正規化に対応しました - はてなブックマーク日記 - 機能変更、お知らせなど")
 
 インデックスしてほしいURLを入れ、以下のコードをhead要素内に入れます。
-[html]&lt;link rel=&quot;canonical&quot; href=&quot;ページの正確な正規化された URL&quot; /&gt;[/html]
+```html
+<link rel="canonical" href="ページの正確な正規化された URL" />
+```
 
 このタグを入れることによって、utm_source〜が付いたURLからはてブしようとすると
 ![はてブ canoncial](http://creamo.jp/wp/wp-content/uploads/2011/06/hatebu_canoncial.png "タグがある際のはてなブックマーク表示")
@@ -90,9 +92,15 @@ FeedBurnerのページを開き「レポート/FeedBurnerスタッツ」の設�
 
 ![「Track click as a traffic source in Google Analytics」にチェックが入っているとき](http://creamo.jp/wp/wp-content/uploads/2011/06/feedburner_02.png "FeedBurnrerページへジャンプ後リダイレクト、utm_sourceパラメータが付く設定")
 
-[html]http://feedproxy.google.com/~r/creamo_jp/~3/j4TmraN4iPE/[/html]
+```
+http://feedproxy.google.com/~r/creamo_jp/~3/j4TmraN4iPE/
+```
 上記のようにFeedBurnerのジャンプページを挟んだ後に
-[html]http://creamo.jp/wordpress/jquery-load-wordpress/?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+creamo_jp+%28CreaMo%21+%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%82%92Motto%21%E9%9B%86%E3%82%81%E3%82%8B%E3%83%96%E3%83%AD%E3%82%B0%29&amp;utm_content=FeedBurner[/html]
+
+```
+http://creamo.jp/wordpress/jquery-load-wordpress/?utm_source=feedburner&amp;utm_medium=feed&utm_campaign=Feed%3A+creamo_jp+%28CreaMo%21+%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%82%92Motto%21%E9%9B%86%E3%82%81%E3%82%8B%E3%83%96%E3%83%AD%E3%82%B0%29&utm_content=FeedBurner
+```
+
 このような超長いURLにリダイレクトされます。
 
 タイトルを日本語で取得しているせいで余計長いですね。
@@ -125,9 +133,9 @@ FeedBurnerになにもやって欲しくない場合はこの設定ですね。
 
 **Yahoo!ブログ検索へのPING送信先を変更する**
 
-Yahoo!ブログ検索ロボットへのPING送信先は「http://api.my.yahoo.co.jp/RPC2」となっていますが、[ヘルプ](http://help.yahoo.co.jp/help/jp/blog-search/blog-search-18.html)を見てみるともう一つあることが分かります。
+Yahoo!ブログ検索ロボットへのPING送信先は「http://api.my.yahoo.co.jp/RPC2 」となっていますが、[ヘルプ](http://help.yahoo.co.jp/help/jp/blog-search/blog-search-18.html) を見てみるともう一つあることが分かります。
 
-[html]http://api.my.yahoo.co.jp/rss/ping?u=FeedBurnerに設定している出力元フィードのURI[/html]
+<pre>http://api.my.yahoo.co.jp/rss/ping?u=FeedBurnerに設定している出力元フィードのURI</pre>
 
 こちらに設定しておくことで、ロボットがFeedBurnerのフィードではなく、WordPressのが出力している標準のフィードを読みに行きます。
 
@@ -148,21 +156,24 @@ Yahoo!ブログ検索ロボットへのPING送信先は「http://api.my.yahoo.co
 (.*)部分は各自変更してください。
 
 例）パーマリンクにhtml拡張子を与えている人は(.html)
-[sourcecode]
-&lt;IfModule mod_rewrite.c&gt;
+
+```
+<IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
 
-# ↓追記
+↓追記
+
 RewriteCond %{QUERY_STRING} utm_source=
 RewriteRule ^(.*)$ /$1? [R,L]
-# ↑追記
+
+↑追記
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
-&lt;/IfModule&gt;
-[/sourcecode]
+</IfModule>
+```
 
 301リダイレクトについてはrel=”canonical”タグと比べた面白い記事がありました
 
@@ -175,18 +186,20 @@ RewriteRule . /index.php [L]
 RSSに広告を貼っていたりして、RSS経由なことをGoogle Analyticsに残しておきたい。かつ、utm_sourceパラメータを取り除きたいという場合に使います。
 
 ただし、ページを2回開くことになるので、ページビューの集計が通常より増えてしまい、アクセスが多いページではサーバーへの負荷に繋がります。
-[js]
-&lt;script type=&quot;text/javascript&quot;&gt;
+
+```html
+<script type="text/javascript">
 function utmCut(){
 　var utmCut = location.search
-  if (utmCut.match(/(utm_)/g)) {
-    location.replace( location.pathname );
-  }
+if (utmCut.match(/(utm_)/g)) {
+location.replace( location.pathname );
 }
-&lt;/script&gt;
-&lt;/head&gt;
-&lt;body onLoad=&quot;utmCut();&quot;&gt;
-[/js]
+}
+</script>
+</head>
+<body onLoad="utmCut();">
+```
+
 動作確認
 
 Win

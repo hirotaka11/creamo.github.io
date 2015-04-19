@@ -107,14 +107,39 @@ DS、Wii、スマホアプリと続き、難易度が低めのライト向けゲ
 詳細はググってもらうなり、Wikipediaで見てみてください。
 [報酬系 - Wikipedia](http://ja.wikipedia.org/wiki/%E5%A0%B1%E9%85%AC%E7%B3%BB)
 
+ゲームをプレイして、「脳から汁が出る」というのをとても分かりやすく書いた漫画があったので紹介しておきます。オススメです。
+
+<div class="booklink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="booklink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4047298573%2Fref%3Dnosim" name="booklink" rel="nofollow" target="_blank"><img src="http://ecx.images-amazon.com/images/I/51QEcGNOZDL._SL160_.jpg" style="border: none;" /></a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"></div><div class="booklink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="booklink-name" style="margin-bottom:10px;line-height:120%"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4047298573%2Fref%3Dnosim" name="booklink" rel="nofollow" target="_blank">ナナのリテラシー 2 (ビームコミックス)</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"><div class="booklink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://yomereba.com" rel="nofollow" target="_blank">ヨメレバ</a></div></div><div class="booklink-detail" style="margin-bottom:5px;">鈴木 みそ KADOKAWA/エンターブレイン 2014-09-24    </div><div class="booklink-link2" style="margin-top:10px;"><div class="shoplinkamazon" style="margin-right:5px;background: url('http://img.yomereba.com/kz_y.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4047298573%2Fref%3Dnosim" rel="nofollow" target="_blank">Amazon</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"></div><div class="shoplinkkindle" style="margin-right:5px;background: url('http://img.yomereba.com/kz_y.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB00NUFMHR6%2F" rel="nofollow" target="_blank">Kindle</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"></div><div class="shoplinkrakuten" style="margin-right:5px;background: url('http://img.yomereba.com/kz_y.gif') 0 -50px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194087&p_id=56&pc_id=56&pl_id=637&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F12839191%2F" rel="nofollow" target="_blank">楽天ブックス</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194087&p_id=56&pc_id=56&pl_id=637" width="1" height="1" style="border:none;"></div><div class="shoplinkbk1" style="margin-right:5px;background: url('http://img.yomereba.com/kz_y.gif') 0 -150px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2756067&pid=879867541&vc_url=http%3A%2F%2Fhonto.jp%2Fnetstore%2Fsearch_021_104047298573.html%3Fsrchf%3D1%26srchGnrNm%3D1" target="_blank">honto<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2756067&pid=879867541" height="1" width="1" border="0"></a></div><div class="shoplinkehon" style="margin-right:5px;background: url('http://img.yomereba.com/kz_y.gif') 0 -250px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2781196&pid=880575064&vc_url=http%3A%2F%2Fwww.e-hon.ne.jp%2Fbec%2FSA%2FDetail%3FrefISBN%3D4047298573" target="_blank">e-hon<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2781196&pid=880575064" height="1" width="1" border="0"></a></div>              </div></div><div class="booklink-footer" style="clear: left"></div></div>
+
+
 ### 全強化と部分強化
 
-もう一つは「全強化」と「部分強化」です。  
-有名な『スキナーボックス』という実験があります。
+有名な『[スキナー箱](http://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%AD%E3%83%8A%E3%83%BC%E7%AE%B1)』という実験があります。
+
+これはネズミが入った箱にレバーがあり、レバーを引くと餌が出てくるという装置です。
+
+1. レバーを引くと必ず餌が出る
+1. レバーを引くとある確率で餌が出る
+
+という2通りのパターンがあったとします。
+
+1は「全強化」と言い、ネズミは必要な時だけレバーを引きます。  
+ネズミは出てきた餌を食べることによって快感を得ます。
+
+2は「部分強化」と言い、ネズミはレバーをひたすら引き続けます。  
+ネズミは餌が出てきた瞬間にドーパミンが出て快感を得ます。
+
+上記のように、ある行為によって必ず報酬を得られる場合（前者）よりも、ある行為によって間欠的に報酬が得られる場合（後者）の方がその行為への執着が高まるという傾向があります。
+
+失敗していても、負け続けていても「次は成功する、勝てる」という心理状態に陥り、過去の成功パターンを繰り返そうとするのです。  
+
+これが依存症の正体になります。  
+ここにも「ストレス」と「快感」の関係がありますね。
+
+この実験には続きがあって、レバーを引くとネズミの頭に直接ドーパミンを送り込む装置を埋め込みます。  
+すると、ネズミは餌が出ても、餌を食べずにレバーを引き続けます。「餌を食べる」ことによって得られるドーパミンが、「レバーを引く」ことによって得られるようになるからです。最終的にネズミは餓死します。  
+ドーパミンがもたらす力には体が逆らえないのです。
 
 
 
-GREE、Mobageによるソーシャルゲームバブル時代から数年経ちましたが、未だマネタイズの重要軸となっている「ガチャ」に焦点を当ててみます。
-
-「ガチャ」って何が面白いと思いますか？
 

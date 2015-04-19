@@ -43,17 +43,25 @@ Windows環境ではこの記事が参考になると思います。
 [Movable Type 備忘録 - Dropbox と TortoiseSVN でテンプレートのバージョン管理](http://bizcaz.com/archives/2009/01/25-120513.php "Link to Movable Type 備忘録 - Dropbox と TortoiseSVN でテンプレートのバージョン管理")
 
 さて、Mac環境でのDropboxですが、デフォルトでのフォルダ場所が
+
 > /Users/ユーザー名/Dropbox
+
 になっていますが、同期したいマシン間でユーザー名が異なるとパスが統一出来ません。
 
 ということで、Dropboxの設定を変えます。
-[![Dropbox設定画面](http://creamo.jp/wp/wp-content/uploads/2011/05/dropbox_option-300x162.jpg "Dropbox設定画面")](http://creamo.jp/wp/wp-content/uploads/2011/05/dropbox_option.jpg)
+
+![Dropbox設定画面](/tool/subversion-trouble/dropbox_option.jpg)
+
 この設定画面で「ファイルの保存場所」を
+
 > /Users/Shared/Dropbox
+
 にします。
 
 あとはリポジトリの作成を
+
 > /Users/Shared/Dropbox
+
 以下に作成すれば完了です。作成方法は[前回の記事](http://creamo.jp/tool/mac-svn-coda/ "Macでローカルバージョン管理 – Subversion導入〜Codaで便利活用")で。
 
 リポジトリにユーザーやパスワードを設定する場合
@@ -62,20 +70,22 @@ Windows環境ではこの記事が参考になると思います。
 > [users]
 > 
 > ユーザー名 = パスワード
+
 というように記述します。
 
 ・ユーザー、パスワードを機能を有効にする
 > リポジトリ/conf/svnserve.conf
-> [general]
-> 
-> anon-access = none　　　　　　←ユーザー認証しないアクセスはアクセス不可
-> 
-> auth-access = write　　　　　　←ユーザー認証したアクセスでは読み書き可能
-> 
-> password-db = passwd		←passwdファイルを使用してユーザー認証する
-> 
-> realm = Hishidama Repository	←認証の名称
+
+```
+[general]
+anon-access = none　　　　　　←ユーザー認証しないアクセスはアクセス不可
+auth-access = write　　　　　　←ユーザー認証したアクセスでは読み書き可能
+
+password-db = passwd	←passwdファイルを使用してユーザー認証する
+
+realm = Hishidama Repository	←認証の名称
 上記の有効にしたい機能の#を取ります。
+```
 
 ### .svnファイルを削除したい
 
@@ -85,8 +95,12 @@ SVN設定すると、SVN設定したフォルダ全てに隠しフォルダと�
 [.svn]フォルダがあるかをCodaは判断しているので、[.svn]フォルダがある場合はリポジトリ場所が変更出来ないです。
 
 「調子が悪いからリポジトリ作成からやり直したい」等なったとき困ったので、そういうときはコマンドで[.svn]フォルダを一気に消せます。
-> `$ find . -name ".svn" -type d -exec echo delete {} ";" -exec rm -rf {} ";"`
+
+```bash
+$ find . -name ".svn" -type d -exec echo delete {} ";" -exec rm -rf {} ";"
+```
 上記のコマンドをリポジトリフォルダに移動した後に実行すれば[.svn]フォルダが削除されます。
+
 [管理ディレクトリ（.svn）の削除 - profaim.jp](http://www.profaim.jp/tools/soft/svn/svnother/mac/del_svninfo.php "Link to - profaim.jp")
 
 また、過去の履歴を削除してしまった場合dumpコマンドで復元できます。

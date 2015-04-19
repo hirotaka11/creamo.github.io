@@ -1,6 +1,8 @@
 title: "MAMP起動・終了時のパスワード確認を黙らせよう！"
 date: 2011-06-04 22:56:35
 tags:
+ - Mac
+ - Server
 id: 331
 categories:
   - tool
@@ -11,7 +13,7 @@ MAMPを起動・終了する度にパスワード入力を求められていま�
 ### なぜMAMPはパスワード入力を求めてくるのか？
 
 デフォルトが「8888」であるApacheの使用ポートを**「1024」より小さい数字に設定した場合、MacOS XのようなUNIX環境下ではIPサービスを開始・終了するためにroot権限が必要**になり、パスワード入力を求められます。
-<!--more-->
+
 「わざわざ1024より小さい数字で使わなければいいじゃないか。」
 と思う人もいるかもしれません。
 
@@ -22,7 +24,7 @@ MAMPを起動・終了する度にパスワード入力を求められていま�
 まず、キーチェーンアクセス(/Applications/Utilities/)を開き、「+」をクリック。
 新しい項目を追加し、項目名は「MAMP」に設定。
 アカウント名とパスワードはMacにログインするときのものを入力します。
-![キーチェーンにMAMP用の項目を追加](http://creamo.jp/wp/wp-content/uploads/2011/06/keychain.jpg "キーチェーンにMAMP用の項目を追加")
+![キーチェーンにMAMP用の項目を追加](/tool/mamp-password-omi/keychain.jpg "キーチェーンにMAMP用の項目を追加")
 
 [Apache & MySQL – No Password app](http://www.46palermo.com/wp-content/uploads/2010/07/Apache-MySQL-No-Password.zip)をダウンロードし、起動します。
 

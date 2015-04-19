@@ -12,8 +12,6 @@ categories: tool
 
 そこでパソコン、スマートフォンに緊急地震速報を通知してくれるアプリを導入してみましょう。
 
-<!--more-->
-
 私がWindowsとMacの両使いなので、両OSで使えるソフトを紹介していきます。iPhoneとAndroidも少しだけ紹介。
 
 ちなみに私は**「緊急地震速報 by Extension」**と**「P2P地震情報」**を使用しています。
@@ -28,25 +26,25 @@ OSを選ばないのが特徴です。
 [緊急地震速報 by Extension
 ](https://chrome.google.com/webstore/detail/pebgngldogenhmnokpncolbajkelhjba)下のearthquake Notifyより少しだけ通知が早いっぽい。
 
-![緊急地震速報 by Extension](http://creamo.jp/wp/wp-content/uploads/2011/06/earthquake.png "緊急地震速報 by Extension")
+![緊急地震速報 by Extension](/tool/quake-app/earthquake.png "緊急地震速報 by Extension")
 
 [earthquake Notify(緊急地震速報)
 ](https://chrome.google.com/webstore/detail/bcepdinmmfbpheociaalfkhbcpekbdbc)Chrome拡張アプリのくせにChrome起動しなくても稼働します。
 Chrome使いじゃない人にも使えるアプリです。
 
-![earthquake Notify(緊急地震速報)](http://creamo.jp/wp/wp-content/uploads/2011/06/earthquake_notify.png "earthquake Notify(緊急地震速報)")
+![earthquake Notify(緊急地震速報)](/tool/quake-app/earthquake_notify.png "earthquake Notify(緊急地震速報)")
 
 ### Windowsアプリケーション
 
 [P2P地震速報](http://www11.plala.or.jp/taknet/p2pquake/)
 気象庁の情報だけでなく、全国にいる利用ユーザーの感知情報を集めて通知するソフト。感知情報数で信頼度も表示されるので、気象庁以外の情報もなかなか侮れない。P2Pなのでまさに常時接続状態。
 
-![P2P地震速報](http://creamo.jp/wp/wp-content/uploads/2011/06/p2p_quake.png "P2P地震速報")
+![P2P地震速報](/tool/quake-app/p2p_quake.png "P2P地震速報")
 
 [SignalNow Express
 ](http://www.estrat.co.jp/download.html)予測到達時間を表示してくれる。
 
-![SignalNow Express](http://creamo.jp/wp/wp-content/uploads/2011/06/signalnow.png "SignalNow Express")
+![SignalNow Express](/tool/quake-app/signalnow.png "SignalNow Express")
 
 ### Macアプリケーション
 
@@ -54,12 +52,12 @@ Chrome使いじゃない人にも使えるアプリです。
 ](http://veadardiary.blog29.fc2.com/blog-entry-3223.html "Link to 地震速報をGrowlで表示する『Growl quake』 | Macの手書き説明書")Twitterの「地震速報 (eew_jp)」の新着ツイートを「Growl」で表示するアプリ。
 30秒毎にTweetを確認しにいくので、他の通知よりは遅いかも。
 
-![Growl quake](http://creamo.jp/wp/wp-content/uploads/2011/06/growl_quake.png "Growl quake")
+![Growl quake](/tool/quake-app/growl_quake.png "Growl quake")
 
 [QuakeInfoDash
 ](http://macwidgets.jpn.org/quakeinfodash/)ダッシュボードアプリ。Growlでも通知してくれるが、更新が最短4分なので緊急地震速報としては使えない。
 
-![QuakeInfoDash](http://creamo.jp/wp/wp-content/uploads/2011/06/quakeinfo_dash.png "QuakeInfoDash")
+![QuakeInfoDash](/tool/quake-app/quakeinfo_dash.png "QuakeInfoDash")
 
 ### iPhoneアプリケーション
 
@@ -78,9 +76,9 @@ Chrome使いじゃない人にも使えるアプリです。
 ](https://market.android.com/details?id=jp.co.rcsc.yurekuru.android)iPhoneのゆれくるコールがAndroidで登場。人数限定でベータ公開中。
 まだまだ安定していない様子。
 
-![ゆれくるコール for Android](http://creamo.jp/wp/wp-content/uploads/2011/06/yurekuru_a.png "ゆれくるコール for Android")
+![ゆれくるコール for Android](/tool/quake-app/yurekuru_a.png "ゆれくるコール for Android")
 
 [なまず速報β
 ](https://market.android.com/details?id=jp.twiple.android.quake&amp;feature=search_result)こちらもベータ版。ゆれくるコールより安定している様子。
 
-![なまず速報β](http://creamo.jp/wp/wp-content/uploads/2011/06/namazu_beta.png "なまず速報β")
+![なまず速報β](/tool/quake-app/namazu_beta.png "なまず速報β")

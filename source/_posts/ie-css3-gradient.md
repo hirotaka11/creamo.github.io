@@ -22,9 +22,9 @@ WordPressでLightboxやらのprototype.jsを使うプラグインとjQueryを使
 
 互換モードにするには&lt;head&gt;に以下のコードを入れてください。
 
-[sourcecode lang="html"]
+```html
 &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=emulateIE7&quot; /&gt;
-[/sourcecode]
+```
 
 参考サイト：[WordPress3.0　続・prototype.jsを使うとIE8で表示が・・・ | ネットインパクト](http://www.netimpact.co.jp/blog/11188/ "Link to WordPress3.0　続・prototype.jsを使うとIE8で表示が・・・ | ネットインパクト")
 
@@ -33,14 +33,14 @@ WordPressでLightboxやらのprototype.jsを使うプラグインとjQueryを使
 **これのせいでIE9が好きになれない！**
 CSS3でグラデーションをかけるとします。以下のようなCSSになります。
 
-[sourcecode lang="css"]
+```css
 background:#fff; /* for non-css3 browsers */
 background:linear-gradient(#ffffff, #000000); /* CSS3草案 */
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#000000'); /* IE6,7用 */
 -ms-filter: &quot;progid:DXImageTransform.Microsoft.Gradient(StartColorStr=#ffffff, EndColorStr=#000000)&quot;; /* IE8,9用 */
 background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#000000)); /* Safari,Google Chrome用 */
 background: -moz-linear-gradient(top, #fff, #000000); /* Firefox用 */
-[/sourcecode]
+```
 
 長ったらしい上に、何故かIE用にいくつも指定しないといけない。
 
@@ -54,18 +54,18 @@ FirefoxとChromeは書けば動くので問題ありません。
 box-shadowは丸くなっています。
 
 border-radiusのCSS
-[sourcecode lang="css"]
+```css
 border-radius: 15px; /* CSS3草案 */
 -webkit-border-radius: 10px; /* Safari,Google Chrome用 */
 -moz-border-radius: 10px; /* Firefox用 */
-[/sourcecode]
+```
 
 box-shadowのCSS
-[sourcecode lang="css"]
+```css
 box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2), inset 0 0 10px rgba(0, 0, 0, 0.1); /* CSS3草案 */
 -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2), inset 0 0 10px rgba(0, 0, 0, 0.1); /* Safari,Google Chrome用 */
 -moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2), inset 0 0 10px rgba(0, 0, 0, 0.1); /* Firefox用 */
-[/sourcecode]
+```
 
 border-radiusとbox-shadowに関してはCSS3本来の書き方でIE9で有効になります。
 
@@ -91,7 +91,8 @@ IEにCSS3を対応させるjsは数多くあります。
 やってみました。[デモページ](http://css3pie.com/ "Link to CSS3 PIE: CSS3 decorations for IE")で作成したものをコピペすればいいです。
 実際には2行足すだけですね。
 ※PIE.htcは絶対パスを入力してください。
-[sourcecode lang="css"]
+
+```css
 -webkit-border-radius: 10px;
 -moz-border-radius: 10px;
 border-radius: 10px;
@@ -105,7 +106,7 @@ background: linear-gradient(#ffffff, #EBEBEB);
 
 -pie-background: linear-gradient(#ffffff, #EBEBEB);
 behavior: url(/PIE.htc);
-[/sourcecode]
+```
 
 これでIE6〜IE8も角丸とグラデーションを効かせることが出来ました。
 

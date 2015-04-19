@@ -8,23 +8,22 @@ categories:
 
 通常HTMLにjQueryを読み込む際は以下のように読み込むと思います。
 
-[sourcecode lang="js"]
-&lt;script type=&quot;text/javascript&quot;src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js&quot;&gt;&lt;/script&gt;
-[/sourcecode]
+```html
+<script type="text/javascript"src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+```
 
 ところがWordPressでは各種プラグインが様々なJavaScriptのフレームワークを使うので、コンフリクト（競合）の発生を防ぐために内部で色々と処理が行われています。
 そのため、上記のように読み込むとうまく動作しない可能性があります。
 
 コンフリクトを起こさないためにも、WordPressでjQuery等の外部ファイルを読み込む時にはwp_enqueue_script()という関数を使う必要があります。
-<!--more-->
 
 ### 関数の呼び出し方
 
 [Function Reference/wp enqueue script « WordPress Codex](http://codex.wordpress.org/Function_Reference/wp_enqueue_script "Link to Function Reference/wp enqueue script « WordPress Codex")
 
-[sourcecode lang="php"]
+```php
 wp_enqueue_script( $handle, $src = false, $deps = array(), $ver = false );
-[/sourcecode]
+```
 
 **$handle**
 
@@ -32,7 +31,7 @@ wp_enqueue_script( $handle, $src = false, $deps = array(), $ver = false );
 
 **$src(optional)**
 
-スクリプトファイルへのパス。http://で始まるURLまたはサイトルートから絶対パス。
+スクリプトファイルへのパス。http:// で始まるURLまたはサイトルートから絶対パス。
 
 **$deps(optional)**
 
@@ -53,13 +52,13 @@ WordPressはjQueryを内蔵しているので、公式サイトからダウン�
 下記コードはWordPressに含まれるjQueryを使用した例です。Google APIから読み込む場合は後述します。
 &lt;head&gt;内に書く場合は必ず&lt;?php wp_head(); ?&gt;の前に記述してください。
 
-[sourcecode lang="php"]
-&lt;?php
+```php
+<?php
 wp_enqueue_script('jquery'); 
 wp_enqueue_script('sample','/wp-content/themes/yourthemes/js/sample.js',array('jquery'),'0.1.0');
-?&gt;
-&lt;?php wp_head(); ?&gt;
-[/sourcecode]
+?>
+<?php wp_head(); ?>
+```
 
 1行目でWordPress内蔵のjQueryを読み込んでいます。
 
@@ -71,14 +70,14 @@ wp_enqueue_script('sample','/wp-content/themes/yourthemes/js/sample.js',array('j
 
 修正が面倒な場合は自前のfunctionだけ$でアクセス出来るように下記コードで括ります。
 
-[sourcecode lang="php"]
+```php
 jQuery(document).ready(function($) {
  //下のfunction内だけ$が有効
  $(document).ready(function() {
-  alert(&quot;サンプルコード&quot;);
+  alert("サンプルコード");
  }); 
 });
-[/sourcecode]
+```
 
 ### WordPressにデフォルトで含まれているjQueryライブラリ
 
@@ -96,22 +95,23 @@ jQueryの読み込みだけでもロード時間の増加に繋がっている�
 
 以下のコードのように記述します。
 
-[sourcecode lang="php"]
-&lt;?php
+```php
 wp_deregister_script( 'jquery' );
-wp_deregister_script( 'jquery-ui-core' ); //jQuery UIを使わない場合は不要
+wp_deregister_script( 'jquery-ui-core' ); //jQuery 
+```
+UIを使わない場合は不要
 
+```php
 wp_enqueue_script('jquery','http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js');
 wp_enqueue_script('jquery-ui-core','http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js', array('jquery'));
 /* 以下、その他のjQueryプラグインの読み込み */
-?&gt;
-[/sourcecode]
+```
 
 ”wp_deregister_script()”でWordPress標準のjQueryの読み込みをキャンセルしてから読み込ませます。
 
 ここで2重読み込みを防ぎ、他のjQueryのプラグインは全てGoogle APIに依存させます。
 
-“http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js”の“/1/”の部分は**”最新バージョンを読み込む”**という意味です。
+<code>“http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js”</code>の“/1/”の部分は**”最新バージョンを読み込む”**という意味です。
 
 最新バージョンで不具合がある場合は、この部分にバージョン数字を入れることで好きなバージョンを読み込むことが出来ます。
 例)1.2.3、1.2.6、1.3.0、1.3.1など

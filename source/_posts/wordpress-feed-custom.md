@@ -24,17 +24,19 @@ WordPressが出力しているフィードの形式は
 の4つです。
 
 例えば、当サイトのヘッダを見るとこんな感じになってます。
-[html]
-&lt;link rel=&quot;alternate&quot; type=&quot;text/xml&quot; title=&quot;RSS .92&quot; href=&quot;http://creamo.jp/feed/rss/&quot;&gt;
-&lt;link rel=&quot;alternate&quot; type=&quot;application/rss+xml&quot; title=&quot;RSS 2.0&quot; href=&quot;http://creamo.jp/feed/&quot;&gt;
-&lt;link rel=&quot;alternate&quot; type=&quot;application/atom+xml&quot; title=&quot;Atom 0.3&quot; href=&quot;http://creamo.jp/feed/atom/&quot;&gt;
-[/html]
+```html
+<link rel="alternate" type="text/xml" title="RSS .92" href="http://creamo.jp/feed/rss/">
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://creamo.jp/feed/">
+<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://creamo.jp/feed/atom/">
+```
 
 デフォルトテーマ等を使っていたりするとヘッダにこんな記述をしていなくてもRSSが出力されています。
 それはfunction.phpに
-[php]&lt;?php add_theme_support('automatic-feed-links'); ?&gt; /* WordPress3用 */
-&lt;?php automatic_feed_links(); ?&gt;/* WordPress2用 */
-[/php]
+```php
+>?php add_theme_support('automatic-feed-links'); ?> /* WordPress3用 */
+<?php automatic_feed_links(); ?>* WordPress2用 */
+```
+
 が記述されている為です。
 
 automatic-feed-links は投稿とコメントのフィードへのlink要素を追加する関数です。
@@ -66,19 +68,27 @@ fuaction.phpに関しては子テーマのfunction.phpが親テーマを上書�
 親テーマのfunction.phpでlink要素を生成している場合は、子テーマで削除させる必要があるわけです。
 
 ヘッダ内からフィードのlink要素を削除したい場合はfunction.phpに以下のコードを追記します。
-[php]
+
+```php
 remove_action('wp_head', 'feed_links', 2); /* サイト全体のフィード */
 remove_action('wp_head', 'feed_links_extra', 3); /* その他のフィード */
-[/php]
+```
 
 **コメントフィードのlink要素のみを削除したい場合**
-[php]remove_action('wp_head', 'feed_links_extra', 3);[/php]
+
+```php
+remove_action('wp_head', 'feed_links_extra', 3);
+```
+
 のみを追記します。カテゴリーフィードのlink要素等も削除されます。
 
 ### remove_actionについて
 
 remove_actionはremove_filterの別名です。add_actionで登録されているフックを削除する関数です。
-[php]remove_action( 'フック名', 'フックに登録されている関数名', 優先度 );[/php]
+```php
+remove_action( 'フック名', 'フックに登録されている関数名', 優先度 );
+```
+
 ただし、上記のコードはlink要素を削除しているだけなので、「http://www.example.com/?feed=rss2」等にアクセスすると、フィードが見えてしまいます。
 
 詳しくは以下を参照
@@ -90,13 +100,14 @@ remove_actionはremove_filterの別名です。add_actionで登録されてい�
 検索避けがしたい場合、RSS自体に検索避けは施せないので、フィードの生成自体を止めた方が無難です。
 
 そういう場合は上記のremove_actionと以下のコードを追加します。
-[php]
+```php
 add_action('do_feed', 'disable_our_feeds', 1);
 add_action('do_feed_rdf', 'disable_our_feeds', 1);
 add_action('do_feed_rss', 'disable_our_feeds', 1);
 add_action('do_feed_rss2', 'disable_our_feeds', 1);
 add_action('do_feed_atom', 'disable_our_feeds', 1);
-[/php]
+```
+
 これでフィードの生成が止まり、フィードのURLへアクセスしても表示されません。
 
 参考サイト
