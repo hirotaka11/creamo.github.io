@@ -6,7 +6,7 @@ categories:
   - tool
 ---
 
-![](http://creamo.jp/wp/wp-content/uploads/2011/07/google_plus_android_logo.png "Google+ logo")中毒性が高く話題になっているGoogle+ですが、土日と2日間通してだんだん使い勝手が掴めてきましたので、今から始める人向けに分かりやすく紹介していきます。
+![](/tool/googleplus-fast/google_plus_android_logo.png "Google+ logo")中毒性が高く話題になっているGoogle+ですが、土日と2日間通してだんだん使い勝手が掴めてきましたので、今から始める人向けに分かりやすく紹介していきます。
 
 あまりSNSに慣れていない人はまだ敷居が高いので、正式公開を待った方がいいです。とはいえ、面白いことに代わりはないので、ぜひ触って見て欲しいです。
 
@@ -78,7 +78,7 @@ Androidアプリでも「共有」や「Sparks」が使えなかったりとま�
 
 ### で、Google+ってなんなの？
 
-![Google+ icon](http://creamo.jp/wp/wp-content/uploads/2011/07/gp_icon.png "Google+ icon")
+![Google+ icon](/tool/googleplus-fast/gp_icon.png "Google+ icon")
 Google発の新型SNSです。
 
 Google Wave,Google Buzzと失敗を繰り返しているGoogleがBlogger、Picasaを取り込んでまで本気で作っています。
@@ -107,7 +107,7 @@ Google+を式で表すと、こんな感じ
 
 まずは簡単な画面の説明です。
 
-![Google+ Screen](http://creamo.jp/wp/wp-content/uploads/2011/07/gplus_ss.jpg "Google+ Screen")
+![Google+ Screen](/tool/googleplus-fast/gplus_ss.jpg "Google+ Screen")
 
 **ストリーム**：
 
@@ -170,7 +170,7 @@ Google+でのホットエントリを取得しやすくなればより使い勝�
 **フォロー=サークルに入れる**
 
 という感じになります。分け方は多種多様で、現在はGeekな方達が効率的な方法を色々試してます。
-![Webのサークル](http://creamo.jp/wp/wp-content/uploads/2011/07/circle.png "サークル")
+![Webのサークル](/tool/googleplus-fast/circle.png "サークル")
 私は「WEB」「ネタ」「とりあえず」という感じで別のサークルに分けています。
 
 プロフィールを見ただけではその人がどういう人か分からないことがあります。その場合に大してとりあえずフォローするサークルを作っておくのがベターです。
@@ -227,12 +227,5 @@ Androidは初期設定からやりなおし、Googleカレンダー、Gmail全�
 
 極まれにGoogle側のミスで凍結されることがあるようです。その場合はGoogle側に申請することで復活出来るので覚えておきましょう。
 
---
-
-まだまだ最適化の余地があるGoogle+。より多くの人が参加して、より多くの意見が集まればさらに良いサービスになるはずです。皆さんの協力をお待ちしております。
-
-<del datetime="2011-07-19T06:00:40+00:00">Twitter上で私にリプ投げれば、招待しますので。[@hi_takaki](https://twitter.com/hi_takaki/)</del>
-
-**招待は一時的に中断しました。ご了承ください。**
 
 私のGoogle+アカウントはこちら [http://gplus.to/hirotaka](http://gplus.to/hirotaka)

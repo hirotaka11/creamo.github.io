@@ -57,7 +57,7 @@ NetBeansが日本語になっていることを前提にします。
 
 ※プロジェクトのプロパティを開き、ソースレベルを[1.5]にする。(1.6だとエラーになる模様)
 
-![ソースレベル](http://creamo.jp/wp/wp-content/uploads/2011/06/sourclevel.png "ソースレベルを1.5に")
+![ソースレベル](/tool/netbeans-cakephp/sourclevel.png "ソースレベルを1.5に")
 
 追加したプロジェクト(CakePHP Framework)の上で右クリック -> [NBMを作成]をクリック
 
@@ -72,7 +72,7 @@ NetBeansが日本語になっていることを前提にします。
 3で作成したnbmファイルを追加します。
 
 追加するとCakePHP Framework Pluginが追加され、[インストール済み]で確認出来ます。
-![Cakephp plugin add](http://creamo.jp/wp/wp-content/uploads/2011/06/cakephp-plugin-add.png "cakephp-plugin-add.png")
+![Cakephp plugin add](/tool/netbeans-cakephp/cakephp-plugin-add.png "cakephp-plugin-add.png")
 
 ### CakePHPプロジェクトの作成
 

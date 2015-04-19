@@ -3,7 +3,8 @@ date: 2011-08-01 01:00:53
 tags:
 id: 814
 categories:
-- wordpress
+- WordPress
+- MarsEdit
 ---
 
 WordPressの記事作成は「MarsEdit」という投稿ツールを使っています。
@@ -31,7 +32,8 @@ MarsEditで取得更新をしても以下のようなエラーが発生。投稿
 > **Get Recent Posts Error**
 > 
 > Can’t get recent posts for CreaMo! because the server reported an error: unexpected response code 500.
-![MarsEditエラー](http://creamo.jp/wp/wp-content/uploads/2011/07/marsedit-err.png "MarsEditエラー")
+
+![MarsEditエラー](/wordpress/secure-marsedit/marsedit-err.png "MarsEditエラー")
 
 今までは使えていたので、Secure WordPressに何らかの修正が加えられたと考えられます。
 
@@ -59,6 +61,6 @@ Secure WordPressについての記事はこちら
 
 初期設定は30記事なので、エラーが起こったら20記事くらいに減らしてみましょう。
 
-![Marsedit設定画面](http://creamo.jp/wp/wp-content/uploads/2011/08/marsedit-setting.jpg "取得記事数を減らしてみる")
+![Marsedit設定画面](/wordpress/secure-marsedit/marsedit-setting.jpg "取得記事数を減らしてみる")
 
 これでエラーが出なくなるはずです。しかし、よく色んなエラーが起こるので、ココに載っている対処法だけでは解決しないことがあるかもしれません。

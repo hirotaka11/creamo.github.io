@@ -1,9 +1,10 @@
 title: "Facebookのいいね！を解除する方法(2011/11版)"
 date: 2011-11-14 09:00:00
 tags:
+ - Facebook
 id: 1062
 categories:
-  - webtech
+ - webtech
 ---
 
 Google+ページが登場しましたが、やはり本家はFacebookページです。
@@ -20,11 +21,11 @@ Facebookページの魅力は「いいね！」の押しやすさと、その後
 
 ほとんどのページではトップにウェルカムページを用意して、上部のいいね！ボタンに矢印を付けて誘導しています。
 
-![いいね！を押すだけ！](http://creamo.jp/wp/wp-content/uploads/2011/11/fb_pagelike_click.jpg "fb_pagelike_click.jpg")
+![いいね！を押すだけ！](/webtech/facebook-like-release/fb_pagelike_click.jpg "fb_pagelike_click.jpg")
 
 さらに、Facebookウィジェットである「Like box」を設置すれば、Facebookページに訪れることなくいいね！を増やすことが可能です。これは従来のRSSよりもずっと自然に閲覧者にフィード購読をさせることが出来ます。
 
-![Facebookウィジェットからいいね！](http://creamo.jp/wp/wp-content/uploads/2011/11/fb_widget.jpg "fb_widget.jpg")
+![Facebookウィジェットからいいね！](/webtech/facebook-like-release/fb_widget.jpg "fb_widget.jpg")
 
 今になっても知識のある人以外にRSS購読というのは敷居が高く、RSSリンクを設置してもいいね！ほどの効果を上げることは出来ないでしょう。
 
@@ -34,7 +35,7 @@ Facebookページの魅力は「いいね！」の押しやすさと、その後
 
 本題です。とは言っても、とても簡単です。
 
-![Facebook](http://creamo.jp/wp/wp-content/uploads/2011/11/Facebook.jpg "Facebook.jpg")
+![Facebook](/webtech/facebook-like-release/Facebook.jpg "Facebook.jpg")
 
 1.  <span>1\. 解除したいFacebookページに行く</span>
 2.  <span>2\. Facebookページ左側のサイドバーの一番下に「いいね！を取り消す」のリンクをクリック</span>

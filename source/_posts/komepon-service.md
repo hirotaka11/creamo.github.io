@@ -30,8 +30,8 @@ WEBページに付けられた「はてなブックマーク」や「Twitter」�
 
 ソーシャルボタンでそれぞれのコメントを見るより、より効率的に閲覧することが可能なので、どんどん活用していきましょう。
 
-![Komepon ss](http://creamo.jp/wp/wp-content/uploads/2011/08/Komepon-ss.jpg "Komepon-ss.jpg")
+![Komepon ss](/tool/komepon-service/Komepon-ss.jpg "Komepon-ss.jpg")
 
-他にもロプロス氏はサイト上で様々なWebサービスを公開しています。ぜひチェックしてみてください。
+他にもロプロス氏はサイト上で様々なWebサービスを公開しています。ぜひチェックしてみると良いかもしれません。
 
 ロプロス氏のサイト：[ropross.net](http://www.ropross.net/ "Link to ropross.net")

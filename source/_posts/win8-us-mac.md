@@ -5,6 +5,7 @@ id: 1163
 categories:
   - tool
 ---
+![](/tool/win8-us-mac/mackey.jpg)
 
 Windows8のアップグレードが1月31日まで3300円ということだったので、せっかくなのでMacに(Parallels使って)Windows8を入れてみました。
 
@@ -24,19 +25,19 @@ XPのときは簡単に変えられた気がするキーボード配列設定変
 パパっとスクショで一連の流れを。
 
 デバイスマネージャーでキーボードのプロパティを開く
-[![デバイスマネージャーでキーボードのプロパティを開く](http://creamo.jp/wp/wp-content/uploads/2013/01/win8_us_01.jpg "デバイスマネージャーでキーボードのプロパティを開く")](http://creamo.jp/wp/wp-content/uploads/2013/01/win8_us_01.jpg)
+![デバイスマネージャーでキーボードのプロパティを開く](/tool/win8-us-mac/win8_us_01.jpg)
 
 ドライバー更新を選択
-![ドライバー更新を選択](http://creamo.jp/wp/wp-content/uploads/2013/01/win8_us_02.jpg "ドライバー更新を選択")
+![ドライバー更新を選択](/tool/win8-us-mac/win8_us_02.jpg "ドライバー更新を選択")
 
 ドライバーを手動で検索
-![ドライバーを手動で検索](http://creamo.jp/wp/wp-content/uploads/2013/01/win8_us_03.jpg "ドライバーを手動で検索")
+![ドライバーを手動で検索](/tool/win8-us-mac/win8_us_03.jpg "ドライバーを手動で検索")
 
 ドライバーの一覧から選択
-![ドライバーの一覧から選択](http://creamo.jp/wp/wp-content/uploads/2013/01/win8_us_04.jpg "ドライバーの一覧から選択")
+![ドライバーの一覧から選択](/tool/win8-us-mac/win8_us_04.jpg "ドライバーの一覧から選択")
 
 「標準 PS/2 101/102 キーボード」(US配列キーボード)ドライバを選択
-![Win8 us 05](http://creamo.jp/wp/wp-content/uploads/2013/01/win8_us_05.jpg "win8_us_05.jpg")
+![Win8 us 05](/tool/win8-us-mac/win8_us_05.jpg "win8_us_05.jpg")
 
 これでキーボード設定がUSキーボード用になります。
 

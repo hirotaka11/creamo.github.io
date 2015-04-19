@@ -87,7 +87,7 @@ Mac App Storeを起動し、「OS X Lion」の画面に移動します。
 
 　もしくは「ディスクユーティリティ」を起動して「ディスクを作成」から「InstallESD.dmg」を選択
 
-![「InstallESD.dmgのディスクを作成」](http://creamo.jp/wp/wp-content/uploads/2011/07/lion-disc.png "「InstallESD.dmgのディスクを作成」")
+![「InstallESD.dmgのディスクを作成」](/tool/mac-lion-tips/lion-disc.png "「InstallESD.dmgのディスクを作成」")
 
 **・USBメモリで起動ディスクを作成**
 
@@ -111,11 +111,11 @@ USB起動ディスクの作成手順は以下のサイトを参照してくだ�
 
 「システム環境設定」→「マウス」の「スクロールまたは移動するときに、コンテンツを指を動かした方向に移動させる」のチェックを外すと今まで通りのスクロール方向に。
 
-![Scroll mouse](http://creamo.jp/wp/wp-content/uploads/2011/07/scroll-mouse.png "scroll-mouse.png")
+![Scroll mouse](/tool/mac-lion-tips/scroll-mouse.png "scroll-mouse.png")
 
 「システム環境設定」→「トラックパッド」の「スクロールの方向：ナチュラル」のチェックを外すと今まで通りのスクロール方向に。
 
-![Scroll pad](http://creamo.jp/wp/wp-content/uploads/2011/07/scroll-pad.png "scroll-pad.png")
+![Scroll pad](/tool/mac-lion-tips/scroll-pad.png "scroll-pad.png")
 
 Appleは新しいスクロール方向のことを**「ナチュラル」**と呼んでいます。
 
@@ -127,7 +127,7 @@ Appleは新しいスクロール方向のことを**「ナチュラル」**と�
 
 ### Mission Controlってなに？
 
-![Mission Control](http://creamo.jp/wp/wp-content/uploads/2011/07/mission-control.png "Mission Controlの画面")
+![Mission Control](/tool/mac-lion-tips/mission-control.png "Mission Controlの画面")
 
 ExposeとSpacesが統合された機能です。
 
@@ -154,11 +154,11 @@ Exposeと違ってアプリごとに分けられるので、一つのアプリ�
 
 ### Lanchpadってなに？
 
-![Lanchpad](http://creamo.jp/wp/wp-content/uploads/2011/07/lanchpad-1.png "Lanchpadの画面")
+![Lanchpad](/tool/mac-lion-tips/lanchpad-1.png "Lanchpadの画面")
 
 簡単に言えば、アプリケーションにiOSのようなインターフェースでアクセス出来る画面です。
 
-![アプリをまとめることが可能](http://creamo.jp/wp/wp-content/uploads/2011/07/lanchpad-2.png "アプリをまとめることが可能")
+![アプリをまとめることが可能](/tool/mac-lion-tips/lanchpad-2.png "アプリをまとめることが可能")
 
 iOSと同じく、アプリケーションをまとめることが出来ます。
 
@@ -166,11 +166,11 @@ iOSと同じく、アプリケーションをまとめることが出来ます�
 
 **Lanchpadを使わなくても･･･**
 
-![アプリケーションフォルダをグリッド表示](http://creamo.jp/wp/wp-content/uploads/2011/07/app-grid.png "アプリケーションフォルダをグリッド表示")
+![アプリケーションフォルダをグリッド表示](/tool/mac-lion-tips/app-grid.png "アプリケーションフォルダをグリッド表示")
 
 既存Macユーザーの方は使っていたと思うのですが、Dockにアプリケーションフォルダを置いて、グリッド表示した方が楽な気がします。
 
-![「グリッド」を選択](http://creamo.jp/wp/wp-content/uploads/2011/07/app-grid2.png "「グリッド」を選択")
+![「グリッド」を選択](/tool/mac-lion-tips/app-grid2.png "「グリッド」を選択")
 
 **手順**
 
@@ -186,14 +186,14 @@ Mission Controlはデスクトップの使用状況を監視して、よく使�
 
 この機能を切るには「システム環境設定」→「Mission Control」→「最新の使用状況に基づいて操作スペースを自動的に並べ替える」のチェックを外します。
 
-![Mission Control並び替えをオフ](http://creamo.jp/wp/wp-content/uploads/2011/07/mission-control-sort.png "「最新の使用状況に基づいて操作スペースを自動的に並べ替える」のチェックを外す")
+![Mission Control並び替えをオフ](/tool/mac-lion-tips/mission-control-sort.png "「最新の使用状況に基づいて操作スペースを自動的に並べ替える」のチェックを外す")
 
 ### Exposeのように各デスクトップにアプリを割り当てたい
 
 Spacesでは「システム環境設定」で各デスクトップにアプリを割り当てることが出来ましたが、Mission ControlではDockから割り当てることが出来ます。
 
 挙動はSpacesと同じです。[Control]+[数字キー]のショートカットを使いこなしましょう。
-![デスクトップにアプリを割り当てる](http://creamo.jp/wp/wp-content/uploads/2011/07/app_desktop.png "デスクトップにアプリを割り当てる")
+![デスクトップにアプリを割り当てる](/tool/mac-lion-tips/app_desktop.png "デスクトップにアプリを割り当てる")
 
 ### インストール後の動作遅い or ファンが回りすぎ or CPU使用率が高すぎるとき
 
@@ -213,11 +213,11 @@ Mission Controlに既にあるデスクトップとは別に新しいデスク�
 
 ※Chromeでも表示されますが、現時点ではChromeの「全画面表示」モードになるだけです。
 
-![フルスクリーンボタン](http://creamo.jp/wp/wp-content/uploads/2011/07/fullscreen-open.png "対応アプリの右上にフルスクリーンボタン")
+![フルスクリーンボタン](/tool/mac-lion-tips/fullscreen-open.png "対応アプリの右上にフルスクリーンボタン")
 
 フルスクリーンモードを終了するには右上にカーソルを持って行き、ボタンを選択します。
 
-![フルスクリーン解除ボタン](http://creamo.jp/wp/wp-content/uploads/2011/07/fullscreen-close.png "右上にフルスクリーン解除ボタン")
+![フルスクリーン解除ボタン](/tool/mac-lion-tips/fullscreen-close.png "右上にフルスクリーン解除ボタン")
 
 **※マルチディスプレイだとサブディスプレイが活用不可能に**
 
@@ -237,7 +237,7 @@ Lionから「ライブラリ」へのリンクがFinderに表示されなくな�
 
 Finderの「移動」→「フォルダへ移動」から「~/library」でアクセス出来るという方法もありますが、もっと簡単な方法として、Finderの「移動」メニュー状態で[option]キーを押せば「ライブラリ」へのリンクが表示されます。
 
-![ライブラリへのリンク](http://creamo.jp/wp/wp-content/uploads/2011/07/library-menu.png "[option]キーでライブラリへのリンクを表示")
+![ライブラリへのリンク](/tool/mac-lion-tips/library-menu.png "[option]キーでライブラリへのリンクを表示")
 
 ### Xcodeが動かない
 
@@ -252,7 +252,7 @@ Xcode4に更新してください。Lion公開に伴って無料化されまし�
 「システム環境設定」→「ユーザとグループ」→「ログインオプション」→「ファストユーザスイッチメニューを表示」のチェックを外す
 
 もしくは「アイコン」表示にして表示を小さくする。
-![ユーザー名を非表示](http://creamo.jp/wp/wp-content/uploads/2011/07/user-icon.png "ユーザー名を非表示に")
+![ユーザー名を非表示](/tool/mac-lion-tips/user-icon.png "ユーザー名を非表示に")
 
 ### マイファイルに発見されたくないファイルがある
 
@@ -266,7 +266,7 @@ Xcode4に更新してください。Lion公開に伴って無料化されまし�
 
 「Finder」の環境設定→「一般」→「サイドバー」→「マイファイル」のチェックを外します。
 
-![マイファイルを非表示](http://creamo.jp/wp/wp-content/uploads/2011/07/finder-myfile.png "マイファイルを非表示に")
+![マイファイルを非表示](/tool/mac-lion-tips/finder-myfile.png "マイファイルを非表示に")
 
 **・マイファイルを使いたい場合**
 
@@ -292,9 +292,9 @@ Xcode4に更新してください。Lion公開に伴って無料化されまし�
 全てのアプリケーションで可能？
 
 メニューバーの「編集」→「特殊文字」を選択すると文字一覧が表示され、そのなかの絵文字カテゴリから入力したい文字をダブルクリック。
-![特殊文字](http://creamo.jp/wp/wp-content/uploads/2011/07/menu-emoji.png "特殊文字を選択")
+![特殊文字](/tool/mac-lion-tips/menu-emoji.png "特殊文字を選択")
 
-![絵文字](http://creamo.jp/wp/wp-content/uploads/2011/07/emoji.png "絵文字")
+![絵文字](/tool/mac-lion-tips/emoji.png "絵文字")
 
 ### Finderでファイルの移動が可能に
 
@@ -308,7 +308,7 @@ Lionでは、再起動すると終了時の状態に戻す「再開」機能が�
 
 立ち上げていた全てのアプリケーションが起動し、ウィンドウ位置も同じ状態で復元されます。
 
-![再起動時](http://creamo.jp/wp/wp-content/uploads/2011/07/reboot-check.png "再起動時に「再開」の確認")
+![再起動時](/tool/mac-lion-tips/reboot-check.png "再起動時に「再開」の確認")
 
 しかし、アプリを立ち上げて欲しくない場合もあります。
 
@@ -316,20 +316,20 @@ Lionでは、再起動すると終了時の状態に戻す「再開」機能が�
 
 「システム環境設定」→「一般」にある「アプリケーションを終了して再度開くときにウインドウを復元」のチェックを外します。これで「再開」機能がオフになります。
 
-![「再開」をオフ](http://creamo.jp/wp/wp-content/uploads/2011/07/reboot-off.png "「再開」をオフに")
+![「再開」をオフ](/tool/mac-lion-tips/reboot-off.png "「再開」をオフに")
 
 ### Finderのサイドバーの文字が大きい
 
 Lionになったことで「Finder」のサイドバーの文字サイズが大きくなって違和感を感じた人は多いんじゃないでしょうか。
 
-![サイドバー中](http://creamo.jp/wp/wp-content/uploads/2011/07/side-middle.png "サイドバーの文字サイズが少し大きい")
+![サイドバー中](/tool/mac-lion-tips/side-middle.png "サイドバーの文字サイズが少し大きい")
 
 「システム環境設定」→「一般」の「サイドバーのアイコンサイズ」を「中」→「小」にすることで、元のサイズに戻すことが出来ます。
-![サイドバー設定](http://creamo.jp/wp/wp-content/uploads/2011/07/finder-option.png "アイコンサイズを「小」に")
+![サイドバー設定](/tool/mac-lion-tips/finder-option.png "アイコンサイズを「小」に")
 
 以下のサイズになります。見慣れてる方にとってはこっちの方がいいですね。
 
-![サイドバー小](http://creamo.jp/wp/wp-content/uploads/2011/07/side-small.png "サイドバーの文字サイズが変化")
+![サイドバー小](/tool/mac-lion-tips/side-small.png "サイドバーの文字サイズが変化")
 
 ### 参考サイト
 

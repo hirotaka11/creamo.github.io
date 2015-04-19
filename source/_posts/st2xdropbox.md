@@ -1,6 +1,9 @@
 title: "「Sublime Text 2」✕「Dropbox」でどこでも作業環境を作ろう！"
 date: 2013-06-03 08:30:00
 tags:
+ - Dropbox
+ - Sublime Text
+ - 作業効率化
 id: 1173
 categories:
   - tool

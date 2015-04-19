@@ -48,7 +48,7 @@ WordPressには多言語化出来る有名なプラグインが2種類ありま�
 ※インストール直後は管理画面が英語化するかもしれませんが、下記の設定画面ですぐに変更できます。
 
 設定画面はこのような感じです。（設定 > Language）
-![設定画面](http://creamo.jp/wp/wp-content/uploads/2012/12/qtras_setting.png "qtras_setting.png")
+![設定画面](/wordpress/wp-multilingualization/qtras_setting.png "qtras_setting.png")
 
 英語ですがそんなに難しいことは書いてません。
 
@@ -64,7 +64,7 @@ WordPressには多言語化出来る有名なプラグインが2種類ありま�
 日本でしか公開しないニュース等もあると思います。チェックしておくことで、投稿記事がリスト表示の際表示されなくなります。
 
 もし、直接リンクへ飛んだとしても（記事表示中に他の言語に切り替えるとか）、本文はこのように表示されている言語へのリンクを表示してくれます。
-![Qtrans notrans](http://creamo.jp/wp/wp-content/uploads/2012/12/qtrans_notrans.png "qtrans_notrans.png")
+![Qtrans notrans](/wordpress/wp-multilingualization/qtrans_notrans.png "qtrans_notrans.png")
 
 ●**「Detect the language of the browser and redirect accordingly」**
 
@@ -110,14 +110,14 @@ dropdown形式で表示したい場合は下記のようにテンプレートに
 設定さえ終わってしまえばあとは簡単です。投稿画面を表示します。
 
 設定した言語がタイトルと本文で言語別に入力できるようになりました。
-![Qtrans post](http://creamo.jp/wp/wp-content/uploads/2012/12/qtrans_post.png "qtrans_post.png")
+![Qtrans post](/wordpress/wp-multilingualization/qtrans_post.png "qtrans_post.png")
 
 ### META description の設定
 
 せっかくページを多言語化しても、descriptionも言語別に設定できないと意味無いですよね。
 
 私は「抜粋」をdescriptionを入れるようにしており、ここも言語別に入力可能になっています。
-![Description](http://creamo.jp/wp/wp-content/uploads/2012/12/description.jpg "description.jpg")
+![Description](/wordpress/wp-multilingualization/description.jpg "description.jpg")
 
 ### メニューの設定
 
@@ -133,28 +133,32 @@ dropdown形式で表示したい場合は下記のようにテンプレートに
 
 どの言語がどういう値で管理されているかは、先程の設定画面の言語のEditページで確認できます。
 
-![Qtrans edit language](http://creamo.jp/wp/wp-content/uploads/2012/12/qtrans_edit_language.jpg "qtrans_edit_language.jpg")
+![Qtrans edit language](/wordpress/wp-multilingualization/qtrans_edit_language.jpg "qtrans_edit_language.jpg")
 
 ### テンプレート内での言語別表示方法
 
 テンプレート内で言語別に表示したいものがある場合はこのようにqTranslate側で用意された関数を使うことで切り分けが出来ます。
 その代わりqTranslateに依存したテンプレートになってしまうので注意が必要です。phpの「[function_exists](http://php.net/manual/ja/function.function-exists.php)」関数を使って依存回避するのも手です。
 
-[php]
-&lt;?php 
+```php
+<?php 
 	if (qtrans_getLanguage() == 'ja') {
-	    echo &quot;お知らせ&quot;;
+	    echo "お知らせ";
 	} elseif (qtrans_getLanguage() == 'en')  {
-	    echo &quot;NEWS&quot;;
+	    echo "NEWS";
 	} elseif (qtrans_getLanguage() == 'zh')  {
-	    echo &quot;最新動態&quot;;
+	    echo "最新動態";
 	}
-?&gt;
-[/php]
+?>
+```
 
 こんな書き方もできます。
-[php]&lt;?php _e(&quot;＜!--:ja--＞お知らせ＜!--:--＞＜!--:en--＞NEWS＜!--:--＞&quot;; ?&gt;[/php]
-[php]&lt;?php _e(&quot;[:ja]お知らせ[:en]NEWS&quot;); ?&gt;[/php]
+
+```php
+<?php _e("＜!--:ja--＞お知らせ＜!--:--＞＜!--:en--＞NEWS＜!--:--＞"; ?>
+
+<?php _e("[:ja]お知らせ[:en]NEWS"); ?>
+```
 
 他にも表示中の言語にurlを変換する **qtrans_convertURL()**関数などがあります。
 
@@ -166,7 +170,7 @@ qTranslate用の関数は下記ページに纏められてます。
 環境によって起こったり起こらなかったりするのでなんとも言えないところなのですが、qTranslateが原因の場合は**「設定 > Language > (言語)Edit」**で、表示方法を指定できます。
 
 もしくは、**the_date(), the_time(), get_post_time()**等の関数をそれぞれ試してみるというのも手です。
-![Qtrans date](http://creamo.jp/wp/wp-content/uploads/2012/12/qtrans_date.png "qtrans_date.png")
+![Qtrans date](/wordpress/wp-multilingualization/qtrans_date.png "qtrans_date.png")
 
 まだまだ状況によっては足りないことがあるかもしれませんが、このような手順でWordPressサイトを多言語化対応させることが出来ます。
 

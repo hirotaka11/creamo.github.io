@@ -24,17 +24,7 @@ IE6に対応するか、対応しないかで作業工数が結構変化した�
 
 IE6で表示すると以下の画面が最上部に表示されます。
 
-![警告文](http://creamo.jp/wp/wp-content/uploads/2011/08/warning-ss.png "警告文")
-
-ちなみに当サイトに設置した様子(IETesterで表示してます)
-
-どうせ対応しないと割りきってpng透過対応もしてません。JavaScriptで透過処理の対応は可能です。
-
-![CreaMo!をIE6で表示](http://creamo.jp/wp/wp-content/uploads/2011/08/creamo-ie6.png "CreaMo!をIE6で表示した様子")
-
-本来表示したいスタイルとは異なってくるので、他のモダンブラウザ、IE8への変更を促します。
-
-現在は「Firefox5」ですし、「IE9」への移行を勧めたいところですね。
+![警告文](/webtech/ie6-no-more/warning-ss.png "警告文")
 
 個人ページでIE6に対応する必要性はありませんし、ぜひこの警告文を表示してみてください。
 

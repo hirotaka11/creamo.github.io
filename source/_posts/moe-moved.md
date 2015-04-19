@@ -1,10 +1,13 @@
 title: "たとえ萌えアニメだろうと感動させる力を持っていたりするのだ"
 date: 2011-12-14 08:30:59
 tags:
+- アニメ
 id: 1090
 categories:
   - diary
 ---
+
+![](/diary/moe-moved/chihaya.png "")
 
 お前は一体どうしたんだと思う人もいるでしょう。
 

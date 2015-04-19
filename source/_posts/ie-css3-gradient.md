@@ -8,7 +8,6 @@ categories:
 
 サイトをHTML5とCSS3に対応させたことによって、IEの表示がおかしくなっていました。
 前々から、IEは全く同じデザインにはなってなかったのですが、出来るだけ同じように表示されるよう調整してみます。
-<!--more-->
 
 ### prototype.jsのエラーの回避
 
@@ -23,7 +22,7 @@ WordPressでLightboxやらのprototype.jsを使うプラグインとjQueryを使
 互換モードにするには&lt;head&gt;に以下のコードを入れてください。
 
 ```html
-&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=emulateIE7&quot; /&gt;
+<meta http-equiv="X-UA-Compatible"; content="IE=emulateIE7"; />
 ```
 
 参考サイト：[WordPress3.0　続・prototype.jsを使うとIE8で表示が・・・ | ネットインパクト](http://www.netimpact.co.jp/blog/11188/ "Link to WordPress3.0　続・prototype.jsを使うとIE8で表示が・・・ | ネットインパクト")
@@ -109,15 +108,3 @@ behavior: url(/PIE.htc);
 ```
 
 これでIE6〜IE8も角丸とグラデーションを効かせることが出来ました。
-
-**何故かIE9が出来ない！**
-
-私だけかもしれませんが、IE9だけグラデーションが効きません。
-box-shadowとborder-radiusは有効になっています。
-
-IE6,7,8を捨ててIE9を取るか、IE9のグラデーションを捨ててIE6,7,8を取るかの選択になったので、前者を選択しました。
-
-なので、今現在の当サイトのデザインはIE9よりIE7,8の方がグラデーションが掛かって正しく表示されています。
-要はIE10になってまともになるのを待つか、Chrome,Firefoxを使って欲しいってことです。
-
-今後も検証していきますが、ご意見いただけると嬉しいです。

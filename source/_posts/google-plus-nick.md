@@ -1,4 +1,4 @@
-title: "今がチャンス！Google+アカウントの専用URLをゲット！"
+title: "Google+アカウントの専用URLを作る"
 date: 2011-07-07 08:03:48
 tags:
 id: 701
@@ -6,15 +6,13 @@ categories:
   - tool
 ---
 
-![gplus.to](http://creamo.jp/wp/wp-content/uploads/2011/07/gplusto.png "gplus.to")Google+が一部の人限定で公開されています。
-
-私も色々なツテでGoogle+をお先に楽しんでます。楽しもうにも招待が規制されている状態なので、過疎ってて何も出来ませんがｗ
+![gplus.to](/tool/google-plus-nick/gplusto.png "gplus.to")Google+が一部の人限定で公開されています。
 
 SNSサービスをうまく活用している方は名刺に「Twitter」「Facebook」のアカウント名を載せたりすることもあるんじゃないでしょうか？
 
 そこにGoogle+のアカウント、正確にはGoogleプロフィールページへのリンクを載せることになるかもしれません。（Gmailのアドレスでも問題はないです。）
 
-GoogleプロフィールページのURLは長いのですが、それを短縮してくれるサービスが公開されました。Google+に招待されてない人も作れるので、さっさと作っておきましょう。<!--more-->
+GoogleプロフィールページのURLは長いのですが、それを短縮してくれるサービスが公開されました。Google+に招待されてない人も作れるので、さっさと作っておきましょう。
 
 ### Google Plus Nickで自分専用のURLを取得！
 
@@ -35,7 +33,7 @@ Googleプロフィールページを表示するとアドレスが無駄に長�
 最後の長い数字部分がGoogle+のIDになります。さすがに覚えられませんよね？
 
 そこで[Google Plus Nick](http://gplus.to/ "Link to Google Plus Nick")にアクセスして、URLに付けたい名前とGoogle+IDを貼り付けて、Addボタンをクリックします。
-![Google Plus Nick](http://creamo.jp/wp/wp-content/uploads/2011/07/gplusto_ss.png "Google Plus Nick")
+![Google Plus Nick](/tool/google-plus-nick/gplusto_ss.png "Google Plus Nick")
 
 まだその名前のURLが取得されていなければ成功です。新しいURLが発行されます。
 [http://gplus.to/hirotaka](http://gplus.to/hirotaka)

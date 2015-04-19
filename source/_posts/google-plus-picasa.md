@@ -1,7 +1,9 @@
 title: "Google+ユーザー必見！Picasaの上手な活用法！"
 date: 2011-07-30 19:00:00
 category: tool
-tags: Google, Picasa
+tags:
+- Google
+- Picasa
 ---
 Google+が始まったことでPicasaウェブアルバムの無料容量が無制限になったことはご存知でしょうか？
 
@@ -22,11 +24,11 @@ Google+のおかげで、より陽の目を浴びたPicasa。せっかくなの�
 <h3 id="h3-1">Picasaとは？</h3>
 「<a href="http://picasa.google.com/" target="_blank">Picasa</a>」はGoogleが提供する無料の写真管理ソフトウェアです。
 
-<img style="display:block; margin-left:auto; margin-right:auto;" src="http://creamo.jp/wp/wp-content/uploads/2011/07/picasa-app.png" alt="Picasa app" title="picasa-app.png" border="0" width="600" height="439" />
+![Picasa app](/tool/google-plus-picasa/picasa-app.png "Picasa app")
 
 また、「<a href="https://picasaweb.google.com/" target="_blank">Picasaウェブアルバム</a>」はGoogle が提供する無料の写真共有サービスです。
 
-<img style="display:block; margin-left:auto; margin-right:auto;" src="http://creamo.jp/wp/wp-content/uploads/2011/07/picasa-home.png" alt="Picasa home" title="picasa-home.png" border="0" width="600" height="369" />
+![Picasa home](/tool/google-plus-picasa/picasa-home.png "Picasa home")
 
 PicasaというソフトとウェブアルバムというWebサービスをうまく使って、クラウド上での写真・ビデオ管理を行います。<br />
 しかし、容量制限があり、追加料金を支払うことで容量をアップすることが出来ます。
@@ -57,7 +59,7 @@ Picasaのアプリはこちらからダウンロードします。Windows/Macに
 PicasaはPC内の画像ファイルを全てスキャンします。毎回の起動時に行うので鬱陶しいと思うかもしれません。<br />
 そういうときは、「ツール」→「フォルダマネージャ」でフォルダごとにスキャンするか設定します。
 
-<img style="display:block; margin-left:auto; margin-right:auto;" src="http://creamo.jp/wp/wp-content/uploads/2011/07/picasa-scan.png" alt="フォルダスキャン設定" title="Picasaのフォルダスキャン設定" border="0" width="600" height="525" />
+![フォルダスキャン設定](/tool/google-plus-picasa/picasa-scan.png "フォルダスキャン設定")
 
 <h3 id="h3-5">Picasaからウェブアルバムへ簡単アップロード</h3>
 Google+の投稿フォームにドラッグ&amp;ドロップで画像を投稿すると、「投稿からの写真」に投稿毎にアルバム分けされます。Google+のフォームからでも複数の画像投稿が可能ですが、後々のアルバム整理が面倒になります。PC上から複数の画像をアップロードするのならアルバムを指定してアップロードする方が賢いでしょう。
@@ -70,17 +72,17 @@ Google+の投稿フォームにドラッグ&amp;ドロップで画像を投稿�
 3. アルバムタイトル、アップロードサイズ、公開範囲を設定する。<br />
 　<strong>Google+のストリームに投稿する設定はアップロード後に行います。</strong>
 
-<img style="display:block; margin-left:auto; margin-right:auto;" src="http://creamo.jp/wp/wp-content/uploads/2011/07/to-picasaweb.png" alt="ウェブアルバムへアップロード" title="ウェブアルバムへアップロード" border="0" width="551" height="600" />
+![ウェブアルバムへアップロード](/tool/google-plus-picasa/to-picasaweb.png "ウェブアルバムへアップロード")
 
 <h3 id="h3-6">Google+のストリーム上にウェブアルバムを投稿する</h3>
 投稿したウェブアルバムにアクセスし、右サイドにある「共有」ボタンを選択します。
 
-<img style="display:block; margin-left:auto; margin-right:auto;" src="http://creamo.jp/wp/wp-content/uploads/2011/07/picasa-share-button.png" alt="「共有」ボタン" title="右サイドの「共有」ボタンを選択" border="0" width="600" height="396" />
+![「共有」ボタン](/tool/google-plus-picasa/picasa-share-button.png "右サイドの「共有」ボタンを選択")
 
 すると、Google+の共有と同じポップアップが表示されます。<br />
 ウェブアルバムを公開するサークルを選んで共有しましょう。
 
-<img style="display:block; margin-left:auto; margin-right:auto;" src="http://creamo.jp/wp/wp-content/uploads/2011/07/picasa-share.png" alt="アルバムを共有" title="Google+へ投稿" border="0" width="507" height="600" />
+![アルバムを共有](/tool/google-plus-picasa/picasa-share.png "Google+へ投稿")
 
 <h3 id="h3-7">Google+で流れている画像を一括ダウンロードする</h3>
 素敵な画像ばかりを流してくれるユーザーもいます。そのためにPicasaにもフォロー機能があります。<br />
@@ -97,7 +99,7 @@ Google+の投稿フォームにドラッグ&amp;ドロップで画像を投稿�
 
 ３． ダウンロードしたいアルバムを選択し、[ダウンロード]→[Picasaにダウンロード]を選択。
 
-<img style="display:block; margin-left:auto; margin-right:auto;" src="http://creamo.jp/wp/wp-content/uploads/2011/07/picasa-dl.png" alt="Picasaにダウンロード" title="Picasaにダウンロード" border="0" width="159" height="128" />
+![Picasaにダウンロード](/tool/google-plus-picasa/picasa-dl.png "Picasaにダウンロード")
 
 ４． Picasaが起動し、一括ダウンロードすることが出来ます。
 
@@ -123,5 +125,4 @@ javascript:var src=location.href; var i;if(i=src.match('[0-9][0-9]+')){location.
 ```
 ---
 Picasaの動きを見ていると将来的には完全無制限になるような気もしてきますね。<br />
-Google+と連携することでFlickrより使用頻度が上がってきそうです。Googleもそれを狙っているのでしょう。<br />
-私もFlickrから完全に乗り換えるか迷っています。
+Google+と連携することでFlickrより使用頻度が上がってきそうです。Googleもそれを狙っているのでしょう。

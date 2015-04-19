@@ -1,19 +1,18 @@
 title: "CSS Nite redux, Vol.6 とVol.61に参加しました"
 date: 2012-01-22 09:00:23
 tags:
+- イベント
 id: 1116
 categories:
   - diary
 ---
 
-･･･あけましておめでとうございます。
+あけましておめでとうございます。
 
 まさかの2012年初投稿がいまさらになってしまうとは･･･( ꒪⌓꒪)
 
-サイトリニューアル後とか正月っぽい豪華なネタじゃないとなぁ･･･とか出し惜しみしてたらほぼ1ヶ月放置しちゃいましたよっと。
-
 1月14日に「[CSS Nite redux, Vol.6 （Shift 5「デザイントレンド」再演）](http://cssnite.jp/redux/vol06/)」、1月19日に「[CSS Nite in Ginza, Vol.61 デザインセンスを身につける](http://cssnite.jp/ginza/vol61/)」に行ってきました。
-<!--more-->
+
 ――エライ人は言いました。
 
 **ブログを書くまでが勉強会だと。**
@@ -22,7 +21,6 @@ categories:
 
 ### CSS Nite redux, Vol.6 （Shift 5「デザイントレンド」再演）
 
-[![CSS Nite redux, Vol.6（2012年1月14日開催）](http://cssnite.jp/images/CSSNiteRedux-6-banner.gif)](http://cssnite.jp/redux/vol06/)
 これは12月に行われた「[CSS Nite LP, Disk 20：Webデザイン行く年来る年（Shift5）](http://lp20.cssnite.jp/ "Link to CSS Nite LP, Disk 20：Webデザイン行く年来る年（Shift5）")」で行われたセッションの一つの再演です。
 
 2011年の中のベストセッションに選ばれ、個人的にもかなり面白いセッションだったのでまた行ってしまいました。
@@ -36,8 +34,6 @@ categories:
 過去記事：[CSS Nite LP20「Webデザイン行く年来る年」に行ってきました！](http://creamo.jp/diary/cssnite-lp20/)
 
 ### CSS Nite in Ginza, Vol.61 デザインセンスを身につける
-
-[![CSS Nite in Ginza, Vol.61](http://cssnite.jp/images/CSSNiteGinza61_banner.gif)](http://cssnite.jp/ginza/vol61/)
 
 実は初めて行くCSS Niteの無料版。アップルストアでの講演というのも初めてだったのでちょっと緊張して向かいました。（ホントは結構ギリギリに会社出て慌ててたｗ）
 

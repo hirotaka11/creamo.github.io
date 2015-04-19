@@ -34,11 +34,11 @@ categories:
 
 例として私が普段から愛用している「Ultimet Ears」の「10Pro」が着脱式です。この価格帯のイヤホンでは有名ですし、オススメです。
 
-![Ultimet Ears 10Pro](http://creamo.jp/wp/wp-content/uploads/2011/10/2011-10-07-01.45.20.jpg "Ultimet Ears 10Pro")
+![Ultimet Ears 10Pro](/diary/ear-phone-cable/2011-10-07-01.45.20.jpg "Ultimet Ears 10Pro")
 
 耳に引っ掛けるように、先っちょは針金が入っています。これでうまく耳に合わせましょう。
 
-![ケーブルを脱着したとき](http://creamo.jp/wp/wp-content/uploads/2011/10/2011-10-07-01.46.55.jpg "ケーブルを脱着したとき")
+![ケーブルを脱着したとき](/diary/ear-phone-cable/2011-10-07-01.46.55.jpg "ケーブルを脱着したとき")
 
 ケーブルを脱着するとこうなります。これで断線も怖くない。ただし、交換は慎重に行いましょう。
 
