@@ -12,7 +12,8 @@ timezone: Asia/Tokyo
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://hirotaka11.github.io
+# url: http://hirotaka11.github.io
+url: http://creamo.jp
 root: /
 # permalink: :year/:month/:day/:title.html
 permalink: :category/:title/
@@ -123,4 +124,4 @@ use_google_apis: true
 google_analytics: UA-9408898-3
 favicon: /favicon.png
 fb_admins:
-fb_app_id:
+fb_app_id: 102692089820462
