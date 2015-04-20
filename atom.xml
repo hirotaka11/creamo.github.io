@@ -4,7 +4,7 @@
   <subtitle><![CDATA[元WEB系フロントエンジニアがゲームプランナーになったら]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://hirotaka11.github.io/"/>
-  <updated>2015-04-05T12:43:01.000Z</updated>
+  <updated>2015-04-20T19:19:26.000Z</updated>
   <id>http://hirotaka11.github.io/</id>
   
   <author>
@@ -13,6 +13,108 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[ゲームの楽しさを心理学使ってちょっと考えてみた]]></title>
+    <link href="http://hirotaka11.github.io/game/reward-psychology/"/>
+    <id>http://hirotaka11.github.io/game/reward-psychology/</id>
+    <published>2015-04-20T19:00:00.000Z</published>
+    <updated>2015-04-20T19:19:26.000Z</updated>
+    <content type="html"><![CDATA[<p>新年度が始まり、初っ端から波乱が続いています。どうもHiROです。</p>
+<p>ゲーム企画をやる際、誰しも企画書を書くと思います。<br>私の場合は、「<strong>コンセプト</strong>」もしくは「<strong>ゲーム性</strong>」の大抵どちらかを固めてから書き始めることが多いです。</p>
+<p>ただ、一番大事なのって「<strong>何が面白いか</strong>」ですよね。</p>
+<p>これが言えないと何も進まないし、作ってもクソゲーが出来上がると思います。自分では分かってるようでも、他人に理路整然と伝えようとすると、なかなか言葉として表現できなかったりと、奥が深ったりします。  </p>
+<p>私もまだまだ未熟ではありますが、色々本を読んだり、同業界の方とお話することで、なんとなく少し見えてきた気がするので、頭の整理ついでに「ゲームにおいての楽しさ、伝え方」を書くことにしました。  </p>
+<h2 id="「面白い」「楽しい」とはなにか？">「面白い」「楽しい」とはなにか？</h2><p>色々表現の仕方はあると思いますが、自身の「<strong>行動</strong>」を通して、持続的に感じる「<strong>快感</strong>」「<strong>気持ちよさ</strong>」だと思います。</p>
+<p>昨今、業界的には「<strong>ユーザー体験</strong>」とか「<strong>カタルシス</strong>」とか言われます。<br>スクエニの安藤さんも最近の記事で言ってました。<br><a href="http://gamebiz.jp/?p=142333" target="_blank" rel="external">【連載】第6回「売れるゲームには◯◯がある」 - スクエニ 安藤・岩野の「これからこうなる！」 | Social Game Info</a></p>
+<p>その「快感」「気持ちよさ」に繋がるような言葉を並べてみました。</p>
+<ul>
+<li>達成感</li>
+<li>成長感</li>
+<li>爽快感</li>
+<li>勝利の快感</li>
+<li>連続で、待ちなく、畳み掛ける快感</li>
+<li>敵を倒す快感</li>
+<li>収集、コレクションの快感</li>
+<li>整理、整頓する快感（自己コントロール感）</li>
+<li>不整理、不確実性、スリル的快感（非自己コントロール感）</li>
+<li>物を破壊する快感</li>
+<li>リズムに乗る、タイミングを合わせる快感</li>
+<li>謎を解く快感</li>
+<li>その他（多分まだあります）</li>
+</ul>
+<p>上記のいずれかの「快感」をコンセプトに盛り込むことで、ゲームとしての面白さを言葉として表現することが可能になります。</p>
+<p>そして、プレゼンで「<strong>これは◯◯感を感じられるから面白いんです</strong>」とドヤ顔で言うことが出来るわけです。（ドヤ顔して怒られても知りません）<br>もちろん、その「◯◯感」を感じられる過程を補足する必要がありますが、軸がブレなければ説明出来るはずです。</p>
+<p>逆に上記の「◯◯感」を入れられなかったり、補足の説明が出てこない場合は、まだその企画の面白さが見えていない可能性が高いので、もう一度考えなおしてみると良いのかなと思います。</p>
+<p>無論、私もすんなりと答えが出てくるわけではありません。日頃から「何が面白いのか」を考える訓練をし続けている人が、早く答えにたどり着きやすくなっている気がします。</p>
+<p>プランナーという職種は仕事、プライベート関係なく、<strong>日々アンテナ張って、考える</strong>。これ重要です。</p>
+<h2 id="心理学から学ぶ「楽しさ」の定義">心理学から学ぶ「楽しさ」の定義</h2><p>大学行った方は選択科目で心理学ってのがあったと思います。<br>私も大学の時に心理学をちょっとかじったのですが、先日『<a href="http://mental-anime.jp/" target="_blank" rel="external">アニメで分かる心療内科</a>』を見てしまい、ついつい原作の『マンガで分かる心療内科』を勢いで全巻買い、「<strong>やっぱ心理学楽しい</strong>」って感じで、大学でやってた心理学の知識を掘り返すことに…。</p>
+<p>ギャグ漫画テイストから心理学に入れるので、とても読みやすくキッカケを作るには良いのではないかと思います。<br>（※ただし、ギャグ漫画なので実用的に使えるかは保証しません）</p>
+<div class="booklink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="booklink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4785933801%2Fref%3Dnosim" name="booklink" rel="nofollow" target="_blank"><img src="http://ecx.images-amazon.com/images/I/51eFdYAIh6L._SL160_.jpg" style="border: none;"></a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"></div><div class="booklink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="booklink-name" style="margin-bottom:10px;line-height:120%"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4785933801%2Fref%3Dnosim" name="booklink" rel="nofollow" target="_blank">マンガで分かる心療内科 1 (ヤングキングコミックス)</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"><div class="booklink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://yomereba.com" rel="nofollow" target="_blank">ヨメレバ</a></div></div><div class="booklink-detail" style="margin-bottom:5px;">ゆうき ゆう 少年画報社 2010-05-12    </div><div class="booklink-link2" style="margin-top:10px;"><div class="shoplinkamazon" style="margin-right:5px;background: url('http://img.yomereba.com/kz_y.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4785933801%2Fref%3Dnosim" rel="nofollow" target="_blank">Amazon</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"></div><div class="shoplinkkindle" style="margin-right:5px;background: url('http://img.yomereba.com/kz_y.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB00E55432M%2F" rel="nofollow" target="_blank">Kindle</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"></div><div class="shoplinkrakuten" style="margin-right:5px;background: url('http://img.yomereba.com/kz_y.gif') 0 -50px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194087&p_id=56&pc_id=56&pl_id=637&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F6454422%2F" rel="nofollow" target="_blank">楽天ブックス</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194087&p_id=56&pc_id=56&pl_id=637" width="1" height="1" style="border:none;"></div><div class="shoplinkbk1" style="margin-right:5px;background: url('http://img.yomereba.com/kz_y.gif') 0 -150px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2756067&pid=879867541&vc_url=http%3A%2F%2Fhonto.jp%2Fnetstore%2Fsearch_021_104785933801.html%3Fsrchf%3D1%26srchGnrNm%3D1" target="_blank">honto<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2756067&pid=879867541" height="1" width="1" border="0"></a></div><div class="shoplinkehon" style="margin-right:5px;background: url('http://img.yomereba.com/kz_y.gif') 0 -250px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2781196&pid=880575064&vc_url=http%3A%2F%2Fwww.e-hon.ne.jp%2Fbec%2FSA%2FDetail%3FrefISBN%3D4785933801" target="_blank">e-hon<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2781196&pid=880575064" height="1" width="1" border="0"></a></div>                </div></div><div class="booklink-footer" style="clear: left"></div></div>
+
+<p>よくよく考えたら『<a href="http://shirobako-anime.com/" target="_blank" rel="external">SHIROBAKO</a>』で、制作側のあるあるを見直すことが出来たりと、2015年1〜3月クールはクリエイターにとって良いアニメがありましたね（謎</p>
+<div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB00OJXVVDY%2Fref%3Dnosim" rel="nofollow" target="_blank"><img src="http://ecx.images-amazon.com/images/I/51xrMSF5xNL._SL160_.jpg" style="border: none;"></a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"></div><div class="kaerebalink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB00OJXVVDY%2Fref%3Dnosim" rel="nofollow" target="_blank">SHIROBAKO 第1巻 (初回生産限定版) [Blu-ray]</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://kaereba.com" rel="nofollow" target="_blank">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;">木村珠莉 ワーナー・ブラザース・ホームエンターテイメント 2014-12-24    </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="margin-right:5px;background: url('http://img.yomereba.com/kz_k_01.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fgp%2Fsearch%3Fkeywords%3DSHIROBAKO%2520%2591%25E61%258A%25AA%26__mk_ja_JP%3D%2583J%2583%255E%2583J%2583i" rel="nofollow" target="_blank">Amazonで購入</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"></div><div class="shoplinkrakuten" style="margin-right:5px;background: url('http://img.yomereba.com/kz_k_01.gif') 0 -50px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194087&p_id=54&pc_id=54&pl_id=616&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FSHIROBAKO%2520%25E7%25AC%25AC1%25E5%25B7%25BB%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0" rel="nofollow" target="_blank">楽天市場で購入</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194087&p_id=54&pc_id=54&pl_id=616" width="1" height="1" style="border:none;"></div><div class="shoplinkyahoo" style="margin-right:5px;background: url('http://img.yomereba.com/kz_k_01.gif') 0 -150px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2781196&pid=880190276&vc_url=http%3A%2F%2Fsearch.shopping.yahoo.co.jp%2Fsearch%3Fp%3DSHIROBAKO%2520%25E7%25AC%25AC1%25E5%25B7%25BB" rel="nofollow" target="_blank">Yahooショッピングで購入<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2781196&pid=880190276" height="1" width="1" border="0"></a></div></div></div><div class="booklink-footer" style="clear: left"></div></div>
+
+<p>さて、話が脱線したので戻します。</p>
+<h3 id="従来のソーシャルゲームと呼ばれていたもの">従来のソーシャルゲームと呼ばれていたもの</h3><p>GREE、Mobageが全盛期だったガラケー時代のソーシャルゲームでは、ゲーム性を限りなくなくして、射幸心を煽る仕組みをまんべんなくゲームに取り入れられていました。それの主たるものが、ご存知の通り「ガチャ」と「スタミナ」です。</p>
+<p>そもそも「ソーシャルゲーム」はゲームではないと言う人も多いと思いますが、あれは『自発的に「行動」を行い、行動した「見返り（報酬、快感）」を得る』という過程を徹底的に効率化し、シンプルにした形であり、言い方を変えれば究極のゲームです。</p>
+<p>なので、仕組みだけを見れば冒頭に書いた「楽しさ」の説明とほぼ同じです。これがソーシャルゲームがゲームと言われる理由ではないのかと思います。</p>
+<p>そして、ソーシャルゲームはよく「<strong>射幸心を煽る</strong>」と言われます。「コンプガチャ騒動」の時はTVニュース等でも使用されていた用語だったので、この騒動で射幸心という言葉は一般的に知れ渡りました。</p>
+<p>それでは、なぜ射幸心を煽っているのでしょうか？　なぜ煽られてしまうのでしょうか？</p>
+<p>百聞は一見に如かず。自分で実感するのが一番ですね。F2P（基本無料）のゲームをプレイしてみましょう。</p>
+<p>私の場合は同時に仕事ですので「<strong>どこで課金したくなるのか</strong>」「<strong>どれだけ課金するとどこまで進めるのか</strong>」等のレベルデザイン、UI導線を意識しながらプレイしてます。</p>
+<p>まぁ職業病なのですが、そもそも射幸心煽られる前に課金して、とりあえずどこまで進めるかやってみるという荒業もあるあるネタだったりします。</p>
+<p>よりハッキリするのがギャンブルです。<br>パチンコ、スロット、競馬等のギャンブルをやると射幸心の煽られ方がより明確です。ギャンブルというのはリスクが大きいほど、それに見合った対価が「お金」というハッキリした対価で払われるので、燃えるわけです。</p>
+<p>その刺激に慣れてしまい、定常化してくると「ギャンブル依存症」になります。<br>これが射幸心に煽られ過ぎている状態であり、コンプガチャ騒動になってしまった要因ですね。</p>
+<h2 id="ストレスと快感">ストレスと快感</h2><p>さて、もうちょっと心理学的に考えてみます。<br>ギャンブルを一言で言うと「リスクとリターン」です。</p>
+<p>「リスクとリターン」、心理的な要素に言い換えると「<strong>ストレスと快感</strong>」ですね。  </p>
+<p>この要素はゲームデザインする際に欠かすことが出来ないと言われています。ゲーム性そのものだからです。詳しくはここで語るより、有名な桜井さんの著書を読んでいただけばと思います。</p>
+<div class="booklink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="booklink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB00F93GX5O%2Fref%3Dnosim" name="booklink" rel="nofollow" target="_blank"><img src="http://ecx.images-amazon.com/images/I/51qZhuIi02L._SL160_.jpg" style="border: none;"></a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"></div><div class="booklink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="booklink-name" style="margin-bottom:10px;line-height:120%"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB00F93GX5O%2Fref%3Dnosim" name="booklink" rel="nofollow" target="_blank">桜井政博のゲームを作って思うこと[Kindle版]</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"><div class="booklink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://yomereba.com" rel="nofollow" target="_blank">ヨメレバ</a></div></div><div class="booklink-detail" style="margin-bottom:5px;">桜井 政博 KADOKAWA / エンターブレイン 2013-08-05    </div><div class="booklink-link2" style="margin-top:10px;"><div class="shoplinkkindle" style="margin-right:5px;background: url('http://img.yomereba.com/kz_y.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB00F93GX5O%2F" rel="nofollow" target="_blank">Kindle</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"></div><div class="shoplinkamazon" style="margin-right:5px;background: url('http://img.yomereba.com/kz_y.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4047280291%2F" rel="nofollow" target="_blank">Amazon[書籍版]</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"></div>                                            </div></div><div class="booklink-footer" style="clear: left"></div></div>
+
+<p>難易度が高いゲーム、敵が強くてすぐに死んでしまうとストレスが貯まります。でも、色々試行錯誤して、倒せなかった敵を倒した際になんとも言えない快感を感じます。達成感や勝利の余韻に浸れます。そのストレスの山が高ければ高いほど、快感は大きなものとなります。</p>
+<p>だからコアゲーマーと呼ばれる人達は難易度の高いゲームを求めます。ずっとゲームをやっているので低い快感には慣れてしまっているのです。これも一種の依存状態が続いてると言えます。</p>
+<p>DS、Wii、スマホアプリと続き、難易度が低めのライト向けゲームが増えはしましたが、その背景で難易度が高い『Demon’s Souls』『Bloodborne』が国内外問わず支持を受けていることからも分かると思います。</p>
+<div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB00UX0DUCW%2Fref%3Dnosim" rel="nofollow" target="_blank"><img src="http://ecx.images-amazon.com/images/I/514w3uwI6sL._SL160_.jpg" style="border: none;"></a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"></div><div class="kaerebalink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB00UX0DUCW%2Fref%3Dnosim" rel="nofollow" target="_blank">Bloodborne（通常版）</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://kaereba.com" rel="nofollow" target="_blank">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;"> ソニー・コンピュータエンタテインメント 2015-03-26    </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="margin-right:5px;background: url('http://img.yomereba.com/kz_k_01.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fgp%2Fsearch%3Fkeywords%3DBloodborne%26__mk_ja_JP%3D%2583J%2583%255E%2583J%2583i" rel="nofollow" target="_blank">Amazonで購入</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"></div><div class="shoplinkrakuten" style="margin-right:5px;background: url('http://img.yomereba.com/kz_k_01.gif') 0 -50px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194087&p_id=54&pc_id=54&pl_id=616&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FBloodborne%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0" rel="nofollow" target="_blank">楽天市場で購入</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194087&p_id=54&pc_id=54&pl_id=616" width="1" height="1" style="border:none;"></div><div class="shoplinkyahoo" style="margin-right:5px;background: url('http://img.yomereba.com/kz_k_01.gif') 0 -150px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2781196&pid=880190276&vc_url=http%3A%2F%2Fsearch.shopping.yahoo.co.jp%2Fsearch%3Fp%3DBloodborne" rel="nofollow" target="_blank">Yahooショッピングで購入<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2781196&pid=880190276" height="1" width="1" border="0"></a></div></div></div><div class="booklink-footer" style="clear: left"></div></div>
+
+<h3 id="報酬系">報酬系</h3><p>ここで言う「報酬系」とはよくある系統を表す意味ではなく、神経系の名称です。初めて目にするかもしれませんが、言い方を変えると「ドーパミン神経系（別名: A10神経系）」と言います。<br>ドーパミンであればおそらく目にしたことがあると思います。「快感を得られた時に<strong>脳から汁が出る</strong>」みたいな感じで例えられるアレですね。</p>
+<p>詳細はググってもらうなり、Wikipediaで見てみてください。<br><a href="http://ja.wikipedia.org/wiki/%E5%A0%B1%E9%85%AC%E7%B3%BB" target="_blank" rel="external">報酬系 - Wikipedia</a></p>
+<p>ゲームをプレイして、「脳から汁が出る」というのをとても分かりやすく書いた漫画があったので紹介しておきます。この漫画は企画系の方へ特にオススメしておきます。</p>
+<div class="booklink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="booklink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4047298573%2Fref%3Dnosim" name="booklink" rel="nofollow" target="_blank"><img src="http://ecx.images-amazon.com/images/I/51QEcGNOZDL._SL160_.jpg" style="border: none;"></a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"></div><div class="booklink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="booklink-name" style="margin-bottom:10px;line-height:120%"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4047298573%2Fref%3Dnosim" name="booklink" rel="nofollow" target="_blank">ナナのリテラシー 2 (ビームコミックス)</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"><div class="booklink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://yomereba.com" rel="nofollow" target="_blank">ヨメレバ</a></div></div><div class="booklink-detail" style="margin-bottom:5px;">鈴木 みそ KADOKAWA/エンターブレイン 2014-09-24    </div><div class="booklink-link2" style="margin-top:10px;"><div class="shoplinkamazon" style="margin-right:5px;background: url('http://img.yomereba.com/kz_y.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4047298573%2Fref%3Dnosim" rel="nofollow" target="_blank">Amazon</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"></div><div class="shoplinkkindle" style="margin-right:5px;background: url('http://img.yomereba.com/kz_y.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB00NUFMHR6%2F" rel="nofollow" target="_blank">Kindle</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"></div><div class="shoplinkrakuten" style="margin-right:5px;background: url('http://img.yomereba.com/kz_y.gif') 0 -50px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194087&p_id=56&pc_id=56&pl_id=637&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F12839191%2F" rel="nofollow" target="_blank">楽天ブックス</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194087&p_id=56&pc_id=56&pl_id=637" width="1" height="1" style="border:none;"></div><div class="shoplinkbk1" style="margin-right:5px;background: url('http://img.yomereba.com/kz_y.gif') 0 -150px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2756067&pid=879867541&vc_url=http%3A%2F%2Fhonto.jp%2Fnetstore%2Fsearch_021_104047298573.html%3Fsrchf%3D1%26srchGnrNm%3D1" target="_blank">honto<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2756067&pid=879867541" height="1" width="1" border="0"></a></div><div class="shoplinkehon" style="margin-right:5px;background: url('http://img.yomereba.com/kz_y.gif') 0 -250px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2781196&pid=880575064&vc_url=http%3A%2F%2Fwww.e-hon.ne.jp%2Fbec%2FSA%2FDetail%3FrefISBN%3D4047298573" target="_blank">e-hon<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2781196&pid=880575064" height="1" width="1" border="0"></a></div>              </div></div><div class="booklink-footer" style="clear: left"></div></div>
+
+
+<h3 id="全強化と部分強化">全強化と部分強化</h3><p>心理学において『<a href="http://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%AD%E3%83%8A%E3%83%BC%E7%AE%B1" target="_blank" rel="external">スキナー箱</a>』という有名な実験があります。</p>
+<p>これはネズミが入った箱にレバーがあり、レバーを引くと餌が出てくるという装置です。</p>
+<ol>
+<li>レバーを引くと必ず餌が出る</li>
+<li>レバーを引くとある確率で餌が出る</li>
+</ol>
+<p>という2通りのパターンがあったとします。</p>
+<p>1は「全強化」と言い、ネズミは必要な時だけレバーを引きます。<br>ネズミは出てきた餌を食べることによって快感を得ます。</p>
+<p>2は「部分強化」と言い、ネズミはレバーをひたすら引き続けます。<br>ネズミは餌が出てきた瞬間にドーパミンが出て快感を得ます。</p>
+<p>上記のように、ある行為によって必ず報酬を得られる場合（前者）よりも、ある行為によって間欠的に報酬が得られる場合（後者）の方がその行為への執着が高まるという傾向があります。</p>
+<p>失敗していても、負け続けていても「次は成功する、勝てる」という心理状態に陥り、過去の成功パターンを繰り返そうとするのです。  </p>
+<p>これが依存症の正体になります。<br>ここにも「ストレス」と「快感」の関係がありますね。</p>
+<p>この実験には続きがあって、次はレバーを引くとネズミの頭に直接ドーパミンを送り込む装置を埋め込みます。<br>すると、ネズミは餌が出ても、餌を食べずにレバーを引き続けます。「餌を食べる」ことによって得られるドーパミンが、「レバーを引く」ことによって得られるようになるからです。最終的にネズミは餓死してしまいます。</p>
+<p>ドーパミンがもたらす力には、例え食欲という本能的欲求であろうが、体が逆らうことが出来ないということが実験を通して分かります。</p>
+<p>これが実際に人間で起こった結果が、韓国等で発生しているネトゲ廃人の死亡事故だったりするのでしょう。</p>
+<p>とは言っても、死亡してしまうってのは、あくまで極限まで高めた場合という例です。ちゃんと食事を取ろうとか、仕事など生活とゲームの両立が出来ていれば問題ないかと思います。  </p>
+<h3 id="楽しさを作るゲームは追求され続ける">楽しさを作るゲームは追求され続ける</h3><p>上記で述べた通り、「<strong>快感</strong>」という衝動はとても強いです。場合によっては三大欲求すら凌駕する可能性があります。</p>
+<p>人間が「生きる」ということを実感するには娯楽が必要です。<br>快感を得られる「ゲーム」というシステムは、時代によってたとえ形が変わろうとも存在し続け、娯楽であるかぎり新しさを追求され続けます。<br>でも、根幹の「得られる快感」「リスクとリターン」の仕組みはずっと同じはずです。</p>
+<p>昨今ではスマートフォンという媒体になりましたが、これも結局同じで、クリエイターは「リスクとリターン」のデザイン、そして「新しいユーザー体験」を提供し続けていく使命があります。</p>
+<p>以上、間違っているかもしれないし、うまく纏められたか分かりませんが、引き続きこんなことをツラツラと書いていこうと思います。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>新年度が始まり、初っ端から波乱が続いています。どうもHiROです。</p>
+<p>ゲーム企画をやる際、誰しも企画書を書くと思います。<br>私の場合は、「<strong>コンセプト</strong>」もしくは「<strong>ゲーム性</strong>」の大抵どちらかを固め]]>
+    </summary>
+    
+      <category term="ゲームデザイン" scheme="http://hirotaka11.github.io/tags/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3/"/>
+    
+      <category term="心理学" scheme="http://hirotaka11.github.io/tags/%E5%BF%83%E7%90%86%E5%AD%A6/"/>
+    
+      <category term="game" scheme="http://hirotaka11.github.io/categories/game/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[いい加減危機感を感じた方が良い？ 自分が同人の二次創作に感じる違和感]]></title>
@@ -1197,83 +1299,6 @@
     <![CDATA[<p>Mac OSX 10.7 Lionがリリースされましたが、同時にMacBookAirも新しくなり、Macデビューの人が増えているようで嬉しい限りです。</p>
 <p>しかし、今回のアップデートはなかなか新しい機能が多く、今までMacを触っていた人でも少々戸惑ってしまうことも多いです。</p>
 <p>今回は、Lionにアップデートされた方、新しくMacデビューする方にぜひ知っておいてほしい、設定等の方法を紹介していきます。出来るだけ画像つきで分かりやすくしました。]]>
-    
-    </summary>
-    
-      <category term="tool" scheme="http://hirotaka11.github.io/categories/tool/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Google+で文字を装飾してみよう]]></title>
-    <link href="http://hirotaka11.github.io/tool/gplus-character-decoration/"/>
-    <id>http://hirotaka11.github.io/tool/gplus-character-decoration/</id>
-    <published>2011-07-12T23:00:00.000Z</published>
-    <updated>2015-04-19T14:39:01.000Z</updated>
-    <content type="html"><![CDATA[<p><img src="/tool/gplus-character-decoration/google_plus_android_logo.png" alt="" title="Google+ logo">前回の<a href="http://creamo.jp/tool/googleplus-fast/" title="Link to 今すぐ使えるGoogle+まとめ" target="_blank" rel="external">まとめ記事</a>がホットエントリになり、それをきっかけにGoogle+を始めた方も多いようです。</p>
-<p>Google+のネタは日々発見されていくので、ネタに困りません。どんどん触っていきましょう。</p>
-<p>テキストやメディアを流していくストリームがありますよね。</p>
-<p>実は<strong>ストリームに書き込むテキスト、コメントは装飾出来ます。</strong></p>
-<p>今回はその方法を紹介していきたいと思います。<a id="more"></a></p>
-<p>以下の記事を参考に取り上げていきます。</p>
-<p><a href="http://d.hatena.ne.jp/oxalis-gps/20110702/1309620416" title="Link to Google+のテキスト装飾記法について - ものづくり検定32級人" target="_blank" rel="external">Google+のテキスト装飾記法について - ものづくり検定32級人</a></p>
-<h3 id="文字を装飾するには記号で囲むのがポイント">文字を装飾するには記号で囲むのがポイント</h3><p>Google+のストリームではある特殊記法をすることで文字装飾が可能です。</p>
-<p>Markdown記法ですので、覚えるのは簡単です。</p>
-<p>まず、装飾出来る種類は以下の3種類です。</p>
-<ul>
-<li><span><strong>太字</strong></span></li>
-<li><span><em>斜め</em></span></li>
-<li><span><strike>打ち消し</strike></span></li>
-</ul>
-<h3 id="太字にする記法">太字にする記法</h3><p>*で囲みます。半角のアスタリスクです。</p>
-<p><em>太字になーれ</em> = <strong>太字になーれ</strong></p>
-<h3 id="斜め字にする記法">斜め字にする記法</h3><p>_で囲みます。半角のアンダーバーです。</p>
-<p><em>これはナナメだよー</em> = <em>これはナナメだよー</em></p>
-<h3 id="打ち消しする記法">打ち消しする記法</h3><p>-で囲みます。半角のハイフンです。</p>
-<p>-バルス- = <strike>バルス</strike></p>
-<p><strong>なんですが･･･打ち消しには現時点でバグがあります。</strong></p>
-<h3 id="打ち消しの謎の挙動">打ち消しの謎の挙動</h3><p>この辺りは<a href="http://d.hatena.ne.jp/oxalis-gps/20110702/1309620416" title="Link to Google+のテキスト装飾記法について - ものづくり検定32級人" target="_blank" rel="external">上記の記事</a>を参考にさせていただきます。</p>
-<p>打ち消しは囲まれた文字に<strong>半角英数字</strong>が含まれていないと無効になります。</p>
-<p>また、<strong>ハイフンに半角スペース以外の文字が隣接している必要</strong>があります。</p>
-<p><strong>半角英数字の代わりに記号を代用するパターンもあります。</strong></p>
-<p>これは記号が半角英数字の機能を果たしてます。</p>
-<p>-&gt;あ-</p>
-<p>-あ&gt;-</p>
-<p>-&lt;あ-</p>
-<p>-あ&lt;-</p>
-<p>しかし、これ以外の記号を代用に使う場合は</p>
-<p>-あ !-</p>
-<p>-! あ-</p>
-<p>のように半角スペースを挿入する必要があります。謎すぎるｗ</p>
-<p>記号は半角でも全角でも良いようです。</p>
-<h3 id="それぞれの記法を組み合わせる">それぞれの記法を組み合わせる</h3><p>それぞれの記法は組み合わせることが出来ます。</p>
-<p>文字を入れ子にして囲みましょう。</p>
-<p><em><em>-太字にして斜めにして打ち消して-</em></em> = <strong><em><strike>太字にして斜めにして打ち消して</strike></em></strong></p>
-<p>コツとしては打ち消しのハイフンを一番内側にすることです。</p>
-<p>装飾に関してはさらに色づけとか出来ると面白いんですね。</p>
-<p>[red]赤色[/red]とかで出来ると便利そうな･･･。</p>
-<p>Google+でのテキスト入力は他のサービスと違ってAAが入れやすいので、海外の方達に波紋すると面白そうなんですけどねぇ。横幅狭いので入れられる種類が限られますけど、流行って欲しいという期待を密かに持っている自分がいたりします。</p>
-<p>—</p>
-<p><strong>おまけ</strong></p>
-<p>Google+のユーザー数はもう1000万人を突破してしまったようです。</p>
-<p>以下はGoogle+で回ってきた投稿</p>
-<p><strong>ユーザー数1000万人を突破するまでにかかった年月</strong> </p>
-<p>GREE: 5年2ヶ月  </p>
-<p>Evernote: 3年4ヶ月  </p>
-<p>mixi: 3年3ヶ月  </p>
-<p>Facebook: 2年8ヶ月  </p>
-<p>Twitter: 2年7ヶ月  </p>
-<p>Foursquare: 2年3ヶ月  </p>
-<p>ニコニコ動画: 23ヵ月  </p>
-<p>Youtube: 14ヶ月  </p>
-<p>Google+: 13日 </p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p><img src="/tool/gplus-character-decoration/google_plus_android_logo.png" alt="" title="Google+ logo">前回の<a href="http://creamo.jp/tool/googleplus-fast/" title="Link to 今すぐ使えるGoogle+まとめ">まとめ記事</a>がホットエントリになり、それをきっかけにGoogle+を始めた方も多いようです。</p>
-<p>Google+のネタは日々発見されていくので、ネタに困りません。どんどん触っていきましょう。</p>
-<p>テキストやメディアを流していくストリームがありますよね。</p>
-<p>実は<strong>ストリームに書き込むテキスト、コメントは装飾出来ます。</strong></p>
-<p>今回はその方法を紹介していきたいと思います。]]>
     
     </summary>
     
