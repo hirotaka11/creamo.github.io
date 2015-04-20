@@ -1,5 +1,5 @@
 title: ゲームの楽しさを心理学使ってちょっと考えてみた
-date: 2015-04-05 16:00:47
+date: 2015-04-21 04:00:00
 tags:
 - ゲームデザイン
 - 心理学
@@ -7,14 +7,22 @@ category: game
 ---
 新年度が始まり、初っ端から波乱が続いています。どうもHiROです。
 
-ゲーム企画をやる際に誰しも企画書を書かれると思います
-私の場合は、「**コンセプト**」もしくは「**ゲーム性**」から思いつくかの大抵どちらかなのですが、一番大事なのって「**何が面白いか**」ですよね。
+ゲーム企画をやる際、誰しも企画書を書くと思います。  
+私の場合は、「**コンセプト**」もしくは「**ゲーム性**」の大抵どちらかを固めてから書き始めることが多いです。
 
-私もまだまだ未熟なのですが、色々本を読み漁ったり、業界の色んな方とお話することで、なんとなく見えてきた気がするので、頭の整理ついでに「ゲームにおいての楽しさ」を書いてみます。  
+ただ、一番大事なのって「**何が面白いか**」ですよね。
+
+これが言えないと何も進まないし、作ってもクソゲーが出来上がると思います。自分では分かってるようでも、他人に理路整然と伝えようとすると、なかなか言葉として表現できなかったりと、奥が深ったりします。  
+
+私もまだまだ未熟ではありますが、色々本を読んだり、同業界の方とお話することで、なんとなく少し見えてきた気がするので、頭の整理ついでに「ゲームにおいての楽しさ、伝え方」を書くことにしました。  
 
 ## 「面白い」「楽しい」とはなにか？
 
-色々表現の仕方はあると思いますが、自身の「行動」を通して、持続的に感じる「快感」「気持ちよさ」だと思います。
+色々表現の仕方はあると思いますが、自身の「**行動**」を通して、持続的に感じる「**快感**」「**気持ちよさ**」だと思います。
+
+昨今、業界的には「**ユーザー体験**」とか「**カタルシス**」とか言われます。  
+スクエニの安藤さんも最近の記事で言ってました。  
+[【連載】第6回「売れるゲームには◯◯がある」 - スクエニ 安藤・岩野の「これからこうなる！」 | Social Game Info](http://gamebiz.jp/?p=142333)
 
 その「快感」「気持ちよさ」に繋がるような言葉を並べてみました。
 
@@ -32,14 +40,16 @@ category: game
 * 謎を解く快感
 * その他（多分まだあります）
 
-コンセプトに上記のどれかを入れておくだけで、既にその企画の楽しさってのが一言で表現出来てたりします。素晴らしいですね。あとはプレゼンでこう言えばいいんです。「**これは◯◯感を感じられるから面白いんだ**」と。
-もちろん、その「◯◯感」を感じられる過程を補足する必要がありますが、根本が見えてるので説明は簡単なはずです。
+上記のいずれかの「快感」をコンセプトに盛り込むことで、ゲームとしての面白さを言葉として表現することが可能になります。
 
-逆に上記の◯◯感を入れられなかったり、補足の説明が出てこない場合は、まだその企画の面白さが見えていない可能性が高いので、もう一度考えなおしてみると良いのかなと思います。
+そして、プレゼンで「**これは◯◯感を感じられるから面白いんです**」とドヤ顔で言うことが出来るわけです。（ドヤ顔して怒られても知りません）  
+もちろん、その「◯◯感」を感じられる過程を補足する必要がありますが、軸がブレなければ説明出来るはずです。
 
-無論、私もすんなりと答えが出てくるわけではないです。これは日頃から「何が面白いのか」をどれだけ考えてきたかという訓練をし続けていると、答えにたどり着きやすくなると思ってます。
+逆に上記の「◯◯感」を入れられなかったり、補足の説明が出てこない場合は、まだその企画の面白さが見えていない可能性が高いので、もう一度考えなおしてみると良いのかなと思います。
 
-仕事、プライベート関係なく、**日々アンテナ張って、考える**。これ重要です。
+無論、私もすんなりと答えが出てくるわけではありません。日頃から「何が面白いのか」を考える訓練をし続けている人が、早く答えにたどり着きやすくなっている気がします。
+
+プランナーという職種は仕事、プライベート関係なく、**日々アンテナ張って、考える**。これ重要です。
 
 ## 心理学から学ぶ「楽しさ」の定義
 
@@ -47,7 +57,7 @@ category: game
 私も大学の時に心理学をちょっとかじったのですが、先日『[アニメで分かる心療内科](http://mental-anime.jp/)』を見てしまい、ついつい原作の『マンガで分かる心療内科』を勢いで全巻買い、「**やっぱ心理学楽しい**」って感じで、大学でやってた心理学の知識を掘り返すことに…。
 
 ギャグ漫画テイストから心理学に入れるので、とても読みやすくキッカケを作るには良いのではないかと思います。  
-（※ただし、ギャグ漫画なので実用的に使えるかは保証しませんｗ）
+（※ただし、ギャグ漫画なので実用的に使えるかは保証しません）
 
 <div class="booklink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="booklink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4785933801%2Fref%3Dnosim" name="booklink" rel="nofollow" target="_blank"><img src="http://ecx.images-amazon.com/images/I/51eFdYAIh6L._SL160_.jpg" style="border: none;" /></a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"></div><div class="booklink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="booklink-name" style="margin-bottom:10px;line-height:120%"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4785933801%2Fref%3Dnosim" name="booklink" rel="nofollow" target="_blank">マンガで分かる心療内科 1 (ヤングキングコミックス)</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"><div class="booklink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://yomereba.com" rel="nofollow" target="_blank">ヨメレバ</a></div></div><div class="booklink-detail" style="margin-bottom:5px;">ゆうき ゆう 少年画報社 2010-05-12    </div><div class="booklink-link2" style="margin-top:10px;"><div class="shoplinkamazon" style="margin-right:5px;background: url('http://img.yomereba.com/kz_y.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4785933801%2Fref%3Dnosim" rel="nofollow" target="_blank">Amazon</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"></div><div class="shoplinkkindle" style="margin-right:5px;background: url('http://img.yomereba.com/kz_y.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB00E55432M%2F" rel="nofollow" target="_blank">Kindle</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"></div><div class="shoplinkrakuten" style="margin-right:5px;background: url('http://img.yomereba.com/kz_y.gif') 0 -50px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194087&p_id=56&pc_id=56&pl_id=637&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F6454422%2F" rel="nofollow" target="_blank">楽天ブックス</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194087&p_id=56&pc_id=56&pl_id=637" width="1" height="1" style="border:none;"></div><div class="shoplinkbk1" style="margin-right:5px;background: url('http://img.yomereba.com/kz_y.gif') 0 -150px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2756067&pid=879867541&vc_url=http%3A%2F%2Fhonto.jp%2Fnetstore%2Fsearch_021_104785933801.html%3Fsrchf%3D1%26srchGnrNm%3D1" target="_blank">honto<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2756067&pid=879867541" height="1" width="1" border="0"></a></div><div class="shoplinkehon" style="margin-right:5px;background: url('http://img.yomereba.com/kz_y.gif') 0 -250px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2781196&pid=880575064&vc_url=http%3A%2F%2Fwww.e-hon.ne.jp%2Fbec%2FSA%2FDetail%3FrefISBN%3D4785933801" target="_blank">e-hon<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2781196&pid=880575064" height="1" width="1" border="0"></a></div>                </div></div><div class="booklink-footer" style="clear: left"></div></div>
 
@@ -69,11 +79,11 @@ GREE、Mobageが全盛期だったガラケー時代のソーシャルゲーム�
 
 それでは、なぜ射幸心を煽っているのでしょうか？　なぜ煽られてしまうのでしょうか？
 
-百聞は一見に如かず。自分で実感するのが一番ですね。F2Pのゲームをプレイしてみましょう。
+百聞は一見に如かず。自分で実感するのが一番ですね。F2P（基本無料）のゲームをプレイしてみましょう。
 
 私の場合は同時に仕事ですので「**どこで課金したくなるのか**」「**どれだけ課金するとどこまで進めるのか**」等のレベルデザイン、UI導線を意識しながらプレイしてます。
 
-まぁ職業病なのですが、そもそも射幸心煽られる前に課金して、とりあえずどこまで進めるかやってみるという荒業はあるあるネタですね…ｗ
+まぁ職業病なのですが、そもそも射幸心煽られる前に課金して、とりあえずどこまで進めるかやってみるという荒業もあるあるネタだったりします。
 
 よりハッキリするのがギャンブルです。  
 パチンコ、スロット、競馬等のギャンブルをやると射幸心の煽られ方がより明確です。ギャンブルというのはリスクが大きいほど、それに見合った対価が「お金」というハッキリした対価で払われるので、燃えるわけです。
@@ -92,12 +102,13 @@ GREE、Mobageが全盛期だったガラケー時代のソーシャルゲーム�
 
 <div class="booklink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="booklink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB00F93GX5O%2Fref%3Dnosim" name="booklink" rel="nofollow" target="_blank"><img src="http://ecx.images-amazon.com/images/I/51qZhuIi02L._SL160_.jpg" style="border: none;" /></a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"></div><div class="booklink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="booklink-name" style="margin-bottom:10px;line-height:120%"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB00F93GX5O%2Fref%3Dnosim" name="booklink" rel="nofollow" target="_blank">桜井政博のゲームを作って思うこと[Kindle版]</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"><div class="booklink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://yomereba.com" rel="nofollow" target="_blank">ヨメレバ</a></div></div><div class="booklink-detail" style="margin-bottom:5px;">桜井 政博 KADOKAWA / エンターブレイン 2013-08-05    </div><div class="booklink-link2" style="margin-top:10px;"><div class="shoplinkkindle" style="margin-right:5px;background: url('http://img.yomereba.com/kz_y.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB00F93GX5O%2F" rel="nofollow" target="_blank">Kindle</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"></div><div class="shoplinkamazon" style="margin-right:5px;background: url('http://img.yomereba.com/kz_y.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4047280291%2F" rel="nofollow" target="_blank">Amazon[書籍版]</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"></div>                                            </div></div><div class="booklink-footer" style="clear: left"></div></div>
 
-難易度が高いゲーム、敵が強くてすぐに死んでしまうとストレスが貯まります。でも、色々試行錯誤して、倒せなかった敵を倒した際になんとも言えない快感を感じます。達成感や勝利の余韻に浸れます。  
-そのストレスの山が高ければ高いほど、快感は大きなものとなります。
+難易度が高いゲーム、敵が強くてすぐに死んでしまうとストレスが貯まります。でも、色々試行錯誤して、倒せなかった敵を倒した際になんとも言えない快感を感じます。達成感や勝利の余韻に浸れます。そのストレスの山が高ければ高いほど、快感は大きなものとなります。
 
 だからコアゲーマーと呼ばれる人達は難易度の高いゲームを求めます。ずっとゲームをやっているので低い快感には慣れてしまっているのです。これも一種の依存状態が続いてると言えます。
 
 DS、Wii、スマホアプリと続き、難易度が低めのライト向けゲームが増えはしましたが、その背景で難易度が高い『Demon's Souls』『Bloodborne』が国内外問わず支持を受けていることからも分かると思います。
+
+<div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB00UX0DUCW%2Fref%3Dnosim" rel="nofollow" target="_blank"><img src="http://ecx.images-amazon.com/images/I/514w3uwI6sL._SL160_.jpg" style="border: none;" /></a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"></div><div class="kaerebalink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB00UX0DUCW%2Fref%3Dnosim" rel="nofollow" target="_blank">Bloodborne（通常版）</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://kaereba.com" rel="nofollow" target="_blank">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;"> ソニー・コンピュータエンタテインメント 2015-03-26    </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="margin-right:5px;background: url('http://img.yomereba.com/kz_k_01.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fgp%2Fsearch%3Fkeywords%3DBloodborne%26__mk_ja_JP%3D%2583J%2583%255E%2583J%2583i" rel="nofollow" target="_blank" >Amazonで購入</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"></div><div class="shoplinkrakuten" style="margin-right:5px;background: url('http://img.yomereba.com/kz_k_01.gif') 0 -50px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194087&p_id=54&pc_id=54&pl_id=616&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FBloodborne%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0" rel="nofollow" target="_blank">楽天市場で購入</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194087&p_id=54&pc_id=54&pl_id=616" width="1" height="1" style="border:none;"></div><div class="shoplinkyahoo" style="margin-right:5px;background: url('http://img.yomereba.com/kz_k_01.gif') 0 -150px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2781196&pid=880190276&vc_url=http%3A%2F%2Fsearch.shopping.yahoo.co.jp%2Fsearch%3Fp%3DBloodborne" rel="nofollow"  target="_blank">Yahooショッピングで購入<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2781196&pid=880190276" height="1" width="1" border="0"></a></div></div></div><div class="booklink-footer" style="clear: left"></div></div>
 
 ### 報酬系
 
@@ -107,14 +118,14 @@ DS、Wii、スマホアプリと続き、難易度が低めのライト向けゲ
 詳細はググってもらうなり、Wikipediaで見てみてください。
 [報酬系 - Wikipedia](http://ja.wikipedia.org/wiki/%E5%A0%B1%E9%85%AC%E7%B3%BB)
 
-ゲームをプレイして、「脳から汁が出る」というのをとても分かりやすく書いた漫画があったので紹介しておきます。オススメです。
+ゲームをプレイして、「脳から汁が出る」というのをとても分かりやすく書いた漫画があったので紹介しておきます。この漫画は企画系の方へ特にオススメしておきます。
 
 <div class="booklink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="booklink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4047298573%2Fref%3Dnosim" name="booklink" rel="nofollow" target="_blank"><img src="http://ecx.images-amazon.com/images/I/51QEcGNOZDL._SL160_.jpg" style="border: none;" /></a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"></div><div class="booklink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="booklink-name" style="margin-bottom:10px;line-height:120%"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4047298573%2Fref%3Dnosim" name="booklink" rel="nofollow" target="_blank">ナナのリテラシー 2 (ビームコミックス)</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"><div class="booklink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://yomereba.com" rel="nofollow" target="_blank">ヨメレバ</a></div></div><div class="booklink-detail" style="margin-bottom:5px;">鈴木 みそ KADOKAWA/エンターブレイン 2014-09-24    </div><div class="booklink-link2" style="margin-top:10px;"><div class="shoplinkamazon" style="margin-right:5px;background: url('http://img.yomereba.com/kz_y.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4047298573%2Fref%3Dnosim" rel="nofollow" target="_blank">Amazon</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"></div><div class="shoplinkkindle" style="margin-right:5px;background: url('http://img.yomereba.com/kz_y.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB00NUFMHR6%2F" rel="nofollow" target="_blank">Kindle</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"></div><div class="shoplinkrakuten" style="margin-right:5px;background: url('http://img.yomereba.com/kz_y.gif') 0 -50px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194087&p_id=56&pc_id=56&pl_id=637&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F12839191%2F" rel="nofollow" target="_blank">楽天ブックス</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194087&p_id=56&pc_id=56&pl_id=637" width="1" height="1" style="border:none;"></div><div class="shoplinkbk1" style="margin-right:5px;background: url('http://img.yomereba.com/kz_y.gif') 0 -150px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2756067&pid=879867541&vc_url=http%3A%2F%2Fhonto.jp%2Fnetstore%2Fsearch_021_104047298573.html%3Fsrchf%3D1%26srchGnrNm%3D1" target="_blank">honto<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2756067&pid=879867541" height="1" width="1" border="0"></a></div><div class="shoplinkehon" style="margin-right:5px;background: url('http://img.yomereba.com/kz_y.gif') 0 -250px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2781196&pid=880575064&vc_url=http%3A%2F%2Fwww.e-hon.ne.jp%2Fbec%2FSA%2FDetail%3FrefISBN%3D4047298573" target="_blank">e-hon<img src="http://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=2781196&pid=880575064" height="1" width="1" border="0"></a></div>              </div></div><div class="booklink-footer" style="clear: left"></div></div>
 
 
 ### 全強化と部分強化
 
-有名な『[スキナー箱](http://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%AD%E3%83%8A%E3%83%BC%E7%AE%B1)』という実験があります。
+心理学において『[スキナー箱](http://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%AD%E3%83%8A%E3%83%BC%E7%AE%B1)』という有名な実験があります。
 
 これはネズミが入った箱にレバーがあり、レバーを引くと餌が出てくるという装置です。
 
@@ -136,10 +147,23 @@ DS、Wii、スマホアプリと続き、難易度が低めのライト向けゲ
 これが依存症の正体になります。  
 ここにも「ストレス」と「快感」の関係がありますね。
 
-この実験には続きがあって、レバーを引くとネズミの頭に直接ドーパミンを送り込む装置を埋め込みます。  
-すると、ネズミは餌が出ても、餌を食べずにレバーを引き続けます。「餌を食べる」ことによって得られるドーパミンが、「レバーを引く」ことによって得られるようになるからです。最終的にネズミは餓死します。  
-ドーパミンがもたらす力には体が逆らえないのです。
+この実験には続きがあって、次はレバーを引くとネズミの頭に直接ドーパミンを送り込む装置を埋め込みます。  
+すると、ネズミは餌が出ても、餌を食べずにレバーを引き続けます。「餌を食べる」ことによって得られるドーパミンが、「レバーを引く」ことによって得られるようになるからです。最終的にネズミは餓死してしまいます。
 
+ドーパミンがもたらす力には、例え食欲という本能的欲求であろうが、体が逆らうことが出来ないということが実験を通して分かります。
 
+これが実際に人間で起こった結果が、韓国等で発生しているネトゲ廃人の死亡事故だったりするのでしょう。
 
+とは言っても、死亡してしまうってのは、あくまで極限まで高めた場合という例です。ちゃんと食事を取ろうとか、仕事など生活とゲームの両立が出来ていれば問題ないかと思います。  
 
+### 楽しさを作るゲームは追求され続ける
+
+上記で述べた通り、「**快感**」という衝動はとても強いです。場合によっては三大欲求すら凌駕する可能性があります。
+
+人間が「生きる」ということを実感するには娯楽が必要です。  
+快感を得られる「ゲーム」というシステムは、時代によってたとえ形が変わろうとも存在し続け、娯楽であるかぎり新しさを追求され続けます。  
+でも、根幹の「得られる快感」「リスクとリターン」の仕組みはずっと同じはずです。
+
+昨今ではスマートフォンという媒体になりましたが、これも結局同じで、クリエイターは「リスクとリターン」のデザイン、そして「新しいユーザー体験」を提供し続けていく使命があります。
+
+以上、間違っているかもしれないし、うまく纏められたか分かりませんが、引き続きこんなことをツラツラと書いていこうと思います。
