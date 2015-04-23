@@ -121,7 +121,7 @@ links:
 use_google_apis: true
 
 # Miscellaneous
-google_analytics: UA-9408898-3
+google_analytics: UA-9408898-2
 favicon: /favicon.png
 fb_admins:
 fb_app_id: 102692089820462
