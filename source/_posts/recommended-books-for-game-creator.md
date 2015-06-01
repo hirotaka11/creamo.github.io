@@ -4,7 +4,7 @@ tags:
 - Game Creator
 - Books
 categories:
-- Game
+- game
 ---
 
 現在、<a target="_blank" href="http://www.amazon.co.jp/b/ref=as_li_ss_tl?_encoding=UTF8&camp=247&creative=7399&linkCode=ur2&node=3085855051&tag=pokeone-22">Kindle 50% 還元セール</a>が開催中です！  
