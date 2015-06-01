@@ -4,7 +4,7 @@
   <subtitle><![CDATA[元WEB系フロントエンジニアがゲームプランナーになったら]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://creamo.jp/"/>
-  <updated>2015-06-01T01:43:20.000Z</updated>
+  <updated>2015-06-01T01:46:44.000Z</updated>
   <id>http://creamo.jp/</id>
   
   <author>
@@ -16,10 +16,10 @@
   
   <entry>
     <title><![CDATA[ゲームクリエイターにオススメのマンガ・書籍を紹介してみる【Kindle 50%ポイント還元セール 6/1正午まで】]]></title>
-    <link href="http://creamo.jp/Game/recommended-books-for-game-creator/"/>
-    <id>http://creamo.jp/Game/recommended-books-for-game-creator/</id>
+    <link href="http://creamo.jp/game/recommended-books-for-game-creator/"/>
+    <id>http://creamo.jp/game/recommended-books-for-game-creator/</id>
     <published>2015-05-31T23:00:00.000Z</published>
-    <updated>2015-06-01T01:43:20.000Z</updated>
+    <updated>2015-06-01T01:46:44.000Z</updated>
     <content type="html"><![CDATA[<p>現在、<a target="_blank" href="http://www.amazon.co.jp/b/ref=as_li_ss_tl?_encoding=UTF8&camp=247&creative=7399&linkCode=ur2&node=3085855051&tag=pokeone-22">Kindle 50% 還元セール</a>が開催中です！  </p>
 <p>でも、おそらく6/1(月) 正午までらしい…。<strong>もっと早く言えよ！</strong></p>
 <p>色んなブログがおすすめ本紹介という体で、アフィリエイト貼ってるので、それに乗っかって対抗しようかなと（マテ</p>
@@ -93,7 +93,7 @@
     
       <category term="Game Creator" scheme="http://creamo.jp/tags/Game-Creator/"/>
     
-      <category term="Game" scheme="http://creamo.jp/categories/Game/"/>
+      <category term="game" scheme="http://creamo.jp/categories/game/"/>
     
   </entry>
   
