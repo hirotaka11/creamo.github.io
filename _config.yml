@@ -96,13 +96,13 @@ fancybox: true
 thumbnail: true
 
 # Scroll Loading
-scrollLoading: false 
+scrollLoading: false
 
 # Sidebar
 social_links:
   twitter: https://twitter.com/hirotaka_696
   #facebook:
-  google_plus: https://google.com/+HiroshiTakaki696
+  #google_plus:
   github: https://github.com/hirotaka11
   rss: /atom.xml
 widgets:
