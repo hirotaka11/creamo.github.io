@@ -4,7 +4,7 @@
   <subtitle><![CDATA[元WEB系フロントエンジニアがゲームプランナーになったら]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://creamo.jp/"/>
-  <updated>2015-11-01T18:19:05.000Z</updated>
+  <updated>2015-12-30T03:57:02.000Z</updated>
   <id>http://creamo.jp/</id>
   
   <author>
@@ -13,6 +13,44 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[12/31(木)コミケでソシャゲ本出します(C89)]]></title>
+    <link href="http://creamo.jp/diary/comic_market_89/"/>
+    <id>http://creamo.jp/diary/comic_market_89/</id>
+    <published>2015-12-30T03:30:00.000Z</published>
+    <updated>2015-12-30T03:57:02.000Z</updated>
+    <content type="html"><![CDATA[<p>コミケを満喫中のHiROです。もう今年もあと少しですね</p>
+<p>さて、前回のお知らせの続きです。</p>
+<h2 id="ソシャゲについての本出します">ソシャゲについての本出します</h2><p>最終日の年末、初めてサークル出展いたしますので、お時間ある方はお越しいただけると幸いです。<br>詳細は以下のとおりです。頒布物についてもWEBカタログの方に載っております。</p>
+<ul>
+<li>サークル名： GoBeats Works</li>
+<li>日程・場所： 2015/12/31(木)東地区　“フ”　13a</li>
+<li>WEBカタログ： <a href="https://webcatalog.circle.ms/Circle/12318411/" target="_blank" rel="external">https://webcatalog.circle.ms/Circle/12318411/</a></li>
+</ul>
+<p>どんな本かここでグダグダ書くより、おしながきを貼ったほうがひと目でわかると思いますので貼っておきます。</p>
+<p><img src="/diary/comic_market_89/c89_oshinagaki.png" alt="" title="C89 おしながき"></p>
+<p>正直、今回初めてで勝手が分からなかったという手前、あまりボリュームが無いです。<br>語りたいことは沢山あるのに書けなかったので、また次回リベンジする形で第２弾へ繋がていければなーと思っております。</p>
+<p>※あとここだけの話ですが、冊子のサイズ指定間違えてしまいました！ A5で刷りたかったのにB5で刷っちまった！！！！</p>
+<p>すぐに第２弾出すと今回買っていただいた方に失礼なので、買っていただいた方にはなんらかのフォローが出来ればと考えております。（購入確認して、電子書籍版でアップデートとか）</p>
+<p>あと、プライベート名刺が切れてましたが、急いでキンコーズに行って名刺を突貫で作ってきました。…年末で印刷会社が休みになるの考えてなかったｗ<br>お越しいただいた方にはお渡し致しますね。</p>
+<p>それでは、31日にお待ちしております。<br>よろしくお願い致します。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>コミケを満喫中のHiROです。もう今年もあと少しですね</p>
+<p>さて、前回のお知らせの続きです。</p>
+<h2 id="ソシャゲについての本出します">ソシャゲについての本出します</h2><p>最終日の年末、初めてサークル出展いたしますので、お時間ある方はお越しい]]>
+    </summary>
+    
+      <category term="コミケ" scheme="http://creamo.jp/tags/%E3%82%B3%E3%83%9F%E3%82%B1/"/>
+    
+      <category term="即売会" scheme="http://creamo.jp/tags/%E5%8D%B3%E5%A3%B2%E4%BC%9A/"/>
+    
+      <category term="同人" scheme="http://creamo.jp/tags/%E5%90%8C%E4%BA%BA/"/>
+    
+      <category term="diary" scheme="http://creamo.jp/categories/diary/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[冬コミ参戦報告と昨今の美少女ゲームについて]]></title>
@@ -1152,57 +1190,6 @@
     </summary>
     
       <category term="tool" scheme="http://creamo.jp/categories/tool/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[MarsEditで急に投稿出来なくなった時の対処方法]]></title>
-    <link href="http://creamo.jp/WordPress/MarsEdit/secure-marsedit/"/>
-    <id>http://creamo.jp/WordPress/MarsEdit/secure-marsedit/</id>
-    <published>2011-07-31T16:00:53.000Z</published>
-    <updated>2015-04-19T14:55:43.000Z</updated>
-    <content type="html"><![CDATA[<p>WordPressの記事作成は「MarsEdit」という投稿ツールを使っています。</p>
-<p>しかし、急に「MarsEdit」で記事が取得不可能になりました。<br>色々と調べていくと「Secure WordPress」プラグインが原因になっている模様。</p>
-<p>もしくは、MarsEditの記事保持数が多いのが原因になっているようです。</p>
-<p>今回はMarsEditで発生した症状とその対処方法の紹介をしていきます。<a id="more"></a><br><span style="color: #ff0000;">8/1 記事保持数が関係していることが分かったので追記しました。</span></p>
-<h3 id="問題が発生した環境">問題が発生した環境</h3><ul>
-<li><span><a href="http://ja.wordpress.org/" target="_blank" rel="external">WordPress</a> 3.2.1</span></li>
-<li><span><a href="http://www.red-sweater.com/marsedit/" target="_blank" rel="external">MarsEdit</a> 3.3.1</span></li>
-<li><span><a href="http://wordpress.org/extend/plugins/secure-wordpress/" target="_blank" rel="external">Secure WordPress</a> 2.0.3</span></li>
-</ul>
-<h3 id="発生した症状">発生した症状</h3><p>MarsEditで取得更新をしても以下のようなエラーが発生。投稿は可能。</p>
-<p>最新記事、カテゴリの取得が不可能になる。</p>
-<blockquote>
-<p><strong>Get Recent Posts Error</strong></p>
-<p>Can’t get recent posts for CreaMo! because the server reported an error: unexpected response code 500.</p>
-</blockquote>
-<p><img src="/wordpress/secure-marsedit/marsedit-err.png" alt="MarsEditエラー" title="MarsEditエラー"></p>
-<p>今までは使えていたので、Secure WordPressに何らかの修正が加えられたと考えられます。</p>
-<p>つまり「XML-RPC」での接続をSecure WordPressが遮断してることになります。</p>
-<p>Secure WordPressの設定で「Really Simple Discovery」を無効にしなければいいと考えましたが、Secure WordPressが有効になっている限り取得不可です。</p>
-<p>取得するにはSecure WordPressを無効にするしかありません。</p>
-<p>また、別の原因としてMarsEditが取得する記事数の容量が多いと発生します。テキストだけならデフォルトの30記事で問題ないですが、画像の多い記事が増えてくるとエラーが起こるようです。</p>
-<h3 id="回避方法">回避方法</h3><p>Secure WordPressを無効にするしかないのですが、無効にするにはなかなか惜しいプラグインです。</p>
-<p>注目すべきは、MarsEditでの投稿自体はこのままでも出来るということです。</p>
-<p>MarsEditを用いた再編集やカテゴリを変更した時以外はデータ取得出来なくても困らないので、取得するときだけSecure WordPressを無効にする方法が一番無難かと思います。</p>
-<p>Secure WordPressについての記事はこちら</p>
-<p><a href="http://creamo.jp/wordpress/secure-wp/" title="Link to SecureWordPressでWordPressのセキュリティをアップ" target="_blank" rel="external">SecureWordPressでWordPressのセキュリティをアップ</a></p>
-<p>また、もう一つの原因はMarsEditの設定です。取得記事の容量が原因なので、取得する記事数を減らしましょう。ブログ設定を開き、取得記事数、ページ数を減らします。</p>
-<p>初期設定は30記事なので、エラーが起こったら20記事くらいに減らしてみましょう。</p>
-<p><img src="/wordpress/secure-marsedit/marsedit-setting.jpg" alt="Marsedit設定画面" title="取得記事数を減らしてみる"></p>
-<p>これでエラーが出なくなるはずです。しかし、よく色んなエラーが起こるので、ココに載っている対処法だけでは解決しないことがあるかもしれません。</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>WordPressの記事作成は「MarsEdit」という投稿ツールを使っています。</p>
-<p>しかし、急に「MarsEdit」で記事が取得不可能になりました。<br>色々と調べていくと「Secure WordPress」プラグインが原因になっている模様。</p>
-<p>もしくは、MarsEditの記事保持数が多いのが原因になっているようです。</p>
-<p>今回はMarsEditで発生した症状とその対処方法の紹介をしていきます。]]>
-    
-    </summary>
-    
-      <category term="WordPress" scheme="http://creamo.jp/categories/WordPress/"/>
-    
-      <category term="MarsEdit" scheme="http://creamo.jp/categories/WordPress/MarsEdit/"/>
     
   </entry>
   
