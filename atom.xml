@@ -4,7 +4,7 @@
   <subtitle><![CDATA[元WEB系フロントエンジニアがゲームプランナーになったら]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://creamo.jp/"/>
-  <updated>2015-12-30T03:57:02.000Z</updated>
+  <updated>2016-01-04T16:38:17.000Z</updated>
   <id>http://creamo.jp/</id>
   
   <author>
@@ -13,6 +13,45 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[新年のご挨拶、C89の反省と電子版頒布のお知らせ]]></title>
+    <link href="http://creamo.jp/diary/new-year-2016/"/>
+    <id>http://creamo.jp/diary/new-year-2016/</id>
+    <published>2016-01-04T15:47:35.000Z</published>
+    <updated>2016-01-04T16:38:17.000Z</updated>
+    <content type="html"><![CDATA[<p>2016年初投稿となります。明けましておめでとうございます。<br>『#FE』を今になって開封して、超面白くて困ってるHiROです。ツバサちゃん可愛すぎ！</p>
+<p>年末は冬コミ3日間全参加で「師走？」みたいな感じだったのですが、μ’ｓの紅白出場はちゃんと見ました！西川の兄貴のウラトークで楽しませてもらいながら。<br>初詣でおみくじも「吉」が出て、そんなに悪い感じではなかったので今年もより頑張っていきたい次第。</p>
+<h2 id="冬コミの反省">冬コミの反省</h2><p>年始は冬コミ(C89)の後処理に追われていました。なぜかと言うと……</p>
+<ul>
+<li>ななな、なんと！ 50部刷ったのに完売したのです！！ *<br>※見本用や贈呈用があったりするので、正確には43部</li>
+</ul>
+<p>正直な話、今回初参加ですので<br>「絶対余るだろ…。処分どうしよ…」<br>とか思ってました。どんな時も最悪のパターンを想定するのは当然ですよね。</p>
+<p>しかし、Twitterでツイートしまくっても全然反応がなかったので、宣伝無し状態で捌けたことになります。コミケは偉大だなぁと改めて思いました。</p>
+<p>完売後も声をかけてくださる方や、増版や電子版が出ないか質問もいくつかいただき、本当にありがたいです。</p>
+<h2 id="C89新刊の電子書籍版_頒布開始！">C89新刊の電子書籍版 頒布開始！</h2><p>ってことで、大変好評なので電子書籍版の制作を正月中にやり遂げました！</p>
+<p>【BOOTH】<a href="https://gobeats-works.booth.pm/items/183368" target="_blank" rel="external">初めてのソーシャルゲームプランニング 電子書籍版</a></p>
+<p>私自身、電子書籍でほぼ済ませている人間ですので、一応ある程度カバーできるように複数のファイル形式版作ってあります。<br>BOOTHで出すの初めてだったので、そちらでも結構戸惑いました。でも、悪くない感じです。いいですね、BOOTH。</p>
+<p>2月には夏コミの申し込み終了なので、次の準備を急いでおります。<br>何名かの方に手伝っていただけそうなので、次回はより凝って満足感高いものをご提供出来るように出来ればと。</p>
+<p>とりあえず、今回のブース写真貼っときますね。<br><img src="/diary/new-year-2016/2015-12-31_c89_booth.jpg" alt="" title="C89 おしながき"></p>
+<p>仕事ももちろんですが、冬コミで同人活動が楽しくなってきましたので、個人では『同人活動や他アウトプットが出来る仕事以外の活動をより活発に行う』ということを今年の抱負として締めくくらせていただければと思います。</p>
+<p>それでは、本年もどうぞよろしくお願い致します。</p>
+<div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB0155ZMQU6%2Fref%3Dnosim" target="_blank" rel="nofollow"><img src="http://ecx.images-amazon.com/images/I/61kwP4ZNY5L._SL160_.jpg" style="border: none;"></a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"></div><div class="kaerebalink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB0155ZMQU6%2Fref%3Dnosim" target="_blank" rel="nofollow">幻影異聞録♯FE Fortissimo Edition(フォルティッシモ エディション) </a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://kaereba.com" rel="nofollow" target="_blank">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;"> 任天堂 2015-12-26    </div><div class="kaerebalink-link" style="margin-top: 5px"><a href="http://c.af.moshimo.com/af/c/click?a_id=194085&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB0155ZMQU6%2Fref%3Dnosim" rel="nofollow" target="_blank">Amazon.co.jp で詳細を見る</a><img src="http://i.af.moshimo.com/af/i/impression?a_id=194085&p_id=170&pc_id=185&pl_id=4062" width="1" height="1" style="border:none;"></div></div><div class="booklink-footer" style="clear: left"></div></div>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>2016年初投稿となります。明けましておめでとうございます。<br>『#FE』を今になって開封して、超面白くて困ってるHiROです。ツバサちゃん可愛すぎ！</p>
+<p>年末は冬コミ3日間全参加で「師走？」みたいな感じだったのですが、μ’ｓの紅白出場はちゃんと見ました！西川]]>
+    </summary>
+    
+      <category term="コミケ" scheme="http://creamo.jp/tags/%E3%82%B3%E3%83%9F%E3%82%B1/"/>
+    
+      <category term="即売会" scheme="http://creamo.jp/tags/%E5%8D%B3%E5%A3%B2%E4%BC%9A/"/>
+    
+      <category term="同人" scheme="http://creamo.jp/tags/%E5%90%8C%E4%BA%BA/"/>
+    
+      <category term="diary" scheme="http://creamo.jp/categories/diary/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[12/31(木)コミケでソシャゲ本出します(C89)]]></title>
@@ -1160,36 +1199,6 @@
     </summary>
     
       <category term="webtech" scheme="http://creamo.jp/categories/webtech/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[はてブやTwitterのコメントを1クリックで確認「Komepon!」]]></title>
-    <link href="http://creamo.jp/tool/komepon-service/"/>
-    <id>http://creamo.jp/tool/komepon-service/</id>
-    <published>2011-07-31T23:36:58.000Z</published>
-    <updated>2015-04-19T14:57:46.000Z</updated>
-    <content type="html"><![CDATA[<p>Webページを公開した後、ソーシャルボタンにはてなブックマークやTwitterのツイートのカウントが増えていくと嬉しくなってきますよね。</p>
-<p>人によって異なりますが、感謝のコメントがあったりすると嬉しくなってモチベーションアップにも繋がったりします。それぞれのソーシャルボタンからコメントを辿ることは可能ですが、今回「<a href="http://komepon.net/" target="_blank" rel="external">Komepon!</a>」というWebサービスが公開されましたので紹介します。<a id="more"></a></p>
-<h3 id="Komepon!とは">Komepon!とは</h3><p>「Komepon!」はロプロス氏が公開したWebサービスです。</p>
-<p>WEBページに付けられた「はてなブックマーク」や「Twitter」のコメントを、ワンクリックでチェックすることが出来るブックマークレットになっています。</p>
-<p><a href="http://komepon.net/" title="Link to Komepon! - はてブやTwitterのコメントをワンクリックでチェック！" target="_blank" rel="external">Komepon! - はてブやTwitterのコメントをワンクリックでチェック！</a></p>
-<h3 id="使い方">使い方</h3><p>1. Komepon!にアクセスし、指定されたリンクをブックマークに登録します。</p>
-<p>[browsershot url=”<a href="http://komepon.net/" target="_blank" rel="external">http://komepon.net/</a>“ width=”400”] Komepon! - はてブやTwitterのコメントをワンクリックでチェック！</p>
-<p>2. コメントを見たいページを開いた状態でブックマークレットを選択。</p>
-<p>3. Komepon!経由で、はてブコメントやTwitterコメントが表示されます。</p>
-<p>ソーシャルボタンでそれぞれのコメントを見るより、より効率的に閲覧することが可能なので、どんどん活用していきましょう。</p>
-<p><img src="/tool/komepon-service/Komepon-ss.jpg" alt="Komepon ss" title="Komepon-ss.jpg"></p>
-<p>他にもロプロス氏はサイト上で様々なWebサービスを公開しています。ぜひチェックしてみると良いかもしれません。</p>
-<p>ロプロス氏のサイト：<a href="http://www.ropross.net/" title="Link to ropross.net" target="_blank" rel="external">ropross.net</a></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>Webページを公開した後、ソーシャルボタンにはてなブックマークやTwitterのツイートのカウントが増えていくと嬉しくなってきますよね。</p>
-<p>人によって異なりますが、感謝のコメントがあったりすると嬉しくなってモチベーションアップにも繋がったりします。それぞれのソーシャルボタンからコメントを辿ることは可能ですが、今回「<a href="http://komepon.net/">Komepon!</a>」というWebサービスが公開されましたので紹介します。]]>
-    
-    </summary>
-    
-      <category term="tool" scheme="http://creamo.jp/categories/tool/"/>
     
   </entry>
   
