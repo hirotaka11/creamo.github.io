@@ -86,6 +86,7 @@ body
   min-height: 600px
   .main-body-header
     background: #fff
+    clear: both
     position: relative
     padding: 18px 30px 17px
     border-bottom: 1px solid color-border-light
@@ -94,6 +95,8 @@ body
     font-weight: 600
     text-transform: uppercase
     line-height: 24px
+    .header
+      float: left
     .page-title-link, i
       margin-right: 8px
     i
@@ -101,6 +104,13 @@ body
     em, a
       @extend $block-caption
       color: color-grey
+    .sp-link
+      text-align: right
+      a
+        color: #529ECC
+        font-size: 18px
+        &:hover
+          text-decoration: underline
   .main-body-content
     clearfix()
 
